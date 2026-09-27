@@ -15,6 +15,8 @@
 
 原始苏州视频约 **166 GiB**，这次暂留服务器；全量候选抽帧、旧烟雾数据、历史训练输出也未全部推送。原始文件和校验清单见 `_tmp_train_audit/`。两篇他人学位论文 PDF、下载缓存以及可能包含人员的激光原始照片没有放入公开仓库。
 
+完整的 E2 V/T 图像与 YOLO 标签作为 [GitHub Release 数据包](https://github.com/03xf/research/releases/tag/dataset-e2-20260928) 单独下载。数据集范围、标签质量与 SHA256 见 [数据集说明](DATASETS.md)。
+
 特别注意：B3 北侧没有可信对应的激光参考；旧 `site_results.csv` 中的 13.28 m 是错误对应下的坐标距离，**不是定位误差**。当前身份以主文档和 `_dji_preview/fire_point_analysis_scope_v6.csv` 为准。
 
 此仓库是实验记录和可继续工作的代码快照。全量重训需要服务器原始数据与相应环境；包内样本可用于检查流程和做小规模诊断，不能代替独立测试。
