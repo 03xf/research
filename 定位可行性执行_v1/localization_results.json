@@ -1,0 +1,826 @@
+{
+  "schema_version": "localization_feasibility_execution_v1",
+  "input_scope": "B1-B3; four linked locations (B1 and B3 north/south fire references, plus B2 pre-fire pile reference); one existing multiview snapshot per location",
+  "algorithm": "least-squares closest point to camera rays; no ground-elevation input",
+  "camera_model": "legacy nominal focal conversion fx=1280*focal_len/24; principal point=(960,540); not calibrated",
+  "monte_carlo": {
+    "seed": 20260927,
+    "draws_per_scenario": 2000,
+    "interpretation": "sensitivity only; perturbation ranges are analyst-selected, not measured sensor distributions"
+  },
+  "self_checks": {
+    "synthetic_3d_intersection_pass": true,
+    "recovered_point_error_m": 2.8916994303251375e-14,
+    "max_ray_residual_m": 2.781856480880731e-14
+  },
+  "b3_identity_diagnostic": {
+    "identity_source": "scope_v5_and_user_confirmation: F1=north, F2=south",
+    "confirmed_mapping": {
+      "B3_N_estimate_to_B3_F1_reference_m": 13.283081198693948,
+      "B3_S_estimate_to_B3_F2_reference_m": 3.2920814335050133,
+      "sum_of_two_horizontal_differences_m": 16.57516263219896
+    },
+    "swapped_mapping_diagnostic_only": {
+      "B3_N_estimate_to_B3_F2_reference_m": 24.66888844738067,
+      "B3_S_estimate_to_B3_F1_reference_m": 14.478618962343154,
+      "sum_of_two_horizontal_differences_m": 39.14750740972382
+    },
+    "interpretation": "The user-confirmed identity is retained. The swapped calculation is only a consistency check and does not override the physical identity decision."
+  },
+  "reference_error_summary": {
+    "fire_linked_sites": [
+      "B1_F1",
+      "B3_N",
+      "B3_S"
+    ],
+    "fire_linked_site_count": 3,
+    "fire_linked_horizontal_error_median": 3.2920814330373473,
+    "fire_linked_horizontal_error_max": 13.283081198416877,
+    "B2_prefire_site_difference_m": 2.21575292142075,
+    "warning": "B2 is a pre-fire pile reference and is excluded from the fire-linked error summary."
+  },
+  "sites": [
+    {
+      "site_id": "B1_F1",
+      "reference_status": "post-fire LRF; correspondence high probability",
+      "view_count": 3,
+      "triangulated_lat": 31.289135169827922,
+      "triangulated_lon": 120.47276468042757,
+      "triangulated_alt_m_unverified": 51.29310301321971,
+      "triangulated_horizontal_reference_error_m": 1.4395238388142908,
+      "ray_residuals_m": [
+        0.7080121003815437,
+        0.5690469723909888,
+        0.9292175962108883
+      ],
+      "median_ray_residual_m": 0.7080121003815437,
+      "max_ray_residual_m": 0.9292175962108883,
+      "intersection_condition_number": 3.890960853703359,
+      "assumed_plane_z_m": 52.5,
+      "plane_median_lat": 31.289136787771522,
+      "plane_median_lon": 120.47275935531601,
+      "plane_horizontal_reference_error_m": 0.9105159264774415,
+      "plane_view_spread_m": 4.061152901232769,
+      "views": [
+        {
+          "drone": "无人机02",
+          "offset_s": 66.0,
+          "xy_px": [
+            950.0,
+            890.0
+          ],
+          "frame": "无人机02_1581F7K3C267500D2DQD_DJI_202609071534_003_frame.jpg",
+          "ground_projection_lat": 31.289136787771522,
+          "ground_projection_lon": 120.47271669345811,
+          "depth_to_intersection_m": 23.05132678833666
+        },
+        {
+          "drone": "无人机08",
+          "offset_s": 59.0,
+          "xy_px": [
+            1000.0,
+            430.0
+          ],
+          "frame": "无人机08_1581F7K3C256N00DCP1T_DJI_202609071536_001_frame.jpg",
+          "ground_projection_lat": 31.2891361505109,
+          "ground_projection_lon": 120.47275935531601,
+          "depth_to_intersection_m": 24.193902197646317
+        },
+        {
+          "drone": "无人机09",
+          "offset_s": 57.0,
+          "xy_px": [
+            970.0,
+            545.0
+          ],
+          "frame": "无人机09_1581F7K3C24CS00AX535_DJI_202609071543_001_frame.jpg",
+          "ground_projection_lat": 31.289140322250656,
+          "ground_projection_lon": 120.47276939074357,
+          "depth_to_intersection_m": 28.94814680488656
+        }
+      ]
+    },
+    {
+      "site_id": "B2_F1",
+      "reference_status": "pre-fire wood pile LRF; same physical site",
+      "view_count": 3,
+      "triangulated_lat": 31.289492257070467,
+      "triangulated_lon": 120.47279523781181,
+      "triangulated_alt_m_unverified": 48.99580058624395,
+      "triangulated_horizontal_reference_error_m": 2.21575292142075,
+      "ray_residuals_m": [
+        1.1406442956853726,
+        3.051296842126631,
+        2.4198306848150115
+      ],
+      "median_ray_residual_m": 2.4198306848150115,
+      "max_ray_residual_m": 3.051296842126631,
+      "intersection_condition_number": 8.149868791121238,
+      "assumed_plane_z_m": 52.5,
+      "plane_median_lat": 31.28950885942179,
+      "plane_median_lon": 120.4727937179806,
+      "plane_horizontal_reference_error_m": 4.031640649529605,
+      "plane_view_spread_m": 4.469859228739622,
+      "views": [
+        {
+          "drone": "无人机01",
+          "offset_s": 29.0,
+          "xy_px": [
+            960.0,
+            875.0
+          ],
+          "frame": "无人机01_1581F7K3C251800CYBVP_DJI_202609080913_003_frame.jpg",
+          "ground_projection_lat": 31.28950885942179,
+          "ground_projection_lon": 120.47282753445052,
+          "depth_to_intersection_m": 20.221061692256637
+        },
+        {
+          "drone": "无人机06",
+          "offset_s": 22.0,
+          "xy_px": [
+            990.0,
+            785.0
+          ],
+          "frame": "无人机06_1581F7K3C254N00D16Y8_DJI_202609080910_002_frame.jpg",
+          "ground_projection_lat": 31.289538825021005,
+          "ground_projection_lon": 120.47276241586725,
+          "depth_to_intersection_m": 14.763779341267119
+        },
+        {
+          "drone": "无人机07",
+          "offset_s": 22.0,
+          "xy_px": [
+            940.0,
+            810.0
+          ],
+          "frame": "无人机07_1581F7K3325B100AS0AG_DJI_202609080909_002_frame.jpg",
+          "ground_projection_lat": 31.28949509378553,
+          "ground_projection_lon": 120.4727937179806,
+          "depth_to_intersection_m": 14.998610679691792
+        }
+      ]
+    },
+    {
+      "site_id": "B3_N",
+      "reference_status": "B3_F1; north correspondence user-confirmed",
+      "view_count": 3,
+      "triangulated_lat": 31.28989407954833,
+      "triangulated_lon": 120.47266545241642,
+      "triangulated_alt_m_unverified": 53.770882780230394,
+      "triangulated_horizontal_reference_error_m": 13.283081198416877,
+      "ray_residuals_m": [
+        1.305020338625543,
+        1.1849888395863442,
+        0.31854118017169014
+      ],
+      "median_ray_residual_m": 1.1849888395863442,
+      "max_ray_residual_m": 1.305020338625543,
+      "intersection_condition_number": 3.754498192711396,
+      "assumed_plane_z_m": 52.5,
+      "plane_median_lat": 31.28990360059824,
+      "plane_median_lon": 120.47267850836445,
+      "plane_horizontal_reference_error_m": 13.834840119647232,
+      "plane_view_spread_m": 2.25825407266297,
+      "views": [
+        {
+          "drone": "无人机02",
+          "offset_s": 53.0,
+          "xy_px": [
+            1395.0,
+            895.0
+          ],
+          "frame": "无人机02_1581F7K3C267500D2DQD_DJI_202609080957_005_frame.jpg",
+          "ground_projection_lat": 31.28990360059824,
+          "ground_projection_lon": 120.4726547857131,
+          "depth_to_intersection_m": 63.58238087933597
+        },
+        {
+          "drone": "无人机04",
+          "offset_s": 71.0,
+          "xy_px": [
+            205.0,
+            855.0
+          ],
+          "frame": "无人机04_1581F7K33258900AP021_DJI_202609080957_035_frame.jpg",
+          "ground_projection_lat": 31.289894683765567,
+          "ground_projection_lon": 120.47268910388902,
+          "depth_to_intersection_m": 51.72826364168025
+        },
+        {
+          "drone": "无人机09",
+          "offset_s": 55.0,
+          "xy_px": [
+            375.0,
+            420.0
+          ],
+          "frame": "无人机09_1581F7K3C24CS00AX535_DJI_202609080957_004_frame.jpg",
+          "ground_projection_lat": 31.28990559992033,
+          "ground_projection_lon": 120.47267850836445,
+          "depth_to_intersection_m": 69.71147950243738
+        }
+      ]
+    },
+    {
+      "site_id": "B3_S",
+      "reference_status": "B3_F2; south correspondence user-confirmed",
+      "view_count": 3,
+      "triangulated_lat": 31.289663173674935,
+      "triangulated_lon": 120.47277613027067,
+      "triangulated_alt_m_unverified": 53.725952757535495,
+      "triangulated_horizontal_reference_error_m": 3.2920814330373473,
+      "ray_residuals_m": [
+        1.3503103038262256,
+        1.0599191654068212,
+        0.7559970781910034
+      ],
+      "median_ray_residual_m": 1.0599191654068212,
+      "max_ray_residual_m": 1.3503103038262256,
+      "intersection_condition_number": 3.7609308083510835,
+      "assumed_plane_z_m": 52.5,
+      "plane_median_lat": 31.28966773520742,
+      "plane_median_lon": 120.47279861338728,
+      "plane_horizontal_reference_error_m": 4.748079890508865,
+      "plane_view_spread_m": 2.7098419223470716,
+      "views": [
+        {
+          "drone": "无人机02",
+          "offset_s": 53.0,
+          "xy_px": [
+            370.0,
+            265.0
+          ],
+          "frame": "无人机02_1581F7K3C267500D2DQD_DJI_202609080957_005_frame.jpg",
+          "ground_projection_lat": 31.289670732451125,
+          "ground_projection_lon": 120.47277036294592,
+          "depth_to_intersection_m": 68.11401895929929
+        },
+        {
+          "drone": "无人机04",
+          "offset_s": 71.0,
+          "xy_px": [
+            1750.0,
+            780.0
+          ],
+          "frame": "无人机04_1581F7K33258900AP021_DJI_202609080957_035_frame.jpg",
+          "ground_projection_lat": 31.289653239886583,
+          "ground_projection_lon": 120.47280497256529,
+          "depth_to_intersection_m": 54.28469094789768
+        },
+        {
+          "drone": "无人机09",
+          "offset_s": 55.0,
+          "xy_px": [
+            1575.0,
+            640.0
+          ],
+          "frame": "无人机09_1581F7K3C24CS00AX535_DJI_202609080957_004_frame.jpg",
+          "ground_projection_lat": 31.28966773520742,
+          "ground_projection_lon": 120.47279861338728,
+          "depth_to_intersection_m": 64.3372820823218
+        }
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "site_id": "B1_F1",
+      "view_1": "无人机02",
+      "view_2": "无人机08",
+      "parallax_angle_deg_acute": 74.693256773652,
+      "horizontal_reference_error_m": 0.9311629845469147,
+      "triangulated_altitude_m_unverified": 51.240980534925875,
+      "max_ray_residual_m": 0.3467179371157018,
+      "condition_number": 2.717341714149858
+    },
+    {
+      "site_id": "B1_F1",
+      "view_1": "无人机02",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 55.68171901303326,
+      "horizontal_reference_error_m": 2.283142501869408,
+      "triangulated_altitude_m_unverified": 50.78802598156507,
+      "max_ray_residual_m": 0.6607241849645328,
+      "condition_number": 4.584943391507859
+    },
+    {
+      "site_id": "B1_F1",
+      "view_1": "无人机08",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 19.01314358497257,
+      "horizontal_reference_error_m": 1.0734077131295947,
+      "triangulated_altitude_m_unverified": 54.97695447358718,
+      "max_ray_residual_m": 0.32266557288088904,
+      "condition_number": 36.65948894858199
+    },
+    {
+      "site_id": "B2_F1",
+      "view_1": "无人机01",
+      "view_2": "无人机06",
+      "parallax_angle_deg_acute": 43.425908731511655,
+      "horizontal_reference_error_m": 1.9561138902865864,
+      "triangulated_altitude_m_unverified": 46.10541654771384,
+      "max_ray_residual_m": 1.7242244852077375,
+      "condition_number": 7.306307080293761
+    },
+    {
+      "site_id": "B2_F1",
+      "view_1": "无人机01",
+      "view_2": "无人机07",
+      "parallax_angle_deg_acute": 38.747304463915576,
+      "horizontal_reference_error_m": 0.9270199329847066,
+      "triangulated_altitude_m_unverified": 49.846735073004446,
+      "max_ray_residual_m": 1.0535928796243428,
+      "condition_number": 9.087353845993398
+    },
+    {
+      "site_id": "B2_F1",
+      "view_1": "无人机06",
+      "view_2": "无人机07",
+      "parallax_angle_deg_acute": 19.018847173259733,
+      "horizontal_reference_error_m": 10.958675075813739,
+      "triangulated_altitude_m_unverified": 58.520263684603115,
+      "max_ray_residual_m": 1.6802368749122272,
+      "condition_number": 36.63770663026374
+    },
+    {
+      "site_id": "B3_N",
+      "view_1": "无人机02",
+      "view_2": "无人机04",
+      "parallax_angle_deg_acute": 74.2634991796181,
+      "horizontal_reference_error_m": 13.350066426883808,
+      "triangulated_altitude_m_unverified": 53.60967143431698,
+      "max_ray_residual_m": 1.2310572464809695,
+      "condition_number": 2.7442886250563925
+    },
+    {
+      "site_id": "B3_N",
+      "view_1": "无人机02",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 55.23720276342304,
+      "horizontal_reference_error_m": 13.871878260462392,
+      "triangulated_altitude_m_unverified": 53.955710158282265,
+      "max_ray_residual_m": 0.7330807906131077,
+      "condition_number": 4.653113488803396
+    },
+    {
+      "site_id": "B3_N",
+      "view_1": "无人机04",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 24.299854743430004,
+      "horizontal_reference_error_m": 12.536862640536865,
+      "triangulated_altitude_m_unverified": 53.93345985479802,
+      "max_ray_residual_m": 0.5588483003059304,
+      "condition_number": 22.574464103404544
+    },
+    {
+      "site_id": "B3_S",
+      "view_1": "无人机02",
+      "view_2": "无人机04",
+      "parallax_angle_deg_acute": 68.92159607875104,
+      "horizontal_reference_error_m": 3.067582847193976,
+      "triangulated_altitude_m_unverified": 53.357841623309014,
+      "max_ray_residual_m": 1.129586219335897,
+      "condition_number": 3.1232682024851393
+    },
+    {
+      "site_id": "B3_S",
+      "view_1": "无人机02",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 55.95484118667736,
+      "horizontal_reference_error_m": 2.8873405402884966,
+      "triangulated_altitude_m_unverified": 53.91904189298283,
+      "max_ray_residual_m": 0.933214171910172,
+      "condition_number": 4.5438657646188165
+    },
+    {
+      "site_id": "B3_S",
+      "view_1": "无人机04",
+      "view_2": "无人机09",
+      "parallax_angle_deg_acute": 28.456885469486302,
+      "horizontal_reference_error_m": 4.054686354252673,
+      "triangulated_altitude_m_unverified": 53.821218935712615,
+      "max_ray_residual_m": 0.6027842918927278,
+      "condition_number": 16.552991926802722
+    }
+  ],
+  "sensitivity": [
+    {
+      "site_id": "B1_F1",
+      "scenario": "pixel_sigma_1px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.007100308231614505,
+      "horizontal_shift_p95_m": 0.014933659870653343,
+      "reference_error_p50_m": 1.4394115459349672,
+      "reference_error_p95_m": 1.4508312505765975
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "pixel_sigma_3px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.02095616053618031,
+      "horizontal_shift_p95_m": 0.04477301984775047,
+      "reference_error_p50_m": 1.4394004352981806,
+      "reference_error_p95_m": 1.4704714571867032
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "pixel_sigma_5px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.03467252754441834,
+      "horizontal_shift_p95_m": 0.07474137853396445,
+      "reference_error_p50_m": 1.4395198341805746,
+      "reference_error_p95_m": 1.4952433126486484
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "pixel_sigma_10px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0696272634393416,
+      "horizontal_shift_p95_m": 0.1497185899813448,
+      "reference_error_p50_m": 1.4397443221975241,
+      "reference_error_p95_m": 1.5457750615900923
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "angle_sigma_0p1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.02786827084877171,
+      "horizontal_shift_p95_m": 0.0707187306540261,
+      "reference_error_p50_m": 1.4410705186317072,
+      "reference_error_p95_m": 1.4985357517437885
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "angle_sigma_0p5deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.13704120334665337,
+      "horizontal_shift_p95_m": 0.35180029999445966,
+      "reference_error_p50_m": 1.4397519449661076,
+      "reference_error_p95_m": 1.7350773560287676
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "angle_sigma_1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.2756812604265051,
+      "horizontal_shift_p95_m": 0.6897528743091214,
+      "reference_error_p50_m": 1.4533189051605304,
+      "reference_error_p95_m": 2.0275931685221527
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "focal_sigma_1pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0019514710047476356,
+      "horizontal_shift_p95_m": 0.006101670518138991,
+      "reference_error_p50_m": 1.439378950453399,
+      "reference_error_p95_m": 1.4443538906603899
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "focal_sigma_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.010291711150296014,
+      "horizontal_shift_p95_m": 0.031245962963976016,
+      "reference_error_p50_m": 1.4394103514632897,
+      "reference_error_p95_m": 1.4626460045286767
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "focal_sigma_10pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.02035722716307043,
+      "horizontal_shift_p95_m": 0.0658959175314045,
+      "reference_error_p50_m": 1.4394709544608943,
+      "reference_error_p95_m": 1.4803075297968802
+    },
+    {
+      "site_id": "B1_F1",
+      "scenario": "combined_3px_0p5deg_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.13825438631621606,
+      "horizontal_shift_p95_m": 0.3388064063709137,
+      "reference_error_p50_m": 1.4430798556824138,
+      "reference_error_p95_m": 1.7248244504246668
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "pixel_sigma_1px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0063106469499802,
+      "horizontal_shift_p95_m": 0.015347390016712214,
+      "reference_error_p50_m": 2.2157456157750586,
+      "reference_error_p95_m": 2.227567357336859
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "pixel_sigma_3px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.019064164635241066,
+      "horizontal_shift_p95_m": 0.044315835535138896,
+      "reference_error_p50_m": 2.2149066120162555,
+      "reference_error_p95_m": 2.252443063236359
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "pixel_sigma_5px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.03175639696861632,
+      "horizontal_shift_p95_m": 0.07456563980116886,
+      "reference_error_p50_m": 2.215958403566983,
+      "reference_error_p95_m": 2.274516165190185
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "pixel_sigma_10px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0633855427756064,
+      "horizontal_shift_p95_m": 0.1434532313978086,
+      "reference_error_p50_m": 2.216072504861952,
+      "reference_error_p95_m": 2.3365538150654097
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "angle_sigma_0p1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.02352012337103794,
+      "horizontal_shift_p95_m": 0.05683519864384318,
+      "reference_error_p50_m": 2.21598379888745,
+      "reference_error_p95_m": 2.2625580299504193
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "angle_sigma_0p5deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.11610037425930468,
+      "horizontal_shift_p95_m": 0.2738827952686153,
+      "reference_error_p50_m": 2.2206973499911484,
+      "reference_error_p95_m": 2.4297461979227246
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "angle_sigma_1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.23708926038614725,
+      "horizontal_shift_p95_m": 0.5622791460503035,
+      "reference_error_p50_m": 2.247997294017936,
+      "reference_error_p95_m": 2.6917283113115436
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "focal_sigma_1pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0010700150151137628,
+      "horizontal_shift_p95_m": 0.0031798760911655095,
+      "reference_error_p50_m": 2.2156741154581,
+      "reference_error_p95_m": 2.21761146729109
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "focal_sigma_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.00551682218635384,
+      "horizontal_shift_p95_m": 0.016752245376970246,
+      "reference_error_p50_m": 2.215813296040486,
+      "reference_error_p95_m": 2.2254221136250285
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "focal_sigma_10pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0112353784557712,
+      "horizontal_shift_p95_m": 0.0329154339020515,
+      "reference_error_p50_m": 2.2154503450457783,
+      "reference_error_p95_m": 2.2337303684302485
+    },
+    {
+      "site_id": "B2_F1",
+      "scenario": "combined_3px_0p5deg_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.11850075119250181,
+      "horizontal_shift_p95_m": 0.280684299985352,
+      "reference_error_p50_m": 2.2177632901225843,
+      "reference_error_p95_m": 2.4417486098912757
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "pixel_sigma_1px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.01906507935587608,
+      "horizontal_shift_p95_m": 0.041884596421202194,
+      "reference_error_p50_m": 13.28310972949075,
+      "reference_error_p95_m": 13.304687316549007
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "pixel_sigma_3px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.05474928652432152,
+      "horizontal_shift_p95_m": 0.12019934399025227,
+      "reference_error_p50_m": 13.283420003155596,
+      "reference_error_p95_m": 13.345850144227194
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "pixel_sigma_5px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.09324241776474013,
+      "horizontal_shift_p95_m": 0.20288732545820523,
+      "reference_error_p50_m": 13.285332688195865,
+      "reference_error_p95_m": 13.38847720273531
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "pixel_sigma_10px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.18302184320922113,
+      "horizontal_shift_p95_m": 0.4179955039777058,
+      "reference_error_p50_m": 13.283219824160726,
+      "reference_error_p95_m": 13.498524419893728
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "angle_sigma_0p1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.07759369008356798,
+      "horizontal_shift_p95_m": 0.18780638303297761,
+      "reference_error_p50_m": 13.280924062905044,
+      "reference_error_p95_m": 13.37520839532177
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "angle_sigma_0p5deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.40946592427496226,
+      "horizontal_shift_p95_m": 0.9787273898805007,
+      "reference_error_p50_m": 13.280283404467788,
+      "reference_error_p95_m": 13.75386998631638
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "angle_sigma_1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.8127595798539864,
+      "horizontal_shift_p95_m": 1.896402272685541,
+      "reference_error_p50_m": 13.26397218997251,
+      "reference_error_p95_m": 14.271600913228568
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "focal_sigma_1pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.0960762824635436,
+      "horizontal_shift_p95_m": 0.2760860649069574,
+      "reference_error_p50_m": 13.28256555907118,
+      "reference_error_p95_m": 13.514916930886509
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "focal_sigma_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.4628553496439184,
+      "horizontal_shift_p95_m": 1.3631458351504524,
+      "reference_error_p50_m": 13.288329382025186,
+      "reference_error_p95_m": 14.51434615710136
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "focal_sigma_10pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.9286392779743371,
+      "horizontal_shift_p95_m": 2.8956046798295834,
+      "reference_error_p50_m": 13.26761823535941,
+      "reference_error_p95_m": 16.029040645313486
+    },
+    {
+      "site_id": "B3_N",
+      "scenario": "combined_3px_0p5deg_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.6951086463132875,
+      "horizontal_shift_p95_m": 1.6052693081800309,
+      "reference_error_p50_m": 13.272375444090834,
+      "reference_error_p95_m": 14.638109985680158
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "pixel_sigma_1px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.018834729388265525,
+      "horizontal_shift_p95_m": 0.04116179631156682,
+      "reference_error_p50_m": 3.291654734908406,
+      "reference_error_p95_m": 3.3182143488011664
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "pixel_sigma_3px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.058074888575936734,
+      "horizontal_shift_p95_m": 0.12741316002584444,
+      "reference_error_p50_m": 3.290733363280154,
+      "reference_error_p95_m": 3.3709969488960394
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "pixel_sigma_5px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.09562828921066965,
+      "horizontal_shift_p95_m": 0.2114639566069185,
+      "reference_error_p50_m": 3.2906919542011845,
+      "reference_error_p95_m": 3.423696819341445
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "pixel_sigma_10px",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.1830324767863701,
+      "horizontal_shift_p95_m": 0.41563518881502265,
+      "reference_error_p50_m": 3.29011781326222,
+      "reference_error_p95_m": 3.5458118923454234
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "angle_sigma_0p1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.078869541216986,
+      "horizontal_shift_p95_m": 0.17807888088428653,
+      "reference_error_p50_m": 3.291073122330522,
+      "reference_error_p95_m": 3.3787280810640183
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "angle_sigma_0p5deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.392874709325899,
+      "horizontal_shift_p95_m": 0.8976239041685841,
+      "reference_error_p50_m": 3.3206518617403105,
+      "reference_error_p95_m": 3.746239094573842
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "angle_sigma_1deg",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.7908087992670283,
+      "horizontal_shift_p95_m": 1.7768428602194903,
+      "reference_error_p50_m": 3.396628249933139,
+      "reference_error_p95_m": 4.222062223982087
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "focal_sigma_1pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.09980875574766074,
+      "horizontal_shift_p95_m": 0.2963705499869216,
+      "reference_error_p50_m": 3.294282691853364,
+      "reference_error_p95_m": 3.5328858855169996
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "focal_sigma_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.503988150731252,
+      "horizontal_shift_p95_m": 1.5267274677097171,
+      "reference_error_p50_m": 3.3245411989149556,
+      "reference_error_p95_m": 4.655883286908116
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "focal_sigma_10pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 1.0452123850350021,
+      "horizontal_shift_p95_m": 3.164972566874494,
+      "reference_error_p50_m": 3.296408170417367,
+      "reference_error_p95_m": 6.298460939856285
+    },
+    {
+      "site_id": "B3_S",
+      "scenario": "combined_3px_0p5deg_5pct",
+      "draws": 2000,
+      "horizontal_shift_p50_m": 0.72026271549175,
+      "horizontal_shift_p95_m": 1.6612685403061391,
+      "reference_error_p50_m": 3.2866147994964052,
+      "reference_error_p95_m": 4.705875108395468
+    }
+  ],
+  "point_overlays": [
+    "point_overlays\\B1_F1_1_无人机02.jpg",
+    "point_overlays\\B1_F1_2_无人机08.jpg",
+    "point_overlays\\B1_F1_3_无人机09.jpg",
+    "point_overlays\\B2_F1_1_无人机01.jpg",
+    "point_overlays\\B2_F1_2_无人机06.jpg",
+    "point_overlays\\B2_F1_3_无人机07.jpg",
+    "point_overlays\\B3_N_1_无人机02.jpg",
+    "point_overlays\\B3_N_2_无人机04.jpg",
+    "point_overlays\\B3_N_3_无人机09.jpg",
+    "point_overlays\\B3_S_1_无人机02.jpg",
+    "point_overlays\\B3_S_2_无人机04.jpg",
+    "point_overlays\\B3_S_3_无人机09.jpg"
+  ],
+  "limits": [
+    "B1/B2 coordinates are existing one-snapshot manual marks; B3 uses existing three-view marks.",
+    "B1-B3 temporal stability is not measured by this execution.",
+    "LRF targets are limited reference points; B1 is post-fire and B2 is pre-fire.",
+    "No per-camera intrinsic/distortion or camera-gimbal/body extrinsic calibration was available.",
+    "Absolute altitude datum compatibility is unverified; triangulated z is diagnostic only.",
+    "A small ray residual measures mutual ray consistency, not absolute position accuracy."
+  ]
+}

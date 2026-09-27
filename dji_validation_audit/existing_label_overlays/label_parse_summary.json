@@ -1,0 +1,42 @@
+{
+  "source": "existing Round27 validation labels; no labels altered",
+  "observations": 56,
+  "per_session_class_counts": {
+    "DJI_202609081039_006": {
+      "V": {
+        "flame": 4,
+        "smoke": 3
+      },
+      "T": {
+        "hotspot": 8
+      }
+    },
+    "DJI_202609081040_004": {
+      "V": {
+        "smoke": 10
+      },
+      "T": {
+        "hotspot": 10
+      }
+    },
+    "DJI_202609081042_036": {
+      "V": {
+        "flame": 6,
+        "smoke": 5
+      },
+      "T": {
+        "hotspot": 10
+      }
+    },
+    "DJI_202609081048_005": {
+      "V": {
+        "flame": 10,
+        "smoke": 21
+      },
+      "T": {
+        "hotspot": 15
+      }
+    }
+  },
+  "parse_invalid": []
+}

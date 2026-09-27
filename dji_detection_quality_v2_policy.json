@@ -1,0 +1,33 @@
+{
+  "schema_version": "dji_b4_detection_quality_v2_policy",
+  "purpose": "Improve B4 V small-flame recall and T false detections using only existing data",
+  "frozen_baseline": "E2 V/T, 960 input, original development thresholds V flame 0.37 and T hotspot 0.14",
+  "development_split": "historically exposed B4 validation; used only for exploratory candidate selection",
+  "confirmation_split": "no threshold or candidate selection; evaluate once only after a development gate passes",
+  "V_candidates": [
+    {"id": "V1280", "change": "E2 V inference input 960 to 1280; same weights, NMS, labels"},
+    {"id": "V1536", "change": "E2 V inference input 960 to 1536; same weights, NMS, labels", "run_if": "V1280 does not pass the development gate and GPU memory permits"}
+  ],
+  "V_development_gate": {
+    "threshold_selection": "0.01 to 0.90 step 0.01, highest recall among P>=0.60; ties P then higher threshold",
+    "minimum": {"P": 0.60, "R": 0.70, "AP50": 0.50, "TP": 17},
+    "maximum_FP": 8,
+    "baseline_flame_TP": 16,
+    "baseline_flame_FP": 6
+  },
+  "T_candidates": [
+    {"id": "T_nms045", "change": "apply stricter class-aware NMS IoU 0.45 to saved E2 T predictions; keep threshold 0.14"},
+    {"id": "T_nms045_threshold", "change": "keep NMS IoU 0.45 and scan work threshold on development only"}
+  ],
+  "T_development_gate": {"minimum_TP": 54, "maximum_FP": 34, "maximum_negative_false_positive_images": 3, "minimum_P": 0.60, "minimum_R": 0.70, "minimum_AP50": 0.50},
+  "deployment_gate": {
+    "confirmation_P": 0.60,
+    "confirmation_R": 0.70,
+    "confirmation_AP50": 0.50,
+    "B4_V_source_point_coverage_at_least": "18/32",
+    "B4_T_source_point_coverage_at_least": "16/32",
+    "processed_fps_per_sensor_at_least": 5,
+    "failure_action": "keep frozen E2 default and report reasons"
+  },
+  "constraints": ["No confirmation tuning", "No extra training from development or confirmation images", "No re-review of original 214 images", "No use of smoke for localization", "Keep old artifacts intact"]
+}

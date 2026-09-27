@@ -1,0 +1,62 @@
+{
+  "schema_version": "dji_round18_b1b3_smoke_visual_audit_v1",
+  "scope": "training_split_only",
+  "source_manifest": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/manifest_round12.json",
+  "review_method": "Direct full-resolution V-image inspection; boxes approximate visible regions and are not validation/test truth.",
+  "blind_test_accessed": false,
+  "validation_labels_modified": false,
+  "records": [
+    {
+      "observation_id": "obs_000049",
+      "finding": "Existing smoke box spans a very large orange flame; no distinct bounded smoke plume is identifiable.",
+      "action": "remove_smoke_add_flame",
+      "proposed_visible_labels": [{"class": "flame", "bbox_xyxy": [395, 150, 1120, 1050], "quality": "clear"}]
+    },
+    {
+      "observation_id": "obs_000112",
+      "finding": "Flame is clear but smoke is diffuse and partly overlapping the current flame box; a reliable smoke boundary is not available.",
+      "action": "exclude_from_v_training_pending_review",
+      "proposed_visible_labels": []
+    },
+    {
+      "observation_id": "obs_000324",
+      "finding": "Existing smoke box is on ground and foliage; only small flames are clearly visible.",
+      "action": "exclude_from_v_training_pending_review",
+      "proposed_visible_labels": []
+    },
+    {
+      "observation_id": "obs_000484",
+      "finding": "Existing smoke box catches only part of an oblique plume drifting from lower-left toward upper-middle; region is visibly smoke but boundaries are diffuse.",
+      "action": "rebox_smoke",
+      "proposed_visible_labels": [{"class": "smoke", "bbox_xyxy": [510, 170, 1340, 840], "quality": "clear_object_weak_boundary"}]
+    },
+    {
+      "observation_id": "obs_000313",
+      "finding": "Clear large smoke plume is at upper-left; both existing smoke boxes are misplaced, including one on the unrelated right burn pile.",
+      "action": "replace_smoke_boxes",
+      "proposed_visible_labels": [{"class": "smoke", "bbox_xyxy": [280, 0, 565, 470], "quality": "clear_object_weak_boundary"}]
+    },
+    {
+      "observation_id": "obs_000481",
+      "finding": "Existing smoke box approximately covers the clear plume; do not alter this label.",
+      "action": "retain_existing_label",
+      "proposed_visible_labels": []
+    },
+    {
+      "observation_id": "obs_000534",
+      "finding": "Existing smoke box covers trees/background while two separate flames are visible; existing upper flame box is excessively large.",
+      "action": "remove_smoke_split_flame",
+      "proposed_visible_labels": [
+        {"class": "flame", "bbox_xyxy": [865, 180, 1025, 355], "quality": "clear"},
+        {"class": "flame", "bbox_xyxy": [930, 705, 1120, 1080], "quality": "clear"}
+      ]
+    },
+    {
+      "observation_id": "obs_000414",
+      "finding": "Existing smoke box spans most of the upper-right scene while visible smoke consists of smaller diffuse regions; boundary needs closer review.",
+      "action": "exclude_from_v_training_pending_review",
+      "proposed_visible_labels": []
+    }
+  ],
+  "next_action": "Use only explicit correction actions in a separate train-only dataset; retain the validation split unchanged and keep the blind test sealed."
+}

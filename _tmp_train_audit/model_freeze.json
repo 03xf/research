@@ -1,0 +1,34 @@
+{
+  "schema_version": "dji_recovery_confirmation_freeze_v1",
+  "created_utc": "2026-09-24T21:47:29.157522+00:00",
+  "selection_source": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/comparison_seed0_seed1_seed2_v1.json",
+  "selection_source_sha256": "ddad9b5b9afe4ab8235b7c5d1242493476b6aed29259efc3919fc07611751ffc",
+  "selection_rule": "seed 0 selected on development only; seeds 1 and 2 reported as replication",
+  "development_split_historically_exposed": true,
+  "confirmation_test_performed": false,
+  "models": {
+    "V": {
+      "model_id": "E2_V_960_s0",
+      "weights": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/runs/E2_V_960_s0/weights/best.pt",
+      "weights_sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6",
+      "imgsz": 960,
+      "thresholds": {
+        "smoke": 0.41,
+        "flame": 0.37
+      },
+      "development_evaluation_sha256": "61e03ebdc42df4f8558f720b617de19a0ac79e83880a76b32dc0571e4f37198f",
+      "development_passed": false
+    },
+    "T": {
+      "model_id": "E2_T_960_s0",
+      "weights": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/runs/E2_T_960_s0/weights/best.pt",
+      "weights_sha256": "ee7566fe58336c21808d391907b37537f5a51baaef2f6286079bc88f4efdb2fa",
+      "imgsz": 960,
+      "thresholds": {
+        "hotspot": 0.14
+      },
+      "development_evaluation_sha256": "5055333ac9642f1f625b1cd468ba36a56cd10d3c5d741d39bab651612098ba65",
+      "development_passed": true
+    }
+  }
+}

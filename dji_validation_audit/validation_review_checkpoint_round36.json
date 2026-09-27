@@ -1,0 +1,27 @@
+{
+  "schema_version": "dji_validation_review_checkpoint_round36_v1",
+  "updated_utc": "2026-09-24T06:27:00Z",
+  "queue": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/validation_label_audit_v1/validation_review_queue_71_v1.json",
+  "total_observations": 71,
+  "raw_image_reviewed_observations": 15,
+  "remaining_raw_image_review_observations": 56,
+  "sessions_with_any_review": ["DJI_202609081030_005", "DJI_202609081039_006"],
+  "sessions_total": 5,
+  "review_reports": [
+    "round36_high_priority_review/round36_high_priority_raw_review_v1.json",
+    "round36_cross_session_spotcheck/round36_cross_session_spotcheck_v1.json"
+  ],
+  "exact_box_geometry_approved": 0,
+  "corrected_validation_dataset_created": false,
+  "source_validation_labels_changed": false,
+  "blind_test_accessed_in_round36": false,
+  "model_predictions_accessed_in_round36_review": false,
+  "qualification_gate": "not_assessable_with_unreviewed_original_validation_labels",
+  "key_findings": [
+    "The 10 high-priority images from one session exhibit repeated left-biased smoke boxes despite right-side smoke or no clear smoke.",
+    "A different session contains a T box clearly displaced from both major bright regions (obs_000556), a possible empty-label hotspot omission (obs_000653), and a plausible two-target frame (obs_000843).",
+    "Thermal brightness alone does not establish fire relevance; pre-ignition obs_000787 is a hard-negative candidate.",
+    "Time proximity alone does not prove T/V detections are the same physical fire event."
+  ],
+  "next_action": "Finish independent raw-image review of remaining 56 observations, adjudicate exact labels in a separate validation dataset with weak/ambiguous/unusable policy, then perform exploratory frozen-model validation. Do not use these frames for training or claim them as untouched blind test."
+}

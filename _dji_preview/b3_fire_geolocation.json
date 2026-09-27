@@ -1,0 +1,89 @@
+{
+  "sites": [
+    {
+      "point_id": "B3_northwest_fire",
+      "latitude_estimate": 31.28990360059824,
+      "longitude_estimate": 120.47267850836445,
+      "ground_altitude_assumed_m": 52.5,
+      "max_horizontal_view_deviation_m": 2.25825407266297,
+      "triangulated_latitude": 31.28989407954833,
+      "triangulated_longitude": 120.47266545241642,
+      "triangulated_altitude_unverified_m": 53.77088278023039,
+      "ray_residuals_m": [
+        1.3050203386255739,
+        1.1849888395863095,
+        0.3185411801716922
+      ],
+      "views": [
+        {
+          "drone": "无人机02",
+          "x_px": 1395,
+          "y_px": 895,
+          "ground_latitude": 31.28990360059824,
+          "ground_longitude": 120.4726547857131
+        },
+        {
+          "drone": "无人机04",
+          "x_px": 205,
+          "y_px": 855,
+          "ground_latitude": 31.289894683765567,
+          "ground_longitude": 120.47268910388902
+        },
+        {
+          "drone": "无人机09",
+          "x_px": 375,
+          "y_px": 420,
+          "ground_latitude": 31.28990559992033,
+          "ground_longitude": 120.47267850836445
+        }
+      ],
+      "method": "nominal_intrinsics_ground_plane_multiview",
+      "status": "provisional_visual_geolocation_not_surveyed_truth",
+      "distance_to_B3_F1_lrf_m": 13.834840119647232,
+      "distance_to_B3_F2_lrf_m": 25.290625965085656
+    },
+    {
+      "point_id": "B3_southeast_fire",
+      "latitude_estimate": 31.28966773520742,
+      "longitude_estimate": 120.47279861338728,
+      "ground_altitude_assumed_m": 52.5,
+      "max_horizontal_view_deviation_m": 2.7098419223470716,
+      "triangulated_latitude": 31.289663173674935,
+      "triangulated_longitude": 120.47277613027067,
+      "triangulated_altitude_unverified_m": 53.72595275753539,
+      "ray_residuals_m": [
+        1.3503103038262299,
+        1.059919165406806,
+        0.7559970781910123
+      ],
+      "views": [
+        {
+          "drone": "无人机02",
+          "x_px": 370,
+          "y_px": 265,
+          "ground_latitude": 31.289670732451125,
+          "ground_longitude": 120.47277036294592
+        },
+        {
+          "drone": "无人机04",
+          "x_px": 1750,
+          "y_px": 780,
+          "ground_latitude": 31.289653239886583,
+          "ground_longitude": 120.47280497256529
+        },
+        {
+          "drone": "无人机09",
+          "x_px": 1575,
+          "y_px": 640,
+          "ground_latitude": 31.28966773520742,
+          "ground_longitude": 120.47279861338728
+        }
+      ],
+      "method": "nominal_intrinsics_ground_plane_multiview",
+      "status": "provisional_visual_geolocation_not_surveyed_truth",
+      "distance_to_B3_F1_lrf_m": 14.925012128616101,
+      "distance_to_B3_F2_lrf_m": 4.748079890508865
+    }
+  ],
+  "input_telemetry": "D:\\课题\\_dji_preview\\b3_telemetry.csv"
+}

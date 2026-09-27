@@ -1,0 +1,94 @@
+{
+  "patches": [
+    {
+      "point_id": "northwest_charred_patch",
+      "latitude_estimate": 31.28972409303531,
+      "longitude_estimate": 120.47276766767446,
+      "max_horizontal_view_deviation_m": 3.114565611894551,
+      "distance_to_B4_F1_lrf_m": 27.2505033591115,
+      "status": "approximate_ground_patch_not_lrf_measurement",
+      "views": [
+        {
+          "image": "DJI_20260908112209_0004_V.JPG",
+          "x_px": 145,
+          "y_px": 1990,
+          "raw_latitude": 31.28974976754377,
+          "raw_longitude": 120.4727679655688,
+          "laser_center_correction_m": 0.8244682793066463,
+          "adjusted_latitude": 31.28975121183786,
+          "adjusted_longitude": 120.47275947051529
+        },
+        {
+          "image": "DJI_20260908112300_0005_V.JPG",
+          "x_px": 1190,
+          "y_px": 870,
+          "raw_latitude": 31.289707302535536,
+          "raw_longitude": 120.47278448296007,
+          "laser_center_correction_m": 1.4113054327175274,
+          "adjusted_latitude": 31.28969697423276,
+          "adjusted_longitude": 120.47277586483364
+        }
+      ]
+    },
+    {
+      "point_id": "middle_gray_brush_patch",
+      "latitude_estimate": 31.289596497133296,
+      "longitude_estimate": 120.47279073818262,
+      "max_horizontal_view_deviation_m": 0.0,
+      "distance_to_B4_F1_lrf_m": 12.897463127994323,
+      "status": "approximate_ground_patch_not_lrf_measurement",
+      "views": [
+        {
+          "image": "DJI_20260908112321_0006_V.JPG",
+          "x_px": 785,
+          "y_px": 1560,
+          "raw_latitude": 31.289596513992397,
+          "raw_longitude": 120.4727933549504,
+          "laser_center_correction_m": 0.2491076434744165,
+          "adjusted_latitude": 31.289596497133296,
+          "adjusted_longitude": 120.47279073818262
+        }
+      ]
+    },
+    {
+      "point_id": "south_charred_patch",
+      "latitude_estimate": 31.289364020556437,
+      "longitude_estimate": 120.4728224003655,
+      "max_horizontal_view_deviation_m": 0.8013764057884643,
+      "distance_to_B4_F1_lrf_m": 13.12677923922076,
+      "status": "approximate_ground_patch_not_lrf_measurement",
+      "views": [
+        {
+          "image": "DJI_20260908112332_0007_V.JPG",
+          "x_px": 2060,
+          "y_px": 280,
+          "raw_latitude": 31.28936201099899,
+          "raw_longitude": 120.47281411437676,
+          "laser_center_correction_m": 0.2711395009626732,
+          "adjusted_latitude": 31.289364447532265,
+          "adjusted_longitude": 120.47281399680023
+        },
+        {
+          "image": "DJI_20260908112338_0008_V.JPG",
+          "x_px": 1930,
+          "y_px": 165,
+          "raw_latitude": 31.28935600170971,
+          "raw_longitude": 120.47282254909695,
+          "laser_center_correction_m": 0.3190031126735432,
+          "adjusted_latitude": 31.289358867976706,
+          "adjusted_longitude": 120.4728224003655
+        },
+        {
+          "image": "DJI_20260908112321_0006_V.JPG",
+          "x_px": 3390,
+          "y_px": 1390,
+          "raw_latitude": 31.289364037415538,
+          "raw_longitude": 120.47283041460491,
+          "laser_center_correction_m": 0.2491076434744165,
+          "adjusted_latitude": 31.289364020556437,
+          "adjusted_longitude": 120.47282779783716
+        }
+      ]
+    }
+  ]
+}

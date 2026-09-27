@@ -1,0 +1,97 @@
+{
+  "schema_version": "dji_b4_scene_source_map_v1",
+  "created_utc": "2026-09-25T15:56:21.735985+00:00",
+  "batch_id": "B4",
+  "session_id": "DJI_202609081039_006",
+  "video_group": "DJI_20260908105258_0002",
+  "visible_video": "/home/member/xmy/data/苏州放火_实验数据集/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+  "thermal_video": "/home/member/xmy/data/苏州放火_实验数据集/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_T.MP4",
+  "source_count": 2,
+  "sources": [
+    {
+      "point_id": "B4_video_east_near_road",
+      "name_zh": "东侧靠道路火源",
+      "side": "east",
+      "latitude": 31.2887792678,
+      "longitude": 120.4727584031,
+      "coordinate_status": "provisional_visual",
+      "coordinate_method": "nominal_camera_multiview_ground_plane",
+      "anchors": {
+        "V": {
+          "point_normalized": [
+            0.8595806017151708,
+            0.3318713208946692
+          ],
+          "manual_points": 10,
+          "max_manual_deviation_normalized": 0.010754080921894666
+        },
+        "T": {
+          "point_normalized": [
+            0.8072573361554565,
+            0.3791901514300102
+          ],
+          "manual_points": 10,
+          "max_manual_deviation_normalized": 0.016197019698972255
+        }
+      }
+    },
+    {
+      "point_id": "B4_video_west_near_tree",
+      "name_zh": "西侧靠树木火源",
+      "side": "west",
+      "latitude": 31.2888262887,
+      "longitude": 120.472489068,
+      "coordinate_status": "provisional_visual",
+      "coordinate_method": "nominal_camera_multiview_ground_plane",
+      "anchors": {
+        "V": {
+          "point_normalized": [
+            0.22327302794108927,
+            0.7814327143745486
+          ],
+          "manual_points": 10,
+          "max_manual_deviation_normalized": 0.022048480216558496
+        },
+        "T": {
+          "point_normalized": [
+            0.23211341446466716,
+            0.6650925957224274
+          ],
+          "manual_points": 10,
+          "max_manual_deviation_normalized": 0.01541945766970354
+        }
+      }
+    }
+  ],
+  "association_scope": "this fixed-camera video group only; the source point coordinates are approximate visual candidates",
+  "association_gate": {
+    "V_radius_normalized": 0.12,
+    "T_radius_normalized": 0.1,
+    "require_V_flame_for_coordinate": true,
+    "T_recent_V_seconds": 0.6
+  },
+  "provenance": {
+    "human_queue_sha256": "5ec5ade339132d5def2e2bc3e6a1e31b0b0fbbafae882dfa1f226a314389af67",
+    "human_decisions_sha256": "faefc8366daad690075fb232265eb9fefc5657bc87e3ee777801842acc67a5b5",
+    "source_marks_sha256": "d926601ed24c9abe39ec51adc21ada3cdb29458f9761a90e11a3e2c11e10e044",
+    "inventory_sha256": "c1803a25858cb2aeb62cf7d099082dcba33f17a092af4b4817fd1a80e361e876",
+    "human_tasks": [
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:00",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:01",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:02",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:03",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:04",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:05",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:06",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:07",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:08",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2:09"
+    ],
+    "legacy_F1_label": "nonunique across the two physical fires; ignored for geographic association"
+  },
+  "limits": [
+    "No camera calibration or independent absolute visual WGS84 accuracy",
+    "The LRF B4_F1 point is about 78 m from these two video candidates and is not assigned to them",
+    "B4 F2 remains three separate unassigned postfire candidates"
+  ]
+}

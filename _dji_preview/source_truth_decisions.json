@@ -1,0 +1,1518 @@
+{
+  "schema_version": "dji_source_truth_decisions_v1",
+  "decisions": {
+    "B3_10m07_D02_pts_v2:00": {
+      "task_id": "B3_10m07_D02_pts_v2:00",
+      "saved_utc": "2026-09-25T07:11:05.583948+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.1996299355391444,
+            0.222222200533723,
+            "F1"
+          ],
+          [
+            0.7341694159309414,
+            0.8143274504828325,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19305091397449736,
+            0.28860083762050276,
+            "F1"
+          ],
+          [
+            0.6967515781898446,
+            0.6774281697009319,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:01": {
+      "task_id": "B3_10m07_D02_pts_v2:01",
+      "saved_utc": "2026-09-25T07:11:23.883896+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19551809338228443,
+            0.19956139347987942,
+            "F1"
+          ],
+          [
+            0.7290296132348665,
+            0.80994149682248,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.18688315073920742,
+            0.2829470443176866,
+            "F1"
+          ],
+          [
+            0.7029193414251346,
+            0.6799980793125492,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:02": {
+      "task_id": "B3_10m07_D02_pts_v2:02",
+      "saved_utc": "2026-09-25T07:11:36.790852+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19757401446071443,
+            0.19590642280118123,
+            "F1"
+          ],
+          [
+            0.7310855343132965,
+            0.80994149682248,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19510683505292736,
+            0.28166208951187793,
+            "F1"
+          ],
+          [
+            0.7060032230427795,
+            0.6774281697009319,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:03": {
+      "task_id": "B3_10m07_D02_pts_v2:03",
+      "saved_utc": "2026-09-25T07:11:41.517741+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19449013284306943,
+            0.19298243510413732,
+            "F1"
+          ],
+          [
+            0.7362253370093714,
+            0.8015350531073887,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19305091397449736,
+            0.27189642514499074,
+            "F1"
+          ],
+          [
+            0.7060032230427795,
+            0.6843669178095567,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:04": {
+      "task_id": "B3_10m07_D02_pts_v2:04",
+      "saved_utc": "2026-09-25T07:11:46.100608+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19140625122542446,
+            0.19663740578283553,
+            "F1"
+          ],
+          [
+            0.7290296132348665,
+            0.8179824211615306,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19305091397449736,
+            0.2783211991740338,
+            "F1"
+          ],
+          [
+            0.7070311835819945,
+            0.6856518726153653,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:05": {
+      "task_id": "B3_10m07_D02_pts_v2:05",
+      "saved_utc": "2026-09-25T07:11:51.018170+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19243421176463946,
+            0.1856724937467409,
+            "F1"
+          ],
+          [
+            0.7351973764701564,
+            0.8033625384467379,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19305091397449736,
+            0.27575128956241657,
+            "F1"
+          ],
+          [
+            0.7029193414251346,
+            0.6805120533921309,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:06": {
+      "task_id": "B3_10m07_D02_pts_v2:06",
+      "saved_utc": "2026-09-25T07:11:56.155096+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19243421176463946,
+            0.18749997908609,
+            "F1"
+          ],
+          [
+            0.7290296132348665,
+            0.807017509125436,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19613479559214236,
+            0.28089110878565104,
+            "F1"
+          ],
+          [
+            0.7018913808859195,
+            0.686936827421174,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:07": {
+      "task_id": "B3_10m07_D02_pts_v2:07",
+      "saved_utc": "2026-09-25T07:12:00.023424+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19654605392149943,
+            0.19480992044348644,
+            "F1"
+          ],
+          [
+            0.7310855343132965,
+            0.8015350531073887,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19613479559214236,
+            0.27960615397984245,
+            "F1"
+          ],
+          [
+            0.7060032230427795,
+            0.6830819630037481,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:08": {
+      "task_id": "B3_10m07_D02_pts_v2:08",
+      "saved_utc": "2026-09-25T07:12:11.304627+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.19346217230385446,
+            0.19298243510413732,
+            "F1"
+          ],
+          [
+            0.7310855343132965,
+            0.8143274504828325,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.19613479559214236,
+            0.2847459732030769,
+            "F1"
+          ],
+          [
+            0.7018913808859195,
+            0.6856518726153653,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "B3_10m07_D02_pts_v2:09": {
+      "task_id": "B3_10m07_D02_pts_v2:09",
+      "saved_utc": "2026-09-25T07:12:36.488112+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.1986019749999294,
+            0.20029237646153375,
+            "F1"
+          ],
+          [
+            0.7269736921564365,
+            0.8143274504828325,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.20024663774900234,
+            0.2950256116495458,
+            "F1"
+          ],
+          [
+            0.6988074992682746,
+            0.6856518726153653,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:00": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:00",
+      "saved_utc": "2026-09-25T07:12:41.957966+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2356085544116692,
+            0.7631578609810575,
+            "F1"
+          ],
+          [
+            0.8554687595583108,
+            0.3391812622520656,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.2413650593176021,
+            0.6548129572759586,
+            "F1"
+          ],
+          [
+            0.8087992769642789,
+            0.3708379451922542,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:01": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:01",
+      "saved_utc": "2026-09-25T07:13:01.119562+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8585526411759558,
+            0.3410087475914147,
+            "F1"
+          ],
+          [
+            0.2366365149508842,
+            0.7722952876778031,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.8016035531897739,
+            0.37212289999806286,
+            "F1"
+          ],
+          [
+            0.2403370987783871,
+            0.659952776499193,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:02": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:02",
+      "saved_utc": "2026-09-25T07:13:08.648440+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.23458059387245422,
+            0.7686403169991048,
+            "F1"
+          ],
+          [
+            0.8513569174014508,
+            0.3263888648766219,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23725321716074213,
+            0.65352800247015,
+            "F1"
+          ],
+          [
+            0.798519671572129,
+            0.37726271922129734,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:03": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:03",
+      "saved_utc": "2026-09-25T07:13:14.133426+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.22738487009794925,
+            0.7814327143745486,
+            "F1"
+          ],
+          [
+            0.8564967200975258,
+            0.3355262915733674,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23108545392545216,
+            0.6625226861108102,
+            "F1"
+          ],
+          [
+            0.793379868876054,
+            0.38754235766776624,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:04": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:04",
+      "saved_utc": "2026-09-25T07:13:25.539138+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.22430098848030428,
+            0.7814327143745486,
+            "F1"
+          ],
+          [
+            0.8606085622543858,
+            0.3318713208946692,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23108545392545216,
+            0.6573828668875757,
+            "F1"
+          ],
+          [
+            0.805715395346634,
+            0.3901122672793835,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:05": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:05",
+      "saved_utc": "2026-09-25T07:13:30.380875+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2201891463234443,
+            0.7850876850532468,
+            "F1"
+          ],
+          [
+            0.8534128384798808,
+            0.3391812622520656,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23211341446466716,
+            0.6676625053340447,
+            "F1"
+          ],
+          [
+            0.800575592650559,
+            0.3888273124735749,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:06": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:06",
+      "saved_utc": "2026-09-25T07:13:34.740242+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2191611857842293,
+            0.7923976264106433,
+            "F1"
+          ],
+          [
+            0.8688322465681056,
+            0.3263888648766219,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23314137500388216,
+            0.670232414945662,
+            "F1"
+          ],
+          [
+            0.8170229612779989,
+            0.38240253844453176,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:07": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:07",
+      "saved_utc": "2026-09-25T07:13:39.239231+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.20682565931364938,
+            0.7923976264106433,
+            "F1"
+          ],
+          [
+            0.8647204044112458,
+            0.3300438355553201,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.2197778879940872,
+            0.6740872793630878,
+            "F1"
+          ],
+          [
+            0.8087992769642789,
+            0.37726271922129734,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:08": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:08",
+      "saved_utc": "2026-09-25T07:13:43.476930+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.22224506740187427,
+            0.7777777436958504,
+            "F1"
+          ],
+          [
+            0.8626644833328158,
+            0.32456137953727277,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.23211341446466716,
+            0.6805120533921309,
+            "F1"
+          ],
+          [
+            0.809827237503494,
+            0.3798326288329145,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:09": {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:09",
+      "saved_utc": "2026-09-25T07:17:23.736626+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.21093750147050935,
+            0.7923976264106433,
+            "F1"
+          ],
+          [
+            0.8616365227936007,
+            0.3318713208946692,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22800157230780718,
+            0.6740872793630878,
+            "F1"
+          ],
+          [
+            0.8087992769642789,
+            0.37854767402710593,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:00": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:00",
+      "saved_utc": "2026-09-25T07:17:28.324625+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:01": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:01",
+      "saved_utc": "2026-09-25T07:17:36.337914+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:02": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:02",
+      "saved_utc": "2026-09-25T07:17:45.530809+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:03": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:03",
+      "saved_utc": "2026-09-25T07:18:07.650036+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:04": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:04",
+      "saved_utc": "2026-09-25T07:18:20.479372+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:05": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:05",
+      "saved_utc": "2026-09-25T07:18:27.914222+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:06": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:06",
+      "saved_utc": "2026-09-25T07:18:42.489985+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8544407990190958,
+            0.37755845437839675,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.806743355885849,
+            0.38754235766776624,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:07": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:07",
+      "saved_utc": "2026-09-25T07:18:49.617694+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8534128384798808,
+            0.35928360098490575,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.806743355885849,
+            0.3798326288329145,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:08": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:08",
+      "saved_utc": "2026-09-25T07:18:55.769421+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8585526411759558,
+            0.3391812622520656,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.8129111191211389,
+            0.37340785480387145,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:09": {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:09",
+      "saved_utc": "2026-09-25T07:19:01.337604+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8534128384798808,
+            0.33369880623401826,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.815995000738784,
+            0.37726271922129734,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:00": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:00",
+      "saved_utc": "2026-09-25T07:19:17.054827+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:01": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:01",
+      "saved_utc": "2026-09-25T07:19:40.354076+00:00",
+      "source_state": "hot_background",
+      "frame_status": "usable",
+      "tv_relation": "unknown",
+      "thermal_background": "hot_background",
+      "V": {
+        "points": []
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:02": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:02",
+      "saved_utc": "2026-09-25T07:19:45.534867+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8523848779406658,
+            0.35380114496685844,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.806743355885849,
+            0.384972448056149,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:03": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:03",
+      "saved_utc": "2026-09-25T07:19:55.832751+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8595806017151707,
+            0.3501461742881602,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.811883158581924,
+            0.3926821768910007,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:04": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:04",
+      "saved_utc": "2026-09-25T07:20:01.320755+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8575246806367407,
+            0.346491203609462,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.8180509218172138,
+            0.3836874932503404,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:05": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:05",
+      "saved_utc": "2026-09-25T07:20:06.827537+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8564967200975258,
+            0.346491203609462,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.798519671572129,
+            0.3669830807748284,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:06": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:06",
+      "saved_utc": "2026-09-25T07:20:11.691343+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8513569174014508,
+            0.35380114496685844,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.802631513728989,
+            0.3939671316968093,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:07": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:07",
+      "saved_utc": "2026-09-25T07:20:17.002621+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8564967200975258,
+            0.35380114496685844,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.8190788823564289,
+            0.3836874932503404,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:08": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:08",
+      "saved_utc": "2026-09-25T07:20:22.887498+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8472450752445908,
+            0.3665935423423021,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.806743355885849,
+            0.38754235766776624,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:09": {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:09",
+      "saved_utc": "2026-09-25T07:20:28.292972+00:00",
+      "source_state": "active_fire",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.8462171147053758,
+            0.3611110863242548,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.804687434807419,
+            0.39653704130842654,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:00": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:00",
+      "saved_utc": "2026-09-25T07:20:55.288863+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2201891463234443,
+            0.7796052290351995,
+            "F1"
+          ],
+          [
+            0.8636924438720307,
+            0.3373537769127165,
+            "F1"
+          ],
+          [
+            0.7865954034309062,
+            0.1856724937467409,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22697361176859218,
+            0.6650925957224275,
+            "F1"
+          ],
+          [
+            0.8108551980427089,
+            0.3669830807748284,
+            "F1"
+          ],
+          [
+            0.7460936840721643,
+            0.274466334756608,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:01": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:01",
+      "saved_utc": "2026-09-25T07:21:12.437027+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.22327302794108927,
+            0.7741227730171522,
+            "F1"
+          ],
+          [
+            0.8688322465681056,
+            0.36842102768165125,
+            "F1"
+          ],
+          [
+            0.7865954034309062,
+            0.1783625523893445,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22491769069016218,
+            0.6689474601398533,
+            "F1"
+          ],
+          [
+            0.8252466455917189,
+            0.368268035580637,
+            "F1"
+          ],
+          [
+            0.7409538813760893,
+            0.27960615397984245,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:02": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:02",
+      "saved_utc": "2026-09-25T07:21:32.412392+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2201891463234443,
+            0.7777777436958504,
+            "F1"
+          ],
+          [
+            0.8636924438720307,
+            0.3373537769127165,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": []
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:03": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:03",
+      "saved_utc": "2026-09-25T07:21:47.277252+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2212171068626593,
+            0.7814327143745486,
+            "F1"
+          ],
+          [
+            0.8575246806367407,
+            0.346491203609462,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.2228617696117322,
+            0.670232414945662,
+            "F1"
+          ],
+          [
+            0.8170229612779989,
+            0.37212289999806286,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:04": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:04",
+      "saved_utc": "2026-09-25T07:22:00.593124+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2171052647057993,
+            0.786915170392596,
+            "F1"
+          ],
+          [
+            0.8606085622543858,
+            0.34831868894881113,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.2208058485333022,
+            0.6676625053340447,
+            "F1"
+          ],
+          [
+            0.8190788823564289,
+            0.37212289999806286,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:05": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:05",
+      "saved_utc": "2026-09-25T07:22:14.412651+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2191611857842293,
+            0.7832601997138977,
+            "F1"
+          ],
+          [
+            0.8575246806367407,
+            0.3391812622520656,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22594565122937718,
+            0.6676625053340447,
+            "F1"
+          ],
+          [
+            0.8170229612779989,
+            0.368268035580637,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:06": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:06",
+      "saved_utc": "2026-09-25T07:23:33.864754+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2191611857842293,
+            0.788742655731945,
+            "F1"
+          ],
+          [
+            0.8688322465681056,
+            0.3519736596275093,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22594565122937718,
+            0.670232414945662,
+            "F1"
+          ],
+          [
+            0.8211348034348589,
+            0.37212289999806286,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:07": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:07",
+      "saved_utc": "2026-09-25T07:23:40.188536+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2191611857842293,
+            0.786915170392596,
+            "F1"
+          ],
+          [
+            0.8606085622543858,
+            0.3355262915733674,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22594565122937718,
+            0.6663775505282361,
+            "F1"
+          ],
+          [
+            0.813939079660354,
+            0.3708379451922542,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:08": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:08",
+      "saved_utc": "2026-09-25T07:23:42.997567+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.2212171068626593,
+            0.7923976264106433,
+            "F1"
+          ],
+          [
+            0.8564967200975258,
+            0.3373537769127165,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22800157230780718,
+            0.6676625053340447,
+            "F1"
+          ],
+          [
+            0.806743355885849,
+            0.3631282163574025,
+            "F1"
+          ]
+        ]
+      }
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:09": {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:09",
+      "saved_utc": "2026-09-25T07:24:01.399167+00:00",
+      "source_state": "residual_heat",
+      "frame_status": "usable",
+      "tv_relation": "same_source",
+      "thermal_background": "none",
+      "V": {
+        "points": [
+          [
+            0.22738487009794925,
+            0.7832601997138977,
+            "F1"
+          ],
+          [
+            0.8359375093132259,
+            0.31359646750117814,
+            "F1"
+          ]
+        ]
+      },
+      "T": {
+        "points": [
+          [
+            0.22697361176859218,
+            0.659952776499193,
+            "F1"
+          ],
+          [
+            0.798519671572129,
+            0.37212289999806286,
+            "F1"
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "dji_b4_hotspot_class_policy_v1",
+  "status": "provisional_for_annotation_qc_not_training_gate",
+  "class_name": "hotspot",
+  "sensor": "T",
+  "positive": [
+    "Compact or contiguous high-temperature region at a burn pile with visible contemporaneous flame or smoke evidence.",
+    "Persistent ember or residual burn-pile heat after visible flames diminish, when temporal continuity and scene location establish the same fire event."
+  ],
+  "negative": [
+    "Warm ground, roof, vegetation, person, vehicle, reflection, or equipment without fire-event evidence.",
+    "Bright region whose relation to a fire event cannot be determined from source footage and context."
+  ],
+  "annotation_guidance": [
+    "Draw around the visibly fire-related hot region, not the whole colored thermal background or camera overlay.",
+    "Separate spatially distinct burn sites; do not join multiple targets in one box solely because both are bright.",
+    "If a small detached bright speck may be an ember or unrelated hot object, flag ambiguous rather than forcing a label.",
+    "Do not infer T/V same-target identity from timestamp alone; visible and thermal fields of view differ."
+  ],
+  "rationale": "The experiment explicitly evaluates residual hotspots; treating a confirmed smoldering burn site as negative in late frames would create time-dependent contradictory labels. Brightness alone is insufficient for a positive.",
+  "needed_confirmation": "Review late-frame source-video continuity and target identity for every proposed residual-heat positive before creating the derived validation split.",
+  "blind_test_accessed": false,
+  "historical_validation_model_exposure": true
+}

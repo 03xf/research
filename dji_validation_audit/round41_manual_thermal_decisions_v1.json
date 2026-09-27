@@ -1,0 +1,38 @@
+{
+  "schema_version": "dji_round41_manual_thermal_decisions_v1",
+  "reviewer": "Codex visual adjudication of native-resolution B4 thermal JPEGs",
+  "scope": "Four clear active-fire hotspots in the development validation set; this is not blind-test annotation.",
+  "source_qc_report_sha256": "5ffe65cfbff17f47daeff037b51ce026ec2dd38d6dfa0ca9945e6057de980a10",
+  "source_candidates_sha256": "8e61a792bec1a6e2c8dc5e2ca2f1719e0fa8c24d31e7001afc3804421617e05c",
+  "class_name": "hotspot",
+  "class_id": 0,
+  "source_labels_must_remain_unchanged": true,
+  "not_usable_for_training": true,
+  "not_a_complete_validation_set": true,
+  "decisions": [
+    {
+      "observation_id": "obs_000569",
+      "bbox_xyxy": [932, 467, 1280, 777],
+      "decision": "accept_visual_core_bbox",
+      "reason": "Covers the clearly fire-related bright burn pile; original label was on cooler ground below."
+    },
+    {
+      "observation_id": "obs_000579",
+      "bbox_xyxy": [735, 320, 1280, 770],
+      "decision": "expand_left_of_automatic_candidate",
+      "reason": "Includes the leftward hot flame plume omitted by the initial color-component rectangle; original label was shifted downward."
+    },
+    {
+      "observation_id": "obs_000589",
+      "bbox_xyxy": [894, 462, 1263, 764],
+      "decision": "accept_visual_core_bbox",
+      "reason": "Covers the contiguous bright burn pile and main plume, excluding detached uncertain specks; original label was on cooler ground below."
+    },
+    {
+      "observation_id": "obs_000599",
+      "bbox_xyxy": [897, 450, 1266, 749],
+      "decision": "accept_visual_core_bbox",
+      "reason": "Covers the contiguous bright burn pile and main plume, excluding detached uncertain specks; original repeated label was on cooler ground below."
+    }
+  ]
+}

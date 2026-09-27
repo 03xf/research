@@ -1,0 +1,73 @@
+{
+  "schema_version": "dji_round19_thermal_hotspot_visual_audit_v1",
+  "scope": "train-only T images; full-resolution visual review with paired V context where available",
+  "blind_test_accessed": false,
+  "validation_labels_modified": false,
+  "class_policy": "hotspot denotes a distinct bright high-temperature region in T; it is not automatically a flame center or LRF target",
+  "records": [
+    {
+      "observation_id": "obs_000574",
+      "finding": "Existing two left hot-region boxes omit the distinct bright right burn pile.",
+      "action": "add_right_hotspot",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [101, 286, 269, 411]},
+        {"class": "hotspot", "bbox_xyxy": [101, 440, 192, 501]},
+        {"class": "hotspot", "bbox_xyxy": [960, 645, 1120, 800]}
+      ]
+    },
+    {
+      "observation_id": "obs_000604",
+      "finding": "Two existing left hot-region boxes omit the equally distinct right burn pile.",
+      "action": "add_right_hotspot",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [82, 298, 267, 432]},
+        {"class": "hotspot", "bbox_xyxy": [73, 455, 194, 525]},
+        {"class": "hotspot", "bbox_xyxy": [970, 645, 1120, 790]}
+      ]
+    },
+    {
+      "observation_id": "obs_000633",
+      "finding": "Existing left hotspot is valid; right bright burn pile is unlabelled.",
+      "action": "add_right_hotspot",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [140, 286, 269, 434]},
+        {"class": "hotspot", "bbox_xyxy": [970, 640, 1120, 795]}
+      ]
+    },
+    {
+      "observation_id": "obs_000729",
+      "finding": "Existing left hotspot is valid; right bright burn pile is unlabelled.",
+      "action": "add_right_hotspot",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [140, 286, 269, 434]},
+        {"class": "hotspot", "bbox_xyxy": [970, 640, 1120, 790]}
+      ]
+    },
+    {
+      "observation_id": "obs_000825",
+      "finding": "Existing small left hotspot is valid; large right bright pile is unlabelled.",
+      "action": "add_right_hotspot",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [125, 310, 205, 405]},
+        {"class": "hotspot", "bbox_xyxy": [965, 640, 1120, 790]}
+      ]
+    },
+    {
+      "observation_id": "obs_000313",
+      "finding": "Both existing hotspot boxes are shifted below the two clearly bright sources.",
+      "action": "rebox_two_hotspots",
+      "proposed_thermal_labels": [
+        {"class": "hotspot", "bbox_xyxy": [230, 380, 330, 465]},
+        {"class": "hotspot", "bbox_xyxy": [920, 515, 1045, 615]}
+      ]
+    },
+    {
+      "observation_id": "obs_000792",
+      "finding": "Existing lower bright pile is labelled; a smaller separate upper-left bright source is visible but its physical identity is uncertain.",
+      "action": "retain_existing_pending_secondary_target_review",
+      "proposed_thermal_labels": []
+    }
+  ],
+  "interpretation": "The five corrected B4 images are correlated frames of one scene, not five independent thermal conditions. They repair missing boxes but cannot alone establish cross-session generalization.",
+  "next_action": "Apply only the six explicit corrections to a separate T training dataset and compare on the unchanged validation split; do not modify blind test or original annotations."
+}

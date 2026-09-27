@@ -1,0 +1,23 @@
+{
+  "schema_version": "dji_validation_review_checkpoint_round38_v1",
+  "goal_stage": "development_validation_full_resolution_adjudication",
+  "source_dataset": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1",
+  "pairs_total": 71,
+  "pairs_raw_first_screened": 71,
+  "pairs_existing_label_overlay_screened": 71,
+  "existing_boxes_declared_invalid_at_native_resolution": 6,
+  "replacement_box_geometry_approved": 0,
+  "pairs_relabelled": 0,
+  "derived_validation_dataset_created": false,
+  "blind_test_accessed_this_round": false,
+  "model_predictions_accessed_this_round": false,
+  "historical_model_assisted_validation_exposure": true,
+  "hotspot_class_policy": "provisional_v1_includes_confirmed_residual_burn_pile_heat_excludes_unrelated_warm_surfaces",
+  "evidence": [
+    "validation_label_audit_v1/validation_review_checkpoint_round37_v1.json",
+    "validation_label_audit_v1/round38_full_resolution_review/round38_hotspot_class_policy_v1.json",
+    "validation_label_audit_v1/round38_full_resolution_review/round38_full_resolution_box_decisions_v1.json"
+  ],
+  "gate_status": "not_qualified",
+  "next_action": "Continue native-resolution box redraw and late-frame hotspot continuity checks, then create isolated corrected validation version. Evaluate without touching blind test; progress training duplicate-label QC in parallel."
+}

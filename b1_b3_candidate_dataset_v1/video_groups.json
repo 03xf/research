@@ -1,0 +1,2175 @@
+[
+  {
+    "batch": "B1",
+    "drone_id": "uav-04",
+    "drone_serial": "1581F7K33258900AP021",
+    "session": "DJI_202609071553_033",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K33258900AP021|DJI_202609071553_033|0002|formal_video",
+    "recording_prefix": "DJI_20260907160203_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "4/DJI_202609071553_033/DJI_20260907160203_0002_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609071553_033/DJI_20260907160203_0002_V.MP4",
+      "recording_prefix": "DJI_20260907160203_0002",
+      "size_bytes": 2838656113,
+      "sha256": "b0d84a8c7afb29886255d11858e570b0ad2c2af490be8b248d20cf31f6d15dd4"
+    },
+    "t": {
+      "source_relative_path": "4/DJI_202609071553_033/DJI_20260907160203_0002_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609071553_033/DJI_20260907160203_0002_T.MP4",
+      "recording_prefix": "DJI_20260907160203_0002",
+      "size_bytes": 1373998993,
+      "sha256": "40bd67cc718125142098565d10dcace725096eec5f3b85619edb34a87e038ff4"
+    },
+    "v_probe": {
+      "duration_s": 906.8059,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "27177"
+    },
+    "t_probe": {
+      "duration_s": 906.8,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "27204"
+    },
+    "candidate_count": 91
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609071532_001",
+    "recording_id": "0005",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3325B100AS0AG|DJI_202609071532_001|0005|formal_video",
+    "recording_prefix": "DJI_20260907160202_0005",
+    "split": "train",
+    "v": {
+      "source_relative_path": "7/DJI_202609071532_001/DJI_20260907160202_0005_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609071532_001/DJI_20260907160202_0005_V.MP4",
+      "recording_prefix": "DJI_20260907160202_0005",
+      "size_bytes": 2308052968,
+      "sha256": "62aaf3a31ca4c7d2afe5c2a539e71fa6540ab92a82ebef2b482664ac816fee77"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609071532_001/DJI_20260907160202_0005_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609071532_001/DJI_20260907160202_0005_T.MP4",
+      "recording_prefix": "DJI_20260907160202_0005",
+      "size_bytes": 1094529152,
+      "sha256": "a1c050063526b6d9e9630536938d43fa78635214001b22b3edb4db1065b600e0"
+    },
+    "v_probe": {
+      "duration_s": 1078.410667,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "32320"
+    },
+    "t_probe": {
+      "duration_s": 1078.6,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "32358"
+    },
+    "candidate_count": 108
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609071543_001",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C24CS00AX535|DJI_202609071543_001|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907154450_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "9/DJI_202609071543_001/DJI_20260907154450_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609071543_001/DJI_20260907154450_0001_V.MP4",
+      "recording_prefix": "DJI_20260907154450_0001",
+      "size_bytes": 4161619,
+      "sha256": "81dc40b42591ca2934916f7d03bb6e312dd08e89b0b057d9d197b3b79a122107"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609071543_001/DJI_20260907154450_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609071543_001/DJI_20260907154450_0001_T.MP4",
+      "recording_prefix": "DJI_20260907154450_0001",
+      "size_bytes": 2303585,
+      "sha256": "87d7747392142cdb9150aca236f45037f3b7a8218e8001caf4ade9063b831bbe"
+    },
+    "v_probe": {
+      "duration_s": 1.868533,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "56"
+    },
+    "t_probe": {
+      "duration_s": 1.9,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "57"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609071543_001",
+    "recording_id": "0003",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3C24CS00AX535|DJI_202609071543_001|0003|formal_video",
+    "recording_prefix": "DJI_20260907160202_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "9/DJI_202609071543_001/DJI_20260907160202_0003_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609071543_001/DJI_20260907160202_0003_V.MP4",
+      "recording_prefix": "DJI_20260907160202_0003",
+      "size_bytes": 1950036840,
+      "sha256": "4640228f5c03ba478caba26ab43becdd0f3be425020adaaa02e87e3459160ffd"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609071543_001/DJI_20260907160202_0003_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609071543_001/DJI_20260907160202_0003_T.MP4",
+      "recording_prefix": "DJI_20260907160202_0003",
+      "size_bytes": 695215774,
+      "sha256": "add00a58ddf321cfa29062f5dd86767bd90644b418fb69fe34f36c390afb979f"
+    },
+    "v_probe": {
+      "duration_s": 915.5146,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "27438"
+    },
+    "t_probe": {
+      "duration_s": 915.4,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "27462"
+    },
+    "candidate_count": 92
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-05",
+    "drone_serial": "1581F7K3C251400CFB45",
+    "session": "DJI_202609071622_002",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C251400CFB45|DJI_202609071622_002|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260907162723_0002",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "5/DJI_202609071622_002/DJI_20260907162723_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机05_1581F7K3C251400CFB45/DJI_202609071622_002/DJI_20260907162723_0002_V.MP4",
+      "recording_prefix": "DJI_20260907162723_0002",
+      "size_bytes": 11972223,
+      "sha256": "3be83050ff28d379ad96cd5e546a271f76734fef2df8813516a1f1cca2295195"
+    },
+    "t": {
+      "source_relative_path": "5/DJI_202609071622_002/DJI_20260907162723_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机05_1581F7K3C251400CFB45/DJI_202609071622_002/DJI_20260907162723_0002_T.MP4",
+      "recording_prefix": "DJI_20260907162723_0002",
+      "size_bytes": 6328775,
+      "sha256": "33d493629c28b7f81c300d6bac90061f68a8365ebf0656fae57708adf62bd9a3"
+    },
+    "v_probe": {
+      "duration_s": 3.336667,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "100"
+    },
+    "t_probe": {
+      "duration_s": 3.366667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "101"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609071553_002",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3C251800CYBVP|DJI_202609071553_002|0001|formal_video",
+    "recording_prefix": "DJI_20260907160207_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609071553_002/DJI_20260907160207_0001_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609071553_002/DJI_20260907160207_0001_V.MP4",
+      "recording_prefix": "DJI_20260907160207_0001",
+      "size_bytes": 1927455808,
+      "sha256": "cc6c2290e9f45ddcfef3ad8b0bb691670a184c89cf23ce9a7111f2562a261fcd"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609071553_002/DJI_20260907160207_0001_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609071553_002/DJI_20260907160207_0001_T.MP4",
+      "recording_prefix": "DJI_20260907160207_0001",
+      "size_bytes": 918696310,
+      "sha256": "31f28126110b3f7656eef5421cd180e72302023e4011debe6b42b60f07e91b1d"
+    },
+    "v_probe": {
+      "duration_s": 904.770533,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "27116"
+    },
+    "t_probe": {
+      "duration_s": 904.866667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "27146"
+    },
+    "candidate_count": 90
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609071535_001",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C254N00D16Y8|DJI_202609071535_001|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907155637_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "6/DJI_202609071535_001/DJI_20260907155637_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609071535_001/DJI_20260907155637_0001_V.MP4",
+      "recording_prefix": "DJI_20260907155637_0001",
+      "size_bytes": 13912697,
+      "sha256": "6a59c51111f74b40b7538cde5e4559a4bff9618e4a38b46bc64b1f1a4659c5d4"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609071535_001/DJI_20260907155637_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609071535_001/DJI_20260907155637_0001_T.MP4",
+      "recording_prefix": "DJI_20260907155637_0001",
+      "size_bytes": 7083622,
+      "sha256": "d3244b0d3eda72411a5b8d6740c9de9e628db9140b5adb7512018ed59f0bc89c"
+    },
+    "v_probe": {
+      "duration_s": 5.939267,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "178"
+    },
+    "t_probe": {
+      "duration_s": 6.0,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "180"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609071535_001",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3C254N00D16Y8|DJI_202609071535_001|0002|formal_video",
+    "recording_prefix": "DJI_20260907160153_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "6/DJI_202609071535_001/DJI_20260907160153_0002_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609071535_001/DJI_20260907160153_0002_V.MP4",
+      "recording_prefix": "DJI_20260907160153_0002",
+      "size_bytes": 1964248454,
+      "sha256": "a1c27d81408c15f7ba70566393922966d83f71a739d464b57e4f5ea76ca6e0bd"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609071535_001/DJI_20260907160153_0002_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609071535_001/DJI_20260907160153_0002_T.MP4",
+      "recording_prefix": "DJI_20260907160153_0002",
+      "size_bytes": 928708612,
+      "sha256": "adf3f5f9dd50e7b653bed6cf4b365b7236f0e8bdf479bddd6d09fcc8e576614a"
+    },
+    "v_probe": {
+      "duration_s": 915.547967,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "27439"
+    },
+    "t_probe": {
+      "duration_s": 915.566667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "27467"
+    },
+    "candidate_count": 92
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609071448_001",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C255900D76E8|DJI_202609071448_001|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907145316_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609071448_001/DJI_20260907145316_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071448_001/DJI_20260907145316_0001_V.MP4",
+      "recording_prefix": "DJI_20260907145316_0001",
+      "size_bytes": 67881213,
+      "sha256": "1b772f87dc805c015c0cbaebed9db203f17bfd4071ece88c2cb3f43d5c4ca8f3"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609071448_001/DJI_20260907145316_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071448_001/DJI_20260907145316_0001_T.MP4",
+      "recording_prefix": "DJI_20260907145316_0001",
+      "size_bytes": 32791684,
+      "sha256": "96867803fefae6ebc56a936211d4f920ad365170b0390596af023ace20ed93ce"
+    },
+    "v_probe": {
+      "duration_s": 30.997633,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "929"
+    },
+    "t_probe": {
+      "duration_s": 30.966667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "929"
+    },
+    "candidate_count": 3
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609071448_001",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C255900D76E8|DJI_202609071448_001|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260907150014_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609071448_001/DJI_20260907150014_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071448_001/DJI_20260907150014_0002_V.MP4",
+      "recording_prefix": "DJI_20260907150014_0002",
+      "size_bytes": 15709753,
+      "sha256": "7122c8d1a477954b0d0719287f9896e4466d2faeab41bf02afd23b52eba4f3da"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609071448_001/DJI_20260907150014_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071448_001/DJI_20260907150014_0002_T.MP4",
+      "recording_prefix": "DJI_20260907150014_0002",
+      "size_bytes": 8269038,
+      "sha256": "d3afd9d0f9be4229026310b186c15c566732e3e20f1cf266976a643584afe1e3"
+    },
+    "v_probe": {
+      "duration_s": 6.7067,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "201"
+    },
+    "t_probe": {
+      "duration_s": 6.733333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "202"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609071609_002",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C255900D76E8|DJI_202609071609_002|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907161154_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609071609_002/DJI_20260907161154_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071609_002/DJI_20260907161154_0001_V.MP4",
+      "recording_prefix": "DJI_20260907161154_0001",
+      "size_bytes": 211402421,
+      "sha256": "3fd964f8a7cde61bdb50a714d1cd12a2780967533665aa4d1f738629a6de7609"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609071609_002/DJI_20260907161154_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071609_002/DJI_20260907161154_0001_T.MP4",
+      "recording_prefix": "DJI_20260907161154_0001",
+      "size_bytes": 101540922,
+      "sha256": "29a6ce67693f5d6877ba3c2bc08d19d2845c62ab72205fd968da7fd339435dee"
+    },
+    "v_probe": {
+      "duration_s": 98.731967,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "2959"
+    },
+    "t_probe": {
+      "duration_s": 98.833333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "2965"
+    },
+    "candidate_count": 10
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609071609_002",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C255900D76E8|DJI_202609071609_002|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260907161336_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609071609_002/DJI_20260907161336_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071609_002/DJI_20260907161336_0002_V.MP4",
+      "recording_prefix": "DJI_20260907161336_0002",
+      "size_bytes": 317251327,
+      "sha256": "7afc675f53cbb66801c3a706d573a3ee33f00dffddcb7f8888b6a52d10609d48"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609071609_002/DJI_20260907161336_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609071609_002/DJI_20260907161336_0002_T.MP4",
+      "recording_prefix": "DJI_20260907161336_0002",
+      "size_bytes": 151539923,
+      "sha256": "1e64c6db4fb0baffe28b436fc50198d9bb04103e4a248ed64efac594a52eb1a1"
+    },
+    "v_probe": {
+      "duration_s": 148.381567,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "4447"
+    },
+    "t_probe": {
+      "duration_s": 148.3,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "4449"
+    },
+    "candidate_count": 15
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-08",
+    "drone_serial": "1581F7K3C256N00DCP1T",
+    "session": "DJI_202609071536_001",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3C256N00DCP1T|DJI_202609071536_001|0001|formal_video",
+    "recording_prefix": "DJI_20260907160201_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "8/DJI_202609071536_001/DJI_20260907160201_0001_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609071536_001/DJI_20260907160201_0001_V.MP4",
+      "recording_prefix": "DJI_20260907160201_0001",
+      "size_bytes": 2148460439,
+      "sha256": "fd6211e247e8a5536150fc50f62d6e3750778fcdafee0c0b17752219fa7a208b"
+    },
+    "t": {
+      "source_relative_path": "8/DJI_202609071536_001/DJI_20260907160201_0001_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609071536_001/DJI_20260907160201_0001_T.MP4",
+      "recording_prefix": "DJI_20260907160201_0001",
+      "size_bytes": 1016023296,
+      "sha256": "3b51d283e86519305cf37e848248cb325ed43dfe0ae4aca70e8790c8b9791598"
+    },
+    "v_probe": {
+      "duration_s": 1001.4004,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "30012"
+    },
+    "t_probe": {
+      "duration_s": 1001.266667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "30038"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071516_002",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071516_002|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907152749_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071516_002/DJI_20260907152749_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071516_002/DJI_20260907152749_0001_V.MP4",
+      "recording_prefix": "DJI_20260907152749_0001",
+      "size_bytes": 216537563,
+      "sha256": "286686c1938fb82a64b92b28b4c5ded8ede4cba895c44d589d08dec5ccf30455"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071516_002/DJI_20260907152749_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071516_002/DJI_20260907152749_0001_T.MP4",
+      "recording_prefix": "DJI_20260907152749_0001",
+      "size_bytes": 95946029,
+      "sha256": "22383fdb601fe8d1aac60993e794007873e6acfced7dc1126423c0a1fc41e0e7"
+    },
+    "v_probe": {
+      "duration_s": 102.969533,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "3086"
+    },
+    "t_probe": {
+      "duration_s": 103.166667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "3095"
+    },
+    "candidate_count": 10
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071534_003",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071534_003|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260907155619_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155619_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155619_0001_V.MP4",
+      "recording_prefix": "DJI_20260907155619_0001",
+      "size_bytes": 17084226,
+      "sha256": "852c90f542a1046c2fb954937803c0728ed8d51984319add2e5fdf86f18dc8c1"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155619_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155619_0001_T.MP4",
+      "recording_prefix": "DJI_20260907155619_0001",
+      "size_bytes": 8510159,
+      "sha256": "a16be33f416123031ecd7ccbc3bf00284fff68e4a1ec361d08bf928249c40e12"
+    },
+    "v_probe": {
+      "duration_s": 7.273933,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "218"
+    },
+    "t_probe": {
+      "duration_s": 7.166667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "215"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071534_003",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071534_003|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260907155633_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155633_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155633_0002_V.MP4",
+      "recording_prefix": "DJI_20260907155633_0002",
+      "size_bytes": 14659627,
+      "sha256": "373ea7b756d3b6d7912de599bf0e80f9e3d45e461f34ae7c2121d5dc8b16441f"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155633_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155633_0002_T.MP4",
+      "recording_prefix": "DJI_20260907155633_0002",
+      "size_bytes": 7132027,
+      "sha256": "1962fc7056e5a836e5d243e65a1b6eddd50d31fe86eace2c79a90acd7c76fcdf"
+    },
+    "v_probe": {
+      "duration_s": 6.1061,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "183"
+    },
+    "t_probe": {
+      "duration_s": 5.933333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "178"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071534_003",
+    "recording_id": "0003",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071534_003|0003|short_or_supplement",
+    "recording_prefix": "DJI_20260907155817_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155817_0003_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155817_0003_V.MP4",
+      "recording_prefix": "DJI_20260907155817_0003",
+      "size_bytes": 28380221,
+      "sha256": "c0d593018d29f04e1c66f172e1b20a50498ba413dac068c67980027ffa05a17b"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907155817_0003_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907155817_0003_T.MP4",
+      "recording_prefix": "DJI_20260907155817_0003",
+      "size_bytes": 13955262,
+      "sha256": "e5e26b6e255fccbdd536a84b78ac98ff5d90e27dd04f4ff18db284314378543d"
+    },
+    "v_probe": {
+      "duration_s": 12.545867,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "376"
+    },
+    "t_probe": {
+      "duration_s": 12.566667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "377"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071534_003",
+    "recording_id": "0004",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071534_003|0004|short_or_supplement",
+    "recording_prefix": "DJI_20260907160144_0004",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907160144_0004_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907160144_0004_V.MP4",
+      "recording_prefix": "DJI_20260907160144_0004",
+      "size_bytes": 13636361,
+      "sha256": "de621d19b1093ab03baeb247bae7a3634b254d6c5930d3aefc50dced44616916"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907160144_0004_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907160144_0004_T.MP4",
+      "recording_prefix": "DJI_20260907160144_0004",
+      "size_bytes": 6824476,
+      "sha256": "14c17ee9779ef1a96414a9f9c0f4c8cdae36a0f55cfc80306f5727649e2cbe21"
+    },
+    "v_probe": {
+      "duration_s": 5.7057,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "171"
+    },
+    "t_probe": {
+      "duration_s": 5.766667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "173"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B1",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609071534_003",
+    "recording_id": "0005",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B1|1581F7K3C267500D2DQD|DJI_202609071534_003|0005|formal_video",
+    "recording_prefix": "DJI_20260907160153_0005",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907160153_0005_V.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907160153_0005_V.MP4",
+      "recording_prefix": "DJI_20260907160153_0005",
+      "size_bytes": 1966811675,
+      "sha256": "3857e216503e52a308c14a8eaece84d557c2b5e00ed1659493c9d7decaaecf92"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609071534_003/DJI_20260907160153_0005_T.MP4",
+      "target_relative_path": "01_第一批_20260907_1602_单火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907160153_0005_T.MP4",
+      "recording_prefix": "DJI_20260907160153_0005",
+      "size_bytes": 930066369,
+      "sha256": "f9a99f50a241449e01df8d4c9cb2c808238423d78db2933c8951439498905f72"
+    },
+    "v_probe": {
+      "duration_s": 916.6157,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "27471"
+    },
+    "t_probe": {
+      "duration_s": 916.6,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "27498"
+    },
+    "candidate_count": 92
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-04",
+    "drone_serial": "1581F7K33258900AP021",
+    "session": "DJI_202609080915_034",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K33258900AP021|DJI_202609080915_034|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092113_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "4/DJI_202609080915_034/DJI_20260908092113_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机04_1581F7K33258900AP021/DJI_202609080915_034/DJI_20260908092113_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092113_0001",
+      "size_bytes": 13046548,
+      "sha256": "7c9a36e828d7353f18cfe6851338641a9111363117981c0763c2d4871a85bbf3"
+    },
+    "t": {
+      "source_relative_path": "4/DJI_202609080915_034/DJI_20260908092113_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机04_1581F7K33258900AP021/DJI_202609080915_034/DJI_20260908092113_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092113_0001",
+      "size_bytes": 6956875,
+      "sha256": "0c06a94cf1a9da76064ec83c916e338112aff16879339d1f9b6b31a4f394e751"
+    },
+    "v_probe": {
+      "duration_s": 3.7037,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "111"
+    },
+    "t_probe": {
+      "duration_s": 3.7,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "111"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-04",
+    "drone_serial": "1581F7K33258900AP021",
+    "session": "DJI_202609080915_034",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K33258900AP021|DJI_202609080915_034|0002|formal_video",
+    "recording_prefix": "DJI_20260908092436_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "4/DJI_202609080915_034/DJI_20260908092436_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080915_034/DJI_20260908092436_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092436_0002",
+      "size_bytes": 3112533807,
+      "sha256": "8530b7e2b7b0bbf6d13ef3f15a8e197eacdf328b46dc4d2f7b81ebb0657ac4ce"
+    },
+    "t": {
+      "source_relative_path": "4/DJI_202609080915_034/DJI_20260908092436_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080915_034/DJI_20260908092436_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092436_0002",
+      "size_bytes": 1507042666,
+      "sha256": "bf850d1562048fb26e6f93a16af65f3380d80e9f721032c0065e8506ab838222"
+    },
+    "v_probe": {
+      "duration_s": 994.2933,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "29799"
+    },
+    "t_probe": {
+      "duration_s": 994.266667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "29828"
+    },
+    "candidate_count": 99
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609080909_002",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3325B100AS0AG|DJI_202609080909_002|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092219_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908092219_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908092219_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092219_0001",
+      "size_bytes": 8349111,
+      "sha256": "b1a7f618a2b14314b8e2262d19f63a84bd36cb972a876b0fc4497037ab8d6761"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908092219_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908092219_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092219_0001",
+      "size_bytes": 4683811,
+      "sha256": "2acd6ce60de9612c9f4eab3d81682d33b295003031fbbde17c633abc83f3cc75"
+    },
+    "v_probe": {
+      "duration_s": 3.1031,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "93"
+    },
+    "t_probe": {
+      "duration_s": 3.133333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "94"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609080909_002",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3325B100AS0AG|DJI_202609080909_002|0002|formal_video",
+    "recording_prefix": "DJI_20260908092438_0002",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908092438_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908092438_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092438_0002",
+      "size_bytes": 2118935708,
+      "sha256": "4409ab22feecc2a3f8c3f9c7298ee9e893230d042e46cd57a991bba43f4e5852"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908092438_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908092438_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092438_0002",
+      "size_bytes": 1010066177,
+      "sha256": "3ed32f1cca453af0e71ea59cc86aff8487be059ed785e3a05e96354b34bc7857"
+    },
+    "v_probe": {
+      "duration_s": 995.0941,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "29823"
+    },
+    "t_probe": {
+      "duration_s": 995.033333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "29851"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609080909_002",
+    "recording_id": "0003",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3325B100AS0AG|DJI_202609080909_002|0003|short_or_supplement",
+    "recording_prefix": "DJI_20260908094144_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908094144_0003_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908094144_0003_V.MP4",
+      "recording_prefix": "DJI_20260908094144_0003",
+      "size_bytes": 325439148,
+      "sha256": "382dbdce042c554e966340b6db184d46f9413a9cff7f9495a93e59b98fff2d3b"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908094144_0003_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908094144_0003_T.MP4",
+      "recording_prefix": "DJI_20260908094144_0003",
+      "size_bytes": 155562223,
+      "sha256": "e712ca99a2ed43acd42c7685bc5faa31925c01f3c11a5e3d471c8beffa004aed"
+    },
+    "v_probe": {
+      "duration_s": 152.185367,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "4561"
+    },
+    "t_probe": {
+      "duration_s": 152.1,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "4563"
+    },
+    "candidate_count": 15
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609080909_002",
+    "recording_id": "0004",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3325B100AS0AG|DJI_202609080909_002|0004|short_or_supplement",
+    "recording_prefix": "DJI_20260908094419_0004",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908094419_0004_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908094419_0004_V.MP4",
+      "recording_prefix": "DJI_20260908094419_0004",
+      "size_bytes": 132276892,
+      "sha256": "82abe2b67a99b23a6be116319d7faf9f19a63f2b580015676e750fb0676852ed"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609080909_002/DJI_20260908094419_0004_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908094419_0004_T.MP4",
+      "recording_prefix": "DJI_20260908094419_0004",
+      "size_bytes": 63409397,
+      "sha256": "e1075ff86b4fb6ebed821d27ac50dbef4dfa6854ed74e9c2e49c5a8ea4fdc8a0"
+    },
+    "v_probe": {
+      "duration_s": 61.4614,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "1842"
+    },
+    "t_probe": {
+      "duration_s": 61.433333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "1843"
+    },
+    "candidate_count": 6
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609080915_003",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C24CS00AX535|DJI_202609080915_003|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092155_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092155_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092155_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092155_0001",
+      "size_bytes": 9292705,
+      "sha256": "0c3bf0a69db6e44b2cf42007f357c0df2af5002092ec40fb69bca3c9f802ee08"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092155_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092155_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092155_0001",
+      "size_bytes": 4679761,
+      "sha256": "eb38b27760f61bcf45e1dc61d425b5194f80f94a2a24f3a832e728e87d78353e"
+    },
+    "v_probe": {
+      "duration_s": 3.7037,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "111"
+    },
+    "t_probe": {
+      "duration_s": 3.733333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "112"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609080915_003",
+    "recording_id": "0003",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C24CS00AX535|DJI_202609080915_003|0003|short_or_supplement",
+    "recording_prefix": "DJI_20260908092311_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092311_0003_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092311_0003_V.MP4",
+      "recording_prefix": "DJI_20260908092311_0003",
+      "size_bytes": 9103688,
+      "sha256": "74442e58e42090f62e51246dc6a9bb04771c815533375b295f3868c395c155d6"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092311_0003_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092311_0003_T.MP4",
+      "recording_prefix": "DJI_20260908092311_0003",
+      "size_bytes": 4423015,
+      "sha256": "72d9cf1d0968ae140c22ffe4850e98bbfcef7912b27dc475596101cb411a8f94"
+    },
+    "v_probe": {
+      "duration_s": 3.536867,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "106"
+    },
+    "t_probe": {
+      "duration_s": 3.466667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "104"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609080915_003",
+    "recording_id": "0004",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C24CS00AX535|DJI_202609080915_003|0004|formal_video",
+    "recording_prefix": "DJI_20260908092435_0004",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092435_0004_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092435_0004_V.MP4",
+      "recording_prefix": "DJI_20260908092435_0004",
+      "size_bytes": 2147462400,
+      "sha256": "2356a6101c0299d07f2002895e72cedfb428dbaa6ba697088271bf21b93d02f2"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609080915_003/DJI_20260908092435_0004_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080915_003/DJI_20260908092435_0004_T.MP4",
+      "recording_prefix": "DJI_20260908092435_0004",
+      "size_bytes": 702036007,
+      "sha256": "947a52c9aac3e7fd5651b910dccd49e45471aade7f8b554984b11187c2f6fd48"
+    },
+    "v_probe": {
+      "duration_s": 1001.066733,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "30002"
+    },
+    "t_probe": {
+      "duration_s": 1001.033333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "30031"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-05",
+    "drone_serial": "1581F7K3C251400CFB45",
+    "session": "DJI_202609080912_003",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C251400CFB45|DJI_202609080912_003|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092228_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "5/DJI_202609080912_003/DJI_20260908092228_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机05_1581F7K3C251400CFB45/DJI_202609080912_003/DJI_20260908092228_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092228_0001",
+      "size_bytes": 12981592,
+      "sha256": "0852d530ff658dcd444613f0f59432948acec6dac64e29042e854ec90ef17300"
+    },
+    "t": {
+      "source_relative_path": "5/DJI_202609080912_003/DJI_20260908092228_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机05_1581F7K3C251400CFB45/DJI_202609080912_003/DJI_20260908092228_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092228_0001",
+      "size_bytes": 7214435,
+      "sha256": "0b4d19d5f3dbc820d83400821e848b0b086f24632dd17d8d67eda91d2da51617"
+    },
+    "v_probe": {
+      "duration_s": 3.636967,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "109"
+    },
+    "t_probe": {
+      "duration_s": 3.8,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "114"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-05",
+    "drone_serial": "1581F7K3C251400CFB45",
+    "session": "DJI_202609080912_003",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C251400CFB45|DJI_202609080912_003|0002|formal_video",
+    "recording_prefix": "DJI_20260908092427_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "5/DJI_202609080912_003/DJI_20260908092427_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机05_1581F7K3C251400CFB45/DJI_202609080912_003/DJI_20260908092427_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092427_0002",
+      "size_bytes": 3123208786,
+      "sha256": "bfed879f687612028962d28ccc29ca66ccf7d36f65e99811b09bd62f7cefd76d"
+    },
+    "t": {
+      "source_relative_path": "5/DJI_202609080912_003/DJI_20260908092427_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机05_1581F7K3C251400CFB45/DJI_202609080912_003/DJI_20260908092427_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092427_0002",
+      "size_bytes": 1512318473,
+      "sha256": "d66de2f560576ba3334a012945807a1f940374f1f3f1ee4a96054e1e786cdb9e"
+    },
+    "v_probe": {
+      "duration_s": 997.7968,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "29904"
+    },
+    "t_probe": {
+      "duration_s": 997.833333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "29935"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609080913_003",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C251800CYBVP|DJI_202609080913_003|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092406_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092406_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092406_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092406_0001",
+      "size_bytes": 3517751,
+      "sha256": "5dbf76c95f852b9a79c77381c5288f672561f923c3576fdd32a547e226b3b188"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092406_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092406_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092406_0001",
+      "size_bytes": 2319125,
+      "sha256": "74f4224d309da75494d9e3d9ece4e81932cfa950c8030b1520244a82ba5dce06"
+    },
+    "v_probe": {
+      "duration_s": 0.734067,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "22"
+    },
+    "t_probe": {
+      "duration_s": 0.766667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "23"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609080913_003",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C251800CYBVP|DJI_202609080913_003|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260908092420_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092420_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092420_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092420_0002",
+      "size_bytes": 21244807,
+      "sha256": "603f6479ec0b8a51c54b2990b18c018c33e4cc225b1156a52c3ca0a2fc1fb1f2"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092420_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092420_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092420_0002",
+      "size_bytes": 10712972,
+      "sha256": "3fd46d225f8b80c9e830b9c6e97008f24b6b156d521b2bb49664039e24af3c5f"
+    },
+    "v_probe": {
+      "duration_s": 9.175833,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "275"
+    },
+    "t_probe": {
+      "duration_s": 9.1,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "273"
+    },
+    "candidate_count": 1
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609080913_003",
+    "recording_id": "0003",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C251800CYBVP|DJI_202609080913_003|0003|formal_video",
+    "recording_prefix": "DJI_20260908092431_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092431_0003_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092431_0003_V.MP4",
+      "recording_prefix": "DJI_20260908092431_0003",
+      "size_bytes": 2113661653,
+      "sha256": "5c68615626d0ca9a2612d0b71be52ccc6b46ee788a99528309c05d27dd319bce"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609080913_003/DJI_20260908092431_0003_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092431_0003_T.MP4",
+      "recording_prefix": "DJI_20260908092431_0003",
+      "size_bytes": 1007762366,
+      "sha256": "1b1d47ab155a648698034f65b88ad17583bfd300451705415cd7b55cd450acb7"
+    },
+    "v_probe": {
+      "duration_s": 992.224567,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "29737"
+    },
+    "t_probe": {
+      "duration_s": 992.2,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "29766"
+    },
+    "candidate_count": 99
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609080945_004",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C251800CYBVP|DJI_202609080945_004|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908100604_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609080945_004/DJI_20260908100604_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080945_004/DJI_20260908100604_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100604_0001",
+      "size_bytes": 296587789,
+      "sha256": "bfdedcb2a50770d52f6fcd838da105faab2ed64e566454b1c6077070b5f0c9d3"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609080945_004/DJI_20260908100604_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机01_1581F7K3C251800CYBVP/DJI_202609080945_004/DJI_20260908100604_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100604_0001",
+      "size_bytes": 141663824,
+      "sha256": "625172d9887afa8f02faf724a266d695a78319c99f9f2280bc6a6ad5b5fc49cd"
+    },
+    "v_probe": {
+      "duration_s": 138.571767,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "4153"
+    },
+    "t_probe": {
+      "duration_s": 138.566667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "4157"
+    },
+    "candidate_count": 14
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609080910_002",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C254N00D16Y8|DJI_202609080910_002|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092133_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "6/DJI_202609080910_002/DJI_20260908092133_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609080910_002/DJI_20260908092133_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092133_0001",
+      "size_bytes": 9607920,
+      "sha256": "717c25a907feee66a793f109642f69c9e6be25cf33f21692698cd2cf3c1ff432"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609080910_002/DJI_20260908092133_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609080910_002/DJI_20260908092133_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092133_0001",
+      "size_bytes": 5088509,
+      "sha256": "2d0278a06e3faef7b8c3393d67c8cf8a929089a46723c9f8512003d58a08f40b"
+    },
+    "v_probe": {
+      "duration_s": 3.8038,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "114"
+    },
+    "t_probe": {
+      "duration_s": 3.766667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "113"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609080910_002",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C254N00D16Y8|DJI_202609080910_002|0002|formal_video",
+    "recording_prefix": "DJI_20260908092438_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "6/DJI_202609080910_002/DJI_20260908092438_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609080910_002/DJI_20260908092438_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092438_0002",
+      "size_bytes": 2121466129,
+      "sha256": "03557b7488c0da50aceda447f5f9d00cbe8c742d71ec951c9bbc1d96578e81c3"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609080910_002/DJI_20260908092438_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609080910_002/DJI_20260908092438_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092438_0002",
+      "size_bytes": 1011070890,
+      "sha256": "0c326edbc21751720493609be8e7e3121587078a1d869f3ab65a9b3b0c1c22df"
+    },
+    "v_probe": {
+      "duration_s": 996.028367,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "29851"
+    },
+    "t_probe": {
+      "duration_s": 996.066667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "29882"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609080946_003",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C254N00D16Y8|DJI_202609080946_003|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260908102508_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "6/DJI_202609080946_003/DJI_20260908102508_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609080946_003/DJI_20260908102508_0002_V.MP4",
+      "recording_prefix": "DJI_20260908102508_0002",
+      "size_bytes": 266934147,
+      "sha256": "0537764b0a26d6105b9f8e34de845b079bb75712efb36b71c4025c6431a9dd67"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609080946_003/DJI_20260908102508_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机06_1581F7K3C254N00D16Y8/DJI_202609080946_003/DJI_20260908102508_0002_T.MP4",
+      "recording_prefix": "DJI_20260908102508_0002",
+      "size_bytes": 179122077,
+      "sha256": "6e5c3c72b4fbd0a5c2ba24894f014c699b7520d8137fdf6f81e941987f19d80d"
+    },
+    "v_probe": {
+      "duration_s": 179.68,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "5385"
+    },
+    "t_probe": {
+      "duration_s": 180.167,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5405"
+    },
+    "candidate_count": 18
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609080916_004",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C255900D76E8|DJI_202609080916_004|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092444_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908092444_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908092444_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092444_0001",
+      "size_bytes": 4234326,
+      "sha256": "6e88bb4fc2f7fb313df6409f89b0831c3ec8a2bb96da80b12df5c959a68b7c26"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908092444_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908092444_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092444_0001",
+      "size_bytes": 2523382,
+      "sha256": "eca0d8cd0499acd301df8ffc002abbbef51ae4194cb65d926cfdf7649a91a922"
+    },
+    "v_probe": {
+      "duration_s": 1.034367,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "31"
+    },
+    "t_probe": {
+      "duration_s": 1.066667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "32"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609080916_004",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C255900D76E8|DJI_202609080916_004|0002|formal_video",
+    "recording_prefix": "DJI_20260908092454_0002",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908092454_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908092454_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092454_0002",
+      "size_bytes": 2152978507,
+      "sha256": "98dafb8d5742312b14dcf6c828f110c9f8dd015d215c5115bcb9bd9f40a364d6"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908092454_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908092454_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092454_0002",
+      "size_bytes": 1025935116,
+      "sha256": "dd89c70d1a81e617745ffa692499bc3338059535b89a4bf3f1c2aa355bb5eb41"
+    },
+    "v_probe": {
+      "duration_s": 1010.976633,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "30299"
+    },
+    "t_probe": {
+      "duration_s": 1010.866667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "30326"
+    },
+    "candidate_count": 101
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609080916_004",
+    "recording_id": "0003",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C255900D76E8|DJI_202609080916_004|0003|short_or_supplement",
+    "recording_prefix": "DJI_20260908094824_0003",
+    "split": "train",
+    "v": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908094824_0003_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908094824_0003_V.MP4",
+      "recording_prefix": "DJI_20260908094824_0003",
+      "size_bytes": 105413505,
+      "sha256": "a99224aca8ddc09d18ab7ef9ec887bcc08b79fa929c6f6dd3f807aa0217c4092"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609080916_004/DJI_20260908094824_0003_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机03_1581F7K3C255900D76E8/DJI_202609080916_004/DJI_20260908094824_0003_T.MP4",
+      "recording_prefix": "DJI_20260908094824_0003",
+      "size_bytes": 52951986,
+      "sha256": "5d9f225010c34399cc78aa2d4449b6159f944bf700af98499973715300cc98e8"
+    },
+    "v_probe": {
+      "duration_s": 51.2512,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "1536"
+    },
+    "t_probe": {
+      "duration_s": 51.233333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "1537"
+    },
+    "candidate_count": 5
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-08",
+    "drone_serial": "1581F7K3C256N00DCP1T",
+    "session": "DJI_202609080922_003",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C256N00DCP1T|DJI_202609080922_003|0001|formal_video",
+    "recording_prefix": "DJI_20260908092433_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "8/DJI_202609080922_003/DJI_20260908092433_0001_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609080922_003/DJI_20260908092433_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092433_0001",
+      "size_bytes": 2307381339,
+      "sha256": "195630dce92e0d4a1d5dae27bdecd8e8b084722ad5ecc68cb9a95cf44055e141"
+    },
+    "t": {
+      "source_relative_path": "8/DJI_202609080922_003/DJI_20260908092433_0001_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609080922_003/DJI_20260908092433_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092433_0001",
+      "size_bytes": 1099626420,
+      "sha256": "3b548d677d0933a992653d1aecfd423a1fbb4b6ea5d4839f54ab052f032a093a"
+    },
+    "v_probe": {
+      "duration_s": 1083.348933,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "32468"
+    },
+    "t_probe": {
+      "duration_s": 1083.366667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "32501"
+    },
+    "candidate_count": 108
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609080909_004",
+    "recording_id": "0001",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B2|1581F7K3C267500D2DQD|DJI_202609080909_004|0001|short_or_supplement",
+    "recording_prefix": "DJI_20260908092250_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609080909_004/DJI_20260908092250_0001_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609080909_004/DJI_20260908092250_0001_V.MP4",
+      "recording_prefix": "DJI_20260908092250_0001",
+      "size_bytes": 7800376,
+      "sha256": "17c4edf53681e07cb058b7bd00cf7becde0fed282fe9889451ec607746110c73"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609080909_004/DJI_20260908092250_0001_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机02_1581F7K3C267500D2DQD/DJI_202609080909_004/DJI_20260908092250_0001_T.MP4",
+      "recording_prefix": "DJI_20260908092250_0001",
+      "size_bytes": 4410030,
+      "sha256": "081a0993ff26bd85e48abd353e918b270ad0216ee8f15f9f4c247c1935422b1a"
+    },
+    "v_probe": {
+      "duration_s": 3.003,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "90"
+    },
+    "t_probe": {
+      "duration_s": 3.0,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "90"
+    },
+    "candidate_count": 0
+  },
+  {
+    "batch": "B2",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609080909_004",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B2|1581F7K3C267500D2DQD|DJI_202609080909_004|0002|formal_video",
+    "recording_prefix": "DJI_20260908092422_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "2/DJI_202609080909_004/DJI_20260908092422_0002_V.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080909_004/DJI_20260908092422_0002_V.MP4",
+      "recording_prefix": "DJI_20260908092422_0002",
+      "size_bytes": 2135663328,
+      "sha256": "e44e00cef379391b0be5c01e5b84946b3e7ef9a499bbeba3f44ed617e7c00917"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609080909_004/DJI_20260908092422_0002_T.MP4",
+      "target_relative_path": "02_第二批_20260908_0924_单火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080909_004/DJI_20260908092422_0002_T.MP4",
+      "recording_prefix": "DJI_20260908092422_0002",
+      "size_bytes": 1018025955,
+      "sha256": "821c635c321b224e86537e84f1fc0deab9d20b5e3c3b2506b948935fcb7edfa3"
+    },
+    "v_probe": {
+      "duration_s": 1002.935267,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "30058"
+    },
+    "t_probe": {
+      "duration_s": 1002.933333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "30088"
+    },
+    "candidate_count": 100
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-04",
+    "drone_serial": "1581F7K33258900AP021",
+    "session": "DJI_202609080957_035",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K33258900AP021|DJI_202609080957_035|0001|formal_video",
+    "recording_prefix": "DJI_20260908100549_0001",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "4/DJI_202609080957_035/DJI_20260908100549_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080957_035/DJI_20260908100549_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100549_0001",
+      "size_bytes": 2744206525,
+      "sha256": "951629ebc556d0b74a8a435c524b40a36dab124d35521cb99c0191316bb23f05"
+    },
+    "t": {
+      "source_relative_path": "4/DJI_202609080957_035/DJI_20260908100549_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080957_035/DJI_20260908100549_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100549_0001",
+      "size_bytes": 1328399079,
+      "sha256": "356b40fce301874ce554a3868b92b17a674e4eb4346aef211fdf7161bd8cebe3"
+    },
+    "v_probe": {
+      "duration_s": 876.609067,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "26272"
+    },
+    "t_probe": {
+      "duration_s": 876.666667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "26300"
+    },
+    "candidate_count": 88
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609081002_003",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3325B100AS0AG|DJI_202609081002_003|0001|formal_video",
+    "recording_prefix": "DJI_20260908100617_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "7/DJI_202609081002_003/DJI_20260908100617_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609081002_003/DJI_20260908100617_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100617_0001",
+      "size_bytes": 1072880255,
+      "sha256": "c24069c80e66e63305bde065227b20abc55977a42a7faa407c06ae17d37bc61d"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609081002_003/DJI_20260908100617_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609081002_003/DJI_20260908100617_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100617_0001",
+      "size_bytes": 511465185,
+      "sha256": "d2ed2938809d8fbc00c2049dba62db1aacffbf9eb36daf251146a6b78dc8c0ba"
+    },
+    "v_probe": {
+      "duration_s": 503.269433,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "15083"
+    },
+    "t_probe": {
+      "duration_s": 503.3,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "15099"
+    },
+    "candidate_count": 50
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-07",
+    "drone_serial": "1581F7K3325B100AS0AG",
+    "session": "DJI_202609081002_003",
+    "recording_id": "0002",
+    "category": "short_or_supplement",
+    "point_timing": "short",
+    "group_key": "B3|1581F7K3325B100AS0AG|DJI_202609081002_003|0002|short_or_supplement",
+    "recording_prefix": "DJI_20260908101451_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "7/DJI_202609081002_003/DJI_20260908101451_0002_V.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609081002_003/DJI_20260908101451_0002_V.MP4",
+      "recording_prefix": "DJI_20260908101451_0002",
+      "size_bytes": 315038002,
+      "sha256": "5add753d6ee4a4f15b6c426ba34e214e88e4c87df27bad3da7892436515adad3"
+    },
+    "t": {
+      "source_relative_path": "7/DJI_202609081002_003/DJI_20260908101451_0002_T.MP4",
+      "target_relative_path": "90_短视频_试拍_补拍/无人机07_1581F7K3325B100AS0AG/DJI_202609081002_003/DJI_20260908101451_0002_T.MP4",
+      "recording_prefix": "DJI_20260908101451_0002",
+      "size_bytes": 150575360,
+      "sha256": "754b2b4732104f31b63782901d1a1dc06a9a7bb17cb64556022e5fa84f5f49db"
+    },
+    "v_probe": {
+      "duration_s": 147.3472,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "4416"
+    },
+    "t_probe": {
+      "duration_s": 147.366667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "4421"
+    },
+    "candidate_count": 15
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-09",
+    "drone_serial": "1581F7K3C24CS00AX535",
+    "session": "DJI_202609080957_004",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C24CS00AX535|DJI_202609080957_004|0001|formal_video",
+    "recording_prefix": "DJI_20260908100604_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "9/DJI_202609080957_004/DJI_20260908100604_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080957_004/DJI_20260908100604_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100604_0001",
+      "size_bytes": 1997185331,
+      "sha256": "3c62687954ab828675334b2cee3dcb966c2db2dd8fbb0a5eb9c0648f7e30cb0b"
+    },
+    "t": {
+      "source_relative_path": "9/DJI_202609080957_004/DJI_20260908100604_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080957_004/DJI_20260908100604_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100604_0001",
+      "size_bytes": 674732789,
+      "sha256": "ffe1bf4877972380eaeb4dc97e634296663dccb981eac4cc757d4a7edfa1284b"
+    },
+    "v_probe": {
+      "duration_s": 937.770167,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "28105"
+    },
+    "t_probe": {
+      "duration_s": 937.666667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "28130"
+    },
+    "candidate_count": 94
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-05",
+    "drone_serial": "1581F7K3C251400CFB45",
+    "session": "DJI_202609080957_004",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C251400CFB45|DJI_202609080957_004|0001|formal_video",
+    "recording_prefix": "DJI_20260908100545_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "5/DJI_202609080957_004/DJI_20260908100545_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机05_1581F7K3C251400CFB45/DJI_202609080957_004/DJI_20260908100545_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100545_0001",
+      "size_bytes": 2735036664,
+      "sha256": "c8c5e9cb0cae3e694748e7fadb95ef2b46ebf5b1322a2e9dc7d2d9e5d282a2ef"
+    },
+    "t": {
+      "source_relative_path": "5/DJI_202609080957_004/DJI_20260908100545_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机05_1581F7K3C251400CFB45/DJI_202609080957_004/DJI_20260908100545_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100545_0001",
+      "size_bytes": 1324269757,
+      "sha256": "525487420fc5d98365a3b6f62340b9a6ae7f3a582a9994ed9fd9feb9f9ce7538"
+    },
+    "v_probe": {
+      "duration_s": 873.539333,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "26180"
+    },
+    "t_probe": {
+      "duration_s": 873.533333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "26206"
+    },
+    "candidate_count": 87
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-01",
+    "drone_serial": "1581F7K3C251800CYBVP",
+    "session": "DJI_202609080945_004",
+    "recording_id": "0002",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C251800CYBVP|DJI_202609080945_004|0002|formal_video",
+    "recording_prefix": "DJI_20260908100826_0002",
+    "split": "train",
+    "v": {
+      "source_relative_path": "1/DJI_202609080945_004/DJI_20260908100826_0002_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609080945_004/DJI_20260908100826_0002_V.MP4",
+      "recording_prefix": "DJI_20260908100826_0002",
+      "size_bytes": 1477645992,
+      "sha256": "25170dc3c62cee428af10353a668ed3e8bd4d130e42920e3dc15796ff70c9300"
+    },
+    "t": {
+      "source_relative_path": "1/DJI_202609080945_004/DJI_20260908100826_0002_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609080945_004/DJI_20260908100826_0002_T.MP4",
+      "recording_prefix": "DJI_20260908100826_0002",
+      "size_bytes": 704237049,
+      "sha256": "7567386fdb0562e21ffe80d60af7c3025b1063d411f02cee570e5ae9f85a5e46"
+    },
+    "v_probe": {
+      "duration_s": 693.626267,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "20788"
+    },
+    "t_probe": {
+      "duration_s": 693.566667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "20807"
+    },
+    "candidate_count": 69
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-06",
+    "drone_serial": "1581F7K3C254N00D16Y8",
+    "session": "DJI_202609080946_003",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C254N00D16Y8|DJI_202609080946_003|0001|formal_video",
+    "recording_prefix": "DJI_20260908100628_0001",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "6/DJI_202609080946_003/DJI_20260908100628_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609080946_003/DJI_20260908100628_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100628_0001",
+      "size_bytes": 1633752072,
+      "sha256": "6b59acf2f32ea4fd917621cfd2f3dd063f090310699aa0431a552ca5f9f7d0f3"
+    },
+    "t": {
+      "source_relative_path": "6/DJI_202609080946_003/DJI_20260908100629_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609080946_003/DJI_20260908100629_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100629_0001",
+      "size_bytes": 774584557,
+      "sha256": "a937c898d9aab856d6e101482b1aa9e0153a7a5ad8fb9fefc6c500e945c105bc"
+    },
+    "v_probe": {
+      "duration_s": 766.6659,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "22977"
+    },
+    "t_probe": {
+      "duration_s": 766.733333,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "23002"
+    },
+    "candidate_count": 77
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-03",
+    "drone_serial": "1581F7K3C255900D76E8",
+    "session": "DJI_202609080957_005",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C255900D76E8|DJI_202609080957_005|0001|formal_video",
+    "recording_prefix": "DJI_20260908100550_0001",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "3/DJI_202609080957_005/DJI_20260908100550_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机03_1581F7K3C255900D76E8/DJI_202609080957_005/DJI_20260908100550_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100550_0001",
+      "size_bytes": 1814539911,
+      "sha256": "b3e9d73028ded7e49b3ac53a3c96df2d9482ac3094d4d888aaf1c1447271c3b2"
+    },
+    "t": {
+      "source_relative_path": "3/DJI_202609080957_005/DJI_20260908100550_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机03_1581F7K3C255900D76E8/DJI_202609080957_005/DJI_20260908100550_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100550_0001",
+      "size_bytes": 865362669,
+      "sha256": "bd70191e1e771c562a181694cecf27b6800a64691b7626f3cb03be150453c5f4"
+    },
+    "v_probe": {
+      "duration_s": 851.684167,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "25525"
+    },
+    "t_probe": {
+      "duration_s": 851.666667,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "25550"
+    },
+    "candidate_count": 85
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-08",
+    "drone_serial": "1581F7K3C256N00DCP1T",
+    "session": "DJI_202609080958_004",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C256N00DCP1T|DJI_202609080958_004|0001|formal_video",
+    "recording_prefix": "DJI_20260908100611_0001",
+    "split": "train",
+    "v": {
+      "source_relative_path": "8/DJI_202609080958_004/DJI_20260908100611_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609080958_004/DJI_20260908100611_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100611_0001",
+      "size_bytes": 1617792548,
+      "sha256": "e0b42d9fa7c2220a49f0e3ff8f7699faf3e6fb170ff61b2afbd3f47ddd49d052"
+    },
+    "t": {
+      "source_relative_path": "8/DJI_202609080958_004/DJI_20260908100611_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609080958_004/DJI_20260908100611_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100611_0001",
+      "size_bytes": 771191100,
+      "sha256": "197585feb541de41ee7c8e90ce6f87eb46f238beac631c7592179bd599e52893"
+    },
+    "v_probe": {
+      "duration_s": 759.091667,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "22750"
+    },
+    "t_probe": {
+      "duration_s": 759.1,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "22773"
+    },
+    "candidate_count": 76
+  },
+  {
+    "batch": "B3",
+    "drone_id": "uav-02",
+    "drone_serial": "1581F7K3C267500D2DQD",
+    "session": "DJI_202609080957_005",
+    "recording_id": "0001",
+    "category": "formal_video",
+    "point_timing": "main_window",
+    "group_key": "B3|1581F7K3C267500D2DQD|DJI_202609080957_005|0001|formal_video",
+    "recording_prefix": "DJI_20260908100606_0001",
+    "split": "dev",
+    "v": {
+      "source_relative_path": "2/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+      "recording_prefix": "DJI_20260908100606_0001",
+      "size_bytes": 1818751505,
+      "sha256": "1cc3d07b96d4bcc5f3c14ba0eb27f72170b2976dc3c345bbdb350ec2212933e1"
+    },
+    "t": {
+      "source_relative_path": "2/DJI_202609080957_005/DJI_20260908100606_0001_T.MP4",
+      "target_relative_path": "03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_T.MP4",
+      "recording_prefix": "DJI_20260908100606_0001",
+      "size_bytes": 866848747,
+      "sha256": "60d8c89115ad155db9dc87101c8fa8275ce09bdf6e99e854fcdc82b09c451eb4"
+    },
+    "v_probe": {
+      "duration_s": 853.485967,
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30000/1001",
+      "nb_frames": "25579"
+    },
+    "t_probe": {
+      "duration_s": 853.6,
+      "width": 1280,
+      "height": 1024,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "25608"
+    },
+    "candidate_count": 85
+  }
+]

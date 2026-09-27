@@ -1,0 +1,15 @@
+{
+  "schema_version": "dji_round43_empty_T_adjudication_v1",
+  "reviewer": "Codex visual review of native T and synchronized V frames",
+  "scope": "B4 development validation; not an untouched test",
+  "approved_observation_ids": ["obs_000635", "obs_000653", "obs_000670", "obs_000726", "obs_000742"],
+  "deferred": [
+    {"observation_id":"obs_000652","reason":"Additional separated bright fragments could be a second hotspot; resolve target decomposition before complete validation label."},
+    {"observation_id":"obs_000661","reason":"A second distinct bright region lies right of the proposed main box; decide one versus two hotspot instances."}
+  ],
+  "cross_sensor_relation": "Do not pair the left residual hotspot in obs_000635/obs_000653 with the right visible smoke solely by timestamp.",
+  "validation_only": true,
+  "training_authorized": false,
+  "full_validation_evaluation_authorized": false,
+  "blind_test_accessed": false
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "dji_round42_empty_T_candidate_decisions_v1",
+  "status": "unapproved_visual_candidates",
+  "basis": "Native T image plus paired V image and within-session time context; do not infer cross-sensor same-target identity solely from timestamp.",
+  "class_policy": "Confirmed fire-related active or residual burn-pile heat may be hotspot; unrelated warm surfaces remain negative.",
+  "blind_test_accessed": false,
+  "source_labels_changed": false,
+  "candidates": [
+    {"observation_id":"obs_000635","bbox_xyxy":[225,625,360,740],"interpretation":"left_residual_burn_pile_hotspot","tv_relation":"V smoke at right burn pile is a separate or unconfirmed target"},
+    {"observation_id":"obs_000653","bbox_xyxy":[225,625,355,735],"interpretation":"left_residual_burn_pile_hotspot","tv_relation":"V smoke at right burn pile is a separate or unconfirmed target"},
+    {"observation_id":"obs_000652","bbox_xyxy":[525,400,675,550],"interpretation":"burn_pile_hotspot_during_visible_smoke","tv_relation":"same physical target not proven without spatial registration"},
+    {"observation_id":"obs_000661","bbox_xyxy":[613,376,821,526],"interpretation":"main_residual_burn_pile_hotspot","tv_relation":"same physical target not proven without spatial registration; detached smaller bright region excluded"},
+    {"observation_id":"obs_000670","bbox_xyxy":[585,485,725,595],"interpretation":"main_residual_burn_pile_hotspot","tv_relation":"V frame smoke is partly obscured by tree; same-target relation unconfirmed"},
+    {"observation_id":"obs_000726","bbox_xyxy":[1060,555,1250,685],"interpretation":"right_residual_burn_pile_hotspot","tv_relation":"V frame shows right burn-pile smoke but no automatic identity claim"},
+    {"observation_id":"obs_000742","bbox_xyxy":[1060,550,1250,685],"interpretation":"right_residual_burn_pile_hotspot","tv_relation":"V frame shows right burn-pile smoke but no automatic identity claim"}
+  ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B2 固定火点位置输出</title>
+<style>
+body{margin:0;background:#101923;color:#eef3f5;font:15px/1.5 "Microsoft YaHei",system-ui,sans-serif}
+header,main{max-width:1450px;margin:auto;padding:18px}h1{font-size:24px;margin:0}h2{font-size:17px;margin:0 0 10px}small,.muted{color:#9fb3bd}
+.badge{display:inline-block;padding:5px 10px;border-radius:5px;background:#45351f;color:#ffd39c;font-weight:700}.badge.on{background:#164e39;color:#9af0c5}
+.position{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:20px;border:1px solid #344654;border-radius:10px;background:#192936;margin-bottom:14px}
+.coord{font-size:25px;font-weight:800;font-variant-numeric:tabular-nums}.coord.off{color:#8295a0}.label{font-size:12px;color:#a5bac4}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.card{padding:13px;border:1px solid #344654;border-radius:10px;background:#192936}.frame{position:relative;background:#05090d}
+.frame img,.frame video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}.thermal img,.thermal video{aspect-ratio:5/4}
+.info{font-size:13px;color:#c3d3d9;min-height:22px}a{color:#80dceb;margin-right:18px}.foot{margin-top:14px;padding:14px;border:1px solid #344654;border-radius:10px;background:#192936}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.coord{font-size:21px}}
+</style></head><body>
+<header><h1>B2 固定火点 · 位置实时输出</h1><small>无人机 01 · 单火点 V/T 录像按原时间间隔处理</small></header>
+<main>
+<section class="position"><div><div class="label">当前明火关联</div><span id="active" class="badge">等待画面</span></div><div><div class="label">固定点经纬度（WGS84）</div><div id="coord" class="coord off">—</div></div><div><div class="label">画面时间 / 跟踪轨迹</div><div id="frameMeta">—</div></div></section>
+<div class="grid">
+<section class="card"><h2>V 可见光 · 判定明火</h2><div class="frame"><img id="V" alt="可见光画面"><video id="Vvideo" controls style="display:none"></video></div><div id="Vinfo" class="info">等待画面</div></section>
+<section class="card"><h2>T 热成像 · 辅助核对</h2><div class="frame thermal"><img id="T" alt="热成像画面"><video id="Tvideo" controls style="display:none"></video></div><div id="Tinfo" class="info">等待画面</div></section>
+</div>
+<section class="foot"><b id="run">启动中</b> · <span id="rate">—</span><p>坐标取自同一物理火点事后 9 次激光测距的参考位置。页面只在固定视角内连续检出 V 明火时输出这个位置；T 热点单独出现不会触发位置。画面检测负责识别和关联，未逐帧测出新的绝对坐标。</p>
+<a href="/api/download/fixed_fire_live.csv">逐帧位置输出 CSV</a><a href="/api/download/results.jsonl">逐帧检测 JSONL</a></section>
+</main>
+<script>
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const latest={V:null,T:null},seq={V:0,T:0},urls={V:null,T:null},busy={V:false,T:false},replay={V:[],T:[]};
+let replayReady=false;
+function draw(){let v=latest.V,t=latest.T,match=(v?.positions||[]).find(p=>p.point_id==='B2_fixed_fire'&&p.association_status==='lrf_reference_lookup');
+  let badge=document.getElementById('active'),coord=document.getElementById('coord');
+  badge.textContent=match?'已确认明火':'当前未确认明火';badge.classList.toggle('on',!!match);
+  coord.textContent=match?Number(match.latitude).toFixed(7)+'° N, '+Number(match.longitude).toFixed(7)+'° E':'—';coord.classList.toggle('off',!match);
+  document.getElementById('frameMeta').textContent=v?Number(v.pts_s).toFixed(2)+' s · '+(match?.track_id||'无稳定轨迹'):'—';
+  document.getElementById('Vinfo').textContent=v?'帧 '+v.frame_seq+' · 检测 '+(v.positions||[]).length+' · '+(match?'固定火点匹配':'未输出位置'):'等待画面';
+  document.getElementById('Tinfo').textContent=t?'帧 '+t.frame_seq+' · 热点候选 '+(t.positions||[]).length+' · '+((t.positions||[]).some(p=>p.association_status==='lrf_reference_lookup')?'近期 V 明火支持':'不独立输出位置'):'等待画面';
+}
+async function frame(sensor,x){if(!x?.frame_seq||x.frame_seq<=seq[sensor]||busy[sensor])return;busy[sensor]=true;let u=null;
+  try{let r=await fetch('/api/frame/'+sensor+'?n='+x.frame_seq,{cache:'no-store'});if(!r.ok)throw Error(r.status);u=URL.createObjectURL(await r.blob());let im=document.getElementById(sensor);await new Promise((ok,fail)=>{im.onload=ok;im.onerror=fail;im.src=u});if(urls[sensor])URL.revokeObjectURL(urls[sensor]);urls[sensor]=u;u=null;seq[sensor]=x.frame_seq;latest[sensor]=x;draw()}catch(e){}finally{if(u)URL.revokeObjectURL(u);busy[sensor]=false}}
+function replayAt(sensor){let rows=replay[sensor],video=document.getElementById(sensor+'video');if(!rows.length)return;let pts=rows[0].pts_s+video.currentTime,best=rows.reduce((a,b)=>Math.abs(b.pts_s-pts)<Math.abs(a.pts_s-pts)?b:a,rows[0]);latest[sensor]=best;draw()}
+async function loadReplay(){if(replayReady)return;let rows=await(await fetch('/api/replay',{cache:'no-store'})).json();for(let sensor of ['V','T']){replay[sensor]=rows.filter(x=>x.sensor===sensor).sort((a,b)=>a.pts_s-b.pts_s);let v=document.getElementById(sensor+'video');v.src='/api/video/'+sensor;v.style.display='block';document.getElementById(sensor).style.display='none';v.addEventListener('timeupdate',()=>replayAt(sensor));v.addEventListener('seeked',()=>replayAt(sensor));replayAt(sensor)}replayReady=true}
+async function tick(){try{let s=await(await fetch('/api/state',{cache:'no-store'})).json();document.getElementById('run').textContent='状态：'+s.run_status_zh;let v=s.sensors.V||{},t=s.sensors.T||{};document.getElementById('rate').textContent='V '+(v.fps?.toFixed(1)??'—')+' / T '+(t.fps?.toFixed(1)??'—')+' FPS';if(s.run_status_zh==='完成'){await loadReplay()}else{await Promise.all([frame('V',v),frame('T',t)])}}catch(e){document.getElementById('run').textContent='连接中断：'+e.message}setTimeout(tick,150)}tick();
+</script></body></html>

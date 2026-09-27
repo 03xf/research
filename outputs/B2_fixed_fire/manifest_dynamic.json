@@ -1,0 +1,57 @@
+{
+  "schema_version": "dji_dual_gpu_realtime_v3",
+  "mode": "clip",
+  "source": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/realtime_b2_v1/B2_fixed_fire_20_60/decoded_input",
+  "source_manifest_sha256": "695b26995a0ef8a3385b6d1302cbb9f23866051b35e45665f855b8c558c9f0bb",
+  "model_freeze": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/model_freeze_preconfirmation_v1.json",
+  "model_freeze_sha256": "9973ff731b1955f9d3d4892f26487ebda1e04683711de7f876654dbf24d1a995",
+  "tracker": "/home/member/xmy/xmy/code/tools/bytetrack_recovery_v1.yaml",
+  "tracker_sha256": "5df09bdfe4d428a01c367366f27c7a9b7e5fc576a3d679a688ef4607828717c6",
+  "gpu": {
+    "V": "0",
+    "T": "1"
+  },
+  "frames": {
+    "V": 200,
+    "T": 200
+  },
+  "paired_count": 151,
+  "unpaired": {
+    "V": 49,
+    "T": 49
+  },
+  "latency_p95_ms": 50.5978821311146,
+  "latency_max_ms": 522.8560119867325,
+  "pair_delta_p95_ms": 48.40000000000089,
+  "elapsed_wall_s": 52.524934959132224,
+  "startup_wall_s": 7.871985532110557,
+  "sustained_fps": {
+    "V": 4.9968586296495126,
+    "T": 5.003815472549174
+  },
+  "effective_fps": {
+    "V": 3.807715329026354,
+    "T": 3.807715329026354
+  },
+  "browser_videos": {
+    "V": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/realtime_b2_v1/B2_dynamic_20_60/V/tracked_browser.mp4",
+    "T": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/realtime_b2_v1/B2_dynamic_20_60/T/tracked_browser.mp4"
+  },
+  "web_preview": {
+    "max_width_px": 640,
+    "jpeg_quality": 40,
+    "scope": "web live preview only"
+  },
+  "positions_csv": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/recovery_v1/realtime_b2_v1/B2_dynamic_20_60/positions.csv",
+  "association_counts": {
+    "unavailable": 172,
+    "thermal_candidate_only": 44,
+    "lrf_reference_lookup": 190
+  },
+  "scene_map": "/home/member/xmy/xmy/code/tools/b2_fixed_fire_scene_v1.json",
+  "scene_map_sha256": "0d12157ee0ab9c9988de525efdad70cf39abc55f6697d3f817d8bce946c389d0",
+  "errors": [],
+  "coordinate_policy": "fixed-scene lookup of existing LRF reference for matched stable flame; no independent visual WGS84",
+  "same_target_policy": "time pairing is not physical identity",
+  "absolute_visual_localization": "unavailable"
+}

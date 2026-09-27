@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+*.err
+*.tar
+*.zip
+raw_data/
+server_data/
+full_videos/
+.env
+*.pem
+*.key

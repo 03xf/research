@@ -1,0 +1,19 @@
+{
+  "schema_version": "dji_round38_full_resolution_box_decisions_v1",
+  "scope": "A small subset of high-confidence displaced existing validation boxes; images inspected at 1920x1080 V or 1280x1024 T native resolution after raw-first coarse screen.",
+  "source_dataset": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1",
+  "model_predictions_accessed": false,
+  "blind_test_accessed": false,
+  "source_labels_changed": false,
+  "replacement_boxes_approved": false,
+  "decisions": [
+    {"observation_id":"obs_000569","sensor":"T","existing_yolo_box":[0.89527734,0.91457520,0.19096094,0.16940430],"decision":"invalid_existing_box_location","evidence":"Native image has a clear fire-related bright pile at the right around middle/lower-middle; existing box is at bottom-right below that pile.","next_action":"redraw_tight_main_hotspot_box"},
+    {"observation_id":"obs_000579","sensor":"T","existing_yolo_box":[0.82443359,0.83756836,0.35113281,0.32341797],"decision":"invalid_existing_box_location","evidence":"Main white/yellow active fire region and hot plume lie above existing box; current box is dominated by cooler ground below.","next_action":"redraw_hot_region_using_full_resolution"},
+    {"observation_id":"obs_000589","sensor":"T","existing_yolo_box":[0.85985547,0.88954590,0.28028906,0.21946289],"decision":"invalid_existing_box_location","evidence":"Bright fire lies above the existing bottom-right rectangle; its dominant white/yellow part is excluded.","next_action":"redraw_tight_main_hotspot_box"},
+    {"observation_id":"obs_000599","sensor":"T","existing_yolo_box":[0.85985547,0.88954590,0.28028906,0.21946289],"decision":"invalid_existing_box_location","evidence":"Identical YOLO box to obs_000589 despite different frame; bright fire remains above rectangle and is excluded.","next_action":"redraw_tight_main_hotspot_box"},
+    {"observation_id":"obs_v7_val_0017","sensor":"V","decision":"invalid_existing_smoke_box_location","evidence":"Native image smoke plume originates from central burn pile; existing box is left over tree/road background, away from most plume.","next_action":"redraw_visible_plume_box_with_occlusion_boundary"},
+    {"observation_id":"obs_000770","sensor":"V","decision":"invalid_existing_smoke_box_location","evidence":"Native image smoke lies over central-left burn pile; existing box is right-shifted over tree/background.","next_action":"redraw_visible_plume_box"}
+  ],
+  "decision_count": 6,
+  "limitation": "Invalid old boxes are confirmed, but precise replacement extents are not yet approved; no corrected validation metrics should be computed from this partial decision set."
+}

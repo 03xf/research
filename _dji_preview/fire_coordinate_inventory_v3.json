@@ -1,0 +1,146 @@
+{
+  "summary": {
+    "version": "fire_coordinate_inventory_v3",
+    "coordinate_count": 12,
+    "lrf_reference_count": 5,
+    "video_visual_count": 4,
+    "postfire_candidates_count": 3,
+    "missing_coordinate_fields": 0,
+    "important_limit": "provisional_visual rows use nominal intrinsics and assumed ground plane; no Matrice 4T calibration available",
+    "b4_f2": "historical label has no unique LRF event; three image candidates are retained separately"
+  },
+  "rows": [
+    {
+      "point_id": "B1_F1_LRF",
+      "batch_id": "B1",
+      "latitude": "31.2891377000",
+      "longitude": "120.4727498500",
+      "source": "XMP_LRFTarget_event_median",
+      "status": "reference_confirmed",
+      "independent_events": "4",
+      "spread_m": "0.34",
+      "notes": "事后激光参考；不等同于燃烧中火焰中心"
+    },
+    {
+      "point_id": "B2_F1_LRF",
+      "batch_id": "B2",
+      "latitude": "31.2894735000",
+      "longitude": "120.4728031000",
+      "source": "XMP_LRFTarget_event_median",
+      "status": "prefire_reference",
+      "independent_events": "1",
+      "spread_m": "0",
+      "notes": "放火前木柴堆；不作为燃烧期火焰真值"
+    },
+    {
+      "point_id": "B3_F1_LRF",
+      "batch_id": "B3",
+      "latitude": "31.2897849000",
+      "longitude": "120.4727221000",
+      "source": "XMP_LRFTarget_event_median",
+      "status": "reference_confirmed",
+      "independent_events": "1",
+      "spread_m": "0",
+      "notes": "事后激光参考"
+    },
+    {
+      "point_id": "B3_F2_LRF",
+      "batch_id": "B3",
+      "latitude": "31.2896853000",
+      "longitude": "120.4727531500",
+      "source": "XMP_LRFTarget_event_median",
+      "status": "reference_confirmed",
+      "independent_events": "2",
+      "spread_m": "0.47",
+      "notes": "事后激光参考；与南侧视频火堆约4.75 m"
+    },
+    {
+      "point_id": "B4_F1_LRF",
+      "batch_id": "B4",
+      "latitude": "31.2894814000",
+      "longitude": "120.4728076000",
+      "source": "XMP_LRFTarget_event_median",
+      "status": "reference_confirmed",
+      "independent_events": "9",
+      "spread_m": "0.44",
+      "notes": "事后主炭化区激光参考"
+    },
+    {
+      "point_id": "B3_video_north_fire",
+      "batch_id": "B3",
+      "latitude": "31.2899036006",
+      "longitude": "120.4726785084",
+      "source": "nominal_camera_multiview_ground_plane",
+      "status": "provisional_visual",
+      "independent_events": "3",
+      "spread_m": "2.26",
+      "notes": "2026-09-08 10:07 两处明火中的北侧；非LRF独立真值"
+    },
+    {
+      "point_id": "B3_video_south_fire",
+      "batch_id": "B3",
+      "latitude": "31.2896677352",
+      "longitude": "120.4727986134",
+      "source": "nominal_camera_multiview_ground_plane",
+      "status": "provisional_visual",
+      "independent_events": "3",
+      "spread_m": "2.71",
+      "notes": "2026-09-08 10:07 两处明火中的南侧；与B3_F2约4.75 m"
+    },
+    {
+      "point_id": "B4_video_east_near_road",
+      "batch_id": "B4",
+      "latitude": "31.2887792678",
+      "longitude": "120.4727584031",
+      "source": "nominal_camera_multiview_ground_plane",
+      "status": "provisional_visual",
+      "independent_events": "3",
+      "spread_m": "3.04",
+      "notes": "2026-09-08 10:54 两处正式视频明火之一；与B4_F1约78.21 m"
+    },
+    {
+      "point_id": "B4_video_west_near_tree",
+      "batch_id": "B4",
+      "latitude": "31.2888262887",
+      "longitude": "120.4724890680",
+      "source": "nominal_camera_multiview_ground_plane",
+      "status": "provisional_visual",
+      "independent_events": "3",
+      "spread_m": "3.06",
+      "notes": "2026-09-08 10:54 两处正式视频明火之一；与B4_F1约78.90 m"
+    },
+    {
+      "point_id": "B4_F2_candidate_northwest_charred",
+      "batch_id": "B4",
+      "latitude": "31.2897240930",
+      "longitude": "120.4727676677",
+      "source": "postfire_image_ray_estimate",
+      "status": "candidate_only",
+      "independent_events": "2",
+      "spread_m": "3.11",
+      "notes": "事后影像炭化斑候选；历史B4_F2无法唯一映射"
+    },
+    {
+      "point_id": "B4_F2_candidate_middle_gray",
+      "batch_id": "B4",
+      "latitude": "31.2895964971",
+      "longitude": "120.4727907382",
+      "source": "postfire_image_ray_estimate",
+      "status": "candidate_only",
+      "independent_events": "1",
+      "spread_m": "0",
+      "notes": "单视角候选；不得作为定位真值"
+    },
+    {
+      "point_id": "B4_F2_candidate_south_charred",
+      "batch_id": "B4",
+      "latitude": "31.2893640206",
+      "longitude": "120.4728224004",
+      "source": "postfire_image_ray_estimate",
+      "status": "candidate_only",
+      "independent_events": "3",
+      "spread_m": "0.80",
+      "notes": "事后影像另一炭化斑候选；历史B4_F2无法唯一映射"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "summary": {
+    "version": "fire_point_correspondence_v1",
+    "coordinate_count": 12,
+    "current_event_points": [
+      "B1_F1_LRF",
+      "B3_video_north_fire",
+      "B3_video_south_fire",
+      "B4_video_east_near_road",
+      "B4_video_west_near_tree"
+    ],
+    "excluded_other_event_points": [
+      "B4_F1_LRF",
+      "B4_F2_candidate_northwest_charred",
+      "B4_F2_candidate_middle_gray",
+      "B4_F2_candidate_south_charred"
+    ],
+    "pending_identity_points": [
+      "B3_F1_LRF",
+      "B3_F2_LRF"
+    ],
+    "user_ruling": "B4 F1 and all three B4 F2 candidate images are from another fire event and are excluded from the current B4 video event.",
+    "limits": [
+      "provisional_visual coordinates are approximate image-derived ground-plane estimates",
+      "LRF reference coordinates are not independent visual predictions",
+      "B2 is a prefire reference and not a burning-period fire truth"
+    ]
+  },
+  "rows": [
+    {
+      "point_id": "B1_F1_LRF",
+      "batch_id": "B1",
+      "latitude": "31.2891377000",
+      "longitude": "120.4727498500",
+      "coordinate_source": "XMP_LRFTarget_event_median",
+      "coordinate_role": "reference_confirmed",
+      "event_scope": "当前批次",
+      "fire_point": "B1 F1 单火点",
+      "correspondence_status": "已对应",
+      "correspondence_note": "B1 批次激光参考；不是视觉独立预测"
+    },
+    {
+      "point_id": "B2_F1_LRF",
+      "batch_id": "B2",
+      "latitude": "31.2894735000",
+      "longitude": "120.4728031000",
+      "coordinate_source": "XMP_LRFTarget_event_median",
+      "coordinate_role": "prefire_reference",
+      "event_scope": "当前批次的放火前参考",
+      "fire_point": "放火前木柴堆",
+      "correspondence_status": "已确认但不属于燃烧火点",
+      "correspondence_note": "只作放火前位置参考，不作为燃烧期间火焰真值"
+    },
+    {
+      "point_id": "B3_F1_LRF",
+      "batch_id": "B3",
+      "latitude": "31.2897849000",
+      "longitude": "120.4727221000",
+      "coordinate_source": "XMP_LRFTarget_event_median",
+      "coordinate_role": "reference_confirmed",
+      "event_scope": "当前批次",
+      "fire_point": "B3 北侧视频明火？",
+      "correspondence_status": "待人工确认",
+      "correspondence_note": "LRF 点距北侧视频估计点约 13.83 m，投影没有直接落在火堆上；不能仅凭 F1 编号断定同一物理点"
+    },
+    {
+      "point_id": "B3_F2_LRF",
+      "batch_id": "B3",
+      "latitude": "31.2896853000",
+      "longitude": "120.4727531500",
+      "coordinate_source": "XMP_LRFTarget_event_median",
+      "coordinate_role": "reference_confirmed",
+      "event_scope": "当前批次",
+      "fire_point": "B3 南侧视频明火？",
+      "correspondence_status": "待人工确认",
+      "correspondence_note": "LRF 点距南侧视频估计点约 4.75 m；空间接近但仍需确认同一物理火堆"
+    },
+    {
+      "point_id": "B4_F1_LRF",
+      "batch_id": "B4",
+      "latitude": "31.2894814000",
+      "longitude": "120.4728076000",
+      "coordinate_source": "XMP_LRFTarget_event_median",
+      "coordinate_role": "reference_confirmed",
+      "event_scope": "另一场放火事件",
+      "fire_point": "不对应当前 10:54 视频火点",
+      "correspondence_status": "排除当前事件",
+      "correspondence_note": "用户确认属于另一场放火；不分配给东侧或西侧当前视频火点"
+    },
+    {
+      "point_id": "B3_video_north_fire",
+      "batch_id": "B3",
+      "latitude": "31.2899036006",
+      "longitude": "120.4726785084",
+      "coordinate_source": "nominal_camera_multiview_ground_plane",
+      "coordinate_role": "provisional_visual",
+      "event_scope": "当前批次",
+      "fire_point": "北侧视频明火",
+      "correspondence_status": "已对应",
+      "correspondence_note": "影像多视角地面近似坐标；无独立 LRF 真值"
+    },
+    {
+      "point_id": "B3_video_south_fire",
+      "batch_id": "B3",
+      "latitude": "31.2896677352",
+      "longitude": "120.4727986134",
+      "coordinate_source": "nominal_camera_multiview_ground_plane",
+      "coordinate_role": "provisional_visual",
+      "event_scope": "当前批次",
+      "fire_point": "南侧视频明火",
+      "correspondence_status": "已对应",
+      "correspondence_note": "影像多视角地面近似坐标；无独立 LRF 真值"
+    },
+    {
+      "point_id": "B4_video_east_near_road",
+      "batch_id": "B4",
+      "latitude": "31.2887792678",
+      "longitude": "120.4727584031",
+      "coordinate_source": "nominal_camera_multiview_ground_plane",
+      "coordinate_role": "provisional_visual",
+      "event_scope": "当前 10:54 视频事件",
+      "fire_point": "东侧靠道路明火",
+      "correspondence_status": "已对应",
+      "correspondence_note": "当前视频影像多视角近似坐标；不使用 B4 F1 LRF"
+    },
+    {
+      "point_id": "B4_video_west_near_tree",
+      "batch_id": "B4",
+      "latitude": "31.2888262887",
+      "longitude": "120.4724890680",
+      "coordinate_source": "nominal_camera_multiview_ground_plane",
+      "coordinate_role": "provisional_visual",
+      "event_scope": "当前 10:54 视频事件",
+      "fire_point": "西侧靠树木明火",
+      "correspondence_status": "已对应",
+      "correspondence_note": "当前视频影像多视角近似坐标；不使用 B4 F1 LRF"
+    },
+    {
+      "point_id": "B4_F2_candidate_northwest_charred",
+      "batch_id": "B4",
+      "latitude": "31.2897240930",
+      "longitude": "120.4727676677",
+      "coordinate_source": "postfire_image_ray_estimate",
+      "coordinate_role": "candidate_only",
+      "event_scope": "另一场放火事件",
+      "fire_point": "不对应当前 B4 火点",
+      "correspondence_status": "排除当前事件",
+      "correspondence_note": "用户确认候选影像属于另一场放火；不作为 B4 F2 当前事件坐标"
+    },
+    {
+      "point_id": "B4_F2_candidate_middle_gray",
+      "batch_id": "B4",
+      "latitude": "31.2895964971",
+      "longitude": "120.4727907382",
+      "coordinate_source": "postfire_image_ray_estimate",
+      "coordinate_role": "candidate_only",
+      "event_scope": "另一场放火事件",
+      "fire_point": "不对应当前 B4 火点",
+      "correspondence_status": "排除当前事件",
+      "correspondence_note": "用户确认候选影像属于另一场放火；不作为 B4 F2 当前事件坐标"
+    },
+    {
+      "point_id": "B4_F2_candidate_south_charred",
+      "batch_id": "B4",
+      "latitude": "31.2893640206",
+      "longitude": "120.4728224004",
+      "coordinate_source": "postfire_image_ray_estimate",
+      "coordinate_role": "candidate_only",
+      "event_scope": "另一场放火事件",
+      "fire_point": "不对应当前 B4 火点",
+      "correspondence_status": "排除当前事件",
+      "correspondence_note": "用户确认候选影像属于另一场放火；不作为 B4 F2 当前事件坐标"
+    }
+  ]
+}

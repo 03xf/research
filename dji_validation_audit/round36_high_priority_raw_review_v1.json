@@ -1,0 +1,33 @@
+{
+  "schema_version": "dji_round36_validation_raw_image_review_v1",
+  "reviewed_utc": "2026-09-24T05:42:00Z",
+  "scope": "First 10 high-priority V/T validation observations from validation_review_queue_71_v1.json, all in B4 session DJI_202609081030_005. Raw V/T images were inspected before consulting original YOLO labels. No model predictions or test images were used in this round.",
+  "source_dataset": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1",
+  "blind_test_accessed": false,
+  "model_predictions_accessed_for_this_review": false,
+  "validation_labels_changed": false,
+  "same_physical_target_between_V_and_T": "unverified",
+  "rows": [
+    {"observation_id":"obs_v7_val_0002","V_visual":"smoke visible as broad haze with a denser lower-right plume; no confirmed flame","V_existing_label":"one large left-side smoke box covers only part of haze and misses the lower-right plume","V_disposition":"redraw_smoke_geometry_and_grouping","T_visual":"bright upper-left region truncated by image boundary; other small bright patches not independently classified","T_existing_label":"upper-left hotspot box approximately covers only cropped bright region","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0004","V_visual":"no clear smoke or flame in the visible frame","V_existing_label":"large left/lower smoke box over vegetation and ground","V_disposition":"possible_false_positive_label; independent_negative_or_ambiguous_adjudication","T_visual":"bright upper-left region and broad warm ground; fire-specific identity cannot be proven from palette alone","T_existing_label":"left-middle hotspot box is displaced from upper-left bright region","T_disposition":"wrong_location_or_target; independent_adjudication"},
+    {"observation_id":"obs_v7_val_0006","V_visual":"smoke is concentrated on the right side; no confirmed flame","V_existing_label":"large left-side smoke box misses the main smoke","V_disposition":"redraw_smoke_box","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0008","V_visual":"thin smoke across the center and right; no confirmed flame","V_existing_label":"large left-side smoke box misses much of the visible smoke","V_disposition":"redraw_smoke_box; consider_weak_visibility","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0010","V_visual":"smoke rises behind the ground pile near center-right; no confirmed flame","V_existing_label":"smoke box overlaps only part of the plume and extends into background","V_disposition":"redraw_smoke_box","T_visual":"thermal image strongly defocused; several blurred bright blobs cannot be reliably assigned to one physical hotspot","T_existing_label":"small lower-left box on one blurred blob","T_disposition":"unusable_or_ambiguous_for_hotspot_detection_metric"},
+    {"observation_id":"obs_v7_val_0012","V_visual":"smoke enters at the right image edge; no confirmed flame","V_existing_label":"large left-side smoke box misses the smoke","V_disposition":"redraw_smoke_box_or_mark_edge_truncation","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0014","V_visual":"dense smoke on the right side; no confirmed flame","V_existing_label":"large left-side smoke box misses the main smoke","V_disposition":"redraw_smoke_box","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0016","V_visual":"smoke across center and right; no confirmed flame","V_existing_label":"large left-side smoke box misses the main smoke","V_disposition":"redraw_smoke_box","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0018","V_visual":"no confidently separable smoke plume in the main scene; faint edge haze is ambiguous","V_existing_label":"large left-side smoke box over vegetation and ground","V_disposition":"independently_decide_negative_vs_weak_vs_ambiguous","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"},
+    {"observation_id":"obs_v7_val_0020","V_visual":"smoke concentrated at the right image edge; no confirmed flame","V_existing_label":"large left-side smoke box misses the smoke","V_disposition":"redraw_smoke_box_or_mark_edge_truncation","T_visual":"bright upper-left region truncated by image boundary","T_existing_label":"upper-left hotspot box","T_disposition":"review_cropped_hotspot_geometry"}
+  ],
+  "summary": {
+    "observations_reviewed": 10,
+    "V_labels_requiring_redraw_or_presence_adjudication": 10,
+    "T_labels_requiring_geometry_or_quality_adjudication": 10,
+    "V_clear_right_or_center_smoke_with_left_biased_existing_box": 8,
+    "V_no_confident_smoke_or_ambiguous": 2,
+    "T_strongly_defocused": 1,
+    "all_same_session": true,
+    "qualification_metrics_from_original_labels": "not_reliable_without_full_validation_audit"
+  },
+  "next_action": "Review the remaining 61 validation observations from raw images, construct an isolated corrected validation set with explicit weak/ambiguous/unusable exclusions, then evaluate frozen models on that set as exploratory validation only. Do not turn validation frames into training data and do not call this an untouched independent test."
+}

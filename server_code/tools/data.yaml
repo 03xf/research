@@ -1,0 +1,9 @@
+path: /home/member/xmy/xmy/datasets/smoke/datasets_yolo  # dataset root dir
+train: images/train0 # labels are stored in labels/train0
+val: images/val0 # labels are stored in labels/val0
+#test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+ 
+# Classes
+names:
+  0: smoke
+nc: 1

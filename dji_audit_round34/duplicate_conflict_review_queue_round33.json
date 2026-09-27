@@ -1,0 +1,708 @@
+{
+  "schema_version": "dji_duplicate_label_conflict_queue_round33_v1",
+  "generated_utc": "2026-09-24T04:01:30.269657+00:00",
+  "pairs": 35,
+  "priority_positive_vs_empty": 7,
+  "rule": "Use original frame and consistent class definitions to adjudicate each same-source-time pair. The dedup control kept higher quality provenance, not guaranteed-correct boxes.",
+  "blind_test_accessed": false,
+  "items": [
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071532_001",
+        "video_group": "DJI_20260907160202_0005",
+        "timestamp_s": 650.0
+      },
+      "keep": "obs_v7_train_0017",
+      "drop": [
+        "obs_000093"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0017.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0017.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071532_001",
+        "video_group": "DJI_20260907160202_0005",
+        "timestamp_s": 810.0
+      },
+      "keep": "obs_v7_train_0047",
+      "drop": [
+        "obs_000128"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0047.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0047.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071534_003",
+        "video_group": "DJI_20260907160153_0005",
+        "timestamp_s": 80.0
+      },
+      "keep": "obs_v7_train_0031",
+      "drop": [
+        "obs_000001"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0031.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0031.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071534_003",
+        "video_group": "DJI_20260907160153_0005",
+        "timestamp_s": 650.0
+      },
+      "keep": "obs_v7_train_0046",
+      "drop": [
+        "obs_000008"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0046.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0046.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071535_001",
+        "video_group": "DJI_20260907160153_0002",
+        "timestamp_s": 20.0
+      },
+      "keep": "obs_v7_train_0034",
+      "drop": [
+        "obs_000018"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0034.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0034.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071543_001",
+        "video_group": "DJI_20260907160202_0003",
+        "timestamp_s": 510.0
+      },
+      "keep": "obs_v7_train_0033",
+      "drop": [
+        "obs_000017"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0033.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0033.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "timestamp_s": 520.0
+      },
+      "keep": "obs_v7_train_0010",
+      "drop": [
+        "obs_000311"
+      ],
+      "issues": [
+        "V_positive_vs_empty",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0010.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0010.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071536_001",
+        "video_group": "DJI_20260907160201_0001",
+        "timestamp_s": 410.0
+      },
+      "keep": "obs_v7_train_0050",
+      "drop": [
+        "obs_000117"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0050.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0050.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_002",
+        "video_group": "DJI_20260907160207_0001",
+        "timestamp_s": 460.0
+      },
+      "keep": "obs_v7_train_0007",
+      "drop": [
+        "obs_000168"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0007.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0007.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_033",
+        "video_group": "DJI_20260907160203_0002",
+        "timestamp_s": 20.0
+      },
+      "keep": "obs_v7_train_0006",
+      "drop": [
+        "obs_000013"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0006.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0006.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080945_004",
+        "video_group": "DJI_20260908100826_0002",
+        "timestamp_s": 360.0
+      },
+      "keep": "obs_v7_train_0030",
+      "drop": [
+        "obs_000332"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0030.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0030.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080945_004",
+        "video_group": "DJI_20260908100826_0002",
+        "timestamp_s": 370.0
+      },
+      "keep": "obs_v7_train_0045",
+      "drop": [
+        "obs_000340"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0045.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0045.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_004",
+        "video_group": "DJI_20260908100545_0001",
+        "timestamp_s": 770.0
+      },
+      "keep": "obs_v7_train_0008",
+      "drop": [
+        "obs_000405"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0008.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0008.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_004",
+        "video_group": "DJI_20260908100545_0001",
+        "timestamp_s": 790.0
+      },
+      "keep": "obs_v7_train_0023",
+      "drop": [
+        "obs_000421"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0023.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0023.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_004",
+        "video_group": "DJI_20260908100604_0001",
+        "timestamp_s": 770.0
+      },
+      "keep": "obs_v7_train_0027",
+      "drop": [
+        "obs_000497"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0027.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0027.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100550_0001",
+        "timestamp_s": 510.0
+      },
+      "keep": "obs_v7_train_0024",
+      "drop": [
+        "obs_000310"
+      ],
+      "issues": [
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0024.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0024.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100550_0001",
+        "timestamp_s": 520.0
+      },
+      "keep": "obs_v7_train_0039",
+      "drop": [
+        "obs_000318"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0039.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0039.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100550_0001",
+        "timestamp_s": 540.0
+      },
+      "keep": "obs_v7_train_0009",
+      "drop": [
+        "obs_000334"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0009.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0009.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "timestamp_s": 740.0
+      },
+      "keep": "obs_v7_train_0025",
+      "drop": [
+        "obs_000383"
+      ],
+      "issues": [
+        "V_object_count_disagreement",
+        "T_object_count_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0025.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0025.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071534_003",
+        "video_group": "DJI_20260907160153_0005",
+        "timestamp_s": 660.0
+      },
+      "keep": "obs_v7_train_0001",
+      "drop": [
+        "obs_000015"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0001.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0001.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071534_003",
+        "video_group": "DJI_20260907160153_0005",
+        "timestamp_s": 760.0
+      },
+      "keep": "obs_v7_train_0016",
+      "drop": [
+        "obs_000029"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0016.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0016.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071535_001",
+        "video_group": "DJI_20260907160153_0002",
+        "timestamp_s": 0.0
+      },
+      "keep": "obs_v7_train_0004",
+      "drop": [
+        "obs_000004"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0004.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0004.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071535_001",
+        "video_group": "DJI_20260907160153_0002",
+        "timestamp_s": 10.0
+      },
+      "keep": "obs_v7_train_0019",
+      "drop": [
+        "obs_000011"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0019.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0019.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071535_001",
+        "video_group": "DJI_20260907160153_0002",
+        "timestamp_s": 30.0
+      },
+      "keep": "obs_v7_train_0049",
+      "drop": [
+        "obs_000025"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0049.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0049.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071536_001",
+        "video_group": "DJI_20260907160201_0001",
+        "timestamp_s": 30.0
+      },
+      "keep": "obs_v7_train_0020",
+      "drop": [
+        "obs_000026"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0020.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0020.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071536_001",
+        "video_group": "DJI_20260907160201_0001",
+        "timestamp_s": 70.0
+      },
+      "keep": "obs_v7_train_0035",
+      "drop": [
+        "obs_000054"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0035.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0035.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071536_001",
+        "video_group": "DJI_20260907160201_0001",
+        "timestamp_s": 80.0
+      },
+      "keep": "obs_v7_train_0005",
+      "drop": [
+        "obs_000061"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0005.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0005.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071543_001",
+        "video_group": "DJI_20260907160202_0003",
+        "timestamp_s": 0.0
+      },
+      "keep": "obs_v7_train_0003",
+      "drop": [
+        "obs_000003"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0003.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0003.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071543_001",
+        "video_group": "DJI_20260907160202_0003",
+        "timestamp_s": 30.0
+      },
+      "keep": "obs_v7_train_0018",
+      "drop": [
+        "obs_000010"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0018.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0018.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_002",
+        "video_group": "DJI_20260907160207_0001",
+        "timestamp_s": 330.0
+      },
+      "keep": "obs_v7_train_0037",
+      "drop": [
+        "obs_000098"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0037.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0037.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_002",
+        "video_group": "DJI_20260907160207_0001",
+        "timestamp_s": 350.0
+      },
+      "keep": "obs_v7_train_0022",
+      "drop": [
+        "obs_000112"
+      ],
+      "issues": [
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0022.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0022.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_033",
+        "video_group": "DJI_20260907160203_0002",
+        "timestamp_s": 140.0
+      },
+      "keep": "obs_v7_train_0021",
+      "drop": [
+        "obs_000055"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0021.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0021.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B1",
+        "session_id": "DJI_202609071553_033",
+        "video_group": "DJI_20260907160203_0002",
+        "timestamp_s": 250.0
+      },
+      "keep": "obs_v7_train_0036",
+      "drop": [
+        "obs_000118"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0036.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0036.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_004",
+        "video_group": "DJI_20260908100604_0001",
+        "timestamp_s": 530.0
+      },
+      "keep": "obs_v7_train_0012",
+      "drop": [
+        "obs_000329"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0012.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0012.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    },
+    {
+      "source_key": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "timestamp_s": 510.0
+      },
+      "keep": "obs_v7_train_0040",
+      "drop": [
+        "obs_000303"
+      ],
+      "issues": [
+        "V_box_geometry_disagreement",
+        "T_box_geometry_disagreement"
+      ],
+      "V_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0040.jpg",
+      "T_image": "results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0040.jpg",
+      "annotation_status": "pending_independent_single_frame_adjudication",
+      "do_not_assume_keep_is_correct": true
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "six_fire_video_sites_v1",
+  "sites": [
+    {
+      "site_id": "B1_video_fire",
+      "batch_id": "B1",
+      "video_time_local": "2026-09-07 16:03:00+08:00",
+      "latitude_estimate": 31.289136787771522,
+      "longitude_estimate": 120.47275935531601,
+      "max_horizontal_view_deviation_m": 4.061152901232768,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "manual_wood_pile_ground_contact_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth",
+      "views": [
+        {
+          "drone": "无人机02",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/01_第一批_20260907_1602_单火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609071534_003/DJI_20260907160153_0005_V.MP4",
+          "source_frame": "无人机02_1581F7K3C267500D2DQD_DJI_202609071534_003_frame.jpg",
+          "x_px": 950,
+          "y_px": 890,
+          "latitude_estimate": 31.289136787771522,
+          "longitude_estimate": 120.47271669345811
+        },
+        {
+          "drone": "无人机08",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/01_第一批_20260907_1602_单火点/01_正式视频/无人机08_1581F7K3C256N00DCP1T/DJI_202609071536_001/DJI_20260907160201_0001_V.MP4",
+          "source_frame": "无人机08_1581F7K3C256N00DCP1T_DJI_202609071536_001_frame.jpg",
+          "x_px": 1000,
+          "y_px": 430,
+          "latitude_estimate": 31.2891361505109,
+          "longitude_estimate": 120.47275935531601
+        },
+        {
+          "drone": "无人机09",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/01_第一批_20260907_1602_单火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609071543_001/DJI_20260907160202_0003_V.MP4",
+          "source_frame": "无人机09_1581F7K3C24CS00AX535_DJI_202609071543_001_frame.jpg",
+          "x_px": 970,
+          "y_px": 545,
+          "latitude_estimate": 31.289140322250656,
+          "longitude_estimate": 120.47276939074357
+        }
+      ]
+    },
+    {
+      "site_id": "B2_video_fire",
+      "batch_id": "B2",
+      "video_time_local": "2026-09-08 09:25:00+08:00",
+      "latitude_estimate": 31.28950885942179,
+      "longitude_estimate": 120.4727937179806,
+      "max_horizontal_view_deviation_m": 4.4698592287396215,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "manual_wood_pile_ground_contact_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth",
+      "views": [
+        {
+          "drone": "无人机01",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/02_第二批_20260908_0924_单火点/01_正式视频/无人机01_1581F7K3C251800CYBVP/DJI_202609080913_003/DJI_20260908092431_0003_V.MP4",
+          "source_frame": "无人机01_1581F7K3C251800CYBVP_DJI_202609080913_003_frame.jpg",
+          "x_px": 960,
+          "y_px": 875,
+          "latitude_estimate": 31.28950885942179,
+          "longitude_estimate": 120.47282753445052
+        },
+        {
+          "drone": "无人机06",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/02_第二批_20260908_0924_单火点/01_正式视频/无人机06_1581F7K3C254N00D16Y8/DJI_202609080910_002/DJI_20260908092438_0002_V.MP4",
+          "source_frame": "无人机06_1581F7K3C254N00D16Y8_DJI_202609080910_002_frame.jpg",
+          "x_px": 990,
+          "y_px": 785,
+          "latitude_estimate": 31.289538825021005,
+          "longitude_estimate": 120.47276241586725
+        },
+        {
+          "drone": "无人机07",
+          "source_video": "/home/member/xmy/data/苏州放火_实验数据集/02_第二批_20260908_0924_单火点/01_正式视频/无人机07_1581F7K3325B100AS0AG/DJI_202609080909_002/DJI_20260908092438_0002_V.MP4",
+          "source_frame": "无人机07_1581F7K3325B100AS0AG_DJI_202609080909_002_frame.jpg",
+          "x_px": 940,
+          "y_px": 810,
+          "latitude_estimate": 31.28949509378553,
+          "longitude_estimate": 120.4727937179806
+        }
+      ]
+    },
+    {
+      "site_id": "B3_video_north_fire",
+      "batch_id": "B3",
+      "video_time_local": "2026-09-08 10:07:00+08:00",
+      "latitude_estimate": 31.2899036006,
+      "longitude_estimate": 120.4726785084,
+      "max_horizontal_view_deviation_m": 2.26,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "existing_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth"
+    },
+    {
+      "site_id": "B3_video_south_fire",
+      "batch_id": "B3",
+      "video_time_local": "2026-09-08 10:07:00+08:00",
+      "latitude_estimate": 31.2896677352,
+      "longitude_estimate": 120.4727986134,
+      "max_horizontal_view_deviation_m": 2.71,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "existing_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth"
+    },
+    {
+      "site_id": "B4_video_east_near_road",
+      "batch_id": "B4",
+      "video_time_local": "2026-09-08 10:54:10+08:00",
+      "latitude_estimate": 31.2887792678,
+      "longitude_estimate": 120.4727584031,
+      "max_horizontal_view_deviation_m": 3.04,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "existing_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth"
+    },
+    {
+      "site_id": "B4_video_west_near_tree",
+      "batch_id": "B4",
+      "video_time_local": "2026-09-08 10:54:10+08:00",
+      "latitude_estimate": 31.2888262887,
+      "longitude_estimate": 120.472489068,
+      "max_horizontal_view_deviation_m": 3.06,
+      "ground_altitude_assumed_m": 52.5,
+      "method": "existing_nominal_intrinsics_multiview_ground_plane",
+      "status": "provisional_visual_not_surveyed_truth"
+    }
+  ],
+  "limitations": [
+    "Image-only coordinates use nominal focal length and assumed ground elevation",
+    "Six video sites are distinct batch-time targets; laser records have not been used to calculate them"
+  ]
+}

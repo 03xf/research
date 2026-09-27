@@ -1,0 +1,36 @@
+{
+  "schema_version": "dji_round46_empty_T_adjudication_v1",
+  "scope": "10 remaining empty-label thermal candidates from Round45 plus two deferred multi-region cases",
+  "source_validation_modified": false,
+  "training_authorized": false,
+  "evaluation_authorized": false,
+  "blind_test_accessed": false,
+  "approved": [
+    "obs_000706",
+    "obs_000730",
+    "obs_000738",
+    "obs_000746",
+    "obs_000754",
+    "obs_000762",
+    "obs_000770",
+    "obs_000778",
+    "obs_000794"
+  ],
+  "decisions": {
+    "obs_000706": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible_frame shows smoke/burn-pile context; same-target identity remains uncalibrated"},
+    "obs_000730": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows the same burned pile; exact cross-sensor identity remains uncalibrated"},
+    "obs_000738": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke from the pile; exact cross-sensor identity remains uncalibrated"},
+    "obs_000746": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke and the same pile context; exact cross-sensor identity remains uncalibrated"},
+    "obs_000754": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows a smoldering pile; exact cross-sensor identity remains uncalibrated"},
+    "obs_000762": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke from the pile; exact cross-sensor identity remains uncalibrated"},
+    "obs_000770": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke and the same pile context; exact cross-sensor identity remains uncalibrated"},
+    "obs_000778": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke from the pile; exact cross-sensor identity remains uncalibrated"},
+    "obs_000794": {"interpretation": "single_residual_burn_pile_hotspot", "tv_relation": "visible frame shows smoke from the pile; exact cross-sensor identity remains uncalibrated"}
+  },
+  "deferred": [
+    {"observation_id": "obs_000697", "decision": "ambiguous_manual_refinement", "reason": "Automatic box includes road and unrelated background heat; visible frame confirms smoke but does not justify the oversized thermal box."},
+    {"observation_id": "obs_000652", "decision": "multiple_hotspot_candidates", "reason": "Several spatially separated bright thermal regions remain; one-versus-many target decomposition is unresolved."},
+    {"observation_id": "obs_000661", "decision": "multiple_hotspot_candidates", "reason": "Main bright region has a distinct bright region to the right; one-versus-many target decomposition is unresolved."}
+  ],
+  "review_notes": "Decisions are image-only adjudication. They establish isolated development-label candidates, not T/V geometric identity or fire-centre truth."
+}

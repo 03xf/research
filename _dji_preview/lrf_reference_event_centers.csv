@@ -1,0 +1,6 @@
+point_id,batch_id,fire_id,latitude,longitude,target_alt_original_datum,independent_events,photo_rows,max_horizontal_event_deviation_m,old_to_event_center_horizontal_m,source,scope,physical_match_to_burning_video
+B1_F1_LRF,B1,F1,31.28913770000261,120.47274984999945,-0.6340006645768881,4,8,0.34331308059911086,0.011132290418470142,XMP_LRFTarget_event_median,LRF_impact_reference,unverified
+B2_F1_LRF,B2,F1,31.2894735,120.4728031,2.1380000011995435,1,2,0.0,0.01736222992593457,XMP_LRFTarget_event_median,prefire_reference,unverified
+B3_F1_LRF,B3,F1,31.289784900000004,120.47272210000001,1.6019999999552965,1,2,0.0,0.0073214754987824876,XMP_LRFTarget_event_median,LRF_impact_reference,unverified
+B3_F2_LRF,B3,F2,31.2896852999999,120.47275315000013,1.3079999815672636,2,2,0.4744228598369634,1.6451622652431786e-08,XMP_LRFTarget_event_median,LRF_impact_reference,unverified
+B4_F1_LRF,B4,F1,31.289481400000174,120.47280759999963,1.2210000026971102,9,18,0.7138043999167013,0.007321477922425487,XMP_LRFTarget_event_median,LRF_impact_reference,unverified

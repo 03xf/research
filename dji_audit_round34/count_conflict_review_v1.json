@@ -1,0 +1,20 @@
+{
+  "schema_version": "dji_round34_duplicate_count_conflict_visual_review_v1",
+  "reviewed_utc": "2026-09-24T04:46:14Z",
+  "scope": "Seven further duplicate-source training pairs from duplicate_conflict_review_queue_round33.json. Both kept and dropped V frames and kept T frames were visually inspected; T labels compared without assigning cross-sensor physical identities.",
+  "source_root": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/datasets_round27_labels_fixed_v1",
+  "decision_scope": "Presence and approximate visible object count only; exact bounding boxes remain pending and this is not a training-label version.",
+  "blind_test_accessed": false,
+  "validation_accessed": false,
+  "pairs": [
+    {"keep": "obs_v7_train_0050", "drop": "obs_000117", "visible_flame": "clear", "visible_smoke": "ambiguous", "thermal_hotspot_count": 1, "finding": "Both V labels contain flame but differ markedly in extent. The dropped smoke label is not independently confirmed by the visible frame. Redraw flame and resolve smoke before training."},
+    {"keep": "obs_v7_train_0007", "drop": "obs_000168", "visible_flame": "clear", "visible_smoke": "clear", "thermal_hotspot_count": 1, "finding": "The retained V label omits smoke and covers only a small lower flame area; dropped labels should not be copied without geometry review."},
+    {"keep": "obs_v7_train_0006", "drop": "obs_000013", "visible_flame": "clear", "visible_smoke": "clear", "thermal_hotspot_count": 1, "finding": "Retained V label omits smoke; dropped smoke box spans almost the entire frame and is not a usable object box."},
+    {"keep": "obs_v7_train_0030", "drop": "obs_000332", "visible_smoke": "clear_left_plume", "visible_flame": "not_confirmed", "thermal_hotspot_count": 3, "finding": "The V labels disagree on one broad versus two small smoke boxes; only the left plume is clearly established. Thermal frame contains three distinct bright target regions, while each existing T label version lists only two and targets different regions."},
+    {"keep": "obs_v7_train_0045", "drop": "obs_000340", "visible_smoke": "clear_left_plume", "visible_flame": "not_confirmed", "thermal_hotspot_count": 3, "finding": "The V smoke box geometry differs. The retained T label has two boxes and omits a third clearly bright lower-left region; the dropped T label has three, but geometry still needs review."},
+    {"keep": "obs_v7_train_0008", "drop": "obs_000405", "visible_smoke": "two_clear_plumes", "visible_flame": "not_confirmed", "thermal_hotspot_count": 2, "finding": "Both V labels list two smoke targets but disagree on extent. The retained T label lists only the left hot region; the right hot region is omitted."},
+    {"keep": "obs_v7_train_0023", "drop": "obs_000421", "visible_smoke": "two_clear_plumes", "visible_flame": "not_confirmed", "thermal_hotspot_count": 2, "finding": "The retained V label omits the right smoke plume. The retained T label has two boxes over the left region and omits the distinct right hot region; dropped T labels have different positions and require redrawing."}
+  ],
+  "summary": {"pairs_reviewed": 7, "additional_clear_omissions": ["obs_v7_train_0007:V_smoke", "obs_v7_train_0006:V_smoke", "obs_v7_train_0045:T_hotspot", "obs_v7_train_0008:T_hotspot", "obs_v7_train_0023:V_smoke_and_T_hotspot"], "geometry_approved": 0},
+  "next_action": "Finish remaining 21 duplicate-pair reviews; independently redraw boxes for all 35 on a derived dataset; retain original validation and blind test unchanged."
+}
