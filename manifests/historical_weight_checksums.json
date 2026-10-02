@@ -1,0 +1,16 @@
+[
+  {
+    "model": "E2_V_960_s0",
+    "file": "模型权重\\E2_V_960_s0\\best.pt",
+    "bytes": 6268771,
+    "sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6",
+    "expected_sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6"
+  },
+  {
+    "model": "B2R2_V_E2_1280",
+    "file": "模型权重\\B2R2_V_E2_1280\\best.pt",
+    "bytes": 6321187,
+    "sha256": "df758315911a71f7b3ab60fcce338fb0318ec63bb8fe6665d86c0dad2e89d373",
+    "expected_sha256": "df758315911a71f7b3ab60fcce338fb0318ec63bb8fe6665d86c0dad2e89d373"
+  }
+]

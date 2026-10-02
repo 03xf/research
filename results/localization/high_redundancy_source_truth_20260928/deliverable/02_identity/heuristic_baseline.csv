@@ -1,0 +1,12 @@
+moment_id,event_id,held_out_uav,baseline,prediction,correct,support_uavs,truth_origin,caveat
+B3_M02,B3_formal_event,uav-01,H0_global_image_x_order,correct,True,5,manual_road_tree_scene_topology,same image order is not view invariant
+B3_M02,B3_formal_event,uav-02,H0_global_image_x_order,wrong_swap,False,5,manual_road_tree_scene_topology,same image order is not view invariant
+B3_M02,B3_formal_event,uav-04,H0_global_image_x_order,correct,True,5,manual_road_tree_scene_topology,same image order is not view invariant
+B3_M02,B3_formal_event,uav-05,H0_global_image_x_order,wrong_swap,False,5,manual_road_tree_scene_topology,same image order is not view invariant
+B3_M02,B3_formal_event,uav-07,H0_global_image_x_order,correct,True,5,manual_road_tree_scene_topology,same image order is not view invariant
+B3_M02,B3_formal_event,uav-09,H0_global_image_x_order,correct,True,5,manual_road_tree_scene_topology,same image order is not view invariant
+B4_M02,B4_formal_event,uav-01,H0_global_image_x_order,reject,False,4,manual_road_tree_scene_topology,same image order is not view invariant
+B4_M02,B4_formal_event,uav-02,H0_global_image_x_order,wrong_swap,False,4,manual_road_tree_scene_topology,same image order is not view invariant
+B4_M02,B4_formal_event,uav-06,H0_global_image_x_order,wrong_swap,False,4,manual_road_tree_scene_topology,same image order is not view invariant
+B4_M02,B4_formal_event,uav-08,H0_global_image_x_order,reject,False,4,manual_road_tree_scene_topology,same image order is not view invariant
+B4_M02,B4_formal_event,uav-09,H0_global_image_x_order,reject,False,4,manual_road_tree_scene_topology,same image order is not view invariant

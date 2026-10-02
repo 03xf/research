@@ -1,0 +1,5 @@
+label,stage,available,horizontal_error_m,ray_residual_m
+N,manual_point_manual_assoc_calibrated,True,12.676274071657543,0.5960141049559813
+N,auto_point_manual_assoc_calibrated,True,12.284376019281225,0.5060436515922314
+S,manual_point_manual_assoc_calibrated,True,0.7106005097813681,0.33263928898888473
+S,auto_point_manual_assoc_calibrated,False,,

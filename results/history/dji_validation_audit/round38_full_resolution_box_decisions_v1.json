@@ -1,0 +1,27 @@
+{
+  "schema_version": "dji_round38_full_resolution_box_decisions_v1",
+  "scope": "A small subset of high-confidence displaced existing validation boxes; images inspected at 1920x1080 V or 1280x1024 T native resolution after raw-first coarse screen.",
+  "source_dataset": "@trial/datasets_round27_labels_fixed_v1",
+  "model_predictions_accessed": false,
+  "blind_test_accessed": false,
+  "source_labels_changed": false,
+  "replacement_boxes_approved": false,
+  "decisions": [
+    {
+      "observation_id": "obs_v7_val_0017",
+      "sensor": "V",
+      "decision": "invalid_existing_smoke_box_location",
+      "evidence": "Native image smoke plume originates from central burn pile; existing box is left over tree/road background, away from most plume.",
+      "next_action": "redraw_visible_plume_box_with_occlusion_boundary"
+    },
+    {
+      "observation_id": "obs_000770",
+      "sensor": "V",
+      "decision": "invalid_existing_smoke_box_location",
+      "evidence": "Native image smoke lies over central-left burn pile; existing box is right-shifted over tree/background.",
+      "next_action": "redraw_visible_plume_box"
+    }
+  ],
+  "decision_count": 6,
+  "limitation": "Invalid old boxes are confirmed, but precise replacement extents are not yet approved; no corrected validation metrics should be computed from this partial decision set."
+}

@@ -1,0 +1,53 @@
+{
+  "manifest_rows": 285,
+  "manifest_categories": {
+    "formal_video": 103,
+    "short_or_supplement": 99,
+    "point_flight": 83
+  },
+  "formal_vt_recordings": 35,
+  "candidate_rows": 2401,
+  "candidate_by_batch": {
+    "B1": 709,
+    "B2": 966,
+    "B3": 726
+  },
+  "candidate_status": {
+    "candidate_unreviewed": 2401
+  },
+  "candidate_group_count": 42,
+  "candidate_session_count": 26,
+  "event_split_rows": {
+    "event_train_B1_B2": 1675,
+    "event_dev_B3": 726
+  },
+  "event_split_group_overlap": 0,
+  "event_split_session_overlap": 2,
+  "LRF_photo_rows": 52,
+  "LRF_unique_observations": 27,
+  "LRF_validity": {
+    "true": 19,
+    "false": 8
+  },
+  "LRF_target_match": {
+    "accepted": 17,
+    "outlier_removed": 2,
+    "excluded": 8
+  },
+  "LRF_accepted_count": 17,
+  "LRF_accepted_by_batch_fire": {
+    "B4_F1": 9,
+    "B1_F1": 4,
+    "B3_F1": 1,
+    "B3_F2": 2,
+    "B2_F1": 1
+  },
+  "manual_moments": 50,
+  "manual_state_counts": {
+    "active_fire": 32,
+    "hot_background": 8,
+    "residual_heat": 10
+  },
+  "manual_same_source_count": 42,
+  "manual_clip_count": 5
+}

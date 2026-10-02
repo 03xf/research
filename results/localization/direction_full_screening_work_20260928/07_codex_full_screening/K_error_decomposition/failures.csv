@@ -1,0 +1,5 @@
+case,reason,evidence,impact
+B3_S_detection,Official V detector misses South in UAV04/UAV09,b3_exact_frame_detections.json,Automatic point and full-auto S cannot triangulate
+B3_N_geometry,Manual North anchor remains far from independent LRF,b3_oracle_grid.json,Better source point alone cannot fix the North pose/reference discrepancy
+cross_site_oracle,Automatic oracle stages are aligned only for one B3 instant,b3_oracle_grid.json,No event-independent or B1/B4 full-grid conclusion
+model_provenance,Frozen E2 detector metadata says development historically exposed,model_freeze_preconfirmation_v1.json,"B3 grid is diagnostic, not clean holdout"

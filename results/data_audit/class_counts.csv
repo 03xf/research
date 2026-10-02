@@ -1,0 +1,3 @@
+class_name,bbox_versions,basis
+flame,957,"distinct image+label+class-map versions, not independent events"
+smoke,397,"distinct image+label+class-map versions, not independent events"

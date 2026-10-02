@@ -1,0 +1,10 @@
+parameter,status,evidence,condition_number_scaled,pitch_focal_jacobian_correlation
+focal_zoom_mapping,weakly_identifiable,B3 background t3/t5 profile conflicts with unconstrained COLMAP K and reaches pitch bound; camera scales vary,5.536098735634683,-0.8871762189011373
+principal_point,not_identifiable,"COLMAP fixes cx=960 cy=540, so there is no independent estimate",5.536098735634683,-0.8871762189011373
+distortion,weakly_identifiable,one radial coefficient fitted by free SfM but not independent of focal and pose; only 17.6% of sampled t7 observations in outer image decile,5.536098735634683,-0.8871762189011373
+yaw_bias,weakly_identifiable,B3 within-scene track fit improves t7 but cross-event transfer must decide validity,5.536098735634683,-0.8871762189011373
+pitch_bias,not_identifiable,pitch and focal Jacobian correlation -0.888; M2 pitch reaches -5 deg bound,5.536098735634683,-0.8871762189011373
+roll_bias,not_identifiable,legacy rotation omits roll; no isolated roll control,5.536098735634683,-0.8871762189011373
+camera_gimbal_rotation,not_identifiable,constant boresight yaw/pitch indistinguishable from angle zero biases,5.536098735634683,-0.8871762189011373
+lever_arm,not_identifiable,GPS reference point and camera center independently unknown; SfM Sim3 alignment absorbs translation,5.536098735634683,-0.8871762189011373
+GPS_horizontal_offset,not_identifiable,global translation gauge without known 3D control points,5.536098735634683,-0.8871762189011373

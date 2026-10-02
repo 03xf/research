@@ -1,0 +1,1045 @@
+{
+  "schema_version": "dji_source_truth_eval_v2",
+  "method": "point-inside-box; greedy one-to-one normalized-center distance; active V flame only; T active and residual heat",
+  "task_count": 50,
+  "totals": {
+    "V_truth": 52,
+    "V_matched": 33,
+    "V_missed": 19,
+    "V_detections": 37,
+    "T_truth": 72,
+    "T_matched": 54,
+    "T_missed": 18,
+    "T_detections": 69,
+    "same_source_pairs": 42,
+    "same_source_both_detected_pairs": 22,
+    "T_negative_frame_with_detection": 9
+  },
+  "by_clip": {
+    "B3_10m07_D02_pts_v2": {
+      "V_truth": 20,
+      "V_matched": 15,
+      "V_missed": 5,
+      "V_detections": 19,
+      "T_truth": 20,
+      "T_matched": 20,
+      "T_missed": 0,
+      "T_detections": 21
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2": {
+      "V_truth": 20,
+      "V_matched": 14,
+      "V_missed": 6,
+      "V_detections": 14,
+      "T_truth": 20,
+      "T_matched": 13,
+      "T_missed": 7,
+      "T_detections": 14
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2": {
+      "V_truth": 4,
+      "V_matched": 1,
+      "V_missed": 3,
+      "V_detections": 1,
+      "T_truth": 4,
+      "T_matched": 3,
+      "T_missed": 1,
+      "T_detections": 11,
+      "T_negative_frame_with_detection": 6
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2": {
+      "V_truth": 8,
+      "V_matched": 3,
+      "V_missed": 5,
+      "V_detections": 3,
+      "T_truth": 8,
+      "T_matched": 8,
+      "T_missed": 0,
+      "T_detections": 12,
+      "T_negative_frame_with_detection": 2
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2": {
+      "V_truth": 0,
+      "V_matched": 0,
+      "V_missed": 0,
+      "V_detections": 0,
+      "T_truth": 20,
+      "T_matched": 10,
+      "T_missed": 10,
+      "T_detections": 11,
+      "T_negative_frame_with_detection": 1
+    }
+  },
+  "by_state": {
+    "active_fire": {
+      "V_truth": 52,
+      "V_matched": 33,
+      "V_missed": 19,
+      "V_detections": 37,
+      "T_truth": 52,
+      "T_matched": 44,
+      "T_missed": 8,
+      "T_detections": 50
+    },
+    "hot_background": {
+      "V_truth": 0,
+      "V_matched": 0,
+      "V_missed": 0,
+      "V_detections": 0,
+      "T_truth": 0,
+      "T_matched": 0,
+      "T_missed": 0,
+      "T_detections": 8,
+      "T_negative_frame_with_detection": 8
+    },
+    "residual_heat": {
+      "V_truth": 0,
+      "V_matched": 0,
+      "V_missed": 0,
+      "V_detections": 0,
+      "T_truth": 20,
+      "T_matched": 10,
+      "T_missed": 10,
+      "T_detections": 11,
+      "T_negative_frame_with_detection": 1
+    }
+  },
+  "by_fire": {
+    "B3_10m07_D02_pts_v2:F1": {
+      "V_matched": 15,
+      "V_truth": 20,
+      "T_matched": 20,
+      "T_truth": 20
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2:F1": {
+      "V_matched": 14,
+      "V_truth": 20,
+      "T_matched": 13,
+      "T_truth": 20
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2:F1": {
+      "V_truth": 4,
+      "T_truth": 4,
+      "T_matched": 3,
+      "V_matched": 1
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2:F1": {
+      "V_truth": 8,
+      "T_matched": 8,
+      "T_truth": 8,
+      "V_matched": 3
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2:F1": {
+      "T_matched": 10,
+      "T_truth": 20
+    }
+  },
+  "rows": [
+    {
+      "task_id": "B3_10m07_D02_pts_v2:00",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 3,
+          "unmatched_detections": 1,
+          "matched_track_ids": [
+            "V_flame_3",
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:01",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:02",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_2",
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:03",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1",
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:04",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_3",
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:05",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_5",
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:06",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_5",
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:07",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:08",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 2,
+          "detections": 1,
+          "unmatched_detections": 1,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:09",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 3,
+          "unmatched_detections": 2,
+          "matched_track_ids": [
+            "V_flame_3"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 2,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_9",
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_9",
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_9",
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_9",
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 1,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 2,
+          "ignored_context_points": 0,
+          "matched_points": 2,
+          "missed_points": 0,
+          "detections": 2,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_9",
+            "V_flame_7"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 0,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 0,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_1"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 0,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_4"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 0,
+          "missed_points": 1,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 1,
+          "ignored_context_points": 0,
+          "matched_points": 1,
+          "missed_points": 0,
+          "detections": 1,
+          "unmatched_detections": 0,
+          "matched_track_ids": [
+            "V_flame_4"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 3,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 3,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "sensors": {
+        "V": {
+          "eligible_truth_points": 0,
+          "ignored_context_points": 2,
+          "matched_points": 0,
+          "missed_points": 0,
+          "detections": 0,
+          "unmatched_detections": 0,
+          "matched_track_ids": []
+        }
+      }
+    }
+  ],
+  "limits": "Same 50 reviewed pairs used for diagnostics. Point coverage is not detector AP, tracking ID accuracy, or geographic accuracy."
+}

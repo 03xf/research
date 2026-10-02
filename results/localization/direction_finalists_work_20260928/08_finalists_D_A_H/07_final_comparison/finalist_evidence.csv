@@ -1,0 +1,15 @@
+criterion,D,A,H,supporting_experiment,confidence,limitation
+independent_event_count,moderate,weak,weak,D: B1/B2/B4 review; A: B3/B4 only; H: B3 one instant,high,D negatives include only B2 and old B4; no second hot-background event
+ground_truth_quality,moderate,weak,weak,manual state review and 52 existing point labels; B4 H ID unavailable,high,new D review is frame-level; A ground contact visibility not separately labeled
+cross_batch_signal,moderate,moderate,unsupported,D old B3/B4 and new B1/B4 V misses; A old B3/B4 offset,moderate,selected moments; B4 historically exposed
+cross_event_signal,weak,weak,unsupported,D new B1/B2/B4; A only two source events; H one,high,no held-out deployment evaluation
+absolute_localization_link,weak,weak,weak,B3 oracle and A_downstream_localization; geometry_results,high,D T same-case absent; A N worsens; H association accuracy one case
+failure_cases_available,strong,moderate,moderate,D_failure_cases; A_failure_cases; H_failure_cases,high,failure coverage selected
+data_sufficiency,weak,weak,unsupported,review_queue + benchmark + H_identity_truth,high,no independent hot-background; A lacks B1/B2 points; H B4 ID unknown
+annotation_cost,moderate,weak,weak,59 new reviewed centers; A point and H cross-UAV identity gaps,moderate,full frame/physical point review remains
+method_novelty,weak,weak,weak,first-stage literature boundary; no validated new method here,moderate,all methods currently simple baselines
+comparison_baselines,moderate,moderate,weak,D0-D4; A0-A4; H0/H3/H4,high,D5/A5 and H1/H2/H5/H6 gated by data
+reproducibility,moderate,moderate,moderate,"scripts, contact sheets, exact source provenance",high,old review and frozen models historically exposed
+implementation_complexity,moderate,moderate,moderate,scripted CPU and frozen detector evaluations,moderate,full downstream requires T anchor/sync
+risk,weak,weak,weak,stop conditions in reports,high,each candidate has a decisive missing gate
+paper_story_completeness,weak,weak,unsupported,oracle_results and candidate reports,high,no candidate satisfies independent end-to-end chain

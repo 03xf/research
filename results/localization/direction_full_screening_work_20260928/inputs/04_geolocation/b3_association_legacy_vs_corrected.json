@@ -1,0 +1,112 @@
+{
+  "legacy": {
+    "rows": [
+      {
+        "assignment": "NNN",
+        "same_source": true,
+        "median_residual_m": 1.0776870038905801,
+        "max_residual_m": 1.2091665736096462
+      },
+      {
+        "assignment": "NNS",
+        "same_source": false,
+        "median_residual_m": 10.940730601895066,
+        "max_residual_m": 18.85357531725323
+      },
+      {
+        "assignment": "NSN",
+        "same_source": false,
+        "median_residual_m": 12.5370970324717,
+        "max_residual_m": 15.791758262285114
+      },
+      {
+        "assignment": "NSS",
+        "same_source": false,
+        "median_residual_m": 10.635456567084669,
+        "max_residual_m": 19.20021254204477
+      },
+      {
+        "assignment": "SNN",
+        "same_source": false,
+        "median_residual_m": 8.989836024126982,
+        "max_residual_m": 14.58088782158191
+      },
+      {
+        "assignment": "SNS",
+        "same_source": false,
+        "median_residual_m": 10.241024398979306,
+        "max_residual_m": 16.633402013091168
+      },
+      {
+        "assignment": "SSN",
+        "same_source": false,
+        "median_residual_m": 9.822657590760478,
+        "max_residual_m": 12.558487700989586
+      },
+      {
+        "assignment": "SSS",
+        "same_source": true,
+        "median_residual_m": 1.0895866448363787,
+        "max_residual_m": 1.6212953978078288
+      }
+    ],
+    "max_true": 1.0895866448363787,
+    "min_false": 8.989836024126982,
+    "separation_ratio": 8.250684850746284
+  },
+  "corrected": {
+    "rows": [
+      {
+        "assignment": "NNN",
+        "same_source": true,
+        "median_residual_m": 0.5960141049559915,
+        "max_residual_m": 0.7345409027810901
+      },
+      {
+        "assignment": "NNS",
+        "same_source": false,
+        "median_residual_m": 8.221375146173743,
+        "max_residual_m": 15.518109310054678
+      },
+      {
+        "assignment": "NSN",
+        "same_source": false,
+        "median_residual_m": 10.049696274466129,
+        "max_residual_m": 13.398016754645761
+      },
+      {
+        "assignment": "NSS",
+        "same_source": false,
+        "median_residual_m": 8.304761384527186,
+        "max_residual_m": 15.564810402156036
+      },
+      {
+        "assignment": "SNN",
+        "same_source": false,
+        "median_residual_m": 8.084784740236948,
+        "max_residual_m": 14.063393964818527
+      },
+      {
+        "assignment": "SNS",
+        "same_source": false,
+        "median_residual_m": 7.996240433997203,
+        "max_residual_m": 14.82513686115065
+      },
+      {
+        "assignment": "SSN",
+        "same_source": false,
+        "median_residual_m": 9.4036208060271,
+        "max_residual_m": 11.969877291611853
+      },
+      {
+        "assignment": "SSS",
+        "same_source": true,
+        "median_residual_m": 0.33263928898888967,
+        "max_residual_m": 0.45763696411681576
+      }
+    ],
+    "max_true": 0.5960141049559915,
+    "min_false": 7.996240433997203,
+    "separation_ratio": 13.416193287216968
+  }
+}

@@ -1,0 +1,21 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,1.073176711273159,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,1.871807086787371,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,10.940094542433089,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.9830514919905083,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,3.5872836778577644,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.7106005097813595,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,13.283081198416877,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,12.327883013653524,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,0.10865975734565182,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,4.438794899290307,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,B3_five_level_oracle,B3_N,one three-UAV instant,manual_point_manual_assoc_calibrated,horizontal_error_m,12.676274071657543,LRF horizontal reference,Same geometry variant for both B3 sources
+K,B3_five_level_oracle,B3_S,one three-UAV instant,manual_point_manual_assoc_calibrated,horizontal_error_m,0.7106005097813681,LRF horizontal reference,Same geometry variant for both B3 sources
+K,B3_five_level_oracle,B3_N,one three-UAV instant,automatic_point_manual_assoc_calibrated,horizontal_error_m,12.284376019281225,LRF horizontal reference,Official frozen detector; nearest manual point selects detection
+K,B3_five_level_oracle,B3_N,one three-UAV instant,automatic_point_manual_assoc_calibrated,available_three_view,True,manual physical source ID,Frozen V flame threshold 0.37
+K,B3_five_level_oracle,B3_S,one three-UAV instant,automatic_point_manual_assoc_calibrated,available_three_view,False,manual physical source ID,Frozen V flame threshold 0.37
+K,B3_five_level_oracle,B3_N/S,one three-UAV instant,manual_point_automatic_assoc_calibrated,correct_source_count,2,manual N/S identity,out_of=2; one instant
+K,B3_five_level_oracle,B3_N,one three-UAV instant,manual_point_automatic_assoc_calibrated,horizontal_error_m,12.676274071657543,LRF horizontal reference,Automatic association selected NNN/SSS
+K,B3_five_level_oracle,B3_S,one three-UAV instant,manual_point_automatic_assoc_calibrated,horizontal_error_m,0.7106005097813681,LRF horizontal reference,Automatic association selected NNN/SSS
+K,B3_five_level_oracle,B3_N/S,one three-UAV instant,all_automatic,source_availability_fraction,0.5,manual source ID,1/2; auto ray residual selection
+K,B3_five_level_oracle,B3_N,one three-UAV instant,all_automatic,horizontal_error_m,12.284376019281225,LRF horizontal reference,Physical ID assigned after automatic hypothesis selection for scoring only

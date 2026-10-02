@@ -1,0 +1,29 @@
+site,method,horizontal_error_m,ray_residual_m,condition,reference_type,source_file,note
+B1_F1,G0_nominal,1.073176711273159,0.32450706940562357,36.65948894858199,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/B1_pair_ablation.json,inherited same manual point and association
+B1_F1,G1_visual_K,1.1561851378069172,0.33957491388727706,37.67910674149475,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/B1_pair_ablation.json,inherited same manual point and association
+B1_F1,G2_visual_center_nominal_gimbal,1.871807086787371,0.020277638230876565,37.67910674149475,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/B1_pair_ablation.json,inherited same manual point and association
+B1_F1,G4_free_SfM,1.8794788133140012,0.06859564915977064,34.304712228133106,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/B1_pair_ablation.json,inherited same manual point and association
+B2_F1,G0_nominal,10.940094542433089,1.6779066730612864,37.1206080279914,prefire_pile,07_codex_full_screening/input_snapshot/04_geolocation/B2_pair_ablation.json,inherited same manual point and association
+B2_F1,G1_visual_K,10.917324463701052,1.6767323796827822,35.740966125673474,prefire_pile,07_codex_full_screening/input_snapshot/04_geolocation/B2_pair_ablation.json,inherited same manual point and association
+B2_F1,G2_visual_center_nominal_gimbal,0.9830514919905083,0.48961594314528073,35.740966125673474,prefire_pile,07_codex_full_screening/input_snapshot/04_geolocation/B2_pair_ablation.json,inherited same manual point and association
+B2_F1,G4_free_SfM,0.9687899732769324,0.3111323366890711,37.642683799709204,prefire_pile,07_codex_full_screening/input_snapshot/04_geolocation/B2_pair_ablation.json,inherited same manual point and association
+B3_S,G0_nominal,3.5872836778577644,1.0895866448363787,3.7848214111958627,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/b3_geometry_ablation.json,inherited same manual point and association
+B3_S,G1_visual_K,1.4148403450041338,1.3796079055621213,3.6812101893295317,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/b3_geometry_ablation.json,inherited same manual point and association
+B3_S,G2_visual_center_nominal_gimbal,0.7106005097813595,0.33263928898888967,3.6812101893295317,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/b3_geometry_ablation.json,inherited same manual point and association
+B3_S,G4_free_SfM,1.1325322219477973,0.2356731681895459,3.6831034922260733,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/b3_geometry_ablation.json,inherited same manual point and association
+B3_S,G4_free_orientation_GPS_center,1.618403637028854,2.0206839147949895,3.6831034922260733,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/b3_geometry_ablation.json,inherited same manual point and association
+B4_F1,G0_nominal,0.10865975734565182,0.41681306211954583,4.349112845616214,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/lrf_B4_nominal_vs_sfm.json,one physical site; repeated views
+B4_F1,G4_free_SfM,14.186414544481417,0.19894309190667445,3.6808295712842334,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/lrf_B4_nominal_vs_sfm.json,one physical site; repeated views
+B4_F1,G3_orientation_anchored,4.438794899290307,0.1752940077290771,3.6808295712842325,accepted_LRF_fire,07_codex_full_screening/input_snapshot/04_geolocation/lrf_B4_orientation_anchored_sfm.json,orientation anchored; bounded correction not established
+B3_N,G0_nominal,13.283081198416877,,,accepted_LRF_fire,07_codex_full_screening/F_geometry/results.csv,"same manual point, inherited"
+B3_N,G3_orientation_anchored,12.327883013653524,,,accepted_LRF_fire,07_codex_full_screening/F_geometry/results.csv,orientation anchored; no cross-site bounded validation
+B1_F1,G3_bounded_correction,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B2_F1,G3_bounded_correction,,,,prefire_pile,,unavailable or no matching fixed variant; never imputed
+B3_N,G1_visual_K,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B3_N,G2_visual_center_nominal_gimbal,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B3_N,G3_bounded_correction,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B3_N,G4_free_SfM,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B3_S,G3_bounded_correction,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B4_F1,G1_visual_K,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B4_F1,G2_visual_center_nominal_gimbal,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed
+B4_F1,G3_bounded_correction,,,,accepted_LRF_fire,,unavailable or no matching fixed variant; never imputed

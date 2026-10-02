@@ -1,0 +1,5 @@
+moment_id,subtitle_wall_time_spread_s,max_nearest_frame_pts_difference_s,exported_JPEG_exact_PTS_verified,cross_uav_clock_offset_calibrated,note
+B1_M03,0.454,0.016133000000024822,no,no,nearest decoded PTS is a request probe; actual exported JPEG PTS not traced
+B2_M03,1.017,0.014499999999998181,no,no,nearest decoded PTS is a request probe; actual exported JPEG PTS not traced
+B3_M02,0.837,0.01643300000000636,no,no,nearest decoded PTS is a request probe; actual exported JPEG PTS not traced
+B4_M02,1.726,0.015800000000012915,no,no,nearest decoded PTS is a request probe; actual exported JPEG PTS not traced

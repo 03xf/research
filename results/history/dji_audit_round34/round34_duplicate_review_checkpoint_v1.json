@@ -1,0 +1,27 @@
+{
+  "schema_version": "dji_round34_duplicate_review_checkpoint_v1",
+  "updated_utc": "2026-09-24T04:52:20Z",
+  "queue": "@trial/data_integrity/duplicate_conflict_review_queue_round33.json",
+  "coverage": {
+    "queue_pairs": 35,
+    "unique_pairs_with_visual_presence_or_count_review": 35,
+    "pairs_with_approved_class_and_exact_box_geometry": 0,
+    "derived_training_dataset_created": false,
+    "validation_labels_independently_approved": false
+  },
+  "reports": [
+    "presence_adjudication_v1.json",
+    "count_conflict_review_v1.json",
+    "remaining_21_presence_review_v1.json"
+  ],
+  "interpretation": "Review coverage does not mean label approval. Several kept and dropped versions omit visible targets, misclassify small flame as smoke, or disagree on object grouping. Round33 deduplication removed conflicting image copies but did not repair their labels; its failed validation metrics cannot isolate model quality from annotation quality.",
+  "next_actions": [
+    "Review kept and dropped images/labels for all 35 pairs and adjudicate class plus exact bounding boxes in a new derived training data version; preserve all historical data.",
+    "Run image, label, class-index, duplicate, source-session split, and blind-test-exclusion checks on the derived version before retraining.",
+    "Independently review validation label geometry and disclose prior model-assisted exposure before interpreting qualification metrics.",
+    "Continue LRF reference grouping and image-plane localization separately; do not issue absolute flame coordinates without real Matrice 4T calibration and same-target evidence."
+  ],
+  "blind_test_accessed_in_round34": false,
+  "validation_accessed_in_round34": false,
+  "training_labels_changed_in_round34": false
+}

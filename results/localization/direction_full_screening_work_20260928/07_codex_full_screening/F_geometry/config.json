@@ -1,0 +1,9 @@
+{
+  "direction": "F_geometry",
+  "title": "Cross-site visual geometry",
+  "description": "Compares nominal and visual corrections against independent horizontal LRF references, preserving pre-fire B2 status.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

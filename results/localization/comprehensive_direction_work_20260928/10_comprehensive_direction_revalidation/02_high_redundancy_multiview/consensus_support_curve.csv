@@ -1,0 +1,6 @@
+support_uav_count,verified_manual_source_instants,gold_horizontal_error_n,gold_error_median_m,heldout_projection_n,heldout_projection_median_px,association_margin,result_status,truth_level,notes
+2,3,9,3.067582847193976,9,95.63102096080175,only one B3 event at support=2; no >=5-UAV identity reference,descriptive_existing_seed_only,Gold+Manual seed,Do not interpret duplicated LOUO subsets as independent moments; no verified >=4-UAV source point.
+3,3,3,3.2920814330373473,9,95.63102096080175,only one B3 event at support=2; no >=5-UAV identity reference,descriptive_existing_seed_only,Gold+Manual seed,Do not interpret duplicated LOUO subsets as independent moments; no verified >=4-UAV source point.
+4,0,0,,0,,only one B3 event at support=2; no >=5-UAV identity reference,not_estimable,Candidate opportunity only,Do not interpret duplicated LOUO subsets as independent moments; no verified >=4-UAV source point.
+5,0,0,,0,,only one B3 event at support=2; no >=5-UAV identity reference,not_estimable,Candidate opportunity only,Do not interpret duplicated LOUO subsets as independent moments; no verified >=4-UAV source point.
+6,0,0,,0,,only one B3 event at support=2; no >=5-UAV identity reference,not_estimable,Candidate opportunity only,Do not interpret duplicated LOUO subsets as independent moments; no verified >=4-UAV source point.

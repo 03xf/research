@@ -1,0 +1,7 @@
+physical_fire_id,reference_status,latitude,longitude,strict_simultaneous_truth,reference_source,notes
+B1,conditional,31.28913770,120.47274985,False,JPG XMP LRF candidate,post-burn charred pile; conditional same site
+B2,conditional,31.28947350,120.47280310,False,JPG XMP LRF candidate,pre-ignition woodpile; alleged B4 F1 is same B2 site
+B3_N,none,,,False,,B3 F1 correspondence withdrawn; do not use as northern truth
+B3_S,candidate_conditional,31.28968530,120.47275315,False,JPG XMP LRF candidate,B3 F2 southern candidate; ground anchor incomplete
+B4_E,none,,,False,,no independent reference; alleged B4 F1 cannot be used
+B4_W,none,,,False,,no independent reference; alleged B4 F1 cannot be used

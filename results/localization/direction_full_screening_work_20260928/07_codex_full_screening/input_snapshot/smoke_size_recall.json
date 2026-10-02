@@ -1,0 +1,36 @@
+{
+  "recall_conf_0.01": {
+    "tiny<.0025": {
+      "matched": 43,
+      "total": 44,
+      "recall": 0.9772727272727273
+    },
+    "small .0025-.01": {
+      "matched": 139,
+      "total": 141,
+      "recall": 0.9858156028368794
+    },
+    "large>=.01": {
+      "matched": 205,
+      "total": 212,
+      "recall": 0.9669811320754716
+    }
+  },
+  "recall_conf_0.25": {
+    "tiny<.0025": {
+      "matched": 36,
+      "total": 44,
+      "recall": 0.8181818181818182
+    },
+    "small .0025-.01": {
+      "matched": 129,
+      "total": 141,
+      "recall": 0.9148936170212766
+    },
+    "large>=.01": {
+      "matched": 187,
+      "total": 212,
+      "recall": 0.8820754716981132
+    }
+  }
+}

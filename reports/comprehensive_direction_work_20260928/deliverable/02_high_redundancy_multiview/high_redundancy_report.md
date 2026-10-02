@@ -1,0 +1,5 @@
+# High-redundancy multiview staging
+
+Selected five 30-second opportunities per batch, stratified across eligible time windows with at least five distinct V/T UAVs. UAV counts per selected moment: B1: 7,7,7,7,7, B2: 6,9,9,9,6, B3: 7,8,8,7,5, B4: 8,9,9,9,5. This created 20 moments and 298 full-resolution V/T candidate frames. Each moment has a V contact sheet and a T contact sheet; `annotation_manifest.csv` is prefilled with unknown source count, points, visibility, physical IDs, and state. These fields are pending human review. Source capture uses container creation tags, not verified common-clock synchronization.
+
+The existing independent seed benchmark contains verified three-UAV points only. The support-count curve can describe 2-of-3 LOUO and 3-UAV consensus from B1/B3 seeds; at >=4 UAV there are zero verified source moments. Therefore no valid 4/5/6+ support trend in LOUO Gold error, held-out projection, or association margin can be computed yet. The 298 frames are not counted as source observations, labels, training examples, or independent events. Contact sheets are annotation-ready materials, not finished annotations.

@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+temporal_identity,Historical smoke images lack verified event-independent partitions,smoke_clean/removed.txt only removes SHA256-identical images,Tiny smoke result may reflect near-duplicate exposure
+early_stage,"Box area is a size proxy, not a labeled early-fire stage",smoke_size_recall.json,Cannot claim early detection from area bins

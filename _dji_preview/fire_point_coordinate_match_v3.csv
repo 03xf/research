@@ -1,9 +1,0 @@
-﻿coordinate_id,coordinate_batch,latitude,longitude,coordinate_source,fire_point_id_or_none,relation_status,confidence,needs_user_confirmation,event_scope,evidence_note
-B1_F1_LRF,B1,31.2891377000,120.4727498500,XMP_LRFTarget_event_median,B1_F1_video,高概率对应,高,否,当前 B1 事件,B1 多张 T/V 激光观测落在同一处炭化火堆附近；约 0.91 m。
-B2_F1_LRF,B2,31.2894735000,120.4728031000,XMP_LRFTarget_event_median,B2_F1_video,放火前参考对应,中,否,当前 B2 事件，放火前,图像是放火前木柴堆；可作为位置参考，但不是燃烧期火焰中心真值。
-B3_F1_LRF,B3,31.2897849000,120.4727221000,XMP_LRFTarget_event_median,B3_N_video / B3_S_video,二选一待确认,待确认,是,当前 B3 事件,需要判断 F1 激光落点对应北侧还是南侧火点。
-B3_F2_LRF,B3,31.2896853000,120.4727531500,XMP_LRFTarget_event_median,B3_N_video / B3_S_video,二选一待确认,待确认,是,当前 B3 事件,需要判断 F2 激光落点对应北侧还是南侧火点。
-B4_F1_LRF,B4,31.2894814000,120.4728076000,XMP_LRFTarget_event_median,无,不对应当前六点,已排除,否,另一场放火事件,时间为 11:21-11:24，和当前 10:54 东/西两个火点不是同一场事件。
-B4_F2_candidate_northwest_charred,B4,31.2897240930,120.4727676677,postfire_image_ray_estimate,无,不对应当前六点,已排除,否,另一场放火事件,事后影像候选，已判为另一场放火事件。
-B4_F2_candidate_middle_gray,B4,31.2895964971,120.4727907382,postfire_image_ray_estimate,无,不对应当前六点,已排除,否,另一场放火事件,事后影像候选，已判为另一场放火事件。
-B4_F2_candidate_south_charred,B4,31.2893640206,120.4728224004,postfire_image_ray_estimate,无,不对应当前六点,已排除,否,另一场放火事件,事后影像候选，已判为另一场放火事件。

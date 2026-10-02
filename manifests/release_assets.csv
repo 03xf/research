@@ -1,0 +1,3 @@
+name,bytes,sha256,url
+visible_data_20261002.tar.gz,1184838446,113812297cdafc59cfc8d31c98784c094c05eebe24e7cf0163fb654b742028c0,https://github.com/03xf/research/releases/download/visible-data-20261002/visible_data_20261002.tar.gz
+dji_e2_visible_20261002.tar.gz,281458587,548829f32c219d1b4952e2b347305232158a6752b012afb8c5df8a281f2076cc,https://github.com/03xf/research/releases/download/dataset-e2-20260928/dji_e2_visible_20261002.tar.gz

@@ -1,9 +1,0 @@
-{
-  "schema_version": "dji_round23_tiling_correction_v1",
-  "affected_dataset": "/home/member/xmy/xmy/results/dji_adaptation/b4_trial_v7/datasets_round23_tiled_retry1",
-  "finding": "For 1920x1080 V and 1280x1024 T images, the implementation produced four non-overlapping quadrant crops. The source code declared overlap variables but did not use them in position generation.",
-  "actual_method": "four quadrant crops per original train image; 20% clipped-box retention threshold; original full-frame validation",
-  "claimed_method_in_dataset_manifest": "10% overlap",
-  "status": "method label corrected in this standalone audit; training results retained as quadrant-crop experiment",
-  "next_action": "If a true overlapping crop comparison is needed, create a new dataset version with verified crop coordinates and run it separately. Do not rename Round23 results as overlapping tiles."
-}

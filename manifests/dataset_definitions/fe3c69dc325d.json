@@ -1,0 +1,12 @@
+{
+  "dataset": "recovery_v1/b2_curated_v3/V",
+  "experiments": [],
+  "configuration": {
+    "path": "@recovery/b2_curated_v3/V",
+    "train": "images/train",
+    "val": "images/development",
+    "names": {
+      "0": "flame"
+    }
+  }
+}

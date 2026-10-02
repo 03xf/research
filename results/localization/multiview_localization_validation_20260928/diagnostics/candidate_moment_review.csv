@@ -1,0 +1,13 @@
+moment_id,fire_id,contact_sheet_reviewed,existing_multiview_proxy_marks,fixed_same_ground_point_confirmed,decision_reason
+B1_M01,B1,yes,no,no,Pile identifiable across views but exposed ground-contact corner is occluded in several views; flame location differs from pile point
+B1_M02,B1,yes,no,no,Flame and foreground foliage obscure ground base in several views; no exact shared physical branch-ground point identified
+B1_M03,B1,yes,yes,no,Seven existing 480x270-sheet flame-base proxies; same fixed ground contact not established
+B1_M04,B1,yes,no,no,Pile partly collapsed to embers; cross-time identity of a particular fixed fuel-ground point not established
+B2_M01,B2,yes,no,no,Prefire pile visible from six views but no particular fixed ground-contact branch unambiguously mapped among all views
+B2_M02,B2,yes,no,no,Burning pile visible from nine views; flames obscure base in oblique views and cross-view same point is uncertain
+B2_M03,B2,yes,yes,no,Seven existing flame-base proxies; not the same verified static pile-ground point
+B2_M04,B2,yes,no,no,Postfire pile collapsed; no fixed prefire-to-postfire contact anchor verified
+B3_M01,B3_S,yes,no,no,"South fire visible from several views, but distant/partly image-edge ground base makes exact same point uncertain"
+B3_M02,B3_S,yes,yes,no,"Seven existing flame-base proxies, approximate thumbnail placement"
+B3_M03,B3_S,yes,no,no,South pile largely ash/embers and small in several distant views; no repeat of same ground contact
+B3_M02,B3_N,yes,yes,no,Seven flame-base proxies; no trusted physical LRF and no exact ground contact

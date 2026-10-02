@@ -1,0 +1,42 @@
+{
+  "schema_version": "dji_round35_overlay_qc_v1",
+  "reviewed_utc": "2026-09-24T05:02:54Z",
+  "candidate_file": "round35_geometry_candidates_v1.json",
+  "preview_count": 7,
+  "previewed_entries": [
+    "V:obs_v7_train_0027",
+    "T:obs_v7_train_0027",
+    "V:obs_v7_train_0024",
+    "T:obs_v7_train_0024",
+    "T:obs_v7_train_0009",
+    "V:obs_v7_train_0025",
+    "T:obs_v7_train_0025"
+  ],
+  "single_reviewer_clear_label_patches": [
+    "V:obs_v7_train_0027",
+    "T:obs_v7_train_0027",
+    "V:obs_v7_train_0024",
+    "T:obs_v7_train_0024",
+    "T:obs_v7_train_0009",
+    "V:obs_v7_train_0025"
+  ],
+  "excluded_from_label_patches": [
+    {
+      "entry": "T:obs_v7_train_0025",
+      "reason": "Second smaller hot patch remains weak/ambiguous for hotspot class; do not use a partially labeled image as a training positive or negative."
+    },
+    {
+      "entry": "V:obs_v7_train_0009",
+      "reason": "Existing smoke label geometry not yet independently approved."
+    }
+  ],
+  "limitations": [
+    "Single-review visual box QC only; no second annotator consensus.",
+    "Smoke boundaries are diffuse and box geometry is convention-dependent.",
+    "These are train-split patches only, not validation or blind-test labels.",
+    "No T/V physical-target association inferred from proximity in frame or time."
+  ],
+  "dataset_ready": false,
+  "training_authorized": false,
+  "next_action": "Continue exact-box adjudication for remaining duplicate pairs and validation-label audit; then build and QC a separate derived dataset before training."
+}

@@ -1,0 +1,183 @@
+direction,dimension,assessment,evidence,evidence_file
+A_anchor,A_data_sufficiency,measured,"33 V and 44 T matched active points, only five clips",A_anchor/results.json
+A_anchor,B_independent_truth_quality,qualified_or_missing,manual image points; no downstream LRF on the same detections,A_anchor/results.json
+A_anchor,C_measured_performance_gap,measured,V center-to-source offset improves median matched-point error in B3 and B4; T does not,A_anchor/results.csv
+A_anchor,D_headroom,qualified_or_missing,Need broader event labels and same-case triangulation,A_anchor/failures.csv
+A_anchor,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+A_anchor,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#source-anchor
+A_anchor,G_reproducibility,measured,Executed in A_anchor/experiment.py with frozen input_snapshot,A_anchor/experiment.py
+A_anchor,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+A_anchor,I_compute_cost,qualified_or_missing,Relative compute demand: low; based on current probe and method scope,A_anchor/experiment.py
+A_anchor,J_implementation_risk,qualified_or_missing,Need broader event labels and same-case triangulation,A_anchor/failures.csv
+A_anchor,K_failure_interpretability,measured,Explicit cases in A_anchor/failures.csv,A_anchor/failures.csv
+A_anchor,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+A_anchor,M_EI_paper_completeness,qualified_or_missing,"conditional anchor baseline, not a paper yet",13_final_direction_screening.md
+B_temporal,A_data_sufficiency,measured,Five 10-moment clips,B_temporal/results.json
+B_temporal,B_independent_truth_quality,qualified_or_missing,manual image points; no motion compensation,B_temporal/results.json
+B_temporal,C_measured_performance_gap,measured,Trailing median lowers conditional image-point error modestly,B_temporal/results.csv
+B_temporal,D_headroom,qualified_or_missing,Downstream position and held-out clips missing,B_temporal/failures.csv
+B_temporal,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+B_temporal,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#temporal-and-state
+B_temporal,G_reproducibility,measured,Executed in B_temporal/experiment.py with frozen input_snapshot,B_temporal/experiment.py
+B_temporal,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+B_temporal,I_compute_cost,qualified_or_missing,Relative compute demand: low; based on current probe and method scope,B_temporal/experiment.py
+B_temporal,J_implementation_risk,qualified_or_missing,Downstream position and held-out clips missing,B_temporal/failures.csv
+B_temporal,K_failure_interpretability,measured,Explicit cases in B_temporal/failures.csv,B_temporal/failures.csv
+B_temporal,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+B_temporal,M_EI_paper_completeness,qualified_or_missing,defer as standalone,13_final_direction_screening.md
+C_rgbt_alignment,A_data_sufficiency,measured,99 fractions from 33 recordings,C_rgbt_alignment/results.json
+C_rgbt_alignment,B_independent_truth_quality,qualified_or_missing,background match proxy; no source mapping truth,C_rgbt_alignment/results.json
+C_rgbt_alignment,C_measured_performance_gap,measured,Spatially supported SIFT homography succeeds in 19/99 probes,C_rgbt_alignment/results.csv
+C_rgbt_alignment,D_headroom,qualified_or_missing,No cross-session source-point transfer test,C_rgbt_alignment/failures.csv
+C_rgbt_alignment,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+C_rgbt_alignment,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#rgb-t
+C_rgbt_alignment,G_reproducibility,measured,Executed in C_rgbt_alignment/experiment.py with frozen input_snapshot,C_rgbt_alignment/experiment.py
+C_rgbt_alignment,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+C_rgbt_alignment,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,C_rgbt_alignment/experiment.py
+C_rgbt_alignment,J_implementation_risk,qualified_or_missing,No cross-session source-point transfer test,C_rgbt_alignment/failures.csv
+C_rgbt_alignment,K_failure_interpretability,measured,Explicit cases in C_rgbt_alignment/failures.csv,C_rgbt_alignment/failures.csv
+C_rgbt_alignment,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+C_rgbt_alignment,M_EI_paper_completeness,qualified_or_missing,generic homography eliminated; source-centric alignment remains open,13_final_direction_screening.md
+D_thermal_recovery,A_data_sufficiency,measured,"32 active, 8 hot-background, 10 residual-heat moments",D_thermal_recovery/results.json
+D_thermal_recovery,B_independent_truth_quality,qualified_or_missing,manual state and source points on five clips,D_thermal_recovery/results.json
+D_thermal_recovery,C_measured_performance_gap,measured,Thermal covers 31/32 active moments; 9 T-only recoveries; all hot/residual frames also trigger T,D_thermal_recovery/results.csv
+D_thermal_recovery,D_headroom,qualified_or_missing,State gate and independent B1/B2 validation missing,D_thermal_recovery/failures.csv
+D_thermal_recovery,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+D_thermal_recovery,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#rgb-t
+D_thermal_recovery,G_reproducibility,measured,Executed in D_thermal_recovery/experiment.py with frozen input_snapshot,D_thermal_recovery/experiment.py
+D_thermal_recovery,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+D_thermal_recovery,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,D_thermal_recovery/experiment.py
+D_thermal_recovery,J_implementation_risk,qualified_or_missing,State gate and independent B1/B2 validation missing,D_thermal_recovery/failures.csv
+D_thermal_recovery,K_failure_interpretability,measured,Explicit cases in D_thermal_recovery/failures.csv,D_thermal_recovery/failures.csv
+D_thermal_recovery,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+D_thermal_recovery,M_EI_paper_completeness,qualified_or_missing,main question if state gate can generalize,13_final_direction_screening.md
+E_fire_state,A_data_sufficiency,measured,50 moments; residual class only one clip,E_fire_state/results.json
+E_fire_state,B_independent_truth_quality,qualified_or_missing,"manual states, clip-confounded",E_fire_state/results.json
+E_fire_state,C_measured_performance_gap,measured,All three states present but residual heat occurs in one clip,E_fire_state/results.csv
+E_fire_state,D_headroom,qualified_or_missing,Cannot evaluate three-state leave-one-clip-out,E_fire_state/failures.csv
+E_fire_state,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+E_fire_state,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#temporal-and-state
+E_fire_state,G_reproducibility,measured,Executed in E_fire_state/experiment.py with frozen input_snapshot,E_fire_state/experiment.py
+E_fire_state,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+E_fire_state,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,E_fire_state/experiment.py
+E_fire_state,J_implementation_risk,qualified_or_missing,Cannot evaluate three-state leave-one-clip-out,E_fire_state/failures.csv
+E_fire_state,K_failure_interpretability,measured,Explicit cases in E_fire_state/failures.csv,E_fire_state/failures.csv
+E_fire_state,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+E_fire_state,M_EI_paper_completeness,qualified_or_missing,"necessary module for D, not standalone now",13_final_direction_screening.md
+F_geometry,A_data_sufficiency,measured,Four fire-linked sites plus B2 pre-fire site,F_geometry/results.json
+F_geometry,B_independent_truth_quality,qualified_or_missing,"LRF horizontal references, one physical point per site",F_geometry/results.json
+F_geometry,C_measured_performance_gap,measured,Visual correction improves 2/4 fire sites and worsens B1/B4,F_geometry/results.csv
+F_geometry,D_headroom,qualified_or_missing,Heterogeneous corrections and small site count,F_geometry/failures.csv
+F_geometry,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+F_geometry,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+F_geometry,G_reproducibility,measured,Executed in F_geometry/experiment.py with frozen input_snapshot,F_geometry/experiment.py
+F_geometry,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+F_geometry,I_compute_cost,qualified_or_missing,Relative compute demand: high; based on current probe and method scope,F_geometry/experiment.py
+F_geometry,J_implementation_risk,qualified_or_missing,Heterogeneous corrections and small site count,F_geometry/failures.csv
+F_geometry,K_failure_interpretability,measured,Explicit cases in F_geometry/failures.csv,F_geometry/failures.csv
+F_geometry,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+F_geometry,M_EI_paper_completeness,qualified_or_missing,defer global improvement claim,13_final_direction_screening.md
+G_reliability,A_data_sufficiency,measured,Four fire-linked sites,G_reliability/results.json
+G_reliability,B_independent_truth_quality,qualified_or_missing,LRF horizontal reference,G_reliability/results.json
+G_reliability,C_measured_performance_gap,measured,Low ray residual retains B3_N and B4 large absolute errors,G_reliability/results.csv
+G_reliability,D_headroom,qualified_or_missing,Too few independent sites to fit selective risk,G_reliability/failures.csv
+G_reliability,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+G_reliability,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+G_reliability,G_reproducibility,measured,Executed in G_reliability/experiment.py with frozen input_snapshot,G_reliability/experiment.py
+G_reliability,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+G_reliability,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,G_reliability/experiment.py
+G_reliability,J_implementation_risk,qualified_or_missing,Too few independent sites to fit selective risk,G_reliability/failures.csv
+G_reliability,K_failure_interpretability,measured,Explicit cases in G_reliability/failures.csv,G_reliability/failures.csv
+G_reliability,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+G_reliability,M_EI_paper_completeness,qualified_or_missing,"important rejection subproblem, not validated paper",13_final_direction_screening.md
+H_association,A_data_sufficiency,measured,One confirmed B3 triad instant; one B4 fire-time instant,H_association/results.json
+H_association,B_independent_truth_quality,qualified_or_missing,B3 source identity manual; B4 labels unverified,H_association/results.json
+H_association,C_measured_performance_gap,measured,B3 correct/mixed residual gap 0.60 vs 8.00m; B4 component gap only heuristic,H_association/results.csv
+H_association,D_headroom,qualified_or_missing,Need independent B4 identities and multiple times,H_association/failures.csv
+H_association,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+H_association,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+H_association,G_reproducibility,measured,Executed in H_association/experiment.py with frozen input_snapshot,H_association/experiment.py
+H_association,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+H_association,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,H_association/experiment.py
+H_association,J_implementation_risk,qualified_or_missing,Need independent B4 identities and multiple times,H_association/failures.csv
+H_association,K_failure_interpretability,measured,Explicit cases in H_association/failures.csv,H_association/failures.csv
+H_association,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+H_association,M_EI_paper_completeness,qualified_or_missing,backup question conditional on label audit,13_final_direction_screening.md
+I_boresight,A_data_sufficiency,measured,17 accepted LRF observations across sites,I_boresight/results.json
+I_boresight,B_independent_truth_quality,qualified_or_missing,"LRF-gimbal bearing, not camera optical boresight",I_boresight/results.json
+I_boresight,C_measured_performance_gap,measured,Zoom LRF bearing median 0.05°; Wide 5.44°; held-out mode offsets not stable,I_boresight/results.csv
+I_boresight,D_headroom,qualified_or_missing,Wide/Zoom occur at different sites and drones,I_boresight/failures.csv
+I_boresight,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+I_boresight,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+I_boresight,G_reproducibility,measured,Executed in I_boresight/experiment.py with frozen input_snapshot,I_boresight/experiment.py
+I_boresight,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+I_boresight,I_compute_cost,qualified_or_missing,Relative compute demand: low; based on current probe and method scope,I_boresight/experiment.py
+I_boresight,J_implementation_risk,qualified_or_missing,Wide/Zoom occur at different sites and drones,I_boresight/failures.csv
+I_boresight,K_failure_interpretability,measured,Explicit cases in I_boresight/failures.csv,I_boresight/failures.csv
+I_boresight,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+I_boresight,M_EI_paper_completeness,qualified_or_missing,calibration diagnostic only,13_final_direction_screening.md
+J_self_calibration,A_data_sufficiency,measured,"Four SfM graphs, one B4 independent target check",J_self_calibration/results.json
+J_self_calibration,B_independent_truth_quality,qualified_or_missing,internal reprojection plus B4 LRF,J_self_calibration/results.json
+J_self_calibration,C_measured_performance_gap,measured,"All B1-B4 have connected graphs, yet B4 free SfM 14.19m vs nominal 0.11m",J_self_calibration/results.csv
+J_self_calibration,D_headroom,qualified_or_missing,Free SfM-to-GPS not reliable,J_self_calibration/failures.csv
+J_self_calibration,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+J_self_calibration,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+J_self_calibration,G_reproducibility,measured,Executed in J_self_calibration/experiment.py with frozen input_snapshot,J_self_calibration/experiment.py
+J_self_calibration,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+J_self_calibration,I_compute_cost,qualified_or_missing,Relative compute demand: high; based on current probe and method scope,J_self_calibration/experiment.py
+J_self_calibration,J_implementation_risk,qualified_or_missing,Free SfM-to-GPS not reliable,J_self_calibration/failures.csv
+J_self_calibration,K_failure_interpretability,measured,Explicit cases in J_self_calibration/failures.csv,J_self_calibration/failures.csv
+J_self_calibration,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+J_self_calibration,M_EI_paper_completeness,qualified_or_missing,pure SfM main route eliminated,13_final_direction_screening.md
+K_error_decomposition,A_data_sufficiency,measured,One B3 three-UAV instant plus five manual-geometry sites including B2 pre-fire,K_error_decomposition/results.json
+K_error_decomposition,B_independent_truth_quality,qualified_or_missing,LRF/site reference; B3 source identities manual,K_error_decomposition/results.json
+K_error_decomposition,C_measured_performance_gap,measured,B3 five-level grid: South automatic localization unavailable; North manual geometry error remains 12.68m,K_error_decomposition/results.csv
+K_error_decomposition,D_headroom,qualified_or_missing,Automatic substitutions not yet evaluated on independent events,K_error_decomposition/failures.csv
+K_error_decomposition,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+K_error_decomposition,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+K_error_decomposition,G_reproducibility,measured,Executed in K_error_decomposition/experiment.py with frozen input_snapshot,K_error_decomposition/experiment.py
+K_error_decomposition,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+K_error_decomposition,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,K_error_decomposition/experiment.py
+K_error_decomposition,J_implementation_risk,qualified_or_missing,Automatic substitutions not yet evaluated on independent events,K_error_decomposition/failures.csv
+K_error_decomposition,K_failure_interpretability,measured,Explicit cases in K_error_decomposition/failures.csv,K_error_decomposition/failures.csv
+K_error_decomposition,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+K_error_decomposition,M_EI_paper_completeness,qualified_or_missing,evaluation instrument; expand before final paper claim,13_final_direction_screening.md
+L_smoke_domain,A_data_sufficiency,measured,Historical smoke folders,L_smoke_domain/results.json
+L_smoke_domain,B_independent_truth_quality,qualified_or_missing,SHA256 exact image content,L_smoke_domain/results.json
+L_smoke_domain,C_measured_performance_gap,measured,Target val/test identical 45/45; 10/45 overlap target train; Detection train 3150/3150 in target train,L_smoke_domain/results.csv
+L_smoke_domain,D_headroom,qualified_or_missing,Original cross-domain protocol invalid,L_smoke_domain/failures.csv
+L_smoke_domain,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+L_smoke_domain,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#smoke
+L_smoke_domain,G_reproducibility,measured,Executed in L_smoke_domain/experiment.py with frozen input_snapshot,L_smoke_domain/experiment.py
+L_smoke_domain,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+L_smoke_domain,I_compute_cost,qualified_or_missing,Relative compute demand: low; based on current probe and method scope,L_smoke_domain/experiment.py
+L_smoke_domain,J_implementation_risk,qualified_or_missing,Original cross-domain protocol invalid,L_smoke_domain/failures.csv
+L_smoke_domain,K_failure_interpretability,measured,Explicit cases in L_smoke_domain/failures.csv,L_smoke_domain/failures.csv
+L_smoke_domain,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+L_smoke_domain,M_EI_paper_completeness,qualified_or_missing,old split eliminated; rebuild protocol first,13_final_direction_screening.md
+M_small_smoke,A_data_sufficiency,measured,44 tiny and 141 small historical labels,M_small_smoke/results.json
+M_small_smoke,B_independent_truth_quality,qualified_or_missing,box annotations; exact duplicate cleanup only,M_small_smoke/results.json
+M_small_smoke,C_measured_performance_gap,measured,Tiny recall 0.818 vs small 0.915 at confidence 0.25,M_small_smoke/results.csv
+M_small_smoke,D_headroom,qualified_or_missing,No event-independent test or early-stage labels,M_small_smoke/failures.csv
+M_small_smoke,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+M_small_smoke,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#smoke
+M_small_smoke,G_reproducibility,measured,Executed in M_small_smoke/experiment.py with frozen input_snapshot,M_small_smoke/experiment.py
+M_small_smoke,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+M_small_smoke,I_compute_cost,qualified_or_missing,Relative compute demand: medium; based on current probe and method scope,M_small_smoke/experiment.py
+M_small_smoke,J_implementation_risk,qualified_or_missing,No event-independent test or early-stage labels,M_small_smoke/failures.csv
+M_small_smoke,K_failure_interpretability,measured,Explicit cases in M_small_smoke/failures.csv,M_small_smoke/failures.csv
+M_small_smoke,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+M_small_smoke,M_EI_paper_completeness,qualified_or_missing,possible question only after split rebuild,13_final_direction_screening.md
+N_joint_graph,A_data_sufficiency,measured,2401 unreviewed pairs; 42 groups; 26 sessions,N_joint_graph/results.json
+N_joint_graph,B_independent_truth_quality,qualified_or_missing,no joint physical-source graph truth,N_joint_graph/results.json
+N_joint_graph,C_measured_performance_gap,measured,2401 V/T candidates and multi-UAV graph exist but no verified joint source graph,N_joint_graph/results.csv
+N_joint_graph,D_headroom,qualified_or_missing,Cannot evaluate cross-UAV/cross-modal ID or location,N_joint_graph/failures.csv
+N_joint_graph,E_novelty_vs_theses,qualified_or_missing,Compare with both theses in 01_previous_work_boundary.md; no module-only novelty accepted,01_previous_work_boundary.md
+N_joint_graph,F_novelty_vs_recent_literature,qualified_or_missing,"See the linked 2023-2026 primary literature; gap is conditional, not a priority claim",10_literature_gap.md#geometry-and-association
+N_joint_graph,G_reproducibility,measured,Executed in N_joint_graph/experiment.py with frozen input_snapshot,N_joint_graph/experiment.py
+N_joint_graph,H_annotation_requirement,qualified_or_missing,"More labels must come from existing video, preferably B1/B2 and independent sessions",00_data_audit.md
+N_joint_graph,I_compute_cost,qualified_or_missing,Relative compute demand: high; based on current probe and method scope,N_joint_graph/experiment.py
+N_joint_graph,J_implementation_risk,qualified_or_missing,Cannot evaluate cross-UAV/cross-modal ID or location,N_joint_graph/failures.csv
+N_joint_graph,K_failure_interpretability,measured,Explicit cases in N_joint_graph/failures.csv,N_joint_graph/failures.csv
+N_joint_graph,L_fire_geolocation_connection,qualified_or_missing,Pipeline relation stated in 02_candidate_directions.md,02_candidate_directions.md
+N_joint_graph,M_EI_paper_completeness,qualified_or_missing,defer ambitious joint model,13_final_direction_screening.md

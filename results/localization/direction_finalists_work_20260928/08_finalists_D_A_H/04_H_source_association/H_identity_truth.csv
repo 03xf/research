@@ -1,0 +1,19 @@
+moment,drone,candidate_id,physical_source_id,state,confidence,truth_origin,note
+B3_one_three_UAV_instant,uav-02,N,B3_N,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B3_one_three_UAV_instant,uav-02,S,B3_S,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B3_one_three_UAV_instant,uav-04,N,B3_N,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B3_one_three_UAV_instant,uav-04,S,B3_S,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B3_one_three_UAV_instant,uav-09,N,B3_N,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B3_one_three_UAV_instant,uav-09,S,B3_S,active_fire,manual_confirmed,existing_manual,one B3 instant; manual marks; not repeated events
+B4_uav-02_DJI_20260908105306_0001_0120,uav-02,site_left_or_upper,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-02_DJI_20260908105306_0001_0120,uav-02,site_right_or_lower,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-02_DJI_20260908105306_0001_0240,uav-02,site_left_or_upper,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-02_DJI_20260908105306_0001_0240,uav-02,site_right_or_lower,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-02_DJI_20260908105306_0001_0360,uav-02,site_left_or_upper,,uncertain,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-02_DJI_20260908105306_0001_0360,uav-02,site_right_or_lower,,uncertain,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0120,uav-09,site_left_or_upper,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0120,uav-09,site_right_or_lower,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0240,uav-09,site_left_or_upper,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0240,uav-09,site_right_or_lower,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0360,uav-09,site_left_or_upper,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy
+B4_uav-09_DJI_20260908105258_0002_0360,uav-09,site_right_or_lower,,active_fire,within_view_only,new_manual_review,two fixed burn sites visible; cross-UAV physical ID unavailable; B4 excluded from association accuracy

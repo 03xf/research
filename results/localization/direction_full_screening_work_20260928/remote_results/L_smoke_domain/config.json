@@ -1,0 +1,9 @@
+{
+  "direction": "L_smoke_domain",
+  "title": "Old-smoke protocol audit",
+  "description": "Counts split/source overlap with filenames and equal-size SHA256 checks before any domain-adaptation claim.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

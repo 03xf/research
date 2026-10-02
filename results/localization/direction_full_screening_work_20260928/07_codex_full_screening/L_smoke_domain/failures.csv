@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+event_split,No scene/event provenance for old smoke validation images in this audit,datasets_yolo images/train and images/val0,Cannot claim independent generalization
+cross_domain_semantics,Original target/source directories must be mapped to real capture domains,cross_domain_dataset directory structure,Do not train or report adaptation on inherited split

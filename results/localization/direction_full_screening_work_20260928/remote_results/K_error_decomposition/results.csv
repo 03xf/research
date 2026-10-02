@@ -1,0 +1,11 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,1.073176711273159,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,1.871807086787371,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,10.940094542433089,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.9830514919905083,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,3.5872836778577644,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.7106005097813595,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,13.283081198416877,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,12.327883013653524,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,0.10865975734565182,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,4.438794899290307,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only

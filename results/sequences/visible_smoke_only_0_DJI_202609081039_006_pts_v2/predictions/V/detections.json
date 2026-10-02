@@ -1,0 +1,3302 @@
+{
+  "sensor": "V",
+  "rows": [
+    {
+      "frame_index": 0,
+      "frame_file": "000001.jpg",
+      "decoded_pts_s": 535.001,
+      "detections": []
+    },
+    {
+      "frame_index": 1,
+      "frame_file": "000002.jpg",
+      "decoded_pts_s": 535.201,
+      "detections": []
+    },
+    {
+      "frame_index": 2,
+      "frame_file": "000003.jpg",
+      "decoded_pts_s": 535.402,
+      "detections": []
+    },
+    {
+      "frame_index": 3,
+      "frame_file": "000004.jpg",
+      "decoded_pts_s": 535.602,
+      "detections": []
+    },
+    {
+      "frame_index": 4,
+      "frame_file": "000005.jpg",
+      "decoded_pts_s": 535.802,
+      "detections": []
+    },
+    {
+      "frame_index": 5,
+      "frame_file": "000006.jpg",
+      "decoded_pts_s": 536.002,
+      "detections": []
+    },
+    {
+      "frame_index": 6,
+      "frame_file": "000007.jpg",
+      "decoded_pts_s": 536.202,
+      "detections": []
+    },
+    {
+      "frame_index": 7,
+      "frame_file": "000008.jpg",
+      "decoded_pts_s": 536.403,
+      "detections": []
+    },
+    {
+      "frame_index": 8,
+      "frame_file": "000009.jpg",
+      "decoded_pts_s": 536.603,
+      "detections": []
+    },
+    {
+      "frame_index": 9,
+      "frame_file": "000010.jpg",
+      "decoded_pts_s": 536.803,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5236729979515076,
+          "track_id": null,
+          "bbox_xyxy_px": [
+            1519.76416015625,
+            1.0159912109375,
+            1872.51806640625,
+            526.0765380859375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "frame_file": "000011.jpg",
+      "decoded_pts_s": 537.003,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7045517563819885,
+          "track_id": null,
+          "bbox_xyxy_px": [
+            1515.51025390625,
+            2.98779296875,
+            1866.1630859375,
+            499.48223876953125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "frame_file": "000012.jpg",
+      "decoded_pts_s": 537.203,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8264939188957214,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1535.33447265625,
+            2.7536377906799316,
+            1854.587646484375,
+            454.4621276855469
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "frame_file": "000013.jpg",
+      "decoded_pts_s": 537.404,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8072677850723267,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1538.49853515625,
+            9.034360885620117,
+            1845.3568115234375,
+            442.27752685546875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "frame_file": "000014.jpg",
+      "decoded_pts_s": 537.604,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8741499781608582,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1553.79150390625,
+            6.446908473968506,
+            1845.5196533203125,
+            416.3482666015625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "frame_file": "000015.jpg",
+      "decoded_pts_s": 537.804,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.90669184923172,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1560.53466796875,
+            1.529382586479187,
+            1854.7127685546875,
+            413.9162902832031
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "frame_file": "000016.jpg",
+      "decoded_pts_s": 538.004,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.904789924621582,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1546.6912841796875,
+            0.07572905719280243,
+            1854.8896484375,
+            429.9617004394531
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "frame_file": "000017.jpg",
+      "decoded_pts_s": 538.204,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8643168210983276,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1545.500244140625,
+            2.44449782371521,
+            1857.034423828125,
+            433.53997802734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "frame_file": "000018.jpg",
+      "decoded_pts_s": 538.405,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8206351399421692,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1550.2515869140625,
+            4.214075565338135,
+            1874.3795166015625,
+            448.587158203125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "frame_file": "000019.jpg",
+      "decoded_pts_s": 538.605,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8806636333465576,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1554.75927734375,
+            2.205031394958496,
+            1884.986572265625,
+            450.3140563964844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "frame_file": "000020.jpg",
+      "decoded_pts_s": 538.805,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.859795331954956,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1555.4385986328125,
+            4.032325267791748,
+            1887.862060546875,
+            449.6687316894531
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "frame_file": "000021.jpg",
+      "decoded_pts_s": 539.005,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8259294033050537,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1557.6929931640625,
+            1.2974872589111328,
+            1891.001708984375,
+            442.1963806152344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "frame_file": "000022.jpg",
+      "decoded_pts_s": 539.205,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7075855731964111,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1562.7489013671875,
+            0.2839587926864624,
+            1890.110107421875,
+            427.01715087890625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "frame_file": "000023.jpg",
+      "decoded_pts_s": 539.406,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8154751062393188,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1549.2579345703125,
+            0.0,
+            1890.90673828125,
+            439.1905212402344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "frame_file": "000024.jpg",
+      "decoded_pts_s": 539.606,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7873464822769165,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1543.0360107421875,
+            0.27852022647857666,
+            1894.9573974609375,
+            447.6146545410156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "frame_file": "000025.jpg",
+      "decoded_pts_s": 539.806,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.896851658821106,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1528.643798828125,
+            5.238702297210693,
+            1883.642822265625,
+            446.4974670410156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "frame_file": "000026.jpg",
+      "decoded_pts_s": 540.006,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9251323342323303,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1513.92236328125,
+            10.214849472045898,
+            1873.5665283203125,
+            449.30633544921875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "frame_file": "000027.jpg",
+      "decoded_pts_s": 540.206,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9179888963699341,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1525.5882568359375,
+            14.880560874938965,
+            1883.7235107421875,
+            448.791748046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "frame_file": "000028.jpg",
+      "decoded_pts_s": 540.407,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8733723759651184,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1534.6712646484375,
+            20.960893630981445,
+            1891.9542236328125,
+            449.2065734863281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "frame_file": "000029.jpg",
+      "decoded_pts_s": 540.607,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5880317687988281,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1534.0491943359375,
+            17.42246437072754,
+            1908.6654052734375,
+            465.6591491699219
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "frame_file": "000030.jpg",
+      "decoded_pts_s": 540.807,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6690717935562134,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1533.70654296875,
+            7.7615437507629395,
+            1908.054443359375,
+            452.22900390625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "frame_file": "000031.jpg",
+      "decoded_pts_s": 541.007,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8282459378242493,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1537.937744140625,
+            6.043885231018066,
+            1906.2152099609375,
+            439.7502746582031
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "frame_file": "000032.jpg",
+      "decoded_pts_s": 541.207,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8951831459999084,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1545.3170166015625,
+            1.942819595336914,
+            1909.3428955078125,
+            428.7479553222656
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "frame_file": "000033.jpg",
+      "decoded_pts_s": 541.408,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7822359800338745,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1550.0999755859375,
+            0.4308087229728699,
+            1904.0233154296875,
+            410.63970947265625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "frame_file": "000034.jpg",
+      "decoded_pts_s": 541.608,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8692944645881653,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1544.297607421875,
+            0.0,
+            1907.2615966796875,
+            417.8656311035156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 34,
+      "frame_file": "000035.jpg",
+      "decoded_pts_s": 541.808,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8858505487442017,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1540.18701171875,
+            0.0,
+            1906.388427734375,
+            417.8248596191406
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "frame_file": "000036.jpg",
+      "decoded_pts_s": 542.008,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8867477774620056,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1520.0784912109375,
+            1.7085258960723877,
+            1897.9937744140625,
+            426.7574768066406
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "frame_file": "000037.jpg",
+      "decoded_pts_s": 542.208,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9102200269699097,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1501.3482666015625,
+            0.46269628405570984,
+            1899.2408447265625,
+            443.2791748046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "frame_file": "000038.jpg",
+      "decoded_pts_s": 542.409,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9239917397499084,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1498.3795166015625,
+            0.0037500751204788685,
+            1895.53466796875,
+            435.576904296875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 38,
+      "frame_file": "000039.jpg",
+      "decoded_pts_s": 542.609,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8557206392288208,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1508.0955810546875,
+            0.0,
+            1904.3096923828125,
+            431.9184265136719
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 39,
+      "frame_file": "000040.jpg",
+      "decoded_pts_s": 542.809,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8755301237106323,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1519.9898681640625,
+            0.0,
+            1915.8839111328125,
+            432.04150390625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "frame_file": "000041.jpg",
+      "decoded_pts_s": 543.009,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6948911547660828,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1523.2374267578125,
+            0.0,
+            1913.716796875,
+            424.2358703613281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 41,
+      "frame_file": "000042.jpg",
+      "decoded_pts_s": 543.209,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7900512218475342,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1530.1456298828125,
+            0.0,
+            1913.9263916015625,
+            415.4859313964844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 42,
+      "frame_file": "000043.jpg",
+      "decoded_pts_s": 543.41,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8039706945419312,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1531.7408447265625,
+            0.0,
+            1917.3189697265625,
+            417.19171142578125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "frame_file": "000044.jpg",
+      "decoded_pts_s": 543.61,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.893127977848053,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1529.7060546875,
+            0.0,
+            1920.0,
+            426.0406188964844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "frame_file": "000045.jpg",
+      "decoded_pts_s": 543.81,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9177370667457581,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1525.337646484375,
+            0.0,
+            1920.0,
+            438.6975402832031
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "frame_file": "000046.jpg",
+      "decoded_pts_s": 544.01,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9221582412719727,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1517.047607421875,
+            0.0,
+            1920.0,
+            447.43096923828125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 46,
+      "frame_file": "000047.jpg",
+      "decoded_pts_s": 544.21,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9274998307228088,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1517.26318359375,
+            0.0,
+            1920.0,
+            449.77685546875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 47,
+      "frame_file": "000048.jpg",
+      "decoded_pts_s": 544.411,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9187339544296265,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1514.99658203125,
+            0.0,
+            1917.630859375,
+            449.1837158203125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 48,
+      "frame_file": "000049.jpg",
+      "decoded_pts_s": 544.611,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9558641910552979,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1511.8184814453125,
+            0.1262606680393219,
+            1899.5225830078125,
+            433.54437255859375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 49,
+      "frame_file": "000050.jpg",
+      "decoded_pts_s": 544.811,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8861874938011169,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1514.7047119140625,
+            2.2452945709228516,
+            1895.6551513671875,
+            430.2486267089844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 50,
+      "frame_file": "000051.jpg",
+      "decoded_pts_s": 545.011,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7051349878311157,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1513.1790771484375,
+            5.665119647979736,
+            1892.6976318359375,
+            434.0732421875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 51,
+      "frame_file": "000052.jpg",
+      "decoded_pts_s": 545.211,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7172282338142395,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1519.1348876953125,
+            3.0746123790740967,
+            1883.968505859375,
+            414.9029846191406
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 52,
+      "frame_file": "000053.jpg",
+      "decoded_pts_s": 545.412,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8203676342964172,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1517.9710693359375,
+            1.0569467544555664,
+            1898.217041015625,
+            430.3193359375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 53,
+      "frame_file": "000054.jpg",
+      "decoded_pts_s": 545.612,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7420697212219238,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1519.6632080078125,
+            0.33085471391677856,
+            1904.4952392578125,
+            433.81561279296875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 54,
+      "frame_file": "000055.jpg",
+      "decoded_pts_s": 545.812,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8385953903198242,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1513.07763671875,
+            0.055430397391319275,
+            1903.974609375,
+            439.6453857421875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 55,
+      "frame_file": "000056.jpg",
+      "decoded_pts_s": 546.012,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8581678867340088,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1499.25927734375,
+            0.7889874577522278,
+            1892.7283935546875,
+            445.5555114746094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 56,
+      "frame_file": "000057.jpg",
+      "decoded_pts_s": 546.212,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8602072596549988,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1488.53955078125,
+            3.7508902549743652,
+            1875.8306884765625,
+            442.7698669433594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 57,
+      "frame_file": "000058.jpg",
+      "decoded_pts_s": 546.413,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5093813538551331,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1484.774169921875,
+            1.3515710830688477,
+            1884.113525390625,
+            450.5162658691406
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 58,
+      "frame_file": "000059.jpg",
+      "decoded_pts_s": 546.613,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7361149191856384,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1468.8106689453125,
+            10.048418998718262,
+            1845.01806640625,
+            436.6685791015625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 59,
+      "frame_file": "000060.jpg",
+      "decoded_pts_s": 546.813,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7588645219802856,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1461.0198974609375,
+            6.476933002471924,
+            1832.34814453125,
+            430.12823486328125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 60,
+      "frame_file": "000061.jpg",
+      "decoded_pts_s": 547.013,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8844184279441833,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1462.2513427734375,
+            6.836391925811768,
+            1826.0479736328125,
+            423.9461975097656
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 61,
+      "frame_file": "000062.jpg",
+      "decoded_pts_s": 547.213,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8416864275932312,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1463.52685546875,
+            2.3992531299591064,
+            1837.097900390625,
+            432.8340759277344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 62,
+      "frame_file": "000063.jpg",
+      "decoded_pts_s": 547.414,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8604517579078674,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1466.650634765625,
+            0.7639816403388977,
+            1843.6607666015625,
+            436.60675048828125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 63,
+      "frame_file": "000064.jpg",
+      "decoded_pts_s": 547.614,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8413177728652954,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1466.682373046875,
+            0.1448974460363388,
+            1847.054443359375,
+            442.304443359375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 64,
+      "frame_file": "000065.jpg",
+      "decoded_pts_s": 547.814,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.860404372215271,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1472.49755859375,
+            0.0,
+            1847.9713134765625,
+            436.25506591796875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 65,
+      "frame_file": "000066.jpg",
+      "decoded_pts_s": 548.014,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7959886789321899,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1477.749267578125,
+            3.1251027584075928,
+            1854.3802490234375,
+            438.8305358886719
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 66,
+      "frame_file": "000067.jpg",
+      "decoded_pts_s": 548.214,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8724024891853333,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1503.6693115234375,
+            1.3200547695159912,
+            1868.140625,
+            421.19000244140625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 67,
+      "frame_file": "000068.jpg",
+      "decoded_pts_s": 548.415,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9227749109268188,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1521.3935546875,
+            0.3788987994194031,
+            1887.1561279296875,
+            422.2700500488281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 68,
+      "frame_file": "000069.jpg",
+      "decoded_pts_s": 548.615,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8825183510780334,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1523.4959716796875,
+            0.04062964767217636,
+            1902.6124267578125,
+            437.9705810546875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 69,
+      "frame_file": "000070.jpg",
+      "decoded_pts_s": 548.815,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9142963886260986,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1516.3773193359375,
+            0.0,
+            1909.94970703125,
+            452.560302734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 70,
+      "frame_file": "000071.jpg",
+      "decoded_pts_s": 549.015,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7959012389183044,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1520.9954833984375,
+            0.0,
+            1911.5733642578125,
+            446.5308837890625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 71,
+      "frame_file": "000072.jpg",
+      "decoded_pts_s": 549.215,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8621730208396912,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1521.94921875,
+            0.0,
+            1912.7138671875,
+            444.48760986328125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 72,
+      "frame_file": "000073.jpg",
+      "decoded_pts_s": 549.416,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8232024908065796,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1530.7493896484375,
+            0.0,
+            1907.9322509765625,
+            425.6942443847656
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 73,
+      "frame_file": "000074.jpg",
+      "decoded_pts_s": 549.616,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8194655776023865,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1537.044921875,
+            0.22389739751815796,
+            1904.2535400390625,
+            411.23040771484375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 74,
+      "frame_file": "000075.jpg",
+      "decoded_pts_s": 549.816,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8440834879875183,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1521.4127197265625,
+            4.127305030822754,
+            1901.5789794921875,
+            429.4045715332031
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 75,
+      "frame_file": "000076.jpg",
+      "decoded_pts_s": 550.016,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7364512085914612,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1524.581787109375,
+            5.304538726806641,
+            1887.11376953125,
+            408.52459716796875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 76,
+      "frame_file": "000077.jpg",
+      "decoded_pts_s": 550.216,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.699294924736023,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1502.847900390625,
+            5.01792573928833,
+            1907.7808837890625,
+            455.3519592285156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 77,
+      "frame_file": "000078.jpg",
+      "decoded_pts_s": 550.417,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7783960700035095,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1505.4541015625,
+            3.037137269973755,
+            1902.0023193359375,
+            438.3380432128906
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 78,
+      "frame_file": "000079.jpg",
+      "decoded_pts_s": 550.617,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6164525747299194,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1523.4395751953125,
+            1.0605242252349854,
+            1902.809326171875,
+            413.16400146484375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 79,
+      "frame_file": "000080.jpg",
+      "decoded_pts_s": 550.817,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8406774401664734,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1538.605224609375,
+            0.30830812454223633,
+            1908.657470703125,
+            400.242919921875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 80,
+      "frame_file": "000081.jpg",
+      "decoded_pts_s": 551.017,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8701607584953308,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1518.5748291015625,
+            0.039937060326337814,
+            1920.0,
+            437.0161437988281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 81,
+      "frame_file": "000082.jpg",
+      "decoded_pts_s": 551.217,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8238186836242676,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1520.8455810546875,
+            0.8375746607780457,
+            1918.6944580078125,
+            433.1170349121094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 82,
+      "frame_file": "000083.jpg",
+      "decoded_pts_s": 551.418,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8318930864334106,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1524.375244140625,
+            0.2556803822517395,
+            1919.2783203125,
+            429.7518005371094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 83,
+      "frame_file": "000084.jpg",
+      "decoded_pts_s": 551.618,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6620161533355713,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1520.8519287109375,
+            0.039018794894218445,
+            1920.0,
+            444.9898681640625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 84,
+      "frame_file": "000085.jpg",
+      "decoded_pts_s": 551.818,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7462632656097412,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1511.4134521484375,
+            0.46682897210121155,
+            1918.7259521484375,
+            451.1379089355469
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 85,
+      "frame_file": "000086.jpg",
+      "decoded_pts_s": 552.018,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7269557118415833,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1499.56396484375,
+            1.8380488157272339,
+            1900.2349853515625,
+            450.6417236328125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 86,
+      "frame_file": "000087.jpg",
+      "decoded_pts_s": 552.218,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7491675019264221,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1498.62890625,
+            1.984717607498169,
+            1880.5489501953125,
+            434.0364990234375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 87,
+      "frame_file": "000088.jpg",
+      "decoded_pts_s": 552.419,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7767356038093567,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1484.22900390625,
+            4.677239418029785,
+            1880.91162109375,
+            459.89666748046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 88,
+      "frame_file": "000089.jpg",
+      "decoded_pts_s": 552.619,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.826215922832489,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1458.810791015625,
+            4.2407450675964355,
+            1871.7154541015625,
+            486.1272888183594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 89,
+      "frame_file": "000090.jpg",
+      "decoded_pts_s": 552.819,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8265030384063721,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1457.525390625,
+            6.569242477416992,
+            1859.201904296875,
+            483.6245422363281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 90,
+      "frame_file": "000091.jpg",
+      "decoded_pts_s": 553.019,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9279597997665405,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1464.0174560546875,
+            7.602123260498047,
+            1856.1759033203125,
+            479.5223388671875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 91,
+      "frame_file": "000092.jpg",
+      "decoded_pts_s": 553.219,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9190713763237,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1474.359130859375,
+            5.808512210845947,
+            1858.9385986328125,
+            473.9822692871094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 92,
+      "frame_file": "000093.jpg",
+      "decoded_pts_s": 553.42,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9612752795219421,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1476.8812255859375,
+            2.083101987838745,
+            1864.3487548828125,
+            479.8343200683594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 93,
+      "frame_file": "000094.jpg",
+      "decoded_pts_s": 553.62,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9726612567901611,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1479.7911376953125,
+            0.6792464852333069,
+            1864.061279296875,
+            481.352294921875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 94,
+      "frame_file": "000095.jpg",
+      "decoded_pts_s": 553.82,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9724739789962769,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1483.8072509765625,
+            1.519209623336792,
+            1859.2982177734375,
+            477.29791259765625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 95,
+      "frame_file": "000096.jpg",
+      "decoded_pts_s": 554.02,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9406278133392334,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1489.6292724609375,
+            3.347966194152832,
+            1854.4259033203125,
+            465.7099609375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 96,
+      "frame_file": "000097.jpg",
+      "decoded_pts_s": 554.22,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9505169987678528,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1494.56201171875,
+            4.613834381103516,
+            1855.9091796875,
+            464.1195068359375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 97,
+      "frame_file": "000098.jpg",
+      "decoded_pts_s": 554.421,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9518495202064514,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1503.8292236328125,
+            1.6195317506790161,
+            1859.578369140625,
+            452.4898376464844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 98,
+      "frame_file": "000099.jpg",
+      "decoded_pts_s": 554.621,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9199410676956177,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1509.374755859375,
+            1.1878279447555542,
+            1862.598388671875,
+            447.1560974121094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 99,
+      "frame_file": "000100.jpg",
+      "decoded_pts_s": 554.821,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9362388253211975,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1502.40625,
+            1.6805055141448975,
+            1858.438232421875,
+            447.3236389160156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 100,
+      "frame_file": "000101.jpg",
+      "decoded_pts_s": 555.021,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9294615387916565,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1521.2142333984375,
+            0.8528544306755066,
+            1881.0047607421875,
+            448.117431640625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 101,
+      "frame_file": "000102.jpg",
+      "decoded_pts_s": 555.221,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.899267852306366,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1528.578125,
+            2.181473970413208,
+            1892.3687744140625,
+            452.31646728515625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 102,
+      "frame_file": "000103.jpg",
+      "decoded_pts_s": 555.422,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8834838271141052,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1532.529052734375,
+            0.7323474884033203,
+            1896.5406494140625,
+            448.7041931152344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 103,
+      "frame_file": "000104.jpg",
+      "decoded_pts_s": 555.622,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8656299114227295,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1540.2177734375,
+            0.18522368371486664,
+            1900.8121337890625,
+            438.87896728515625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 104,
+      "frame_file": "000105.jpg",
+      "decoded_pts_s": 555.822,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8819203972816467,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1538.901123046875,
+            1.2764787673950195,
+            1901.2198486328125,
+            436.9659118652344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 105,
+      "frame_file": "000106.jpg",
+      "decoded_pts_s": 556.022,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8374396562576294,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1535.1058349609375,
+            1.406886100769043,
+            1905.9482421875,
+            444.0433044433594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 106,
+      "frame_file": "000107.jpg",
+      "decoded_pts_s": 556.222,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8641868233680725,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1553.2841796875,
+            0.46186381578445435,
+            1917.2828369140625,
+            435.43450927734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 107,
+      "frame_file": "000108.jpg",
+      "decoded_pts_s": 556.423,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7799725532531738,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1536.3519287109375,
+            0.10372554510831833,
+            1916.2081298828125,
+            452.45654296875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 108,
+      "frame_file": "000109.jpg",
+      "decoded_pts_s": 556.623,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8739169239997864,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1518.42431640625,
+            0.0,
+            1920.0,
+            479.4187927246094
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 109,
+      "frame_file": "000110.jpg",
+      "decoded_pts_s": 556.823,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8425618410110474,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1517.7059326171875,
+            0.0,
+            1915.9332275390625,
+            472.39678955078125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 110,
+      "frame_file": "000111.jpg",
+      "decoded_pts_s": 557.023,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9089177250862122,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1521.4356689453125,
+            0.0,
+            1916.342529296875,
+            467.2276611328125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 111,
+      "frame_file": "000112.jpg",
+      "decoded_pts_s": 557.223,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8774413466453552,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1532.3699951171875,
+            0.0,
+            1917.0826416015625,
+            454.21697998046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 112,
+      "frame_file": "000113.jpg",
+      "decoded_pts_s": 557.424,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7171229124069214,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1543.528564453125,
+            1.0866835117340088,
+            1917.0872802734375,
+            441.1900634765625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 113,
+      "frame_file": "000114.jpg",
+      "decoded_pts_s": 557.624,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6628870964050293,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1545.195556640625,
+            0.36310073733329773,
+            1913.5626220703125,
+            431.99322509765625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 114,
+      "frame_file": "000115.jpg",
+      "decoded_pts_s": 557.824,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7462167739868164,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1540.268798828125,
+            0.09664223343133926,
+            1912.9697265625,
+            434.80706787109375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 115,
+      "frame_file": "000116.jpg",
+      "decoded_pts_s": 558.024,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.757206380367279,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1537.90380859375,
+            0.0010585172567516565,
+            1920.0,
+            447.4424133300781
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 116,
+      "frame_file": "000117.jpg",
+      "decoded_pts_s": 558.224,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7873400449752808,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1527.985595703125,
+            0.0,
+            1920.0,
+            463.11102294921875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 117,
+      "frame_file": "000118.jpg",
+      "decoded_pts_s": 558.425,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7884137034416199,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1516.2733154296875,
+            0.0,
+            1920.0,
+            485.3643798828125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 118,
+      "frame_file": "000119.jpg",
+      "decoded_pts_s": 558.625,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6333155035972595,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1515.747314453125,
+            0.0,
+            1920.0,
+            481.3374938964844
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 119,
+      "frame_file": "000120.jpg",
+      "decoded_pts_s": 558.825,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6252659559249878,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1527.447998046875,
+            12.360319137573242,
+            1906.3599853515625,
+            452.2514343261719
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 120,
+      "frame_file": "000121.jpg",
+      "decoded_pts_s": 559.025,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7166781425476074,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1543.275390625,
+            7.606963157653809,
+            1904.6240234375,
+            422.9075927734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 121,
+      "frame_file": "000122.jpg",
+      "decoded_pts_s": 559.225,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8569552302360535,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1547.709228515625,
+            7.620096206665039,
+            1913.7611083984375,
+            427.95745849609375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 122,
+      "frame_file": "000123.jpg",
+      "decoded_pts_s": 559.426,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8380773663520813,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1547.922607421875,
+            18.143795013427734,
+            1909.451171875,
+            430.0013427734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 123,
+      "frame_file": "000124.jpg",
+      "decoded_pts_s": 559.626,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8782407641410828,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1544.6383056640625,
+            21.610795974731445,
+            1905.110107421875,
+            428.027099609375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 124,
+      "frame_file": "000125.jpg",
+      "decoded_pts_s": 559.826,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8866376280784607,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1558.080810546875,
+            68.28069305419922,
+            1889.614013671875,
+            432.1302185058594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 125,
+      "frame_file": "000126.jpg",
+      "decoded_pts_s": 560.026,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8529495596885681,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1551.360107421875,
+            59.017364501953125,
+            1903.0760498046875,
+            442.781982421875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 126,
+      "frame_file": "000127.jpg",
+      "decoded_pts_s": 560.226,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8582356572151184,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1567.7164306640625,
+            109.77569580078125,
+            1888.2705078125,
+            449.5274963378906
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 127,
+      "frame_file": "000128.jpg",
+      "decoded_pts_s": 560.427,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.774337887763977,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1573.8797607421875,
+            129.34336853027344,
+            1884.9765625,
+            450.8536071777344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 128,
+      "frame_file": "000129.jpg",
+      "decoded_pts_s": 560.627,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8119540214538574,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1575.494140625,
+            137.44607543945312,
+            1886.4029541015625,
+            451.73046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 129,
+      "frame_file": "000130.jpg",
+      "decoded_pts_s": 560.827,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7650884389877319,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1547.6917724609375,
+            75.8868408203125,
+            1914.76025390625,
+            448.844482421875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 130,
+      "frame_file": "000131.jpg",
+      "decoded_pts_s": 561.027,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5956488847732544,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1512.1253662109375,
+            31.196819305419922,
+            1920.0,
+            474.3528747558594
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 131,
+      "frame_file": "000132.jpg",
+      "decoded_pts_s": 561.227,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5339243412017822,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1538.651123046875,
+            94.2872543334961,
+            1913.117431640625,
+            473.886474609375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 132,
+      "frame_file": "000133.jpg",
+      "decoded_pts_s": 561.428,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.654369592666626,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1546.7574462890625,
+            123.49585723876953,
+            1905.9227294921875,
+            483.4520263671875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 133,
+      "frame_file": "000134.jpg",
+      "decoded_pts_s": 561.628,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6169547438621521,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1536.498779296875,
+            102.96119689941406,
+            1911.8663330078125,
+            478.0235900878906
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 134,
+      "frame_file": "000135.jpg",
+      "decoded_pts_s": 561.828,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7280451059341431,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1549.3701171875,
+            114.91661071777344,
+            1903.0548095703125,
+            463.19232177734375
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 135,
+      "frame_file": "000136.jpg",
+      "decoded_pts_s": 562.028,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7431923747062683,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1556.2459716796875,
+            119.94586944580078,
+            1902.3843994140625,
+            456.90838623046875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 136,
+      "frame_file": "000137.jpg",
+      "decoded_pts_s": 562.228,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7514333128929138,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1549.851806640625,
+            130.07540893554688,
+            1897.583984375,
+            463.3655090332031
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 137,
+      "frame_file": "000138.jpg",
+      "decoded_pts_s": 562.429,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7058899998664856,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1541.1048583984375,
+            101.33539581298828,
+            1910.9022216796875,
+            455.4233703613281
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 138,
+      "frame_file": "000139.jpg",
+      "decoded_pts_s": 562.629,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.643964946269989,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1510.2451171875,
+            46.65909194946289,
+            1920.0,
+            458.32818603515625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 139,
+      "frame_file": "000140.jpg",
+      "decoded_pts_s": 562.829,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6622362732887268,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1504.2750244140625,
+            43.24665451049805,
+            1920.0,
+            465.83917236328125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 140,
+      "frame_file": "000141.jpg",
+      "decoded_pts_s": 563.029,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6169790029525757,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1500.4742431640625,
+            46.041770935058594,
+            1920.0,
+            480.1879577636719
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 141,
+      "frame_file": "000142.jpg",
+      "decoded_pts_s": 563.229,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7022112607955933,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1495.910400390625,
+            28.026578903198242,
+            1920.0,
+            476.4493103027344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 142,
+      "frame_file": "000143.jpg",
+      "decoded_pts_s": 563.43,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6245893836021423,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1502.281982421875,
+            22.42827033996582,
+            1920.0,
+            457.7862548828125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 143,
+      "frame_file": "000144.jpg",
+      "decoded_pts_s": 563.63,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7775053381919861,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1490.2740478515625,
+            21.57032012939453,
+            1920.0,
+            486.56951904296875
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 144,
+      "frame_file": "000145.jpg",
+      "decoded_pts_s": 563.83,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8719194531440735,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1498.432861328125,
+            17.433530807495117,
+            1920.0,
+            472.4140930175781
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 145,
+      "frame_file": "000146.jpg",
+      "decoded_pts_s": 564.03,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8579941391944885,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1506.842041015625,
+            18.49036407470703,
+            1920.0,
+            459.3607482910156
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 146,
+      "frame_file": "000147.jpg",
+      "decoded_pts_s": 564.23,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.7891363501548767,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1509.8853759765625,
+            17.100584030151367,
+            1920.0,
+            452.69146728515625
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 147,
+      "frame_file": "000148.jpg",
+      "decoded_pts_s": 564.431,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8443875908851624,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1508.919189453125,
+            4.20905065536499,
+            1920.0,
+            442.41064453125
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 148,
+      "frame_file": "000149.jpg",
+      "decoded_pts_s": 564.631,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.8528062105178833,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1503.571044921875,
+            0.0,
+            1920.0,
+            448.2629089355469
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    },
+    {
+      "frame_index": 149,
+      "frame_file": "000150.jpg",
+      "decoded_pts_s": 564.831,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.9344643354415894,
+          "track_id": "V_smoke_1",
+          "bbox_xyxy_px": [
+            1501.40966796875,
+            0.0,
+            1920.0,
+            448.3204040527344
+          ],
+          "source_point_image_normalized": null,
+          "source_point_method": null,
+          "absolute_coordinate": null,
+          "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "sensor": "V",
+  "tracks": {},
+  "summary": {
+    "sensor": "V",
+    "frames": 150,
+    "tracks": 0,
+    "tracked_detections": 0,
+    "untracked_detections": {
+      "flame": 12
+    },
+    "tracks_with_multiple_frames": 0,
+    "classes": {
+      "flame": 12
+    },
+    "identity_switches": null,
+    "identity_switches_unavailable_reason": "no human track identity ground truth",
+    "source_point_pixel_error": null,
+    "source_point_pixel_error_unavailable_reason": "no human ground burning source point ground truth"
+  }
+}

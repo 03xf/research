@@ -1,0 +1,139 @@
+{
+  "direction": "M_small_smoke",
+  "generated_utc": "2026-09-28T07:01:35.496205+00:00",
+  "metrics": [
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.01",
+      "metric": "tiny<.0025_recall",
+      "value": 0.9772727272727273,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "43/44; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.01",
+      "metric": "small .0025-.01_recall",
+      "value": 0.9858156028368794,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "139/141; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.01",
+      "metric": "large>=.01_recall",
+      "value": 0.9669811320754716,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "205/212; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.25",
+      "metric": "tiny<.0025_recall",
+      "value": 0.8181818181818182,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "36/44; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.25",
+      "metric": "small .0025-.01_recall",
+      "value": 0.9148936170212766,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "129/141; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "smoke_size_strata",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "recall_conf_0.25",
+      "metric": "large>=.01_recall",
+      "value": 0.8820754716981132,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "187/212; no event holdout"
+    },
+    {
+      "direction": "M",
+      "experiment": "tiny_vs_small_gap",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "exp69",
+      "metric": "tiny_minus_small_recall",
+      "value": -0.09671179883945835,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "Negative value means tiny group is harder"
+    },
+    {
+      "direction": "M",
+      "experiment": "overall_baseline",
+      "dataset": "historical YOLO val0 after exact dedup",
+      "split": "image-level exact dedup only",
+      "method": "exp69",
+      "metric": "mAP50",
+      "value": 0.8953502201350689,
+      "ground_truth_type": "historical bounding boxes",
+      "notes": "Not an event-independent result"
+    }
+  ],
+  "details": {
+    "size_recall": {
+      "recall_conf_0.01": {
+        "tiny<.0025": {
+          "matched": 43,
+          "total": 44,
+          "recall": 0.9772727272727273
+        },
+        "small .0025-.01": {
+          "matched": 139,
+          "total": 141,
+          "recall": 0.9858156028368794
+        },
+        "large>=.01": {
+          "matched": 205,
+          "total": 212,
+          "recall": 0.9669811320754716
+        }
+      },
+      "recall_conf_0.25": {
+        "tiny<.0025": {
+          "matched": 36,
+          "total": 44,
+          "recall": 0.8181818181818182
+        },
+        "small .0025-.01": {
+          "matched": 129,
+          "total": 141,
+          "recall": 0.9148936170212766
+        },
+        "large>=.01": {
+          "matched": 187,
+          "total": 212,
+          "recall": 0.8820754716981132
+        }
+      }
+    },
+    "clean_metrics": {
+      "metrics/precision(B)": 0.845071350073872,
+      "metrics/recall(B)": 0.801007556675063,
+      "metrics/mAP50(B)": 0.8953502201350689,
+      "metrics/mAP50-95(B)": 0.5523675271035355,
+      "fitness": 0.5866657964066889
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "dji_round37_validation_raw_screen_v1",
+  "scope": "56 validation T/V observation pairs not covered by the two Round36 reports",
+  "review_method": "Raw V and T images viewed by session and time in contact sheets before consulting existing labels or model predictions; class presence is preliminary, exact boxes are not adjudicated.",
+  "source_dataset": "@trial/datasets_round27_labels_fixed_v1",
+  "blind_test_accessed": false,
+  "model_predictions_accessed": false,
+  "existing_labels_accessed_during_this_raw_screen": false,
+  "validation_labels_changed": false,
+  "session_screen": {
+    "DJI_202609081039_006": {
+      "observation_count": 8,
+      "visual_pattern": "Early frames move from pre-ignition negative to right-side flame; late frames show upper-right smoke, while thermal displays more than one warm or bright region. Thermal brightness alone does not establish fire-relevant hotspot identity.",
+      "priority_ids": [
+        "obs_000795",
+        "obs_000566",
+        "obs_000616",
+        "obs_000635",
+        "obs_000644"
+      ],
+      "priority_reason": "Pre-ignition hard negative, weak flame/smoke boundary, or T/V target identity ambiguity."
+    },
+    "DJI_202609081040_004": {
+      "observation_count": 10,
+      "visual_pattern": "Visible images mainly show left-edge smoke decaying over time; thermal images often contain two separated bright areas. Cross-sensor target identity is not recoverable from timestamp alone.",
+      "priority_ids": [
+        "obs_v7_val_0003"
+      ],
+      "priority_reason": "Thermal color/contrast differs strongly from adjacent timepoints; inspect full-resolution source before judging box or usability."
+    },
+    "DJI_202609081042_036": {
+      "observation_count": 11,
+      "visual_pattern": "Visible right-side flame is clear in earlier frames and becomes weak smoke or char later; a thermal bright region persists. Residual heat must be distinguished from active flame.",
+      "priority_ids": [
+        "obs_000665",
+        "obs_000674",
+        "obs_000726",
+        "obs_000742"
+      ],
+      "priority_reason": "Late-stage weak/absent visible flame with persistent thermal signal."
+    },
+    "DJI_202609081048_005": {
+      "observation_count": 27,
+      "visual_pattern": "Visible fire evolves from early flame to prolonged smoke and hot debris. Thermal bright regions persist as visible flames wane; some visible fire is clipped by the frame edge. Smoke extent changes strongly with view and time.",
+      "priority_ids": [
+        "obs_000555",
+        "obs_000688",
+        "obs_000697",
+        "obs_000706",
+        "obs_000730",
+        "obs_000738",
+        "obs_000746",
+        "obs_000794",
+        "obs_000802"
+      ],
+      "priority_reason": "Clipped flame, late smoke versus residual hotspot, or changing camera viewpoint."
+    }
+  },
+  "review_limitations": [
+    "Contact sheets support presence/ambiguity triage, not precise YOLO box geometry.",
+    "Bright thermal regions can be hot ground, people, or other non-fire sources; hotspot class needs physical-context adjudication.",
+    "No current or historical model predictions were used for this screen.",
+    "Historical validation exposure elsewhere means this is a repaired development validation set, not an untouched blind test."
+  ],
+  "next_action": "Compare existing V/T label boxes against these raw observations, inspect suspicious originals at full resolution, and keep all correction proposals isolated from original validation files."
+}

@@ -1,0 +1,17 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+F,site_level_geolocation,B1_F1,same manual point and association,nominal,horizontal_error_m,1.073176711273159,post-fire LRF,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B1_F1,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,1.871807086787371,post-fire LRF,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B1_F1,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,0.7986303755142121,post-fire LRF,negative means improved
+F,site_level_geolocation,B2_F1,same manual point and association,nominal,horizontal_error_m,10.940094542433089,"pre-fire woodpile, not burning source",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B2_F1,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,0.9830514919905083,"pre-fire woodpile, not burning source",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B2_F1,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,-9.95704305044258,"pre-fire woodpile, not burning source",negative means improved
+F,site_level_geolocation,B3_S,same manual point and association,nominal,horizontal_error_m,3.5872836778577644,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_S,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,0.7106005097813595,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_S,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,-2.876683168076405,"LRF fire point, correspondence confirmed",negative means improved
+F,site_level_geolocation,B3_N,same manual point and association,nominal,horizontal_error_m,13.283081198416877,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_N,same manual point and association,orientation-anchored SfM,horizontal_error_m,12.327883013653524,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_N,same manual point and association,orientation-anchored SfM,delta_error_m,-0.9551981847633524,"LRF fire point, correspondence confirmed",negative means improved
+F,site_level_geolocation,B4_F1,same manual point and association,nominal,horizontal_error_m,0.10865975734565182,post-fire LRF; 9 repeated views of one target,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B4_F1,same manual point and association,orientation-anchored SfM,horizontal_error_m,4.438794899290307,post-fire LRF; 9 repeated views of one target,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B4_F1,same manual point and association,orientation-anchored SfM,delta_error_m,4.3301351419446545,post-fire LRF; 9 repeated views of one target,negative means improved
+F,cross_site_sign,B1+B3+B4,independent fire sites,visual_geometry,sites_improved,2,LRF horizontal reference,out_of=4; heterogeneous candidate variants

@@ -1,0 +1,11 @@
+test_event,train_event,method,n,available,median_px,p90_px,p95_px,median_normalized,failure_gt_100px,note
+B3,B4,A0_center,15,15,35.397049326276445,45.15662746123793,48.64015603587909,0.016068334520402894,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B3,B4,A1_bottom,15,15,70.90308092582573,88.44774659231865,90.40369539548715,0.03218614106339164,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B3,B4,A2_height_relative,15,15,17.87946894964792,25.85324372321281,30.012924347320986,0.008116306121505774,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B3,B4,A3_cross_event_vector,15,15,27.01356702663807,40.930769381052414,42.41291916599343,0.012262689682756298,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B3,B4,A4_color_contact,15,15,33.86741967405532,53.72354609638883,56.43383854145061,0.01537396588199859,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B4,B3,A0_center,18,18,52.56307720092629,120.43184639694137,135.22538604553813,0.023860777210581496,0.16666666666666666,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B4,B3,A1_bottom,18,18,66.97232194914093,86.02019227574127,93.60426686767009,0.030401790351719145,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B4,B3,A2_height_relative,18,18,33.060521418568996,73.42875602979129,76.8476417364756,0.01500767797552445,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B4,B3,A3_cross_event_vector,18,18,43.87819913038226,90.9416692709479,104.74284015671618,0.019918315091208776,0.1111111111111111,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points
+B4,B3,A4_color_contact,18,18,27.436930258266052,42.33291028106483,45.54640377964308,0.012454873555675539,0.0,B4 clips share one physical event; 33 matched V detections total; no independent B1/B2 anchor points

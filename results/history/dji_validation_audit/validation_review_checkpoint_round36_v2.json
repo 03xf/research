@@ -1,0 +1,25 @@
+{
+  "schema_version": "dji_validation_review_checkpoint_round36_v2",
+  "updated_utc": "2026-09-24T06:27:00Z",
+  "queue": "@trial/validation_label_audit_v1/validation_review_queue_71_v1.json",
+  "total_observations": 71,
+  "raw_image_reviewed_observations_this_round": 15,
+  "remaining_raw_image_review_observations": 56,
+  "review_reports": [
+    "round36_high_priority_review/round36_high_priority_raw_review_v1.json",
+    "round36_cross_session_spotcheck/round36_cross_session_spotcheck_v1.json"
+  ],
+  "exact_box_geometry_approved": 0,
+  "corrected_validation_dataset_created": false,
+  "source_validation_labels_changed": false,
+  "blind_test_accessed_in_round36": false,
+  "model_predictions_accessed_during_round36_review": false,
+  "historical_model_assisted_validation_exposure": "present; earlier exploratory label-sensitivity work viewed model failures for some validation frames. Round36 raw-first review does not restore an untouched independent test status; see validation_label_audit_v1/holdout_exposure_reclassification_v2.json and round30_label_geometry_sensitivity_report.json.",
+  "qualification_gate": "not_assessable_with_unreviewed_original_validation_labels",
+  "key_findings": [
+    "Repeated left-biased smoke boxes in first 10 images conflict with raw smoke location or absence.",
+    "Cross-session review found a clearly displaced T box (obs_000556), possible T omission (obs_000653), and aligned two-target frame (obs_000843).",
+    "Thermal brightness alone is not sufficient to define a fire-relevant hotspot; obs_000787 remains a hard-negative candidate."
+  ],
+  "next_action": "Finish raw-first review of remaining 56 observations; derive a separate corrected exploratory validation set and keep historical exposure disclosed. Use a newly collected or genuinely untouched session for final independent testing."
+}

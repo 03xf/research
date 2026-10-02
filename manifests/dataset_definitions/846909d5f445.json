@@ -1,0 +1,23 @@
+{
+  "dataset": "recovery_v1/dataset_review_applied_v1/V",
+  "experiments": [
+    "E1",
+    "E1_V_640_s0",
+    "E1_V_640_s1",
+    "E1_V_640_s2",
+    "E2",
+    "E2_V_960_s0",
+    "E2_V_960_s1",
+    "E2_V_960_s2"
+  ],
+  "configuration": {
+    "path": "@recovery/dataset_review_applied_v1/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "smoke",
+      "1": "flame"
+    },
+    "nc": 2
+  }
+}

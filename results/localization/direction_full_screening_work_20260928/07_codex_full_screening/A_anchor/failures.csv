@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+training_label_coverage,Only five manually reviewed clips in B3/B4,source_truth_review_v1/summary.json,No event-independent learned keypoint test
+oracle_detection_filter,Pixel accuracy conditions on matched detections,source_truth_review_v1/tracking_evaluation.json,Cannot infer end-to-end localization gain

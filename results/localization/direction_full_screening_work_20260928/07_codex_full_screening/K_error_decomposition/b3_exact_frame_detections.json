@@ -1,0 +1,217 @@
+{
+  "model": "E2_V_960_s0",
+  "weights_sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6",
+  "threshold": 0.37,
+  "rows": [
+    {
+      "drone": "uav-02",
+      "image": "@project/results/direction_screen_20260928/colmap_B3_manual/images/uav-02/uav-02_manual.jpg",
+      "image_sha256": "bc9a564f1b7b865097518292df11c62127544d22e3e3393a8c6ba63d82017e3a",
+      "image_shape": [
+        1080,
+        1920
+      ],
+      "detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.726349413394928,
+          "bbox_xyxy_px": [
+            1287.100341796875,
+            735.5792236328125,
+            1497.454833984375,
+            945.8455810546875
+          ],
+          "official_flame": true
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.4512518644332886,
+          "bbox_xyxy_px": [
+            274.54803466796875,
+            86.19253540039062,
+            453.31768798828125,
+            318.3027038574219
+          ],
+          "official_flame": true
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.3895007073879242,
+          "bbox_xyxy_px": [
+            300.7436218261719,
+            135.23175048828125,
+            427.2167663574219,
+            300.5517578125
+          ],
+          "official_flame": true
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.013986335135996342,
+          "bbox_xyxy_px": [
+            958.118408203125,
+            347.0496826171875,
+            1211.798828125,
+            651.9010009765625
+          ],
+          "official_flame": false
+        }
+      ]
+    },
+    {
+      "drone": "uav-04",
+      "image": "@project/results/direction_screen_20260928/colmap_B3_manual/images/uav-04/uav-04_manual.jpg",
+      "image_sha256": "37041afd618a0c3272406282b7c02e997da516bf7e68b1d36b4db86cf411ab61",
+      "image_shape": [
+        1080,
+        1920
+      ],
+      "detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.48010697960853577,
+          "bbox_xyxy_px": [
+            119.68740844726562,
+            649.5390014648438,
+            325.7327880859375,
+            878.7631225585938
+          ],
+          "official_flame": true
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.314359188079834,
+          "bbox_xyxy_px": [
+            1673.5966796875,
+            624.7056884765625,
+            1877.4697265625,
+            827.2320556640625
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.048583514988422394,
+          "bbox_xyxy_px": [
+            530.2137451171875,
+            0.0,
+            799.8695068359375,
+            62.75517272949219
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.03668912872672081,
+          "bbox_xyxy_px": [
+            1792.8900146484375,
+            664.3953857421875,
+            1920.0,
+            985.7659912109375
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.02988602966070175,
+          "bbox_xyxy_px": [
+            690.3671875,
+            0.0,
+            1085.086181640625,
+            251.13079833984375
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.024384286254644394,
+          "bbox_xyxy_px": [
+            541.026611328125,
+            0.0,
+            771.54345703125,
+            44.45941925048828
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.014524735510349274,
+          "bbox_xyxy_px": [
+            157.94674682617188,
+            885.5496826171875,
+            310.9226379394531,
+            1046.764404296875
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.012260675430297852,
+          "bbox_xyxy_px": [
+            181.37548828125,
+            675.57275390625,
+            309.414794921875,
+            895.4755859375
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.010396651923656464,
+          "bbox_xyxy_px": [
+            1049.767333984375,
+            135.52288818359375,
+            1402.449462890625,
+            783.5296630859375
+          ],
+          "official_flame": false
+        }
+      ]
+    },
+    {
+      "drone": "uav-09",
+      "image": "@project/results/direction_screen_20260928/colmap_B3_manual/images/uav-09/uav-09_manual.jpg",
+      "image_sha256": "37d8a8824200877923a38ac667db467abe506ffde2224473166930b564ea4ecb",
+      "image_shape": [
+        1080,
+        1920
+      ],
+      "detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.7088246941566467,
+          "bbox_xyxy_px": [
+            278.10430908203125,
+            276.8656921386719,
+            475.1566162109375,
+            464.0076599121094
+          ],
+          "official_flame": true
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.2586747407913208,
+          "bbox_xyxy_px": [
+            1450.09228515625,
+            491.6627197265625,
+            1633.904296875,
+            659.5902099609375
+          ],
+          "official_flame": false
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.012797560542821884,
+          "bbox_xyxy_px": [
+            394.39556884765625,
+            171.56051635742188,
+            585.46142578125,
+            285.7311706542969
+          ],
+          "official_flame": false
+        }
+      ]
+    }
+  ],
+  "note": "B3 frame held out from this diagnostic only; freeze metadata says development historically exposed"
+}

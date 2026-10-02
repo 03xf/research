@@ -1,0 +1,11 @@
+moment_id,baseline,n_heldout_uavs,association_accuracy,reject_rate,status
+B3_M02,H0_global_image_x_order,6,0.6666666666666666,0.0,measured
+B3_M02,H1_manual_scene_topology,6,1.0,0,human_reference_oracle_not_algorithm
+B3_M02,H2_two_uav_nominal_geometry,6.0,1.0,0.0,measured_on_manual_flame_base_proxy
+B3_M02,H3_multiuav_consensus_geometry,6.0,1.0,0.0,measured_on_manual_flame_base_proxy
+B3_M02,H4_consensus_plus_temporal,0,,,not_estimable_only_one_precise_point_moment_and_sync_unvalidated
+B4_M02,H0_global_image_x_order,5,0.0,0.6,measured
+B4_M02,H1_manual_scene_topology,5,1.0,0,human_reference_oracle_not_algorithm
+B4_M02,H2_two_uav_nominal_geometry,5.0,1.0,0.0,measured_on_manual_flame_base_proxy
+B4_M02,H3_multiuav_consensus_geometry,5.0,1.0,0.0,measured_on_manual_flame_base_proxy
+B4_M02,H4_consensus_plus_temporal,0,,,not_estimable_only_one_precise_point_moment_and_sync_unvalidated

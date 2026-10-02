@@ -1,0 +1,9 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,tiny<.0025_recall,0.9772727272727273,historical bounding boxes,43/44; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,small .0025-.01_recall,0.9858156028368794,historical bounding boxes,139/141; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,large>=.01_recall,0.9669811320754716,historical bounding boxes,205/212; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,tiny<.0025_recall,0.8181818181818182,historical bounding boxes,36/44; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,small .0025-.01_recall,0.9148936170212766,historical bounding boxes,129/141; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,large>=.01_recall,0.8820754716981132,historical bounding boxes,187/212; no event holdout
+M,tiny_vs_small_gap,historical YOLO val0 after exact dedup,image-level exact dedup only,exp69,tiny_minus_small_recall,-0.09671179883945835,historical bounding boxes,Negative value means tiny group is harder
+M,overall_baseline,historical YOLO val0 after exact dedup,image-level exact dedup only,exp69,mAP50,0.8953502201350689,historical bounding boxes,Not an event-independent result

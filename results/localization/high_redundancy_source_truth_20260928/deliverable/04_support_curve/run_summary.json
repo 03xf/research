@@ -1,0 +1,10 @@
+{
+  "manual_points": 42,
+  "moment_source_groups": 6,
+  "raw_heldout_subset_rows": 3874,
+  "independent_heldout_support_rows": 218,
+  "max_support_evaluated": 8,
+  "identity_raw_rows": 422,
+  "ground_contact_anchor_rows": 0,
+  "model": "C0 nominal 3D intersection; source points are flame-base proxies; cross-UAV clocks candidate only"
+}

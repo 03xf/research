@@ -1,0 +1,204 @@
+{
+  "direction": "A_anchor",
+  "generated_utc": "2026-09-28T07:01:29.279813+00:00",
+  "metrics": [
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B3",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "V_median_normalized_error",
+      "value": 0.03072613751580976,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=15; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B4",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "V_median_normalized_error",
+      "value": 0.043280043663969606,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=18; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "all",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "V_median_normalized_error",
+      "value": 0.03302999147087932,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=33; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B3",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "V_median_normalized_error",
+      "value": 0.06450824645858523,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=15; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B4",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "V_median_normalized_error",
+      "value": 0.05755984643540613,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=18; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "all",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "V_median_normalized_error",
+      "value": 0.061958562204527334,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=33; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "cross_batch_offset",
+      "dataset": "B3",
+      "split": "train on other batch",
+      "method": "median_offset",
+      "metric": "V_median_normalized_error",
+      "value": 0.014635625503922813,
+      "ground_truth_type": "manual image source point",
+      "notes": "n_test=15; conditional matched boxes; no deep model"
+    },
+    {
+      "direction": "A",
+      "experiment": "cross_batch_offset",
+      "dataset": "B4",
+      "split": "train on other batch",
+      "method": "median_offset",
+      "metric": "V_median_normalized_error",
+      "value": 0.03036954404823472,
+      "ground_truth_type": "manual image source point",
+      "notes": "n_test=18; conditional matched boxes; no deep model"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B3",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "T_median_normalized_error",
+      "value": 0.011353858332887289,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=20; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B4",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "T_median_normalized_error",
+      "value": 0.025074909362870122,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=24; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "all",
+      "split": "manual clips only",
+      "method": "center",
+      "metric": "T_median_normalized_error",
+      "value": 0.015593192120326876,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=44; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B3",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "T_median_normalized_error",
+      "value": 0.06664443666191341,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=20; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "B4",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "T_median_normalized_error",
+      "value": 0.037837532922560944,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=24; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "matched_bbox_anchor",
+      "dataset": "all",
+      "split": "manual clips only",
+      "method": "bottom",
+      "metric": "T_median_normalized_error",
+      "value": 0.05373572619950445,
+      "ground_truth_type": "manual image source point",
+      "notes": "n=44; detection and matching conditional on existing truth"
+    },
+    {
+      "direction": "A",
+      "experiment": "cross_batch_offset",
+      "dataset": "B3",
+      "split": "train on other batch",
+      "method": "median_offset",
+      "metric": "T_median_normalized_error",
+      "value": 0.02048501472025147,
+      "ground_truth_type": "manual image source point",
+      "notes": "n_test=20; conditional matched boxes; no deep model"
+    },
+    {
+      "direction": "A",
+      "experiment": "cross_batch_offset",
+      "dataset": "B4",
+      "split": "train on other batch",
+      "method": "median_offset",
+      "metric": "T_median_normalized_error",
+      "value": 0.028812728416150207,
+      "ground_truth_type": "manual image source point",
+      "notes": "n_test=24; conditional matched boxes; no deep model"
+    }
+  ],
+  "details": {
+    "matched_examples": 77,
+    "by_sensor": {
+      "V": 33
+    },
+    "V_B3_offset": [
+      -0.005768572268293692,
+      0.03531325678709488
+    ],
+    "V_B4_offset": [
+      0.004600514049296955,
+      0.029730019623700227
+    ],
+    "T_B3_offset": [
+      -0.0009544321132052835,
+      0.020770676679793404
+    ],
+    "T_B4_offset": [
+      0.009350596051507565,
+      0.0032440613313000632
+    ]
+  }
+}

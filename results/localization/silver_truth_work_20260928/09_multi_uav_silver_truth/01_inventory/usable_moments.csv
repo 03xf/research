@@ -1,0 +1,5 @@
+batch,event,source_observation_status,verified_independent_instants,verified_physical_sources,verified_uav_count_per_source,video_bins_30s,video_opportunity_bins_ge2,verified_source_instants_ge2,video_opportunity_bins_ge3,verified_source_instants_ge3,video_opportunity_bins_ge4,verified_source_instants_ge4,video_opportunity_bins_ge5,verified_source_instants_ge5,video_opportunity_bins_ge6,verified_source_instants_ge6,notes
+B1,B1_formal_fire_event,manual_seed,1,1,3,37,33,1,30,1,30,0,30,0,30,0,one manually marked three-UAV instant
+B2,B2_formal_fire_event,manual_seed,1,1,3,37,34,1,33,1,33,0,33,0,33,0,"B2 physical reference is prefire pile, not accepted burning-fire Gold"
+B3,B3_formal_fire_event,manual_seed,1,2,3,32,29,1,29,1,29,0,28,0,28,0,B3 N/S are two physical sources at the same instant; no framewise source/telemetry validation across bins
+B4,B4_formal_fire_event,provisional_only,0,0,0,37,33,0,32,0,30,0,29,0,28,0,B4 legacy cross-UAV marks are provisional; LRF photos are one UAV repeated

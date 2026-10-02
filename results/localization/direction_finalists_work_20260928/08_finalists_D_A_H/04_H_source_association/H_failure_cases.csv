@@ -1,0 +1,4 @@
+case,failure,impact,evidence
+B4_cross_UAV_ID,physical ID unverified,B4 association accuracy unavailable,H_source_identity_truth.csv
+B3_auto_anchor_S,only one official V detector view,automatic H and D+A+H unavailable for South,A_downstream_localization.csv
+B3_one_instant,no independent event,noise simulation cannot establish generalization,H_noise_robustness.csv

@@ -1,0 +1,62 @@
+{
+  "schema_version": "dji_round35_label_patches_manifest_v1",
+  "generated_utc": "2026-09-24T05:07:58.573421+00:00",
+  "source_dataset": "@trial/datasets_round27_labels_fixed_v1",
+  "candidate_file": "round35_geometry_candidates_v1.json",
+  "overlay_qc": "round35_overlay_qc_v1.json",
+  "status": "single_reviewed_train_label_patches_only",
+  "train_split_only": true,
+  "dataset_ready": false,
+  "training_authorized": false,
+  "patch_count": 6,
+  "rows": [
+    {
+      "key": "V:obs_v7_train_0027",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0027.jpg",
+      "source_image_sha256": "bef63d91ff600af0e670f0b20381305edd163fdca1b7cfa23694d4ad218211db",
+      "patch_label": "V/obs_v7_train_0027.txt",
+      "patch_label_sha256": "0f28bcad47a2c12e0d9ada50cf21f46824efb14179f32aaa857740eca00e50db",
+      "box_count": 2
+    },
+    {
+      "key": "T:obs_v7_train_0027",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0027.jpg",
+      "source_image_sha256": "5baaae268588d419c9e6d9a57557d1a5296a22537691a29f39a7401ef10e55a2",
+      "patch_label": "T/obs_v7_train_0027.txt",
+      "patch_label_sha256": "ae22730f58f17b5eaea0d06f1050e1210f467374b7882e8b87bb404b7c9e1c55",
+      "box_count": 2
+    },
+    {
+      "key": "V:obs_v7_train_0024",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0024.jpg",
+      "source_image_sha256": "d3d76f993d99e2e415adb6cdd79f657f58ca204562a6454f55cdadc24e4dabe5",
+      "patch_label": "V/obs_v7_train_0024.txt",
+      "patch_label_sha256": "4f2e4eaddfaea52f9d559ec041ba336840272ebd324653ddbeabf9e466f35f0c",
+      "box_count": 1
+    },
+    {
+      "key": "T:obs_v7_train_0024",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0024.jpg",
+      "source_image_sha256": "c45d614e3db272b403fe3ddc3f4bce5082042172adb89c16eba0a6454370b4a9",
+      "patch_label": "T/obs_v7_train_0024.txt",
+      "patch_label_sha256": "17ca49f0eb7590beb9dc80cd96e76f89da106c2250d98f4c10c044ba382fd2b3",
+      "box_count": 2
+    },
+    {
+      "key": "T:obs_v7_train_0009",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/T/images/train/obs_v7_train_0009.jpg",
+      "source_image_sha256": "5ef65245a843da7e389cf086130c8a6c00988f334e452ade4c7782d38bc28e81",
+      "patch_label": "T/obs_v7_train_0009.txt",
+      "patch_label_sha256": "503c76d32dd27d7cdd65f6faeb6b54c014c0cc6c618c771f7f42b67785f7d414",
+      "box_count": 2
+    },
+    {
+      "key": "V:obs_v7_train_0025",
+      "source_image": "@trial/datasets_round27_labels_fixed_v1/V/images/train/obs_v7_train_0025.jpg",
+      "source_image_sha256": "2862c978136b701ef10b60e3b54f0bb9745b723c00e3204bb143edcad298a826",
+      "patch_label": "V/obs_v7_train_0025.txt",
+      "patch_label_sha256": "719a0accfddb4d8f46227d55c2d1a569fe53aa3e1ecf6afd90a666febc17e791",
+      "box_count": 1
+    }
+  ]
+}

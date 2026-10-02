@@ -1,0 +1,9 @@
+{
+  "direction": "B_temporal",
+  "title": "Temporal anchor accuracy",
+  "description": "Tests trailing image-space median against manual source points; reports point error, not only jitter.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

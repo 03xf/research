@@ -1,0 +1,11 @@
+{
+  "observations": 54,
+  "groups": 10,
+  "tier_counts": {
+    "P_flame_base_proxy": 6,
+    "A_legacy_ground_contact": 4
+  },
+  "subsets": 1024,
+  "sensitivity_rows": 30,
+  "synthetic_error_m": 2.8916994303251375e-14
+}

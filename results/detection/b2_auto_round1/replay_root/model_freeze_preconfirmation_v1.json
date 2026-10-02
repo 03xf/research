@@ -1,0 +1,24 @@
+{
+  "schema_version": "dji_recovery_confirmation_freeze_v1",
+  "created_utc": "2026-09-24T21:47:29.157522+00:00",
+  "selection_source": "@recovery/comparison_seed0_seed1_seed2_v1.json",
+  "selection_source_sha256": "ddad9b5b9afe4ab8235b7c5d1242493476b6aed29259efc3919fc07611751ffc",
+  "selection_rule": "seed 0 selected on development only; seeds 1 and 2 reported as replication",
+  "development_split_historically_exposed": true,
+  "confirmation_test_performed": false,
+  "models": {
+    "V": {
+      "model_id": "E2_V_960_s0",
+      "weights": "@recovery/b2_auto_round1/runs/B2R1_V_E2_960/weights/best.pt",
+      "weights_sha256": "f9d3d52b21e26d877b796a81def5cd6590ba7e00368eb17fad7abbe7ef48584c",
+      "imgsz": 960,
+      "thresholds": {
+        "smoke": 0.41,
+        "flame": 0.37
+      },
+      "development_evaluation_sha256": "61e03ebdc42df4f8558f720b617de19a0ac79e83880a76b32dc0571e4f37198f",
+      "development_passed": false,
+      "class_index": 0
+    }
+  }
+}

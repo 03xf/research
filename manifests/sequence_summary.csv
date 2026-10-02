@@ -1,0 +1,6 @@
+sequence_id,frames,start_pts_s,last_pts_s,span_s,complete_frame_GT_available,predictions_available,sampling
+B3_10m07_D02_pts_v2,150,53.0196,82.8494,29.829800000000006,False,True,existing decoded-frame sequence; approximately 5 fps; original frame index not asserted
+multiple_boxes_0_DJI_202609081039_006_pts_v2,150,55.0216,84.8514,29.8298,False,True,existing decoded-frame sequence; approximately 5 fps; original frame index not asserted
+paired_negative_0_DJI_202609081039_006_pts_v2,150,0.0,29.8298,29.8298,False,True,existing decoded-frame sequence; approximately 5 fps; original frame index not asserted
+visible_flame_0_DJI_202609081039_006_pts_v2,150,15.015,44.8448,29.8298,False,True,existing decoded-frame sequence; approximately 5 fps; original frame index not asserted
+visible_smoke_only_0_DJI_202609081039_006_pts_v2,150,535.001,564.831,29.83000000000004,False,True,existing decoded-frame sequence; approximately 5 fps; original frame index not asserted

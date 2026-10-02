@@ -1,0 +1,7 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,max_true,1.0895866448363787,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,min_false,8.989836024126982,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,separation_ratio,8.250684850746284,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,max_true,0.5960141049559915,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,min_false,7.996240433997203,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,separation_ratio,13.416193287216968,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"

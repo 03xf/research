@@ -1,0 +1,13 @@
+event_id,source_id,case,method,available,horizontal_error_m,ray_residual_m,view_count,catastrophic_gt_10m,rejected,reference_type,reason
+B3_one_three_UAV_instant,N,1,manual_anchor_manual_H_G0,True,13.283081198416877,,,True,False,accepted_LRF_fire,inherited same manual marks; nominal telemetry geometry
+B3_one_three_UAV_instant,N,2,manual_anchor_manual_H_G2,True,12.676274071657543,0.5960141049559813,3,True,False,accepted_LRF_fire,background-only geometry fit; no cross-event validation
+B3_one_three_UAV_instant,N,3,automatic_A_manual_H_G2,True,12.453672943020212,0.6823740618126547,3,True,False,accepted_LRF_fire,oracle nearest detection to manual source; S lacks 2 views
+B3_one_three_UAV_instant,N,4,manual_anchor_automatic_H_G2,True,12.676274071657543,0.5960141049559813,3,True,False,accepted_LRF_fire,B3 auto H chooses NNN/SSS using manual points; selected on same one instant
+B3_one_three_UAV_instant,N,5,D_recovered_manual_H_G2,False,,,,,True,accepted_LRF_fire,no synchronized T source-point detections at same B3 3-UAV instant
+B3_one_three_UAV_instant,N,6,D_A_H_automatic_G2,False,,,,,True,accepted_LRF_fire,D same-case T points absent; S V missing; H auto anchors incomplete
+B3_one_three_UAV_instant,S,1,manual_anchor_manual_H_G0,True,3.2920814330373473,,,False,False,accepted_LRF_fire,inherited same manual marks; nominal telemetry geometry
+B3_one_three_UAV_instant,S,2,manual_anchor_manual_H_G2,True,0.7106005097813681,0.33263928898888473,3,False,False,accepted_LRF_fire,background-only geometry fit; no cross-event validation
+B3_one_three_UAV_instant,S,3,automatic_A_manual_H_G2,False,,,1,,True,accepted_LRF_fire,oracle nearest detection to manual source; S lacks 2 views
+B3_one_three_UAV_instant,S,4,manual_anchor_automatic_H_G2,True,0.7106005097813681,0.33263928898888473,3,False,False,accepted_LRF_fire,B3 auto H chooses NNN/SSS using manual points; selected on same one instant
+B3_one_three_UAV_instant,S,5,D_recovered_manual_H_G2,False,,,,,True,accepted_LRF_fire,no synchronized T source-point detections at same B3 3-UAV instant
+B3_one_three_UAV_instant,S,6,D_A_H_automatic_G2,False,,,,,True,accepted_LRF_fire,D same-case T points absent; S V missing; H auto anchors incomplete

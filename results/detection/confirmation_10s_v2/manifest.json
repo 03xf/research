@@ -1,0 +1,3315 @@
+{
+  "schema_version": "dji_confirmation_pairs_v1",
+  "created_utc": "2026-09-24T20:45:52.292016+00:00",
+  "reservation_file": "@trial/validation_label_audit_v1/fresh_holdout_reservation_v1.json",
+  "reservation_sha256": "5f87594166a3a3ad9adc1067aa33f4c7ec7e2a3a83f3e7f64d010249db1b772e",
+  "sampling_interval_s": 10,
+  "max_pair_delta_s": 0.05,
+  "session_counts": {
+    "DJI_202609081046_006": 86,
+    "DJI_202609081036_005": 108
+  },
+  "pair_count": 194,
+  "unpaired_count": 0,
+  "pairs": [
+    {
+      "pair_id": "confirm_1_0000",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000001.jpg",
+        "pts_s": 0.0,
+        "sha256": "deabe7b50450a58e9bee7c08524a50d8bba01ab38ce4e43e1e28e110cdce83e8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0001",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000002.jpg",
+        "pts_s": 10.01,
+        "sha256": "e445c9d871cc0b218b1b013602417e6c0c2e5c5193f709592456cabb295c0e9a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999999787,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0002",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000003.jpg",
+        "pts_s": 20.02,
+        "sha256": "c6f2b0bc16cf1a4a4e85488d2fec7a31b3521577d5e9ec1b7ac8b615991c3bcf",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019999999999999574,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0003",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000004.jpg",
+        "pts_s": 30.03,
+        "sha256": "4afe92e7accc4720caa68bd86989ae34daf8499fb2f736096fc0701e2dcf5ce3",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0004",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000005.jpg",
+        "pts_s": 40.0066,
+        "sha256": "f4c403b2cfb60777b58c3a1b1bacc94f6a1d1d09a9bd8541aa24d60af0e36301",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.006599999999998829,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0005",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000006.jpg",
+        "pts_s": 50.0166,
+        "sha256": "78967d82e1cb3f00d1ff09cdeeba469765a6d9e6d8ded253194bc7e3a6a31d5d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01659999999999684,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0006",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000007.jpg",
+        "pts_s": 60.0266,
+        "sha256": "4b5ab2475dcf419edba4d217d048f788efc10a6f44142f721c663fa464e87336",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.026600000000001955,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0007",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000008.jpg",
+        "pts_s": 70.0033,
+        "sha256": "514fb4b0724aeda963f88b296784b3065727fc61bb19dbf4f34beeb7aa14ccc6",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.003299999999995862,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0008",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000009.jpg",
+        "pts_s": 80.0133,
+        "sha256": "61e8485bae15ce5e93df1ba88abf329b26ceecac866fe3ef7bfc69665a5657aa",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013300000000000978,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0009",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000010.jpg",
+        "pts_s": 90.0233,
+        "sha256": "aea1dbe6c39b99a366c36672fdda4cb6f97d65a8e0f6b967b07a628253ff4845",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023300000000006094,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0010",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000011.jpg",
+        "pts_s": 100.033,
+        "sha256": "8dfe06dbc3accb72a689c676d4cdf48cc0e0b3c3918c534b282bc6b48a1c4ce3",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000000125,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0011",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000012.jpg",
+        "pts_s": 110.01,
+        "sha256": "8919a7d6efee49df11f6074a884d9fe992caac8bf90a13cc7a328c50c113239b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.010000000000005116,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0012",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000013.jpg",
+        "pts_s": 120.02,
+        "sha256": "9e82a6eeddfa3a99f43f8f7d03bc1d289de24377568dd32d152418c4befa3b11",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999999602,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0013",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000014.jpg",
+        "pts_s": 130.03,
+        "sha256": "bf06f674c673555298f573f39f5c3df6c39c042cdf2824cbb31afb0234376bf9",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0014",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000015.jpg",
+        "pts_s": 140.007,
+        "sha256": "171ab040f9b27aa6a6c5458b7b310af9703652c16bb2bdedf994454b3b30557a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.007000000000005002,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0015",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000016.jpg",
+        "pts_s": 150.017,
+        "sha256": "e0de840b6ea3ec7163b4bf1caa981b06327bdf083fb26e392cebcac2ce08484f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016999999999995907,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0016",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000017.jpg",
+        "pts_s": 160.027,
+        "sha256": "b7418082eee5cf751b677ed50ed5e207e42831a8957a859aa51eba4fe5102428",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.026999999999986812,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0017",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000018.jpg",
+        "pts_s": 170.003,
+        "sha256": "91912628ba430fdafabd1ae74cc5ff349823361abf08c079879e390efa8f28a4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0018",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000019.jpg",
+        "pts_s": 180.013,
+        "sha256": "755e4873bdf528c1aca450533f1b1da729ece66492bd21041e03265068a41544",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01300000000000523,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0019",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000020.jpg",
+        "pts_s": 190.023,
+        "sha256": "31e338ec05f78c8206f9ae8ccf9c4a8fb5893665b286c43d864330c3da2ad8a7",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.022999999999996135,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0020",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000021.jpg",
+        "pts_s": 200.033,
+        "sha256": "3768369f53c859b54ffe5f28f008439a468f790f7969c1bdfcd4433063d81095",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03299999999998704,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0021",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000022.jpg",
+        "pts_s": 210.01,
+        "sha256": "ea86fc187a577079dbd98e7b67a41b40fbb5710bf9cf18de2bde30421219bccc",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0022",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000023.jpg",
+        "pts_s": 220.02,
+        "sha256": "82baabed3f55bb5a1c528c8144b78e3b57fef343c0a19f3a8010e00eacc6a05a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.020000000000010232,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0023",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000024.jpg",
+        "pts_s": 230.03,
+        "sha256": "5347b79b88c214c19d0ed20a192053a04b3cbcd98b10e8e6fb066376888ff059",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0024",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000025.jpg",
+        "pts_s": 240.006,
+        "sha256": "c673f3a6f853d9e45259a2ad1d6f0e4b26675dcae6f8901aebd3e2c6219110d6",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.006000000000000227,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0025",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000026.jpg",
+        "pts_s": 250.016,
+        "sha256": "76269307110bd73bdae27a18a0df94ce320296ee6e22f637251d6670fe0f822f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.015999999999991132,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0026",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000027.jpg",
+        "pts_s": 260.026,
+        "sha256": "336e5843ce1151e1e98172488936004e18d0cb3dba66d98a20300f35264d89b2",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0027",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000028.jpg",
+        "pts_s": 270.003,
+        "sha256": "d44dae13e8cfb0d9399ee35383452d945caf92b986be78cf88bb4805cabe59ca",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0028",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000029.jpg",
+        "pts_s": 280.013,
+        "sha256": "4fd9b21d51891180c564111d8f280f8d3b5cb00b0a839d44a52f785ef047f78f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0029",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000030.jpg",
+        "pts_s": 290.023,
+        "sha256": "bd5f14465850bb70cbe35f71faa37aa701c638310d9644c02268f3cad8acf7a9",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0030",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000031.jpg",
+        "pts_s": 300.033,
+        "sha256": "6c9b9bf57907356d7b235af7082826b3a35c61ee53d3c2cb1517c8087ec212cf",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0031",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000032.jpg",
+        "pts_s": 310.01,
+        "sha256": "88bbc73b5778257e928369a7291d8f24016958faedb11050246a4a032664fe1f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0032",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000033.jpg",
+        "pts_s": 320.02,
+        "sha256": "2185046d7dc6f09654c5a1c9651784c699264d8a5f0c19caece546315c00cd73",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0033",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000034.jpg",
+        "pts_s": 330.03,
+        "sha256": "ea479277335e633fc1172e4a79b48d464903c4b75d78c061f2e77d73bd0057b2",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0034",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000035.jpg",
+        "pts_s": 340.006,
+        "sha256": "ea56180aaded0b0c5ba3547c61803c130f98ae52baf21eb335d81c374258e68c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0035",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000036.jpg",
+        "pts_s": 350.016,
+        "sha256": "eb048d4fc31b5c73149184692988e3b0e4f728fd35974868f8093ce0936f9864",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016000000000019554,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0036",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000037.jpg",
+        "pts_s": 360.026,
+        "sha256": "6f2869d8888b026d4f08f85ab576f1c4829db270b80cc9240e95790e6ffb807a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0037",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000038.jpg",
+        "pts_s": 370.003,
+        "sha256": "4d26bcce89d664048936a8c91aa8858304ecbf5edb7abe6861737e6794676bce",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0038",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000039.jpg",
+        "pts_s": 380.013,
+        "sha256": "70b24c8cabcd5de2b91a6a2982635a3263fafabc257a03adfdd1116f82b4ba8f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0039",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000040.jpg",
+        "pts_s": 390.023,
+        "sha256": "2df1570280af48f8c7913826bde3741ad355d350d6b197d8c77430fb87c164d1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0040",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000041.jpg",
+        "pts_s": 400.033,
+        "sha256": "23d980d3403e7412dfdc6863d1d1131daee618f361b67241f2a5073bc2c5741f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0041",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000042.jpg",
+        "pts_s": 410.01,
+        "sha256": "32adc02b02776d720f439e4e090bb6f9fa6e0210d61a54371ad8badd3f51aa09",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0042",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000043.jpg",
+        "pts_s": 420.02,
+        "sha256": "c2233b509709659c27c536d2edbb2c89ea1571edf520ff93f052f14cdb480182",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0043",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000044.jpg",
+        "pts_s": 430.03,
+        "sha256": "b957cdd25e43e43933ac7547528714fa913f40c1dd50756be061db86e63c611a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0044",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000045.jpg",
+        "pts_s": 440.006,
+        "sha256": "85ca0d2d0514baf51ff34d1e66d72f50b7f10c99d63b1b4a6a095fbeca8c554c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0045",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000046.jpg",
+        "pts_s": 450.016,
+        "sha256": "9bede966f95bddcc37beacc6dffab7aba8b109523441f2de9f738da0c0154b3d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016000000000019554,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0046",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000047.jpg",
+        "pts_s": 460.026,
+        "sha256": "14bf795f2db20fd6de67558d0358f7ed02e1e13d28cfa9fd236719ff098b7ea3",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0047",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000048.jpg",
+        "pts_s": 470.003,
+        "sha256": "4f70b29609352ead8bb224cc4ceec976e281ee68827dbb17d1fd9e79b100cf97",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0048",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000049.jpg",
+        "pts_s": 480.013,
+        "sha256": "e16f80d8dbf92d321c3ba298e734961fc12b868b6a5b3dfc1eed7f486434a0f0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0049",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000050.jpg",
+        "pts_s": 490.023,
+        "sha256": "9a0b2e4eb904364cdb665ec2f8f2d3e161b06e8c15060936d8f25524b18b35e1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0050",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000051.jpg",
+        "pts_s": 500.033,
+        "sha256": "1e210684addf1f591bb8d61af31f23600a72d281b14468f656baa208d45fed16",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0051",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000052.jpg",
+        "pts_s": 510.01,
+        "sha256": "e5ae8ff8131f00c98fe129e51fff41343c47d6d3e9a427298736688c20e84122",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0052",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000053.jpg",
+        "pts_s": 520.019,
+        "sha256": "61dffe20cee80a47aa5b4b70b87f14a23abf2cbe33d00a998ac93d19b48eee2a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0053",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000054.jpg",
+        "pts_s": 530.029,
+        "sha256": "04534be148151226d6a2daa45c74b805da3bd94215f064c062a7f7ac6da69a11",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0054",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000055.jpg",
+        "pts_s": 540.006,
+        "sha256": "57f90323ef6557a95d1a7d12b994cc59e4f6a448d7937da1cd9d7f1cfdb6f647",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0055",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000056.jpg",
+        "pts_s": 550.016,
+        "sha256": "fc3624e51083439baf2abe93c409b13ee456bfaf0181a2e44ec59275cb24c28c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0056",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000057.jpg",
+        "pts_s": 560.026,
+        "sha256": "6a54dd7a42eb302a002d0310dbf4ce4d4429c711baafa12df59fd74388dbb3b3",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0057",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000058.jpg",
+        "pts_s": 570.003,
+        "sha256": "00e38fa6c4e6f36c8e44e4994c6178b88750559c3ddc3e763ad13450775fe37a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0058",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000059.jpg",
+        "pts_s": 580.013,
+        "sha256": "8f2cc316d28490bb36f3abae878de3af4a1cee5e068e5d767725cbeb78405ac3",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0059",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000060.jpg",
+        "pts_s": 590.023,
+        "sha256": "d65a21eb6f8f8bbd243761e1485da0aac10552803a0b8d585ffaf9bc1b9618f4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0060",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000061.jpg",
+        "pts_s": 600.033,
+        "sha256": "29f17afaaf36c2e1b164534931d1ebb1de05f7a8cfdd547fe9a146316573af7c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0061",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000062.jpg",
+        "pts_s": 610.009,
+        "sha256": "c35e0307353c71febbfeb901fd52bdcce566e8f3e231d6a6252ea3c60ffbe532",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0062",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000063.jpg",
+        "pts_s": 620.019,
+        "sha256": "4c1209c80c4f88ab785ac081637baff03b6a673fada9bc911c2d36d75813cab8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0063",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000064.jpg",
+        "pts_s": 630.029,
+        "sha256": "80e6fa33113fa6317f21f4780a7c7806f8afefea0ab607038aa4ad00ff021076",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0064",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000065.jpg",
+        "pts_s": 640.006,
+        "sha256": "b8c0e04ae3b46189d54069376daa2ea918f769406edefddd834bec91e8aac8cb",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0065",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000066.jpg",
+        "pts_s": 650.016,
+        "sha256": "21ef2c61a3738a5f6d5aefee49ee89f009789ac49aadca9f2767a1d76161da35",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0066",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000067.jpg",
+        "pts_s": 660.026,
+        "sha256": "2b21f3560d0e054f14635b16e9fc4e25ca71eef82a03aa7cbe42476aa2d19ccc",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0067",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000068.jpg",
+        "pts_s": 670.003,
+        "sha256": "a66e7bc4f94b89cd8ece2d664e62c7f4e826e70fa3fcf7b59b9b45078c16312c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0068",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000069.jpg",
+        "pts_s": 680.013,
+        "sha256": "6c7900ae951339fc39e86bf9a6c1e460958b9b94b7feec47ddf83e788a99d08c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0069",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000070.jpg",
+        "pts_s": 690.023,
+        "sha256": "6f330c5c900b820a37283bc3f5ba9cae81c16735dc6dee4573afd793ce6ea949",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0070",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000071.jpg",
+        "pts_s": 700.033,
+        "sha256": "d1eb0462cd406c882484daafdbdd1b7e6468a70226546291b6964ab41726e48f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0071",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000072.jpg",
+        "pts_s": 710.009,
+        "sha256": "4596d1ab362a35d279f6997804373f774409b912e08c29a90264225ed7c48038",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0072",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000073.jpg",
+        "pts_s": 720.019,
+        "sha256": "87549d63f9f6f312bb8ca0fefbbfcf9d371a6e468ba4ae789e32c552663be553",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0073",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000074.jpg",
+        "pts_s": 730.029,
+        "sha256": "5d725730e6e88e74e463767fc86a373747f072bdf138d778a829dcd0a5af89cd",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0074",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000075.jpg",
+        "pts_s": 740.006,
+        "sha256": "a767303cfbdb8341753a32d51da90008b88bc20947e737b05b75ebbbd5362f6b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0075",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000076.jpg",
+        "pts_s": 750.016,
+        "sha256": "6efdedb06f5ec2c6a9425f71889d1c5725ac79e7b0cd689ab3f22176163e8daa",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0076",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000077.jpg",
+        "pts_s": 760.026,
+        "sha256": "521ced358c8186d41e0c6cd582f1cc1943da3d356679c7df641277b049141509",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0077",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000078.jpg",
+        "pts_s": 770.003,
+        "sha256": "d03f5178753f237fd7e7fd6617414821da900915507e6243874235026ccf37a9",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0078",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000079.jpg",
+        "pts_s": 780.013,
+        "sha256": "938da3c47d24ec95c62d0be3879f5dcf9c0bf55e94f9d085aec19bc867876eed",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0079",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000080.jpg",
+        "pts_s": 790.023,
+        "sha256": "ab5704e4ec26dba56950eda16f23254dff7ce28504085e307230667eb7554072",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0080",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000081.jpg",
+        "pts_s": 800.033,
+        "sha256": "b549f9c066c8759bc25521143985af15240eb2d44e0a15f0a83fd5f2eae56196",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0081",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000082.jpg",
+        "pts_s": 810.009,
+        "sha256": "89233ae2df6f46f71492dbea8c55e68c109a83ba7c26e859ca403a12c92975a8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0082",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000083.jpg",
+        "pts_s": 820.019,
+        "sha256": "5ac16342be39f7359f2315c3488122d3ea3dcc060f507657e9b2b9e3481054de",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0083",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000084.jpg",
+        "pts_s": 830.029,
+        "sha256": "b44ad578191762115642e10b2a846cc64ae8970e76625789afbc3228313f68ac",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0084",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000085.jpg",
+        "pts_s": 840.006,
+        "sha256": "1feeee4aed98536ba319dacbfc059ad42b6e4f1123fe14e96c8cae2855533065",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_1_0085",
+      "session_id": "DJI_202609081046_006",
+      "video_group": "DJI_20260908105253_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081046_006/V/000086.jpg",
+        "pts_s": 850.016,
+        "sha256": "9458f4da787940a6ba1d452abd49022650e7df5b774e97ebe2a71505a8956e83",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0000",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000001.jpg",
+        "pts_s": 0.0,
+        "sha256": "a26f08cac3e5dbefc156d0ecc23181e19d830280ee2ad072baa8ba0c4901f59a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0001",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000002.jpg",
+        "pts_s": 10.01,
+        "sha256": "a26af9d382a7a6fd41e3c72ecf5d9fc700491705dc177b8579202bca52147512",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999999787,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0002",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000003.jpg",
+        "pts_s": 20.02,
+        "sha256": "53a956d0cfe2f2167ebe5e54525c9925a0d015721416ad47a5b503c45d757f65",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019999999999999574,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0003",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000004.jpg",
+        "pts_s": 30.03,
+        "sha256": "2929d24f2a17bd663eb922a0b1a491df90ac75902cd23b440baf1eee8df39c0a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0004",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000005.jpg",
+        "pts_s": 40.0066,
+        "sha256": "ec1aac385b4ab70c430ae25088a4d34b7135cfa4372d573a842be2024e72fbbb",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.006599999999998829,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0005",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000006.jpg",
+        "pts_s": 50.0166,
+        "sha256": "70943030f49ee04ce1cb40ec8940ef90f4e69accfc29fe8ca098d7bd7131f368",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01659999999999684,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0006",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000007.jpg",
+        "pts_s": 60.0266,
+        "sha256": "58759655d56b5b70b35f564e0e18e049f8f3c977bfc9a2c832dfb1e2b145a9d8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.026600000000001955,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0007",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000008.jpg",
+        "pts_s": 70.0033,
+        "sha256": "77fc212c71c417c0b5f0581adf4437483d476dcc81a8b1035e3fb277a92135f8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.003299999999995862,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0008",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000009.jpg",
+        "pts_s": 80.0133,
+        "sha256": "eae8f19498ad112c7e7b6352bd973bb351a258f3945b96e42a15ca5e16fb3a87",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013300000000000978,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0009",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000010.jpg",
+        "pts_s": 90.0233,
+        "sha256": "f0ded7789531db6bec55bcf4b98c391a61d39506d0c6859d15be55bedb5ac238",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023300000000006094,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0010",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000011.jpg",
+        "pts_s": 100.033,
+        "sha256": "8fc37fe2c3538cdfb368ce15d295d0c5e09c39f3cb3c46c69c6e27365cef9e46",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000000125,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0011",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000012.jpg",
+        "pts_s": 110.01,
+        "sha256": "3b1a639d87f5d97e2e6931dc37ac9dd96c47215520b4b0b46d047dea0596db5b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.010000000000005116,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0012",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000013.jpg",
+        "pts_s": 120.02,
+        "sha256": "374597fbc8944bbe6d3646f4c3bac123c5b7be511140931a1b4e029c4f282b86",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999999602,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0013",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000014.jpg",
+        "pts_s": 130.03,
+        "sha256": "7aa841fef684c82e3dcd4a6367ab0ca3ad5c7447867ed43b3658a6c089d4d9b2",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0014",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000015.jpg",
+        "pts_s": 140.007,
+        "sha256": "63d73dd0c9f0a527d6e88c1f5352d2c45d47a293c940dcd0e60c88e22992efdb",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.007000000000005002,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0015",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000016.jpg",
+        "pts_s": 150.017,
+        "sha256": "0df6f1d3d27f6c1b1edee6ee394809fcb3aad50545f1c95d66c33d283a941319",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016999999999995907,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0016",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000017.jpg",
+        "pts_s": 160.027,
+        "sha256": "4c66acc4702695e3ecc5c44314b43c1deb2c009841520e4045ff2e7f21dd8e3c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.026999999999986812,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0017",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000018.jpg",
+        "pts_s": 170.003,
+        "sha256": "30c85d24125fc37c7cf411952a612b727e948be8eddd4e00efb239acf8114e24",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0018",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000019.jpg",
+        "pts_s": 180.013,
+        "sha256": "d8abaff9aff8a5474354e726fd4287310180651262a3aaadb5775a37d734a981",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01300000000000523,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0019",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000020.jpg",
+        "pts_s": 190.023,
+        "sha256": "d91628b6953e22e266900df44b943de176bd3ff163e5a050097fdb5e5a272c66",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.022999999999996135,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0020",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000021.jpg",
+        "pts_s": 200.033,
+        "sha256": "98009d8d221a23408751f5f91dc54cb7c00b38d83f8697c9a610cf0a511d8ca5",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03299999999998704,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0021",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000022.jpg",
+        "pts_s": 210.01,
+        "sha256": "5a5ddba9664594f597fdee81772d1ae7ab044311362cd5bd974b8b68892bfd85",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0022",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000023.jpg",
+        "pts_s": 220.02,
+        "sha256": "0259b5a7ace04fbc717fd79fd2d1b2d71e8c787713089a225f527298f620c571",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.020000000000010232,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0023",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000024.jpg",
+        "pts_s": 230.03,
+        "sha256": "d71a173d2a7b8c57c24adf737049c38386408fc35bab3220b4d5efba6ef86655",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.030000000000001137,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0024",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000025.jpg",
+        "pts_s": 240.006,
+        "sha256": "78a1c37ca23d5209f8e62ebaa15c045be73246714300caecc7e1dc627a0f2ad1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.006000000000000227,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0025",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000026.jpg",
+        "pts_s": 250.016,
+        "sha256": "da10ea215f86395b1e6123324d1bfa013fa8b5097a9a56d3002d7ffe283be246",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.015999999999991132,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0026",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000027.jpg",
+        "pts_s": 260.026,
+        "sha256": "1be92fc30a13292c4df20fd2d985995adc9117613b47400ebfc0cca34c64b51b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0027",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000028.jpg",
+        "pts_s": 270.003,
+        "sha256": "657d30c2a4adcec181fc3c48f418627d9226926a9c5668ec5390d4a0af5f52b4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0028",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000029.jpg",
+        "pts_s": 280.013,
+        "sha256": "10dee157ad164e1403a424d33634009ee3e5566a0794559cec3ee99d933e8180",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0029",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000030.jpg",
+        "pts_s": 290.023,
+        "sha256": "42bf74836d13981421079db17a76eab007b8aabfbd405d6e94963f311e7479a4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0030",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000031.jpg",
+        "pts_s": 300.033,
+        "sha256": "cc4f420eb6de311d0ef617bd249aa4e482b3fbcb2a25e1e02ca423792146d5f7",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0031",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000032.jpg",
+        "pts_s": 310.01,
+        "sha256": "9733a40e7b41d1f196ec9a2583b78a10b6e9fcab7fbe2617cb180f6986aac61e",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0032",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000033.jpg",
+        "pts_s": 320.02,
+        "sha256": "62fbd7598b8737c554ebb4fce9ee18d593c15c3d82f7d589ec1b00d30fd9a631",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0033",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000034.jpg",
+        "pts_s": 330.03,
+        "sha256": "125f8f3c8ebab7a446af03ab74038af6a856524611d3973d362dbce7007c68a0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0034",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000035.jpg",
+        "pts_s": 340.006,
+        "sha256": "36036a66cf5f48163c5a3786f0a246f8935193b24ed08561c0b695595abd8fd6",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0035",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000036.jpg",
+        "pts_s": 350.016,
+        "sha256": "96f58c8127b4d62b8d6ac7143d51b9676422fe279806686a31caeb4732922196",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016000000000019554,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0036",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000037.jpg",
+        "pts_s": 360.026,
+        "sha256": "7b62b7c6c10d0eb533294781e13dda46f43cf46e19793fc2209a58c9250bfeb2",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0037",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000038.jpg",
+        "pts_s": 370.003,
+        "sha256": "bc8814847e2674bed7d80fd195a7fd14e4864cbc26fc109024d7ab38bd2da331",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0038",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000039.jpg",
+        "pts_s": 380.013,
+        "sha256": "598bb8a46130a227543e0dd5f8c0b9c2ae5478e446363d4a8c903ff359d20381",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0039",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000040.jpg",
+        "pts_s": 390.023,
+        "sha256": "16db0781f4285f3e208e6eac3f20434ae3141ec8c6ef4d353b4a34dfefae97f4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0040",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000041.jpg",
+        "pts_s": 400.033,
+        "sha256": "02aeecd5d6429586fdb20c1f6724f1bded10942575f3f42044d1a5c698373f4a",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0041",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000042.jpg",
+        "pts_s": 410.01,
+        "sha256": "d46b2f056148a15ec20b6d99e5ad7902c907ce6c662bf0e48562159a330136b1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0042",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000043.jpg",
+        "pts_s": 420.02,
+        "sha256": "2b0967bce84bcfe37f24be3dd4dd3ad9e14b75e11b405e9c1e04ee7174199eb1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0043",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000044.jpg",
+        "pts_s": 430.03,
+        "sha256": "33e2a2397d2af630af33e1010ed93f34501f63536510ba461c1399027ef45857",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0044",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000045.jpg",
+        "pts_s": 440.006,
+        "sha256": "bea58cb13a2dbc15673caf3a894793feaebba3df7bf1a0110004e7561aea6f3d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0045",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000046.jpg",
+        "pts_s": 450.016,
+        "sha256": "4445cce00732035815a6835067311eebaaf032a8955ea2808aa27c7e4ed87910",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.016000000000019554,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0046",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000047.jpg",
+        "pts_s": 460.026,
+        "sha256": "9656aa69df33c2f9bca136624dbfea11a5e3db8bfd4bb4c847204fbdafb25a6e",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.02600000000001046,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0047",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000048.jpg",
+        "pts_s": 470.003,
+        "sha256": "5891d1855f4f990a3858789feda7cfebb0cb940eca0ec3c5b1c149ef856cd23c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.002999999999985903,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0048",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000049.jpg",
+        "pts_s": 480.013,
+        "sha256": "de2c962bda6d703796b8849a512f37a9d6c268e51d8149a5ade10abd3f70dcc0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.012999999999976808,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0049",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000050.jpg",
+        "pts_s": 490.023,
+        "sha256": "195cf82880b911898cf51940c80fe6d673da5655a80a8270012505a2675527dd",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0050",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000051.jpg",
+        "pts_s": 500.033,
+        "sha256": "7dbebbe80ccc496348468fa1423d8cbeaa417e56262f24f9df29ac354186b7a8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0051",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000052.jpg",
+        "pts_s": 510.01,
+        "sha256": "42c6a4e4a4ba360d3614fcc1b27a8e0fc93f2229378978ee0970f71b1f069c3d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0052",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000053.jpg",
+        "pts_s": 520.019,
+        "sha256": "7d38516f4aadae7812bb3e93cf87ed8c7a65657f51d05f50689dd4583ba5b2e6",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0053",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000054.jpg",
+        "pts_s": 530.029,
+        "sha256": "c8599881564a8d8cc6aed7d9b6b6994a4c982142b194a08161d66f3a5b988174",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0054",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000055.jpg",
+        "pts_s": 540.006,
+        "sha256": "a316593cdd05d425de9cba973e9233075f4ba6d3fad094e66edc400857c8e1ae",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0055",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000056.jpg",
+        "pts_s": 550.016,
+        "sha256": "552666f824eee5415d0f97bec542a383c68242da1e1e2b22306279851d8b89a0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0056",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000057.jpg",
+        "pts_s": 560.026,
+        "sha256": "f511b7731ef33a543980277388f0e84633798c13ee6e697fadfa579530cba12c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0057",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000058.jpg",
+        "pts_s": 570.003,
+        "sha256": "75563bcda8744f3c236c56e52297631fe4425006abcbdad25ce13ab4bb3dce16",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0058",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000059.jpg",
+        "pts_s": 580.013,
+        "sha256": "111341ac39a38869bd84a036c661ed2f6ddb9e63c4b5e589d191f55db090da3c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0059",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000060.jpg",
+        "pts_s": 590.023,
+        "sha256": "1aeac21aabfba234230865cce1e1de6f7ab8c3565f5fbe9d8414f2d82198a37d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0060",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000061.jpg",
+        "pts_s": 600.033,
+        "sha256": "fdf62bb0a700abb0e98a6edad105784a199245c284305a286841e9b02a7da0b7",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0061",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000062.jpg",
+        "pts_s": 610.009,
+        "sha256": "73b14c986358948b8455b332ce4dbc907c10167a1885ca702c474d9766782bc0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0062",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000063.jpg",
+        "pts_s": 620.019,
+        "sha256": "6f74b418edcf9acfea3fafbd08b26dcd1c60297ed32208ee10192661214690fb",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0063",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000064.jpg",
+        "pts_s": 630.029,
+        "sha256": "4ad3932bf1db0cead4b5194994fee5d8911e17b4f0299a01b404d6ca1eeac60f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0064",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000065.jpg",
+        "pts_s": 640.006,
+        "sha256": "7c05f774a050dc00c4d0a2ec715aa93f939c59a7c68c78d4213581fba814694e",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0065",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000066.jpg",
+        "pts_s": 650.016,
+        "sha256": "fc61fc89af77b09d3bf1c4cc4aaf8c34b783b1eda51442a31796ea3c3e8b9df0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0066",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000067.jpg",
+        "pts_s": 660.026,
+        "sha256": "28ab1798c5005d4b4165bea987a8329fcf1d2b17d982214ced84e7938909370b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0067",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000068.jpg",
+        "pts_s": 670.003,
+        "sha256": "eaf96ff96a172e763786ea1c70bd6fc522869b6a1de6f2cb21d428a58659fe2d",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0068",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000069.jpg",
+        "pts_s": 680.013,
+        "sha256": "9fa091ba8ac892b1eeeb0ddf3654068ac3d84ac9ec718f431212ca5f9bf6b6f4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0069",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000070.jpg",
+        "pts_s": 690.023,
+        "sha256": "aeb7abfbe1fbe9c304f2c7b7a29754f27e3a8e6d4b5285daebc2822b10486527",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0070",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000071.jpg",
+        "pts_s": 700.033,
+        "sha256": "31ea49be0e5e85365562cc0934230d482bb8dd9bb345981e78d8ae16734cd340",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0071",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000072.jpg",
+        "pts_s": 710.009,
+        "sha256": "73e3328f48103d794f18751e4784706e208cf9d7a3564de206c67dd37b481923",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0072",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000073.jpg",
+        "pts_s": 720.019,
+        "sha256": "9a59c0c674b1f846efed7030e9cb315452de7d39e1d723ac70f88111eac10f09",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0073",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000074.jpg",
+        "pts_s": 730.029,
+        "sha256": "6965160fc695269983604e64c640b58e451b005ad3b34ba5d9f4aead8f1adc67",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0074",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000075.jpg",
+        "pts_s": 740.006,
+        "sha256": "6215e81c2077bc19d5e9a2f77cca98ae4487d7e10ffb0683de99b1b978bbda41",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0075",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000076.jpg",
+        "pts_s": 750.016,
+        "sha256": "13f992996ddd28fbf2332b16c2be0236607cd73053da23d8190a609c3188fa18",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0076",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000077.jpg",
+        "pts_s": 760.026,
+        "sha256": "b8f0a3d39f17c45db7dbb8e4b2674b19d8a11b294a1623bf81d8f147078fc940",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0077",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000078.jpg",
+        "pts_s": 770.003,
+        "sha256": "4c5209bba88f733dc4004103a2ab5042f7d7c3cdf85adcbe0ef63bd05c73c255",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0030000000000427463,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0078",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000079.jpg",
+        "pts_s": 780.013,
+        "sha256": "11acf19be3367f0a914b8371848418ebe5fe496d6cc185e437a5a284aa71db00",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.013000000000033651,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0079",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000080.jpg",
+        "pts_s": 790.023,
+        "sha256": "3b162fb8540157a4504896894496988f36e1d57b94d10ed61580ce7a09a2c1de",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.023000000000024556,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0080",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000081.jpg",
+        "pts_s": 800.033,
+        "sha256": "f9e1118aab0a9b21fa79171ea9b3c1f228456996175bda611f1293554f60634f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03300000000001546,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0081",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000082.jpg",
+        "pts_s": 810.009,
+        "sha256": "da16c4875f7dc0bfd469896e67126eb72af1c48f6f4d347b3e18e53c75f8d100",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0082",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000083.jpg",
+        "pts_s": 820.019,
+        "sha256": "242b92be5ddc9433705f5364b7c547a8a39047fbfb569fbf1a3df2f19ed0d228",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0083",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000084.jpg",
+        "pts_s": 830.029,
+        "sha256": "a6420862fa5fae91b66f971a0fc6b500fd3dd83c233f04d7d0fea11d3c9464c5",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0084",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000085.jpg",
+        "pts_s": 840.006,
+        "sha256": "d9f1849419cc66b2d403e79829cd1d28abb525bb1d769b47643ab7733c5aa0a0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0085",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000086.jpg",
+        "pts_s": 850.016,
+        "sha256": "1479a2acf9050d3b35041f6dc8116cdced7b0c6d608bd111564c218d89c28197",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0086",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000087.jpg",
+        "pts_s": 860.026,
+        "sha256": "d44b6272d98d26e1d4fb1ef9fc5fb51479eb19c8d5ef91c0e1387c67d96b3694",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0087",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000088.jpg",
+        "pts_s": 870.002,
+        "sha256": "f6bdb2142519aedcd422f7304622004465b4f150756f86749cd549371480c5c8",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0019999999999527063,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0088",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000089.jpg",
+        "pts_s": 880.012,
+        "sha256": "6c88358d7430d954632f3aa80dbeb336f61cd7c04d2b3d1f197068a81b6d145c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.011999999999943611,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0089",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000090.jpg",
+        "pts_s": 890.022,
+        "sha256": "d71bad739fdf6c2a3fa8a9eb68154785ba7be7fe83fc3f93f8f5b3dd6726c883",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.022000000000048203,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0090",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000091.jpg",
+        "pts_s": 900.032,
+        "sha256": "4daf3ef129b7ffdc9055cf3096b038c3d3bca3ad9216cc6666451eca9508e32f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.03200000000003911,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0091",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000092.jpg",
+        "pts_s": 910.009,
+        "sha256": "6d2fa62946ee3246cf6daf4a552b180b73c25ddada669ebafd68a0e54b1cbe92",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009000000000014552,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0092",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000093.jpg",
+        "pts_s": 920.019,
+        "sha256": "6c1f14f078d0061fde641a9bee58b43dfbca04c149f30c43aa432e7ccc8c6681",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.019000000000005457,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0093",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000094.jpg",
+        "pts_s": 930.029,
+        "sha256": "63cbff000d9737d347899702823703611f30d95c301d2ca5efe41a011f21572f",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.028999999999996362,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0094",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000095.jpg",
+        "pts_s": 940.006,
+        "sha256": "ebe2620ad990677c00125402dd6f32f17cfa95c27a7e58c024bab9fb322a59fa",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.005999999999971806,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0095",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000096.jpg",
+        "pts_s": 950.016,
+        "sha256": "abc4d3d96775bfd08930c613c2e1ad9f827171aa4bffab8eb7bdcaa50fbfe5a2",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01599999999996271,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0096",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000097.jpg",
+        "pts_s": 960.026,
+        "sha256": "ae32273e681f59188975d4195a1548144f79f0fd48bd445c577a2810fbeaedb5",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.025999999999953616,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0097",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000098.jpg",
+        "pts_s": 970.002,
+        "sha256": "0a86aa314a6cf8a1db0b9e5d069ad6576d506dce65d69bd9b354c2e37fd45579",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0019999999999527063,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0098",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000099.jpg",
+        "pts_s": 980.012,
+        "sha256": "63aa749e9a856cd29604e4dfd4aade2e2ca2a50d1eb15aa9a9bc6ee730aa1fc0",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.011999999999943611,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0099",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000100.jpg",
+        "pts_s": 990.022,
+        "sha256": "d49de43dd4231459bf9a1158e85bf1596a63b56da21b40bcaeac9242116d9b53",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.022000000000048203,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0100",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000101.jpg",
+        "pts_s": 1000.03,
+        "sha256": "fcd59ac6f708c4f8f288ab9e7ba85ee33c6bf9111d24ca411b0ff3dbaa3faf20",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0101",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000102.jpg",
+        "pts_s": 1010.01,
+        "sha256": "97ed2095bd75843bd2e45a0b03b4c9008c34fa0c4f02ff681e3035f658dacaef",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0102",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000103.jpg",
+        "pts_s": 1020.02,
+        "sha256": "f6f4b0df46bd06e84f2fbb86e874102bd91e3d08f6c7705c3d5b981a34a8474c",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0103",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000104.jpg",
+        "pts_s": 1030.03,
+        "sha256": "384d8861d70a71ccfd23cc18778caf0f361bf7dd769616d1a8c1956fab00cdad",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0104",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000105.jpg",
+        "pts_s": 1040.01,
+        "sha256": "30610562a9592a644f581d2dd37a708c6d3146d0e3bc7e1de52db451623fddb1",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.009999999999990905,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0105",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000106.jpg",
+        "pts_s": 1050.02,
+        "sha256": "2bed503fe077d495a10513a3bb0a001c32afbd94a67ad018218f9062ab12293b",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.01999999999998181,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0106",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000107.jpg",
+        "pts_s": 1060.03,
+        "sha256": "2b2cf4d7d30950b169e3f5f508235b0e6149f7b2574c060a2a6145b39dc738d7",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.029999999999972715,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    },
+    {
+      "pair_id": "confirm_2_0107",
+      "session_id": "DJI_202609081036_005",
+      "video_group": "DJI_20260908105257_0001",
+      "batch_id": "B4",
+      "V": {
+        "file": "@recovery/confirmation_10s_v2/frames/DJI_202609081036_005/V/000108.jpg",
+        "pts_s": 1070.0,
+        "sha256": "6b2fef8ac35862bdbc09b93409554ca96b7822303f610c42c3782b3ddf4c88a4",
+        "size": [
+          1920,
+          1080
+        ]
+      },
+      "delta_s": 0.0,
+      "selection_rule": "first frame at or after each absolute 10 s PTS boundary"
+    }
+  ],
+  "unpaired": []
+}

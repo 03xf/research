@@ -1,0 +1,17 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,active_fire,independent_clip_count,4,manual state,"moments=32; clips=['B3_10m07_D02_pts_v2', 'multiple_boxes_0_DJI_202609081039_006_pts_v2', 'paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,active_fire_trigger_fraction,0.71875,manual state,23/32
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,active_fire_trigger_fraction,1.0,manual state,32/32
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,hot_background,independent_clip_count,2,manual state,"moments=8; clips=['paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,hot_background_trigger_fraction,0.0,manual state,0/8
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,hot_background_trigger_fraction,1.0,manual state,8/8
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,residual_heat,independent_clip_count,1,manual state,moments=10; clips=['visible_smoke_only_0_DJI_202609081039_006_pts_v2']
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,residual_heat_trigger_fraction,0.0,manual state,0/10
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,residual_heat_trigger_fraction,1.0,manual state,10/10
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,raw,active_T_point_recall,0.8461538461538461,manual active-fire points,44/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,raw,hot_background_T_trigger_count,8,manual hot-background state,out_of=8; clip-confounded
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable,active_T_point_recall,0.6346153846153846,manual active-fire points,33/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable,hot_background_T_trigger_count,3,manual hot-background state,out_of=8; clip-confounded
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable_plus_hold,active_T_point_recall,0.6538461538461539,manual active-fire points,34/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable_plus_hold,hot_background_T_trigger_count,4,manual hot-background state,out_of=8; clip-confounded
+E,grouped_three_state_test,B3+B4 reviewed clips,leave-one-clip-out,minimum_state_support,feasible,False,manual state,Each class must appear in at least two independent clips

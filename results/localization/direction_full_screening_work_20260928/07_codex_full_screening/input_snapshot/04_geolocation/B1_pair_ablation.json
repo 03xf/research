@@ -1,0 +1,32 @@
+{
+  "label": "B1_F1",
+  "background_alignment": {
+    "n": 32,
+    "h_mean": 1.1101648911820723,
+    "h_median": 0.9128146265336353,
+    "axis_mean_deg": 0.8478891812514243
+  },
+  "methods": {
+    "legacy_recomputed": {
+      "h_error_m": 1.073176711273159,
+      "ray_residual_m": 0.32450706940562357,
+      "condition": 36.65948894858199
+    },
+    "gps_gimbal_colmap_intrinsics": {
+      "h_error_m": 1.1561851378069172,
+      "ray_residual_m": 0.33957491388727706,
+      "condition": 37.67910674149475
+    },
+    "sfm_center_gimbal_colmap_intrinsics": {
+      "h_error_m": 1.871807086787371,
+      "ray_residual_m": 0.020277638230876565,
+      "condition": 37.67910674149475
+    },
+    "sfm_center_sfm_orientation_intrinsics": {
+      "h_error_m": 1.8794788133140012,
+      "ray_residual_m": 0.06859564915977064,
+      "condition": 34.304712228133106
+    }
+  },
+  "legacy_saved_pair": 1.0734077131295947
+}

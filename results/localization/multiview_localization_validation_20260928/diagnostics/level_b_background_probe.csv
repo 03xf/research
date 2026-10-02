@@ -1,0 +1,7 @@
+fire_id,method,background_only_fitting,horizontal_difference_to_south_candidate_m,rms_or_median_ray_residual_m,usable_for_claim,warning
+B3_N,C1_visual_K,background-only fit,,0.6415129549338942,diagnostic_only_single_instant,old B3_N F1 comparison withdrawn; blank metric
+B3_S,C1_visual_K,background-only fit,1.4148403450041338,1.3796079055621229,diagnostic_only_single_instant,F2 is candidate not independently verified
+B3_N,C2_visual_center,background-only fit,,0.5960141049559813,diagnostic_only_single_instant,old B3_N F1 comparison withdrawn; blank metric
+B3_S,C2_visual_center,background-only fit,0.7106005097813681,0.33263928898888356,diagnostic_only_single_instant,F2 is candidate not independently verified
+B3_N,C4_free_SfM,background-only fit,,0.18695509715904954,diagnostic_only_single_instant,old B3_N F1 comparison withdrawn; blank metric
+B3_S,C4_free_SfM,background-only fit,1.132532221947784,0.2356731681895731,diagnostic_only_single_instant,F2 is candidate not independently verified

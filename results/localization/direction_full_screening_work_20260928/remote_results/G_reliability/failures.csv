@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+residual_misranking,B4/B3_N retain low ray residual despite large absolute error,"[('B1_F1', 0.020277638230876565, 1.871807086787371), ('B4_F1', 0.1752940077290771, 4.438794899290307), ('B3_N', 0.18695509715905623, 12.327883013653524), ('B3_S', 0.33263928898888967, 0.7106005097813595)]",A single residual threshold cannot certify localization
+sample_size,Four fire sites with different pose variants,F_geometry/results.json,No stable learned reliability rule or confidence calibration

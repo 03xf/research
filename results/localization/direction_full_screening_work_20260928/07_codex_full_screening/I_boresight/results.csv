@@ -1,0 +1,5 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+I,LRF_angular_residual,ZoomCamera,accepted independent observation IDs,uncorrected_gimbal,median_angular_residual_deg,0.05063445864376587,LRF target bearing,n=11; 3 sessions; not camera optical-axis truth
+I,LRF_angular_residual,ZoomCamera,leave-session-out,mode_median_offset,median_angular_residual_deg,0.0676472130738254,LRF target bearing,n=11; no training/test observation reuse
+I,LRF_angular_residual,WideCamera,accepted independent observation IDs,uncorrected_gimbal,median_angular_residual_deg,5.4364896444714,LRF target bearing,n=6; 2 sessions; not camera optical-axis truth
+I,LRF_angular_residual,WideCamera,leave-session-out,mode_median_offset,median_angular_residual_deg,4.9300016259196235,LRF target bearing,n=6; no training/test observation reuse

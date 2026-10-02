@@ -1,0 +1,109 @@
+{
+  "direction": "I_boresight",
+  "generated_utc": "2026-09-28T07:01:30.150012+00:00",
+  "metrics": [
+    {
+      "direction": "I",
+      "experiment": "LRF_angular_residual",
+      "dataset": "ZoomCamera",
+      "split": "accepted independent observation IDs",
+      "method": "uncorrected_gimbal",
+      "metric": "median_angular_residual_deg",
+      "value": 0.05063445864376587,
+      "ground_truth_type": "LRF target bearing",
+      "notes": "n=11; 3 sessions; not camera optical-axis truth"
+    },
+    {
+      "direction": "I",
+      "experiment": "LRF_angular_residual",
+      "dataset": "ZoomCamera",
+      "split": "leave-session-out",
+      "method": "mode_median_offset",
+      "metric": "median_angular_residual_deg",
+      "value": 0.0676472130738254,
+      "ground_truth_type": "LRF target bearing",
+      "notes": "n=11; no training/test observation reuse"
+    },
+    {
+      "direction": "I",
+      "experiment": "LRF_angular_residual",
+      "dataset": "WideCamera",
+      "split": "accepted independent observation IDs",
+      "method": "uncorrected_gimbal",
+      "metric": "median_angular_residual_deg",
+      "value": 5.4364896444714,
+      "ground_truth_type": "LRF target bearing",
+      "notes": "n=6; 2 sessions; not camera optical-axis truth"
+    },
+    {
+      "direction": "I",
+      "experiment": "LRF_angular_residual",
+      "dataset": "WideCamera",
+      "split": "leave-session-out",
+      "method": "mode_median_offset",
+      "metric": "median_angular_residual_deg",
+      "value": 4.9300016259196235,
+      "ground_truth_type": "LRF target bearing",
+      "notes": "n=6; no training/test observation reuse"
+    }
+  ],
+  "details": {
+    "ZoomCamera": {
+      "n": 11,
+      "sessions": [
+        "DJI_202609080915_003",
+        "DJI_202609080957_005",
+        "DJI_202609081117_006"
+      ],
+      "raw_errors_deg": [
+        0.05485910710093602,
+        0.046455704724508134,
+        0.09559593780438681,
+        0.04610088838232434,
+        0.05063445864376587,
+        0.14953182307199359,
+        0.06961916424728413,
+        0.04579895713702329,
+        0.04862044885199184,
+        0.04097242944048026,
+        0.10404244605334649
+      ],
+      "heldout_errors_deg": [
+        0.09901769332404937,
+        0.02512634320145408,
+        0.1542452102081819,
+        0.025137814153762414,
+        0.0676472130738254,
+        0.08261369663572685,
+        0.06853396525636839,
+        0.1029010079505222,
+        0.01834824152292409,
+        0.03959268370584713,
+        0.05777998653194853
+      ]
+    },
+    "WideCamera": {
+      "n": 6,
+      "sessions": [
+        "DJI_202609071638_003",
+        "DJI_202609080958_004"
+      ],
+      "raw_errors_deg": [
+        5.994604239979949,
+        5.90404423454679,
+        6.752749801460742,
+        4.96893505439601,
+        1.2354720557761787,
+        0.8490566304064389
+      ],
+      "heldout_errors_deg": [
+        4.974095716539471,
+        4.8859075352997765,
+        5.715956496392499,
+        4.163887780481254,
+        4.700600157606627,
+        5.05608656239526
+      ]
+    }
+  }
+}

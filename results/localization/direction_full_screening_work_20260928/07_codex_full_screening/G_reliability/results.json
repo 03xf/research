@@ -1,0 +1,118 @@
+{
+  "direction": "G_reliability",
+  "generated_utc": "2026-09-28T07:01:29.512097+00:00",
+  "metrics": [
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "median_horizontal_error_m",
+      "value": 1.871807086787371,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=1/4; retained=['B1_F1']"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "worst_horizontal_error_m",
+      "value": 1.871807086787371,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=1/4"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "median_horizontal_error_m",
+      "value": 3.155300993038839,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=2/4; retained=['B1_F1', 'B4_F1']"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "worst_horizontal_error_m",
+      "value": 4.438794899290307,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=2/4"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "median_horizontal_error_m",
+      "value": 4.438794899290307,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=3/4; retained=['B1_F1', 'B4_F1', 'B3_N']"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "worst_horizontal_error_m",
+      "value": 12.327883013653524,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=3/4"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "median_horizontal_error_m",
+      "value": 3.155300993038839,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=4/4; retained=['B1_F1', 'B4_F1', 'B3_N', 'B3_S']"
+    },
+    {
+      "direction": "G",
+      "experiment": "selective_risk",
+      "dataset": "B1+B3+B4",
+      "split": "site-level retrospective",
+      "method": "smallest_ray_residual",
+      "metric": "worst_horizontal_error_m",
+      "value": 12.327883013653524,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "coverage=4/4"
+    }
+  ],
+  "details": {
+    "ordered_sites": [
+      [
+        "B1_F1",
+        0.020277638230876565,
+        1.871807086787371
+      ],
+      [
+        "B4_F1",
+        0.1752940077290771,
+        4.438794899290307
+      ],
+      [
+        "B3_N",
+        0.18695509715905623,
+        12.327883013653524
+      ],
+      [
+        "B3_S",
+        0.33263928898888967,
+        0.7106005097813595
+      ]
+    ]
+  }
+}

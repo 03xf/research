@@ -1,0 +1,16 @@
+{
+  "dataset": "recovery_v1/dataset_diagnostic_v1/V",
+  "experiments": [
+    "V_smoke3_wandboff"
+  ],
+  "configuration": {
+    "path": "@recovery/dataset_diagnostic_v1/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "smoke",
+      "1": "flame"
+    },
+    "nc": 2
+  }
+}

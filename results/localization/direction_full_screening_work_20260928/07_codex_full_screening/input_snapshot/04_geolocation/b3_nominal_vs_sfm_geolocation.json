@@ -1,0 +1,89 @@
+{
+  "fit_background_only": {
+    "n": 18,
+    "scale": 9.787339175190457,
+    "h_mean_m": 1.9404979686844308,
+    "h_median_m": 1.5722535568537856,
+    "h_p95_m": 4.636391741141945
+  },
+  "manual_camera_holdout": [
+    {
+      "drone": "uav-09",
+      "horizontal_center_error_m": 1.643987109661876,
+      "3d_center_error_m": 2.000296967428666
+    },
+    {
+      "drone": "uav-02",
+      "horizontal_center_error_m": 1.0936086697790353,
+      "3d_center_error_m": 2.619498348810454
+    },
+    {
+      "drone": "uav-04",
+      "horizontal_center_error_m": 1.966168616871689,
+      "3d_center_error_m": 1.9898470223619538
+    }
+  ],
+  "sites": {
+    "B3_N": {
+      "sfm_gps_lat": 31.28984963414691,
+      "sfm_gps_lon": 120.47262791736158,
+      "sfm_gps_alt_local_m": 51.409926939384825,
+      "horizontal_reference_error_m": 11.4978408182986,
+      "ray_residuals_m": [
+        0.09237084666789351,
+        0.18732324908506381,
+        0.20811143826343434
+      ],
+      "median_ray_residual_m": 0.18732324908506381,
+      "max_ray_residual_m": 0.20811143826343434,
+      "condition_number": 3.6924447567577525,
+      "legacy_nominal_horizontal_error_m": 13.283081198416877,
+      "delta_vs_legacy_m": -1.7852403801182763,
+      "marks": {
+        "uav-02": [
+          1395,
+          895
+        ],
+        "uav-04": [
+          205,
+          855
+        ],
+        "uav-09": [
+          375,
+          420
+        ]
+      }
+    },
+    "B3_S": {
+      "sfm_gps_lat": 31.289650877134875,
+      "sfm_gps_lon": 120.47272780926208,
+      "sfm_gps_alt_local_m": 52.92794465706645,
+      "horizontal_reference_error_m": 4.527120994998996,
+      "ray_residuals_m": [
+        0.23613725572768562,
+        0.10227855402685083,
+        0.31407330809290357
+      ],
+      "median_ray_residual_m": 0.23613725572768562,
+      "max_ray_residual_m": 0.31407330809290357,
+      "condition_number": 3.683103492226072,
+      "legacy_nominal_horizontal_error_m": 3.2920814330373473,
+      "delta_vs_legacy_m": 1.2350395619616488,
+      "marks": {
+        "uav-02": [
+          370,
+          265
+        ],
+        "uav-04": [
+          1750,
+          780
+        ],
+        "uav-09": [
+          1575,
+          640
+        ]
+      }
+    }
+  },
+  "note": "SfM->GPS Sim(3) fit uses only 18 non-manual background frames; manual fire frames are held out from alignment."
+}

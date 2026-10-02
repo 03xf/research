@@ -1,0 +1,3 @@
+moment_id,event_id,source_A,source_B,consensus_separation_horizontal_m,signed_east_difference_m,signed_north_difference_m,manual_topology_basis,caveat
+B3_M02,B3_formal_event,B3_N,B3_S,26.955965181090164,-8.995055906522618,25.410884047641435,road/tree physical landmarks and previous B3 N/S mapping,"telemetry-based relative coordinates are descriptive, not truth identity"
+B4_M02,B4_formal_event,B4_road_pile,B4_tree_pile,27.135116899394017,26.25422570987206,-6.857856918810114,road/tree physical landmarks and previous B3 N/S mapping,"telemetry-based relative coordinates are descriptive, not truth identity"

@@ -1,0 +1,14 @@
+{
+  "dataset": "recovery_v1/b2_video_holdout_v1/V",
+  "experiments": [
+    "B2_V_960_s0"
+  ],
+  "configuration": {
+    "path": "@recovery/b2_video_holdout_v1/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "flame"
+    }
+  }
+}

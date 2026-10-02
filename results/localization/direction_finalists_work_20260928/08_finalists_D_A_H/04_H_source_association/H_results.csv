@@ -1,0 +1,19 @@
+event_id,method,assignment,same_source_truth,median_ray_residual_m,max_ray_residual_m,accepted_at_posthoc_4m,note
+B3_one_three_UAV_instant,H3_nominal_geometry,NNN,True,1.0776870038905801,1.2091665736096462,True,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,NNS,False,10.940730601895066,18.85357531725323,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,NSN,False,12.5370970324717,15.791758262285114,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,NSS,False,10.635456567084669,19.20021254204477,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,SNN,False,8.989836024126982,14.58088782158191,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,SNS,False,10.241024398979306,16.633402013091168,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,SSN,False,9.822657590760478,12.558487700989586,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H3_nominal_geometry,SSS,True,1.0895866448363787,1.6212953978078288,True,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,NNN,True,0.5960141049559915,0.7345409027810901,True,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,NNS,False,8.221375146173743,15.518109310054678,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,NSN,False,10.049696274466129,13.398016754645761,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,NSS,False,8.304761384527186,15.564810402156036,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,SNN,False,8.084784740236948,14.063393964818527,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,SNS,False,7.996240433997203,14.82513686115065,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,SSN,False,9.4036208060271,11.969877291611853,False,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H4_corrected_geometry,SSS,True,0.33263928898888967,0.45763696411681576,True,"8 assignments share one instant; 4 m threshold selected on this instant, diagnostic only"
+B3_one_three_UAV_instant,H0_image_x_rank,SNN,False,,,True,left/right image rank groups different physical sources because view order reverses
+B3_one_three_UAV_instant,H0_image_x_rank,NSS,False,,,True,left/right image rank groups different physical sources because view order reverses

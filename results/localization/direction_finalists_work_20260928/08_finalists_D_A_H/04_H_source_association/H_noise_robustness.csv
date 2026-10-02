@@ -1,0 +1,10 @@
+event_id,point_sigma_px,gps_sigma_m,yaw_sigma_deg,pitch_sigma_deg,trials,seed,separation_success_rate,gap_median_m,gap_p05_m,max_correct_p95_m,min_wrong_p05_m,truth_scope
+B3_one_three_UAV_instant,1,0,0,0,250,20260928,1.0,7.401541925570864,7.370681138936657,0.6162827502692052,7.976819374066045,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,3,0,0,0,250,20260928,1.0,7.390061784515245,7.284883145959837,0.6695384688607106,7.9237770289604175,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,5,0,0,0,250,20260928,1.0,7.388508988730726,7.226781951420697,0.7100735590105317,7.8828717460937705,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,10,0,0,0,250,20260928,1.0,7.348159427053828,7.069990123354809,0.7842786704942503,7.7780652607366205,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,20,0,0,0,250,20260928,1.0,7.269475333128028,6.761497974923876,1.0114138653281772,7.660495508117494,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,30,0,0,0,250,20260928,1.0,7.027454993617754,6.360003128831005,1.1845106406032917,7.392341762961617,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,50,0,0,0,250,20260928,1.0,6.759766157033295,5.756332048562183,1.6919349289250138,7.179093028043148,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,5,1,1,1,250,20260928,1.0,6.291924412722287,4.564242723360854,2.3735736912799696,6.876572976987981,"manual source identity N/S; conditional synthetic perturbation, one instant"
+B3_one_three_UAV_instant,10,3,3,3,250,20260928,0.868,2.9864187473288633,-1.457516109259148,7.0029439947487635,4.975266914371265,"manual source identity N/S; conditional synthetic perturbation, one instant"

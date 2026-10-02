@@ -1,0 +1,32 @@
+{
+  "legacy_recomputed": {
+    "h_error_m": 3.5872836778577644,
+    "ray_med_m": 1.0895866448363787,
+    "ray_max_m": 1.6212953978078288,
+    "condition": 3.7848214111958627
+  },
+  "gps_gimbal_colmap_intrinsics": {
+    "h_error_m": 1.4148403450041338,
+    "ray_med_m": 1.3796079055621213,
+    "ray_max_m": 2.603293149197143,
+    "condition": 3.6812101893295317
+  },
+  "sfm_center_gimbal_colmap_intrinsics": {
+    "h_error_m": 0.7106005097813595,
+    "ray_med_m": 0.33263928898888967,
+    "ray_max_m": 0.45763696411681576,
+    "condition": 3.6812101893295317
+  },
+  "gps_center_sfm_orientation_intrinsics": {
+    "h_error_m": 1.618403637028854,
+    "ray_med_m": 2.0206839147949895,
+    "ray_max_m": 2.7476602069696754,
+    "condition": 3.6831034922260733
+  },
+  "sfm_center_sfm_orientation_intrinsics": {
+    "h_error_m": 1.1325322219477973,
+    "ray_med_m": 0.2356731681895459,
+    "ray_max_m": 0.31345605052427533,
+    "condition": 3.6831034922260733
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "recovery_v1/detection_quality_v2/datasets/C4/V",
+  "experiments": [
+    "C4_V_flame_960_s0"
+  ],
+  "configuration": {
+    "path": "@recovery/detection_quality_v2/datasets/C4/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "flame"
+    },
+    "nc": 1
+  }
+}

@@ -1,0 +1,8 @@
+moment_id,batch,support_uav_count,n_heldout_source_frames,association_accuracy,wrong_merge_rate,reject_rate,median_margin_px,p10_margin_px,minimum_margin_px,id_switch
+B3_M02,B3,2,12,1.0,0.0,0.0,1069.6805692614255,529.3353320154498,243.16473325644284,not_estimable_from_one_point_moment_per_event
+B3_M02,B3,3,12,1.0,0.0,0.0,1075.2929390196048,511.2922864502536,191.31323456659504,not_estimable_from_one_point_moment_per_event
+B3_M02,B3,4,12,1.0,0.0,0.0,1122.686419854894,517.2835499412355,198.51402665831776,not_estimable_from_one_point_moment_per_event
+B3_M02,B3,5,12,1.0,0.0,0.0,1128.1774687554541,524.0894807540343,205.6990351078841,not_estimable_from_one_point_moment_per_event
+B4_M02,B4,2,10,1.0,0.0,0.0,1205.3872076178334,659.8492449289148,459.6178806976212,not_estimable_from_one_point_moment_per_event
+B4_M02,B4,3,10,1.0,0.0,0.0,1197.940649716568,668.1301540393443,401.63819063695223,not_estimable_from_one_point_moment_per_event
+B4_M02,B4,4,10,1.0,0.0,0.0,1211.1721353621108,679.1468122151252,413.70561236574326,not_estimable_from_one_point_moment_per_event

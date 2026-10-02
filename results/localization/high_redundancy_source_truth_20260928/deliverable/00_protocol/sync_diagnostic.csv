@@ -1,0 +1,21 @@
+moment_id,batch,S_wall_time_spread_s,uav_count,interpretation
+B1_M01,B1,1.658,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B1_M02,B1,0.608,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B1_M03,B1,0.454,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B1_M04,B1,0.424,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B1_M05,B1,0.523,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B2_M01,B2,0.985,6,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B2_M02,B2,1.016,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B2_M03,B2,1.017,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B2_M04,B2,1.042,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B2_M05,B2,0.729,6,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B3_M01,B3,0.718,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B3_M02,B3,0.837,8,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B3_M03,B3,0.919,8,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B3_M04,B3,1.016,7,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B3_M05,B3,0.549,5,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B4_M01,B4,2.241,8,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B4_M02,B4,1.726,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B4_M03,B4,1.772,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B4_M04,B4,1.605,9,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration
+B4_M05,B4,1.554,5,S subtitle timestamps differ across candidate co-temporal UAV frames; no transient-event offset calibration

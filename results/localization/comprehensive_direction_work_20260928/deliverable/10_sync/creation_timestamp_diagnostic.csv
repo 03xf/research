@@ -1,0 +1,21 @@
+moment_id,batch,uav_count,V_creation_tag_spread_s,T_creation_tag_spread_s,within_uav_VT_creation_tag_absdiff_median_s,within_uav_VT_creation_tag_absdiff_max_s,truth_level,status,interpretation
+B1_M01,B1,7,14.0,14.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B1_M02,B1,7,14.0,14.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B1_M03,B1,7,14.0,14.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B1_M04,B1,7,14.0,14.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B1_M05,B1,7,14.0,14.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B2_M01,B2,6,14.0,13.0,0.5,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B2_M02,B2,9,32.0,31.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B2_M03,B2,9,32.0,31.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B2_M04,B2,9,32.0,31.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B2_M05,B2,6,20.0,20.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B3_M01,B3,7,32.0,32.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B3_M02,B3,8,160.0,160.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B3_M03,B3,8,160.0,160.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B3_M04,B3,7,160.0,160.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B3_M05,B3,5,21.0,21.0,0.0,0.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B4_M01,B4,8,12.0,12.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B4_M02,B4,9,18.0,18.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B4_M03,B4,9,18.0,18.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B4_M04,B4,9,18.0,18.0,0.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.
+B4_M05,B4,5,10.0,11.0,1.0,1.0,Candidate metadata diagnostic,not_clock_calibrated,Container creation tags can show nominal offsets only; no shared physical event/PTS reference or clock drift estimate.

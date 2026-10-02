@@ -1,0 +1,75 @@
+{
+  "schema_version": "dji_single_flame_candidate_freeze_v1",
+  "created_utc": "2026-09-25T12:16:24.236693+00:00",
+  "selection_sha256": "7ef9d47938ec69aa133ed4c4c40e81df8647085127f39f362fb1bd0e6cc2dbed",
+  "mode": "C1",
+  "deployment_seed": 0,
+  "weights": "@recovery/flame_recall_v1/runs/C1_V_flame_960_s0/weights/best.pt",
+  "weights_sha256": "10f765e790c8fa9a212dec56f7b87827f931308250c40712d17c68f1c9c4694a",
+  "development_result": "@recovery/flame_recall_v1/evaluations/C1_V_flame_960_s0/result.json",
+  "development_result_sha256": "124d6ea125aa2972a62358e91c287116632eb7316d5035a97bf48a135dc47a40",
+  "threshold": 0.21,
+  "class_mapping": {
+    "0": "flame"
+  },
+  "selection_uses_confirmation": false,
+  "all_seed_results": [
+    {
+      "seed": 0,
+      "evaluation_result": "@recovery/flame_recall_v1/evaluations/C1_V_flame_960_s0/result.json",
+      "evaluation_sha256": "124d6ea125aa2972a62358e91c287116632eb7316d5035a97bf48a135dc47a40",
+      "weights": "@recovery/flame_recall_v1/runs/C1_V_flame_960_s0/weights/best.pt",
+      "weights_sha256": "10f765e790c8fa9a212dec56f7b87827f931308250c40712d17c68f1c9c4694a",
+      "threshold": 0.21,
+      "P": 0.6551724137931034,
+      "R": 0.7916666666666666,
+      "AP50": 0.7231319281642989,
+      "gate_passed": true
+    },
+    {
+      "seed": 1,
+      "evaluation_result": "@recovery/flame_recall_v1/evaluations/C1_V_flame_960_s1/result.json",
+      "evaluation_sha256": "34d63672709fa6da990e22e716b86ca9527bfd496e211e27cee84bd98bc7102c",
+      "weights": "@recovery/flame_recall_v1/runs/C1_V_flame_960_s1/weights/best.pt",
+      "weights_sha256": "db814d307d34834e37ee11e6d5bf4b7acfcbf1458bc53663e56b27a78fd66e98",
+      "threshold": 0.24,
+      "P": 0.7368421052631579,
+      "R": 0.5833333333333334,
+      "AP50": 0.6122457781110822,
+      "gate_passed": false
+    },
+    {
+      "seed": 2,
+      "evaluation_result": "@recovery/flame_recall_v1/evaluations/C1_V_flame_960_s2/result.json",
+      "evaluation_sha256": "7c88f7dc7a2c3312087bd74a9ccf7fffe72ff4f59dff9d172322addfe1525b50",
+      "weights": "@recovery/flame_recall_v1/runs/C1_V_flame_960_s2/weights/best.pt",
+      "weights_sha256": "8de8f71bb62fda77a19d78511f13dc0771740e594c02f6ca101b1c99d4df4395",
+      "threshold": 0.15,
+      "P": 0.6428571428571429,
+      "R": 0.75,
+      "AP50": 0.683111212982163,
+      "gate_passed": true
+    }
+  ],
+  "seed_gate_pass_count": 2,
+  "seed_mean": {
+    "P": 0.6782905539711347,
+    "R": 0.7083333333333334,
+    "AP50": 0.6728296397525148
+  },
+  "seed_min_max": {
+    "P": [
+      0.6428571428571429,
+      0.7368421052631579
+    ],
+    "R": [
+      0.5833333333333334,
+      0.7916666666666666
+    ],
+    "AP50": [
+      0.6122457781110822,
+      0.7231319281642989
+    ]
+  },
+  "caveat": "Seed-0 was predeclared for confirmation and deployment; seed results are reported in full."
+}

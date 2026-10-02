@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+joint_truth_graph,No independently verified time-synchronized multi-UAV V/T source graph across events,candidate_event_split_v2.csv + source_truth_review_v1/summary.json + B3 association JSON,Cannot measure a joint graph's association or geolocation accuracy
+B4_second_source,B4 F2 has no independent LRF coordinate in current reference table,fixed_fire_observations.csv,Full multi-source geolocation accuracy unavailable

@@ -1,0 +1,36 @@
+{
+  "models": {
+    "M0": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "weak_pose": [
+      -2.9999999999999996,
+      -2.243024341174771,
+      1.0
+    ],
+    "weak_pose_focal": [
+      -2.9999999999999996,
+      -2.271803987894958,
+      0.8500000000000001
+    ]
+  },
+  "fit1_success": true,
+  "fit2_success": true,
+  "fit1_nfev": 9,
+  "fit2_nfev": 6,
+  "eligible_tracks": {
+    "B1": 217,
+    "B2": 147,
+    "B3": 893,
+    "B4": 45
+  },
+  "selected_tracks": {
+    "B1": 100,
+    "B2": 100,
+    "B3": 100,
+    "B4": 45
+  },
+  "rule": "Fit B1+B2 t3/t5 only; select by B3+B4 t7 median and p90, not fire/LRF"
+}

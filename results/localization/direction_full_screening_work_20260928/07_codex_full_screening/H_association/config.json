@@ -1,0 +1,9 @@
+{
+  "direction": "H_association",
+  "title": "Cross-UAV source association",
+  "description": "Uses confirmed B3 N/S assignments and a separate exploratory B4 SfM component probe.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

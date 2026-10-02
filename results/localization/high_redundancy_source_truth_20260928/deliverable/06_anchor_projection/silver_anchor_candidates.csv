@@ -1,0 +1,7 @@
+moment_id,physical_source_id,support_uav_count,candidate_status,reason
+B1_M03,B1_woodpile,7,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional
+B2_M03,B2_woodpile,7,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional
+B3_M02,B3_N,7,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional
+B3_M02,B3_S,7,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional
+B4_M02,B4_road_pile,9,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional
+B4_M02,B4_tree_pile,5,reject_for_A_O_ground_contact,no precise independently reviewed ground-contact point; flame-base support curve is only conditional

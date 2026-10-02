@@ -1,0 +1,4 @@
+case,failure,evidence,impact
+A_new_B1_B2_points,not_identifiable_at_ground_contact,59 new ±3 s review sheets,No point coordinates assigned from reduced sheets; event-level independent point test unavailable
+A_downstream_B3_S,insufficient_detector_views,A_downstream_localization.csv,Automatic methods have 1 view and no triangulation
+A_downstream_B3_N,pixel_gain_not_geolocation_gain,A_downstream_localization.csv,A3 error 12.506 m vs A0 center 12.284 m

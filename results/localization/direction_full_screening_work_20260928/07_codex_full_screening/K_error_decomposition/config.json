@@ -1,0 +1,12 @@
+{
+  "direction": "K_error_decomposition",
+  "title": "Oracle pipeline availability",
+  "description": "Five-level same-frame B3 oracle grid plus cross-site manual-point geometry comparisons.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected",
+  "B3_detector": "E2_V_960_s0 frozen weights; flame threshold 0.37",
+  "B3_geometry": "SfM center + COLMAP intrinsics + original gimbal direction; background-only fit",
+  "B3_limitation": "one instant; frozen model metadata reports historical development exposure"
+}

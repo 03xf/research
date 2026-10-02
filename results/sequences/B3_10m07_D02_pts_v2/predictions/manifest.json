@@ -1,0 +1,46 @@
+{
+  "schema_version": "dji_recovery_provisional_tracking_v2",
+  "created_utc": "2026-09-25T05:31:38.804907+00:00",
+  "source_clip": "@recovery/video_clips/B3_10m07_D02_pts_v2",
+  "source_clip_manifest_sha256": "6b852c79bdfc783c00db8c5f9f7aa8a5ea2e2103a90be0dc39c5061e0c61de89",
+  "method": "per-sensor per-class Ultralytics ByteTrack with explicit tracker thresholds; persistent state across decoded frames",
+  "tracker_yaml": "@project/code/tools/bytetrack_recovery_v1.yaml",
+  "tracker_yaml_sha256": "5df09bdfe4d428a01c367366f27c7a9b7e5fc576a3d679a688ef4607828717c6",
+  "time_pairing": "source clip PTS pairs; same physical target unverified",
+  "weights": {
+    "V": {
+      "path": "@recovery/runs/E2_V_960_s0/weights/best.pt",
+      "sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6"
+    }
+  },
+  "development_evaluations": {
+    "V": "@recovery/evaluations/E2_V_960_s0/result.json"
+  },
+  "summaries": {
+    "V": {
+      "sensor": "V",
+      "frames": 150,
+      "tracks": 8,
+      "tracked_detections": 387,
+      "untracked_detections": {
+        "smoke": 1
+      },
+      "tracks_with_multiple_frames": 8,
+      "classes": {
+        "flame": 332,
+        "smoke": 56
+      },
+      "identity_switches": null,
+      "identity_switches_unavailable_reason": "no human track identity ground truth",
+      "source_point_pixel_error": null,
+      "source_point_pixel_error_unavailable_reason": "no human ground burning source point ground truth"
+    }
+  },
+  "environment": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.29",
+    "torch": "2.4.1+cu121",
+    "ultralytics": "8.2.50"
+  },
+  "absolute_visual_localization": "unavailable"
+}

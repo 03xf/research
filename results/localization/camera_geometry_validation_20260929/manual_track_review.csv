@@ -1,0 +1,9 @@
+point_id,visual_review,reason,in_initial_250_tracks
+241,plausible,Bare soil detail beside small shrub persists across sampled views,yes
+591,plausible,Burnt soil and twig detail persists across sampled views,yes
+1116,plausible,Bare soil texture persists across sampled views,yes
+1459,uncertain,Point is near low vegetation and its physical center is ambiguous,yes
+1477,uncertain,Point is at vegetation root or shadow boundary,yes
+2380,reject,Point lies on a broad tree shadow that may move with lighting,yes
+2500,reject,Point lies on a shadow boundary beside vegetation,yes
+3101,plausible,Bare soil detail persists across sampled views,yes

@@ -1,0 +1,16 @@
+target_horizontal_accuracy_m,method,evaluated_gold_sites,independent_gold_events,observed_gold_sites_within_target,verified_silver_A_positions,verified_silver_B_positions,certified_anchor_labels,certified_same_source_labels,candidate_video_bins_ge3,calibrated_accuracy_coverage,status,reason
+1,C0_nominal,3,2,0,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+1,C1_visual_K,2,1,0,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+1,C2_visual_center,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+1,C3_background_bounded,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+1,C4_free_SfM,2,1,0,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+2,C0_nominal,3,2,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+2,C1_visual_K,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+2,C2_visual_center,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+2,C3_background_bounded,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+2,C4_free_SfM,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+5,C0_nominal,3,2,2,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+5,C1_visual_K,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+5,C2_visual_center,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+5,C3_background_bounded,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication
+5,C4_free_SfM,2,1,1,0,0,0,0,124,,not_estimable,too few independent Gold events; no validated >=4-UAV source instant or temporal replication

@@ -1,0 +1,320 @@
+{
+  "direction": "E_fire_state",
+  "generated_utc": "2026-09-28T07:13:24.008210+00:00",
+  "metrics": [
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "active_fire",
+      "metric": "independent_clip_count",
+      "value": 4,
+      "ground_truth_type": "manual state",
+      "notes": "moments=32; clips=['B3_10m07_D02_pts_v2', 'multiple_boxes_0_DJI_202609081039_006_pts_v2', 'paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "active_fire_trigger_fraction",
+      "value": 0.71875,
+      "ground_truth_type": "manual state",
+      "notes": "23/32"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "active_fire_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "32/32"
+    },
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "hot_background",
+      "metric": "independent_clip_count",
+      "value": 2,
+      "ground_truth_type": "manual state",
+      "notes": "moments=8; clips=['paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "hot_background_trigger_fraction",
+      "value": 0.0,
+      "ground_truth_type": "manual state",
+      "notes": "0/8"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "hot_background_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "8/8"
+    },
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "residual_heat",
+      "metric": "independent_clip_count",
+      "value": 1,
+      "ground_truth_type": "manual state",
+      "notes": "moments=10; clips=['visible_smoke_only_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "residual_heat_trigger_fraction",
+      "value": 0.0,
+      "ground_truth_type": "manual state",
+      "notes": "0/10"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "residual_heat_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "10/10"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "raw",
+      "metric": "active_T_point_recall",
+      "value": 0.8461538461538461,
+      "ground_truth_type": "manual active-fire points",
+      "notes": "44/52"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "raw",
+      "metric": "hot_background_T_trigger_count",
+      "value": 8,
+      "ground_truth_type": "manual hot-background state",
+      "notes": "out_of=8; clip-confounded"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "stable",
+      "metric": "active_T_point_recall",
+      "value": 0.6346153846153846,
+      "ground_truth_type": "manual active-fire points",
+      "notes": "33/52"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "stable",
+      "metric": "hot_background_T_trigger_count",
+      "value": 3,
+      "ground_truth_type": "manual hot-background state",
+      "notes": "out_of=8; clip-confounded"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "stable_plus_hold",
+      "metric": "active_T_point_recall",
+      "value": 0.6538461538461539,
+      "ground_truth_type": "manual active-fire points",
+      "notes": "34/52"
+    },
+    {
+      "direction": "E",
+      "experiment": "temporal_state_tradeoff",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "stable_plus_hold",
+      "metric": "hot_background_T_trigger_count",
+      "value": 4,
+      "ground_truth_type": "manual hot-background state",
+      "notes": "out_of=8; clip-confounded"
+    },
+    {
+      "direction": "E",
+      "experiment": "grouped_three_state_test",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "leave-one-clip-out",
+      "method": "minimum_state_support",
+      "metric": "feasible",
+      "value": false,
+      "ground_truth_type": "manual state",
+      "notes": "Each class must appear in at least two independent clips"
+    }
+  ],
+  "details": {
+    "state_counts": {
+      "active_fire": 32,
+      "hot_background": 8,
+      "residual_heat": 10
+    },
+    "state_clips": {
+      "active_fire": [
+        "B3_10m07_D02_pts_v2",
+        "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+        "paired_negative_0_DJI_202609081039_006_pts_v2",
+        "visible_flame_0_DJI_202609081039_006_pts_v2"
+      ],
+      "hot_background": [
+        "paired_negative_0_DJI_202609081039_006_pts_v2",
+        "visible_flame_0_DJI_202609081039_006_pts_v2"
+      ],
+      "residual_heat": [
+        "visible_smoke_only_0_DJI_202609081039_006_pts_v2"
+      ]
+    },
+    "temporal_tradeoff": {
+      "raw": {
+        "active_fire": {
+          "V_truth": 52,
+          "V_matched": 33,
+          "V_detections": 37,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 52,
+          "T_matched": 44,
+          "T_detections": 50,
+          "T_negative_frame_with_detection": 0,
+          "T_held_matches": 0
+        },
+        "hot_background": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 0,
+          "T_matched": 0,
+          "T_detections": 8,
+          "T_negative_frame_with_detection": 8,
+          "T_held_matches": 0
+        },
+        "residual_heat": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 20,
+          "T_matched": 10,
+          "T_detections": 11,
+          "T_negative_frame_with_detection": 1,
+          "T_held_matches": 0
+        }
+      },
+      "stable": {
+        "active_fire": {
+          "V_truth": 52,
+          "V_matched": 28,
+          "V_detections": 30,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 52,
+          "T_matched": 33,
+          "T_detections": 33,
+          "T_negative_frame_with_detection": 0,
+          "T_held_matches": 0
+        },
+        "hot_background": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 0,
+          "T_matched": 0,
+          "T_detections": 3,
+          "T_negative_frame_with_detection": 3,
+          "T_held_matches": 0
+        },
+        "residual_heat": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 20,
+          "T_matched": 8,
+          "T_detections": 9,
+          "T_negative_frame_with_detection": 1,
+          "T_held_matches": 0
+        }
+      },
+      "stable_plus_hold": {
+        "active_fire": {
+          "V_truth": 52,
+          "V_matched": 32,
+          "V_detections": 39,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 6,
+          "T_truth": 52,
+          "T_matched": 34,
+          "T_detections": 35,
+          "T_negative_frame_with_detection": 0,
+          "T_held_matches": 1
+        },
+        "hot_background": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 0,
+          "T_matched": 0,
+          "T_detections": 4,
+          "T_negative_frame_with_detection": 4,
+          "T_held_matches": 0
+        },
+        "residual_heat": {
+          "V_truth": 0,
+          "V_matched": 0,
+          "V_detections": 0,
+          "V_negative_frame_with_detection": 0,
+          "V_held_matches": 0,
+          "T_truth": 20,
+          "T_matched": 8,
+          "T_detections": 9,
+          "T_negative_frame_with_detection": 1,
+          "T_held_matches": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "direction": "G_reliability",
+  "title": "Localization selective risk",
+  "description": "Orders four fire sites by internal ray residual and measures absolute-error risk at each coverage.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

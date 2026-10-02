@@ -1,0 +1,66 @@
+{
+  "schema_version": "dji_source_truth_summary_v1",
+  "created_utc": "2026-09-25T07:25:11.181860+00:00",
+  "queue": "@recovery/source_truth_review_v1/queue.json",
+  "decisions": "@recovery/source_truth_review_v1/decisions.json",
+  "task_count": 50,
+  "decision_count": 50,
+  "missing_task_count": 0,
+  "extra_decision_count": 0,
+  "validation_errors": [],
+  "counts": {
+    "source_state": {
+      "active_fire": 32,
+      "hot_background": 8,
+      "residual_heat": 10
+    },
+    "tv_relation": {
+      "same_source": 42,
+      "unknown": 8
+    },
+    "frame_status": {
+      "usable": 50
+    }
+  },
+  "point_counts": {
+    "V": 74
+  },
+  "clip_counts": {
+    "B3_10m07_D02_pts_v2": {
+      "source_state:active_fire": 10,
+      "tv_relation:same_source": 10,
+      "frame_status:usable": 10
+    },
+    "multiple_boxes_0_DJI_202609081039_006_pts_v2": {
+      "source_state:active_fire": 10,
+      "tv_relation:same_source": 10,
+      "frame_status:usable": 10
+    },
+    "paired_negative_0_DJI_202609081039_006_pts_v2": {
+      "source_state:hot_background": 6,
+      "tv_relation:unknown": 6,
+      "frame_status:usable": 10,
+      "source_state:active_fire": 4,
+      "tv_relation:same_source": 4
+    },
+    "visible_flame_0_DJI_202609081039_006_pts_v2": {
+      "source_state:hot_background": 2,
+      "tv_relation:unknown": 2,
+      "frame_status:usable": 10,
+      "source_state:active_fire": 8,
+      "tv_relation:same_source": 8
+    },
+    "visible_smoke_only_0_DJI_202609081039_006_pts_v2": {
+      "source_state:residual_heat": 10,
+      "tv_relation:same_source": 10,
+      "frame_status:usable": 10
+    }
+  },
+  "ready_for_tracking_truth": true,
+  "interpretation": {
+    "same_source": "manual physical-source correspondence confirmation",
+    "unknown": "not used as a correct or incorrect correspondence",
+    "residual_heat": "localized post-extinguishing heat; not active flame",
+    "hot_background": "thermal bright non-burning background; no source point"
+  }
+}

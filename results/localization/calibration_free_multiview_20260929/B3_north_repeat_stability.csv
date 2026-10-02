@@ -1,0 +1,6 @@
+method,horizontal_between_B3_north_m,first_status,second_status,interpretation
+M0,0.1158106844936887,located,located,diagnostic_only_if_any_status_reject
+Pairwise Consensus,0.3130207482445541,located,located,diagnostic_only_if_any_status_reject
+Robust Intersection,0.1693471793120146,located,located,diagnostic_only_if_any_status_reject
+Quality Weighting,0.38441216541731904,located,located,diagnostic_only_if_any_status_reject
+Consensus + Uncertainty,1.0899625080502242,located,reject,diagnostic_only_if_any_status_reject

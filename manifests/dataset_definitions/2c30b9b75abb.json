@@ -1,0 +1,17 @@
+{
+  "dataset": "recovery_v1/flame_recall_v1/datasets/C1/V",
+  "experiments": [
+    "C1_V_flame_960_s0",
+    "C1_V_flame_960_s1",
+    "C1_V_flame_960_s2"
+  ],
+  "configuration": {
+    "path": "@recovery/flame_recall_v1/datasets/C1/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "flame"
+    },
+    "nc": 1
+  }
+}

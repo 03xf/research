@@ -1,0 +1,19 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+L,protocol_inventory,target_train,original directory,file_count,images,5340,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/train
+L,protocol_inventory,target_val,original directory,file_count,images,45,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/val
+L,protocol_inventory,target_test,original directory,file_count,images,45,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/test
+L,protocol_inventory,detection_train,original directory,file_count,images,3150,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/train/images
+L,protocol_inventory,detection_valid,original directory,file_count,images,900,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/valid/images
+L,protocol_inventory,detection_test,original directory,file_count,images,450,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/test/images
+L,basename_overlap,target_train vs target_val,original directory,basename,overlap_count,12,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_train vs target_test,original directory,basename,overlap_count,12,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,detection_train vs detection_valid,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,detection_train vs detection_test,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_train vs detection_train,original directory,basename,overlap_count,3150,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_val vs detection_valid,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_test vs detection_test,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,exact_content_overlap,target_val vs target_train,original directory,SHA256,duplicate_test_images,10,byte-identical image,test_images=45
+L,exact_content_overlap,target_test vs target_train,original directory,SHA256,duplicate_test_images,10,byte-identical image,test_images=45
+L,exact_content_overlap,detection_valid vs detection_train,original directory,SHA256,duplicate_test_images,0,byte-identical image,test_images=900
+L,exact_content_overlap,detection_test vs detection_train,original directory,SHA256,duplicate_test_images,0,byte-identical image,test_images=450
+L,prior_YOLO_exact_audit,datasets_yolo,train vs val0,SHA256,removed_exact_duplicate_val_images,44,byte-identical image,Prior script removed exact overlaps only; event overlap not addressed

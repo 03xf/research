@@ -1,0 +1,3 @@
+# Literature and thesis boundary
+
+The preceding A–N screening contains a 2023–2026 desk review and links to primary publisher/arXiv pages. This round uses that review rather than claiming a fresh systematic search. `literature_evidence.csv` records the principal boundaries. Ordinary RGB-T registration/fusion, temporal fire detection, UAV geolocation, triangulation, and smoke localization are already represented in recent work or the two local theses. A defensible new paper must be narrower: physical ground-burning-source observation with independent coordinates, state-aware net active recovery, or multi-source identity with independent labels. This audit does not establish priority or absence of prior work; refresh searches and compare full texts before submission.

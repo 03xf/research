@@ -1,0 +1,3 @@
+model,yaw_correction_deg,pitch_correction_deg,focal_scale,B3_validation_median_px,B3_validation_p90_px,B4_validation_median_px,B4_validation_p90_px,improved_all_4_holdout_metrics,parameter_at_bound,transfer_decision
+weak_pose,-2.9999999999999996,-2.243024341174771,1.0,46.286484513565235,77.46782557490103,45.78611664532204,172.32592671889955,False,True,reject
+weak_pose_focal,-2.9999999999999996,-2.271803987894958,0.8500000000000001,36.96572269715627,59.76390116498532,63.99808672130745,176.29680505269357,False,True,reject

@@ -1,0 +1,12 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+C,registration_viability,01,three fractions per recording,sift_homography_basic,pass_fraction,0.047619047619047616,background inlier proxy,1/21; no fire-source correspondence truth
+C,registration_viability,01,three fractions per recording,sift_homography_spatial,pass_fraction,0.047619047619047616,background inlier proxy,1/21; no fire-source correspondence truth
+C,registration_viability,02,three fractions per recording,sift_homography_basic,pass_fraction,0.0,background inlier proxy,0/27; no fire-source correspondence truth
+C,registration_viability,02,three fractions per recording,sift_homography_spatial,pass_fraction,0.0,background inlier proxy,0/27; no fire-source correspondence truth
+C,registration_viability,03,three fractions per recording,sift_homography_basic,pass_fraction,0.4166666666666667,background inlier proxy,10/24; no fire-source correspondence truth
+C,registration_viability,03,three fractions per recording,sift_homography_spatial,pass_fraction,0.375,background inlier proxy,9/24; no fire-source correspondence truth
+C,registration_viability,04,three fractions per recording,sift_homography_basic,pass_fraction,0.37037037037037035,background inlier proxy,10/27; no fire-source correspondence truth
+C,registration_viability,04,three fractions per recording,sift_homography_spatial,pass_fraction,0.3333333333333333,background inlier proxy,9/27; no fire-source correspondence truth
+C,registration_viability,all,three fractions per recording,sift_homography_basic,pass_fraction,0.21212121212121213,background inlier proxy,21/99; no fire-source correspondence truth
+C,registration_viability,all,three fractions per recording,sift_homography_spatial,pass_fraction,0.1919191919191919,background inlier proxy,19/99; no fire-source correspondence truth
+C,within_recording_instability,B1-B4,recording groups,sift_homography_spatial,mixed_pass_recordings,9,background inlier proxy,out_of=31

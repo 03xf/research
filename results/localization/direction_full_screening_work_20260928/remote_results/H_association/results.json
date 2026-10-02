@@ -1,0 +1,286 @@
+{
+  "direction": "H_association",
+  "generated_utc": "2026-09-28T07:03:51.566927+00:00",
+  "metrics": [
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "legacy",
+      "metric": "max_true",
+      "value": 1.0895866448363787,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "legacy",
+      "metric": "min_false",
+      "value": 8.989836024126982,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "legacy",
+      "metric": "separation_ratio",
+      "value": 8.250684850746284,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "corrected",
+      "metric": "max_true",
+      "value": 0.5960141049559915,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "corrected",
+      "metric": "min_false",
+      "value": 7.996240433997203,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B3_two_source_assignments",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV snapshot",
+      "method": "corrected",
+      "metric": "separation_ratio",
+      "value": 13.416193287216968,
+      "ground_truth_type": "manually confirmed N/S source identity",
+      "notes": "8 assignments; only 2 pure; one event, not 8 independent tests"
+    },
+    {
+      "direction": "H",
+      "experiment": "B4_component_ray_probe",
+      "dataset": "B4",
+      "split": "one fire-time instant",
+      "method": "SfM_relative_ray_residual",
+      "metric": "max_same_label_sfm_units",
+      "value": 0.11321375280079012,
+      "ground_truth_type": "heuristically grouped color components",
+      "notes": "No validated B4 F2 point identity"
+    },
+    {
+      "direction": "H",
+      "experiment": "B4_component_ray_probe",
+      "dataset": "B4",
+      "split": "one fire-time instant",
+      "method": "SfM_relative_ray_residual",
+      "metric": "min_mixed_label_sfm_units",
+      "value": 1.0928442327263939,
+      "ground_truth_type": "heuristically grouped color components",
+      "notes": "No validated B4 F2 point identity"
+    }
+  ],
+  "details": {
+    "B3": {
+      "legacy": {
+        "rows": [
+          {
+            "assignment": "NNN",
+            "same_source": true,
+            "median_residual_m": 1.0776870038905801,
+            "max_residual_m": 1.2091665736096462
+          },
+          {
+            "assignment": "NNS",
+            "same_source": false,
+            "median_residual_m": 10.940730601895066,
+            "max_residual_m": 18.85357531725323
+          },
+          {
+            "assignment": "NSN",
+            "same_source": false,
+            "median_residual_m": 12.5370970324717,
+            "max_residual_m": 15.791758262285114
+          },
+          {
+            "assignment": "NSS",
+            "same_source": false,
+            "median_residual_m": 10.635456567084669,
+            "max_residual_m": 19.20021254204477
+          },
+          {
+            "assignment": "SNN",
+            "same_source": false,
+            "median_residual_m": 8.989836024126982,
+            "max_residual_m": 14.58088782158191
+          },
+          {
+            "assignment": "SNS",
+            "same_source": false,
+            "median_residual_m": 10.241024398979306,
+            "max_residual_m": 16.633402013091168
+          },
+          {
+            "assignment": "SSN",
+            "same_source": false,
+            "median_residual_m": 9.822657590760478,
+            "max_residual_m": 12.558487700989586
+          },
+          {
+            "assignment": "SSS",
+            "same_source": true,
+            "median_residual_m": 1.0895866448363787,
+            "max_residual_m": 1.6212953978078288
+          }
+        ],
+        "max_true": 1.0895866448363787,
+        "min_false": 8.989836024126982,
+        "separation_ratio": 8.250684850746284
+      },
+      "corrected": {
+        "rows": [
+          {
+            "assignment": "NNN",
+            "same_source": true,
+            "median_residual_m": 0.5960141049559915,
+            "max_residual_m": 0.7345409027810901
+          },
+          {
+            "assignment": "NNS",
+            "same_source": false,
+            "median_residual_m": 8.221375146173743,
+            "max_residual_m": 15.518109310054678
+          },
+          {
+            "assignment": "NSN",
+            "same_source": false,
+            "median_residual_m": 10.049696274466129,
+            "max_residual_m": 13.398016754645761
+          },
+          {
+            "assignment": "NSS",
+            "same_source": false,
+            "median_residual_m": 8.304761384527186,
+            "max_residual_m": 15.564810402156036
+          },
+          {
+            "assignment": "SNN",
+            "same_source": false,
+            "median_residual_m": 8.084784740236948,
+            "max_residual_m": 14.063393964818527
+          },
+          {
+            "assignment": "SNS",
+            "same_source": false,
+            "median_residual_m": 7.996240433997203,
+            "max_residual_m": 14.82513686115065
+          },
+          {
+            "assignment": "SSN",
+            "same_source": false,
+            "median_residual_m": 9.4036208060271,
+            "max_residual_m": 11.969877291611853
+          },
+          {
+            "assignment": "SSS",
+            "same_source": true,
+            "median_residual_m": 0.33263928898888967,
+            "max_residual_m": 0.45763696411681576
+          }
+        ],
+        "max_true": 0.5960141049559915,
+        "min_false": 7.996240433997203,
+        "separation_ratio": 13.416193287216968
+      }
+    },
+    "B4": {
+      "anchors": {
+        "02": {
+          "A": [
+            260.0,
+            243.0
+          ],
+          "B": [
+            1680.0,
+            830.0
+          ]
+        },
+        "08": {
+          "A": [
+            1620.0,
+            370.0
+          ],
+          "B": [
+            209.0,
+            848.0
+          ]
+        },
+        "09": {
+          "A": [
+            1656.0,
+            365.0
+          ],
+          "B": [
+            464.5,
+            850.0
+          ]
+        }
+      },
+      "rows": [
+        {
+          "assignment": "AAA",
+          "same_label": true,
+          "median_residual_sfm": 0.10323352249424587
+        },
+        {
+          "assignment": "AAB",
+          "same_label": false,
+          "median_residual_sfm": 1.221089175426274
+        },
+        {
+          "assignment": "ABA",
+          "same_label": false,
+          "median_residual_sfm": 1.162619790944902
+        },
+        {
+          "assignment": "ABB",
+          "same_label": false,
+          "median_residual_sfm": 1.2032985991262155
+        },
+        {
+          "assignment": "BAA",
+          "same_label": false,
+          "median_residual_sfm": 1.0928442327263939
+        },
+        {
+          "assignment": "BAB",
+          "same_label": false,
+          "median_residual_sfm": 1.2180713524988291
+        },
+        {
+          "assignment": "BBA",
+          "same_label": false,
+          "median_residual_sfm": 1.4363561179880435
+        },
+        {
+          "assignment": "BBB",
+          "same_label": true,
+          "median_residual_sfm": 0.11321375280079012
+        }
+      ],
+      "max_same": 0.11321375280079012,
+      "min_mixed": 1.0928442327263939
+    }
+  }
+}

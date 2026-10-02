@@ -1,0 +1,408 @@
+{
+  "direction": "L_smoke_domain",
+  "generated_utc": "2026-09-28T07:05:07.338715+00:00",
+  "metrics": [
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "target_train",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 5340,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/target/images/train"
+    },
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "target_val",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 45,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/target/images/val"
+    },
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "target_test",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 45,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/target/images/test"
+    },
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "detection_train",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 3150,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/Detection/train/images"
+    },
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "detection_valid",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 900,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/Detection/valid/images"
+    },
+    {
+      "direction": "L",
+      "experiment": "protocol_inventory",
+      "dataset": "detection_test",
+      "split": "original directory",
+      "method": "file_count",
+      "metric": "images",
+      "value": 450,
+      "ground_truth_type": "filesystem",
+      "notes": "@project/datasets/smoke/cross_domain_dataset/Detection/test/images"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_train vs target_val",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 12,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_train vs target_test",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 12,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_val vs target_test",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 45,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "detection_train vs detection_valid",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 0,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "detection_train vs detection_test",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 0,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_train vs detection_train",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 3150,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_val vs detection_valid",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 0,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "basename_overlap",
+      "dataset": "target_test vs detection_test",
+      "split": "original directory",
+      "method": "basename",
+      "metric": "overlap_count",
+      "value": 0,
+      "ground_truth_type": "filesystem basename",
+      "notes": "Filename alone does not prove identical content"
+    },
+    {
+      "direction": "L",
+      "experiment": "exact_content_overlap",
+      "dataset": "target_val vs target_train",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "duplicate_test_images",
+      "value": 10,
+      "ground_truth_type": "byte-identical image",
+      "notes": "test_images=45"
+    },
+    {
+      "direction": "L",
+      "experiment": "exact_content_overlap",
+      "dataset": "target_test vs target_train",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "duplicate_test_images",
+      "value": 10,
+      "ground_truth_type": "byte-identical image",
+      "notes": "test_images=45"
+    },
+    {
+      "direction": "L",
+      "experiment": "exact_content_overlap",
+      "dataset": "detection_valid vs detection_train",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "duplicate_test_images",
+      "value": 0,
+      "ground_truth_type": "byte-identical image",
+      "notes": "test_images=900"
+    },
+    {
+      "direction": "L",
+      "experiment": "exact_content_overlap",
+      "dataset": "detection_test vs detection_train",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "duplicate_test_images",
+      "value": 0,
+      "ground_truth_type": "byte-identical image",
+      "notes": "test_images=450"
+    },
+    {
+      "direction": "L",
+      "experiment": "source_target_content_overlap",
+      "dataset": "target_train vs detection_train",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "identical_named_images",
+      "value": 3150,
+      "ground_truth_type": "byte-identical image",
+      "notes": "out_of=3150; full same-name scan"
+    },
+    {
+      "direction": "L",
+      "experiment": "target_val_test_overlap",
+      "dataset": "target_val vs target_test",
+      "split": "original directory",
+      "method": "SHA256",
+      "metric": "duplicate_images",
+      "value": 45,
+      "ground_truth_type": "byte-identical image",
+      "notes": "Same-name test only"
+    },
+    {
+      "direction": "L",
+      "experiment": "prior_YOLO_exact_audit",
+      "dataset": "datasets_yolo",
+      "split": "train vs val0",
+      "method": "SHA256",
+      "metric": "removed_exact_duplicate_val_images",
+      "value": 44,
+      "ground_truth_type": "byte-identical image",
+      "notes": "Prior script removed exact overlaps only; event overlap not addressed"
+    }
+  ],
+  "details": {
+    "counts": {
+      "target_train": 5340,
+      "target_val": 45,
+      "target_test": 45,
+      "detection_train": 3150,
+      "detection_valid": 900,
+      "detection_test": 450
+    },
+    "name_overlap": {
+      "target_train__target_val": {
+        "count": 12,
+        "examples": [
+          "DJI_0010.JPG",
+          "DJI_0011.JPG",
+          "DJI_0013.JPG",
+          "DJI_0014.JPG",
+          "DJI_0015.JPG",
+          "DJI_0019.JPG",
+          "DJI_0020.JPG",
+          "DJI_0021.JPG"
+        ]
+      },
+      "target_train__target_test": {
+        "count": 12,
+        "examples": [
+          "DJI_0010.JPG",
+          "DJI_0011.JPG",
+          "DJI_0013.JPG",
+          "DJI_0014.JPG",
+          "DJI_0015.JPG",
+          "DJI_0019.JPG",
+          "DJI_0020.JPG",
+          "DJI_0021.JPG"
+        ]
+      },
+      "target_val__target_test": {
+        "count": 45,
+        "examples": [
+          "DJI_0010.JPG",
+          "DJI_0011.JPG",
+          "DJI_0013.JPG",
+          "DJI_0014.JPG",
+          "DJI_0015.JPG",
+          "DJI_0019.JPG",
+          "DJI_0020.JPG",
+          "DJI_0021.JPG"
+        ]
+      },
+      "detection_train__detection_valid": {
+        "count": 0,
+        "examples": []
+      },
+      "detection_train__detection_test": {
+        "count": 0,
+        "examples": []
+      },
+      "target_train__detection_train": {
+        "count": 3150,
+        "examples": [
+          "fire-10-_png.rf.9f7c09b47e45b31a2a4e939de8be4b09.jpg",
+          "fire-100-_png.rf.20b623f9f809672a6555d57f805acbfc.jpg",
+          "fire-1001-_png.rf.43bec8a2845a3d1a14f48cdf67c78e3a.jpg",
+          "fire-1002-_png.rf.ccb15d29f49a2f7a6d7a92b6e4fd9eb2.jpg",
+          "fire-1003-_png.rf.c5500af5d0826018702bd3cd517f8bb9.jpg",
+          "fire-1004-_png.rf.f531115430cc8bacb481886817d2f6eb.jpg",
+          "fire-1007-_png.rf.1f4105276cd9c6ef68ba0949a6c8f7b4.jpg",
+          "fire-1008-_png.rf.dd745e9593520d5cda1b5bffa234ec43.jpg"
+        ]
+      },
+      "target_val__detection_valid": {
+        "count": 0,
+        "examples": []
+      },
+      "target_test__detection_test": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    "exact_hash_matches": {
+      "target_val__target_train": [
+        [
+          "DJI_0010.JPG",
+          "DJI_0010.JPG"
+        ],
+        [
+          "DJI_0011.JPG",
+          "DJI_0011.JPG"
+        ],
+        [
+          "DJI_0013.JPG",
+          "DJI_0013.JPG"
+        ],
+        [
+          "DJI_0014.JPG",
+          "DJI_0014.JPG"
+        ],
+        [
+          "DJI_0015.JPG",
+          "DJI_0015.JPG"
+        ],
+        [
+          "DJI_0019.JPG",
+          "DJI_0019.JPG"
+        ],
+        [
+          "DJI_0020.JPG",
+          "DJI_0020.JPG"
+        ],
+        [
+          "DJI_0021.JPG",
+          "DJI_0021.JPG"
+        ],
+        [
+          "DJI_0025.JPG",
+          "DJI_0025.JPG"
+        ],
+        [
+          "DJI_0027.JPG",
+          "DJI_0027.JPG"
+        ]
+      ],
+      "target_test__target_train": [
+        [
+          "DJI_0010.JPG",
+          "DJI_0010.JPG"
+        ],
+        [
+          "DJI_0011.JPG",
+          "DJI_0011.JPG"
+        ],
+        [
+          "DJI_0013.JPG",
+          "DJI_0013.JPG"
+        ],
+        [
+          "DJI_0014.JPG",
+          "DJI_0014.JPG"
+        ],
+        [
+          "DJI_0015.JPG",
+          "DJI_0015.JPG"
+        ],
+        [
+          "DJI_0019.JPG",
+          "DJI_0019.JPG"
+        ],
+        [
+          "DJI_0020.JPG",
+          "DJI_0020.JPG"
+        ],
+        [
+          "DJI_0021.JPG",
+          "DJI_0021.JPG"
+        ],
+        [
+          "DJI_0025.JPG",
+          "DJI_0025.JPG"
+        ],
+        [
+          "DJI_0027.JPG",
+          "DJI_0027.JPG"
+        ]
+      ],
+      "detection_valid__detection_train": [],
+      "detection_test__detection_train": []
+    },
+    "cross_pool_identical_named_count": 3150,
+    "target_val_test_identical_named_count": 45,
+    "prior_removed_exact": 44
+  }
+}

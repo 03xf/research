@@ -1,0 +1,3 @@
+# C — unregistered RGB-T source mapping
+
+Existing broad SIFT homography gives spatial support in 19/99 temporal probes (B1 1/21, B2 0/27). These are background support proxies, not source-point mapping scores. No cross-session held-out transform maps a thermal source observation to the visible physical anchor. Existing literature already covers RGB-T registration, fusion, and fire detection. Keep local/background tie points, mode-conditioned transforms, or source-coordinate transfer as a future question, but do not claim fixed homography utility or include T observations in geometry until source-level mapping truth exists.

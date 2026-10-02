@@ -1,0 +1,66 @@
+[
+  {
+    "assignment": "NNN",
+    "same_source": true,
+    "median_residual_m": 0.5960141049559915,
+    "max_residual_m": 0.7345409027810901,
+    "rms_residual_m": 0.5682549556935141,
+    "condition": 3.6450235592001468
+  },
+  {
+    "assignment": "NNS",
+    "same_source": false,
+    "median_residual_m": 8.221375146173743,
+    "max_residual_m": 15.518109310054678,
+    "rms_residual_m": 11.014237364444167,
+    "condition": 3.8225480585246236
+  },
+  {
+    "assignment": "NSN",
+    "same_source": false,
+    "median_residual_m": 10.049696274466129,
+    "max_residual_m": 13.398016754645761,
+    "rms_residual_m": 10.112478114222785,
+    "condition": 2.7889356429794296
+  },
+  {
+    "assignment": "NSS",
+    "same_source": false,
+    "median_residual_m": 8.304761384527186,
+    "max_residual_m": 15.564810402156036,
+    "rms_residual_m": 11.07444378765922,
+    "condition": 3.541081207793825
+  },
+  {
+    "assignment": "SNN",
+    "same_source": false,
+    "median_residual_m": 8.084784740236948,
+    "max_residual_m": 14.063393964818527,
+    "rms_residual_m": 10.06021709747703,
+    "condition": 3.19217485994008
+  },
+  {
+    "assignment": "SNS",
+    "same_source": false,
+    "median_residual_m": 7.996240433997203,
+    "max_residual_m": 14.82513686115065,
+    "rms_residual_m": 10.64348680442429,
+    "condition": 3.647454734836304
+  },
+  {
+    "assignment": "SSN",
+    "same_source": false,
+    "median_residual_m": 9.4036208060271,
+    "max_residual_m": 11.969877291611853,
+    "rms_residual_m": 9.642252793746735,
+    "condition": 2.618965613550413
+  },
+  {
+    "assignment": "SSS",
+    "same_source": true,
+    "median_residual_m": 0.33263928898888967,
+    "max_residual_m": 0.45763696411681576,
+    "rms_residual_m": 0.35077143089469215,
+    "condition": 3.6812101893295317
+  }
+]

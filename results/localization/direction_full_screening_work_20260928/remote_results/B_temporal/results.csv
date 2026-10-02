@@ -1,0 +1,5 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,raw,V_median_normalized_error,0.0322486455707926,manual source point,n=22; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,trailing_median_3,V_median_normalized_error,0.028476068532119224,manual source point,n=22; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,raw,T_median_normalized_error,0.019157635759831204,manual source point,n=31; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,trailing_median_3,T_median_normalized_error,0.015448463309998753,manual source point,n=31; image motion not compensated

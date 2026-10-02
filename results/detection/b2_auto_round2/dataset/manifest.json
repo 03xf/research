@@ -1,0 +1,299 @@
+{
+  "schema_version": "dji_b2_round2_dataset_v1",
+  "batch_id": "B2",
+  "holdout_video_group": "DJI_20260908092431_0003",
+  "source_review_ledger": "@recovery/b2_review_v2/review_ledger.json",
+  "source_review_ledger_sha256": "28e104e522b75db76980c19f80ce433464308b3666122109583055e6ce796710",
+  "policy": "approved plus weak explicit target boxes",
+  "counts": {
+    "V": {
+      "train": {
+        "images": 18,
+        "positive_images": 5,
+        "instances": 5,
+        "status": {
+          "confirmed_negative": 13,
+          "approved_complete": 5
+        },
+        "promotion": {
+          "round1_reviewed": 18
+        }
+      },
+      "validation": {
+        "images": 2,
+        "positive_images": 1,
+        "instances": 1,
+        "status": {
+          "confirmed_negative": 1,
+          "approved_complete": 1
+        },
+        "promotion": {
+          "round1_reviewed": 2
+        }
+      }
+    }
+  },
+  "video_cross_contamination": false,
+  "records": [
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000259",
+      "video_group": "DJI_20260908092422_0002",
+      "session_id": "DJI_202609080909_004",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000259_V.jpg",
+      "source_image_sha256": "d85d0a38fb511c4cf24db3657bc649facab34eded5c3fe503279259252e3ff83",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000267",
+      "video_group": "DJI_20260908092422_0002",
+      "session_id": "DJI_202609080909_004",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000267_V.jpg",
+      "source_image_sha256": "7db4f713652f1e4d461d0f35b988ac4f6c8d2205b230976a23563613fb9786c0",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000283",
+      "video_group": "DJI_20260908092422_0002",
+      "session_id": "DJI_202609080909_004",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000283_V.jpg",
+      "source_image_sha256": "c04a70c9c771b4faf877a7aa9aac0a37b643a045ef4afd3946c3906bd43ab2b7",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000291",
+      "video_group": "DJI_20260908092422_0002",
+      "session_id": "DJI_202609080909_004",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000291_V.jpg",
+      "source_image_sha256": "1017b34ea6ce52375d94b72fdb801ef0da943d581eaad340f3892a8018dbf86d",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000211",
+      "video_group": "DJI_20260908092422_0002",
+      "session_id": "DJI_202609080909_004",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000211_V.jpg",
+      "source_image_sha256": "7488532c05b029b01d31e397dac6130c61c2a5ba80386389e066726edf971a16",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000241",
+      "video_group": "DJI_20260908092427_0002",
+      "session_id": "DJI_202609080912_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000241_V.jpg",
+      "source_image_sha256": "a4052a25c7456f8723b6fb5c0cb74d9c50ff85dc10bf6b90616119694b31520e",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000257",
+      "video_group": "DJI_20260908092427_0002",
+      "session_id": "DJI_202609080912_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000257_V.jpg",
+      "source_image_sha256": "18310c97ae89abecb2f91536802f47e24ebb5d0a439c6649f013e9e379631673",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000273",
+      "video_group": "DJI_20260908092427_0002",
+      "session_id": "DJI_202609080912_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000273_V.jpg",
+      "source_image_sha256": "6d254da34fbf915c70d9a25cab117154db530eec5bd027cf1ddf6f81831deaec",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000281",
+      "video_group": "DJI_20260908092427_0002",
+      "session_id": "DJI_202609080912_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000281_V.jpg",
+      "source_image_sha256": "5da1b0d492a10b65a25c06f44a98bad22d4eedcfd20d2ba5eb4f7b9c96746baf",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "validation",
+      "observation_id": "obs_000288",
+      "video_group": "DJI_20260908092431_0003",
+      "session_id": "DJI_202609080913_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000288_V.jpg",
+      "source_image_sha256": "e6edd80278cfe488fa2288612ef14fad8ea85e7125d4dea0b05aa751307b34a6",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "validation",
+      "observation_id": "obs_000232",
+      "video_group": "DJI_20260908092431_0003",
+      "session_id": "DJI_202609080913_003",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000232_V.jpg",
+      "source_image_sha256": "7401464b9520c0a48e2f094d3b8f4c670df5daaa397a819bc95aa2b59a6f8d8a",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000278",
+      "video_group": "DJI_20260908092433_0001",
+      "session_id": "DJI_202609080922_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000278_V.jpg",
+      "source_image_sha256": "bf85cb611a3fa4c70a5989ee38057e026ba99a684a7d799c792f96d1f5b07c29",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000286",
+      "video_group": "DJI_20260908092433_0001",
+      "session_id": "DJI_202609080922_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000286_V.jpg",
+      "source_image_sha256": "cbd2027734bfff745955c3479bb4e6551a1d4e72d9ec4595593128b30749ee0c",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000294",
+      "video_group": "DJI_20260908092433_0001",
+      "session_id": "DJI_202609080922_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000294_V.jpg",
+      "source_image_sha256": "f6e976d63a883be8acddc043bea8b9d2269e27ef8c33402ce11a527f7bed6312",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000262",
+      "video_group": "DJI_20260908092433_0001",
+      "session_id": "DJI_202609080922_003",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000262_V.jpg",
+      "source_image_sha256": "385716942d50dbd3be6d5d977dd9d52713db04458ea16aa79e9fb82ddc4f9ad1",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000293",
+      "video_group": "DJI_20260908092435_0004",
+      "session_id": "DJI_202609080915_003",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000293_V.jpg",
+      "source_image_sha256": "19c22250cb87a7718006230e2ad2873423b7a8ef780bcc3159adee0b15c51a5e",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000279",
+      "video_group": "DJI_20260908092436_0002",
+      "session_id": "DJI_202609080915_034",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000279_V.jpg",
+      "source_image_sha256": "c0bfe63e3106f7fe4ebbd4793f26ec9bf8a81dbe3097670233d99e296072d02e",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000295",
+      "video_group": "DJI_20260908092436_0002",
+      "session_id": "DJI_202609080915_034",
+      "review_status": "confirmed_negative",
+      "phase_hint": "no_target_clear",
+      "source_image": "@trial/annotation_frames_round8/B2/obs_000295_V.jpg",
+      "source_image_sha256": "659e928d646403e0d76e95d3803b21f6859c788ba8c4758bbcb037dd821b5551",
+      "labels": 0,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000300",
+      "video_group": "DJI_20260908092438_0002",
+      "session_id": "DJI_202609080910_002",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000300_V.jpg",
+      "source_image_sha256": "a58d50ad673af98aadc1169f1e3b3d05705448eb0c5a86d41b8ce58738f2ce60",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    },
+    {
+      "sensor": "V",
+      "split": "train",
+      "observation_id": "obs_000250",
+      "video_group": "DJI_20260908092454_0002",
+      "session_id": "DJI_202609080916_004",
+      "review_status": "approved_complete",
+      "phase_hint": "active_flame_clear",
+      "source_image": "@trial/annotation_frames_round7/B2/obs_000250_V.jpg",
+      "source_image_sha256": "21cd935da578929f77ed0d632e00c1bf930f556c18ccdb5a8709b9b87f4d2080",
+      "labels": 1,
+      "promotion": "round1_reviewed"
+    }
+  ]
+}

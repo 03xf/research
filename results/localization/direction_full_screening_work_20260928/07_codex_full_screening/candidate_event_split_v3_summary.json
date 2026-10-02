@@ -1,0 +1,13 @@
+{
+  "rows": 2401,
+  "strict_counts": {
+    "event_train_B1_B2": 1643,
+    "excluded_shared_session": 32,
+    "event_dev_B3": 726
+  },
+  "shared_sessions": [
+    "DJI_202609080945_004",
+    "DJI_202609080946_003"
+  ],
+  "status": "candidate_unreviewed; this split is a protocol, not a labeled benchmark"
+}

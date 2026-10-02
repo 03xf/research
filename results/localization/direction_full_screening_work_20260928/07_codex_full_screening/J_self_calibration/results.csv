@@ -1,0 +1,15 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,registered_images,32,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.65499,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,registered_images,35,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.807036,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,registered_cameras,7,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,registered_images,46,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.701271,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,registered_images,31,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.766855,internal SfM geometry,"Original reconstruction, not re-run"
+J,absolute_geolocation_check,B4_F1,independent LRF,free_SfM_Sim3,horizontal_error_m,14.186414544481417,LRF horizontal reference,One target; same manual point
+J,absolute_geolocation_check,B4_F1,independent LRF,nominal,horizontal_error_m,0.10865975734565182,LRF horizontal reference,One target; same manual point

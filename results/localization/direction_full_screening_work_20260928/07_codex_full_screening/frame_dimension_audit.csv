@@ -1,0 +1,6 @@
+clip_id,sensor,width,height,expected_width,expected_height,match
+B3_10m07_D02_pts_v2,V,1920,1080,1920,1080,True
+multiple_boxes_0_DJI_202609081039_006_pts_v2,V,1920,1080,1920,1080,True
+paired_negative_0_DJI_202609081039_006_pts_v2,V,1920,1080,1920,1080,True
+visible_flame_0_DJI_202609081039_006_pts_v2,V,1920,1080,1920,1080,True
+visible_smoke_only_0_DJI_202609081039_006_pts_v2,V,1920,1080,1920,1080,True

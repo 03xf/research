@@ -1,0 +1,133 @@
+{
+  "schema_version": "dji_b4_flame_recall_failure_attribution_v1",
+  "created_utc": "2026-09-25T12:27:51.693026+00:00",
+  "decision": "C1_not_deployed_E2_remains_default",
+  "scope": "B4-priority visible flame recall; exploratory because confirmation and point cohorts were historically exposed",
+  "frozen_candidate": {
+    "mode": "C1",
+    "seed": 0,
+    "threshold": 0.21,
+    "weights": "@recovery/flame_recall_v1/runs/C1_V_flame_960_s0/weights/best.pt",
+    "weights_sha256": "10f765e790c8fa9a212dec56f7b87827f931308250c40712d17c68f1c9c4694a"
+  },
+  "development": {
+    "C1_seeds": {
+      "0": {
+        "threshold": 0.21,
+        "precision": 0.6551724137931034,
+        "recall": 0.7916666666666666,
+        "ap50": 0.7231319281642989,
+        "gate_passed": true
+      },
+      "1": {
+        "threshold": 0.24,
+        "precision": 0.7368421052631579,
+        "recall": 0.5833333333333334,
+        "ap50": 0.6122457781110822,
+        "gate_passed": false
+      },
+      "2": {
+        "threshold": 0.15,
+        "precision": 0.6428571428571429,
+        "recall": 0.75,
+        "ap50": 0.683111212982163,
+        "gate_passed": true
+      }
+    },
+    "C2_seed0": {
+      "threshold": 0.43,
+      "precision": 0.6818181818181818,
+      "recall": 0.625,
+      "ap50": 0.6529033296709527,
+      "gate_passed": false
+    },
+    "C3_seed0": {
+      "threshold": 0.35,
+      "precision": 0.7142857142857143,
+      "recall": 0.625,
+      "ap50": 0.6814256376285263,
+      "gate_passed": false
+    },
+    "selection_rule": "seed-0 predeclared for confirmation; no confirmation tuning"
+  },
+  "confirmation": {
+    "precision": 0.38414634146341464,
+    "recall": 0.35795454545454547,
+    "ap50": 0.24141730415067694,
+    "gate_passed": false,
+    "tp": 63,
+    "fp": 101,
+    "fn": 113,
+    "by_session": {
+      "DJI_202609081036_005": {
+        "images": 108,
+        "ground_truth": 115,
+        "tp": 38,
+        "fp": 76,
+        "fn": 77,
+        "precision": 0.3333333333333333,
+        "recall": 0.33043478260869563,
+        "negative_false_positive_images": 0
+      },
+      "DJI_202609081046_006": {
+        "images": 86,
+        "ground_truth": 61,
+        "tp": 25,
+        "fp": 25,
+        "fn": 36,
+        "precision": 0.5,
+        "recall": 0.4098360655737705,
+        "negative_false_positive_images": 2
+      }
+    }
+  },
+  "fire_source_points": {
+    "overall": "35/52",
+    "B4": "17/32",
+    "E2_overall": "33/52",
+    "E2_B4": "18/32",
+    "raw": {
+      "truth": 52,
+      "matched": 35,
+      "missed": 17,
+      "detections": 44,
+      "negative_frame_with_detection": 1
+    },
+    "by_batch": {
+      "B3": {
+        "truth": 20,
+        "matched": 18,
+        "missed": 2,
+        "detections": 22,
+        "negative_frame_with_detection": 0
+      },
+      "B4": {
+        "truth": 32,
+        "matched": 17,
+        "missed": 15,
+        "detections": 22,
+        "negative_frame_with_detection": 1
+      }
+    }
+  },
+  "evidence_based_findings": [
+    "C1 improved the exposed development recall over E2, but the fixed threshold candidate failed the one-time confirmation gate.",
+    "C1 B4 fire-source matching decreased from E2 18/32 to 17/32; overall 35/52 versus 33/52 was driven by B3.",
+    "C2 and C3 seed-0 development recall were 0.625 and did not meet the R>=0.70 gate."
+  ],
+  "possible_contributors_not_proven": [
+    "confirmation sessions contain smaller or different-view flames than the exposed development split",
+    "335 historical positive V training images remain without full-image independent review",
+    "the added 23 frames come from one mostly fixed viewpoint and do not add independent scene coverage"
+  ],
+  "limits": [
+    "confirmation sessions were historically exposed and are not a strict blind test",
+    "absolute visual WGS84 localization remains unavailable without Matrice 4T calibration",
+    "B4 F2 retains three candidate coordinates and no unique LRF truth"
+  ],
+  "artifacts": {
+    "candidate_freeze": "@recovery/flame_recall_v1/candidate_freeze_v1.json",
+    "confirmation_result": "@recovery/flame_recall_v1/evaluations/confirmation_C1_V_flame_s0/result.json",
+    "point_result": "@recovery/flame_recall_v1/evaluations/point_C1_V_flame_s0/result.json"
+  }
+}

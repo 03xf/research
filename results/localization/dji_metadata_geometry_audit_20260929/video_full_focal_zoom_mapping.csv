@@ -1,0 +1,5 @@
+category,frame_count,interpretation
+24mm wide base,982195,focal_len / zoom within 2% of 24mm
+70mm medium tele base,848,focal_len / zoom within 2% of 70mm
+168mm tele base,45,focal_len / zoom within 2% of 168mm
+other/unresolved,0,inspect state inventory

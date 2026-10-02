@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+camera_motion,Image-space smoothing does not compensate UAV/gimbal motion,temporal point error experiment,Even a lower jitter would not establish physical accuracy
+sample_scope,Only five short manually labeled clips,source_truth_review_v1/summary.json,Temporal model training is unsupported

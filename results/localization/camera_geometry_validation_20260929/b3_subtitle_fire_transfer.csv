@@ -1,0 +1,4 @@
+model,fire_id,telemetry_set,exported_JPEG_exact_PTS_verified,horizontal_difference_to_candidate_F2_m,rms_ray_residual_m,yaw_bias_deg,pitch_bias_deg,focal_scale
+M0,B3_S,S_subtitle_at_nominal_offsets_53_71_55s,no,3.578741003094062,1.2359029127893644,0.0,0.0,1.0
+M1,B3_S,S_subtitle_at_nominal_offsets_53_71_55s,no,3.523596665867871,0.6342117881330088,-1.684552621969812,-0.8015169040187732,1.0
+M2,B3_S,S_subtitle_at_nominal_offsets_53_71_55s,no,15.042747032994388,1.8666583096603704,-1.1590175443328878,-4.99999999655617,0.6480405615363014

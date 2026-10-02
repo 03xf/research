@@ -1,0 +1,163 @@
+{
+  "direction": "C_rgbt_alignment",
+  "generated_utc": "2026-09-28T07:01:29.372997+00:00",
+  "metrics": [
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "01",
+      "split": "three fractions per recording",
+      "method": "sift_homography_basic",
+      "metric": "pass_fraction",
+      "value": 0.047619047619047616,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "1/21; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "01",
+      "split": "three fractions per recording",
+      "method": "sift_homography_spatial",
+      "metric": "pass_fraction",
+      "value": 0.047619047619047616,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "1/21; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "02",
+      "split": "three fractions per recording",
+      "method": "sift_homography_basic",
+      "metric": "pass_fraction",
+      "value": 0.0,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "0/27; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "02",
+      "split": "three fractions per recording",
+      "method": "sift_homography_spatial",
+      "metric": "pass_fraction",
+      "value": 0.0,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "0/27; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "03",
+      "split": "three fractions per recording",
+      "method": "sift_homography_basic",
+      "metric": "pass_fraction",
+      "value": 0.4166666666666667,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "10/24; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "03",
+      "split": "three fractions per recording",
+      "method": "sift_homography_spatial",
+      "metric": "pass_fraction",
+      "value": 0.375,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "9/24; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "04",
+      "split": "three fractions per recording",
+      "method": "sift_homography_basic",
+      "metric": "pass_fraction",
+      "value": 0.37037037037037035,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "10/27; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "04",
+      "split": "three fractions per recording",
+      "method": "sift_homography_spatial",
+      "metric": "pass_fraction",
+      "value": 0.3333333333333333,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "9/27; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "all",
+      "split": "three fractions per recording",
+      "method": "sift_homography_basic",
+      "metric": "pass_fraction",
+      "value": 0.21212121212121213,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "21/99; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "registration_viability",
+      "dataset": "all",
+      "split": "three fractions per recording",
+      "method": "sift_homography_spatial",
+      "metric": "pass_fraction",
+      "value": 0.1919191919191919,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "19/99; no fire-source correspondence truth"
+    },
+    {
+      "direction": "C",
+      "experiment": "within_recording_instability",
+      "dataset": "B1-B4",
+      "split": "recording groups",
+      "method": "sift_homography_spatial",
+      "metric": "mixed_pass_recordings",
+      "value": 9,
+      "ground_truth_type": "background inlier proxy",
+      "notes": "out_of=31"
+    }
+  ],
+  "details": {
+    "records": 99,
+    "by_batch": {
+      "01": {
+        "n": 21,
+        "basic": 1,
+        "spatially_covered": 1,
+        "recordings": 7
+      },
+      "02": {
+        "n": 27,
+        "basic": 0,
+        "spatially_covered": 0,
+        "recordings": 8
+      },
+      "03": {
+        "n": 24,
+        "basic": 10,
+        "spatially_covered": 9,
+        "recordings": 8
+      },
+      "04": {
+        "n": 27,
+        "basic": 10,
+        "spatially_covered": 9,
+        "recordings": 8
+      },
+      "all": {
+        "n": 99,
+        "basic": 21,
+        "spatially_covered": 19,
+        "recordings": 31
+      }
+    },
+    "recordings": 31
+  }
+}

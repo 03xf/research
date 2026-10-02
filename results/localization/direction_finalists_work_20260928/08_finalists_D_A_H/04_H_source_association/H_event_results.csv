@@ -1,0 +1,4 @@
+event_id,method,true_max_m,wrong_min_m,independent_identity_truth,independent_event_test
+B3_one_three_UAV_instant,H3_nominal_geometry,1.0895866448363787,8.989836024126982,True,False
+B3_one_three_UAV_instant,H4_corrected_geometry,0.5960141049559915,7.996240433997203,True,False
+B4_multitime_two_sites,all,,,False,False

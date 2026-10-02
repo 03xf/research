@@ -1,0 +1,14 @@
+moment_id,batch,physical_source_id,failure_type,severity,detail,action
+B3_M02,B3,B3_N,stable_but_absolute_biased,high,Full 7-UAV flame-base 3D consensus remains ~14 m from accepted B3_N LRF site; relative identity margins positive.,retain_with_caveat_or_reject_from_stricter_task
+B3_M02,B3,B3_N,partially_occluded_view,medium,"uav-08 background site is behind trees; identity retained, no precise N point used.",retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,B4_tree_pile,ambiguous_view,medium,uav-05 V second pile not reliably distinct; removed from point set; second review uncertain.,retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,B4_tree_pile,thermal_hotspot_ambiguity,medium,T hot regions have background/tree clutter and are not equated to V contact points.,retain_with_caveat_or_reject_from_stricter_task
+B2_M01,B2,B2_woodpile,prefire_site_not_fire_truth,medium,"Visible woodpile before ignition is a physical site, not an active burning-source point.",retain_with_caveat_or_reject_from_stricter_task
+B4_M01,B4,B4_road_pile,prefire_site_not_fire_truth,medium,Visible prefire piles must not enter active flame support counts.,retain_with_caveat_or_reject_from_stricter_task
+ALL,AL,ALL,no_precise_ground_contact,high,0 independent ground-contact marks among 42 flame-base proxies; A/O anchor scoring unavailable.,retain_with_caveat_or_reject_from_stricter_task
+ALL,AL,ALL,cross_uav_sync_unvalidated,high,S-subtitle candidate moment time spread 0.424–2.241 s; no common transient offset calibration.,retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,source_A_or_B,review_disagreement,medium,"uav-03 T: first (clear,clear), second (clear,not_visible)",retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,source_A_or_B,review_disagreement,medium,"uav-04 T: first (clear,clear), second (clear,not_visible)",retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,source_A_or_B,review_disagreement,medium,"uav-05 V: first (clear,partial), second (clear,uncertain)",retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,source_A_or_B,review_disagreement,medium,"uav-07 T: first (clear,clear), second (clear,not_visible)",retain_with_caveat_or_reject_from_stricter_task
+B4_M02,B4,B4_road_pile,support_not_monotonic,medium,8-support held-out median exceeds 7-support median; extra UAV is not automatically better.,retain_with_caveat_or_reject_from_stricter_task

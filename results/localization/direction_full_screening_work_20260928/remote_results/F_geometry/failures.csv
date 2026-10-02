@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+B1_F1,Visual geometry increased independent horizontal error,"nominal=1.073m, candidate=1.872m, ray=0.020m",Visual correction cannot be accepted on internal ray consistency alone
+B4_F1,Visual geometry increased independent horizontal error,"nominal=0.109m, candidate=4.439m, ray=0.175m",Visual correction cannot be accepted on internal ray consistency alone

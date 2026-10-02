@@ -1,0 +1,17 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+A,matched_bbox_anchor,B3,manual clips only,center,V_median_normalized_error,0.03072613751580976,manual image source point,n=15; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,center,V_median_normalized_error,0.043280043663969606,manual image source point,n=18; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,center,V_median_normalized_error,0.03302999147087932,manual image source point,n=33; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B3,manual clips only,bottom,V_median_normalized_error,0.06450824645858523,manual image source point,n=15; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,bottom,V_median_normalized_error,0.05755984643540613,manual image source point,n=18; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,bottom,V_median_normalized_error,0.061958562204527334,manual image source point,n=33; detection and matching conditional on existing truth
+A,cross_batch_offset,B3,train on other batch,median_offset,V_median_normalized_error,0.014635625503922813,manual image source point,n_test=15; conditional matched boxes; no deep model
+A,cross_batch_offset,B4,train on other batch,median_offset,V_median_normalized_error,0.03036954404823472,manual image source point,n_test=18; conditional matched boxes; no deep model
+A,matched_bbox_anchor,B3,manual clips only,center,T_median_normalized_error,0.011353858332887289,manual image source point,n=20; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,center,T_median_normalized_error,0.025074909362870122,manual image source point,n=24; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,center,T_median_normalized_error,0.015593192120326876,manual image source point,n=44; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B3,manual clips only,bottom,T_median_normalized_error,0.06664443666191341,manual image source point,n=20; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,bottom,T_median_normalized_error,0.037837532922560944,manual image source point,n=24; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,bottom,T_median_normalized_error,0.05373572619950445,manual image source point,n=44; detection and matching conditional on existing truth
+A,cross_batch_offset,B3,train on other batch,median_offset,T_median_normalized_error,0.02048501472025147,manual image source point,n_test=20; conditional matched boxes; no deep model
+A,cross_batch_offset,B4,train on other batch,median_offset,T_median_normalized_error,0.028812728416150207,manual image source point,n_test=24; conditional matched boxes; no deep model

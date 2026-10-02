@@ -1,0 +1,179 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+A,matched_bbox_anchor,B3,manual clips only,center,V_median_normalized_error,0.03072613751580976,manual image source point,n=15; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,center,V_median_normalized_error,0.043280043663969606,manual image source point,n=18; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,center,V_median_normalized_error,0.03302999147087932,manual image source point,n=33; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B3,manual clips only,bottom,V_median_normalized_error,0.06450824645858523,manual image source point,n=15; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,bottom,V_median_normalized_error,0.05755984643540613,manual image source point,n=18; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,bottom,V_median_normalized_error,0.061958562204527334,manual image source point,n=33; detection and matching conditional on existing truth
+A,cross_batch_offset,B3,train on other batch,median_offset,V_median_normalized_error,0.014635625503922813,manual image source point,n_test=15; conditional matched boxes; no deep model
+A,cross_batch_offset,B4,train on other batch,median_offset,V_median_normalized_error,0.03036954404823472,manual image source point,n_test=18; conditional matched boxes; no deep model
+A,matched_bbox_anchor,B3,manual clips only,center,T_median_normalized_error,0.011353858332887289,manual image source point,n=20; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,center,T_median_normalized_error,0.025074909362870122,manual image source point,n=24; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,center,T_median_normalized_error,0.015593192120326876,manual image source point,n=44; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B3,manual clips only,bottom,T_median_normalized_error,0.06664443666191341,manual image source point,n=20; detection and matching conditional on existing truth
+A,matched_bbox_anchor,B4,manual clips only,bottom,T_median_normalized_error,0.037837532922560944,manual image source point,n=24; detection and matching conditional on existing truth
+A,matched_bbox_anchor,all,manual clips only,bottom,T_median_normalized_error,0.05373572619950445,manual image source point,n=44; detection and matching conditional on existing truth
+A,cross_batch_offset,B3,train on other batch,median_offset,T_median_normalized_error,0.02048501472025147,manual image source point,n_test=20; conditional matched boxes; no deep model
+A,cross_batch_offset,B4,train on other batch,median_offset,T_median_normalized_error,0.028812728416150207,manual image source point,n_test=24; conditional matched boxes; no deep model
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,raw,V_median_normalized_error,0.0322486455707926,manual source point,n=22; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,trailing_median_3,V_median_normalized_error,0.028476068532119224,manual source point,n=22; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,raw,T_median_normalized_error,0.019157635759831204,manual source point,n=31; image motion not compensated
+B,point_accuracy_after_smoothing,B3+B4 reviewed clips,within clips; no held-out event,trailing_median_3,T_median_normalized_error,0.015448463309998753,manual source point,n=31; image motion not compensated
+C,registration_viability,01,three fractions per recording,sift_homography_basic,pass_fraction,0.047619047619047616,background inlier proxy,1/21; no fire-source correspondence truth
+C,registration_viability,01,three fractions per recording,sift_homography_spatial,pass_fraction,0.047619047619047616,background inlier proxy,1/21; no fire-source correspondence truth
+C,registration_viability,02,three fractions per recording,sift_homography_basic,pass_fraction,0.0,background inlier proxy,0/27; no fire-source correspondence truth
+C,registration_viability,02,three fractions per recording,sift_homography_spatial,pass_fraction,0.0,background inlier proxy,0/27; no fire-source correspondence truth
+C,registration_viability,03,three fractions per recording,sift_homography_basic,pass_fraction,0.4166666666666667,background inlier proxy,10/24; no fire-source correspondence truth
+C,registration_viability,03,three fractions per recording,sift_homography_spatial,pass_fraction,0.375,background inlier proxy,9/24; no fire-source correspondence truth
+C,registration_viability,04,three fractions per recording,sift_homography_basic,pass_fraction,0.37037037037037035,background inlier proxy,10/27; no fire-source correspondence truth
+C,registration_viability,04,three fractions per recording,sift_homography_spatial,pass_fraction,0.3333333333333333,background inlier proxy,9/27; no fire-source correspondence truth
+C,registration_viability,all,three fractions per recording,sift_homography_basic,pass_fraction,0.21212121212121213,background inlier proxy,21/99; no fire-source correspondence truth
+C,registration_viability,all,three fractions per recording,sift_homography_spatial,pass_fraction,0.1919191919191919,background inlier proxy,19/99; no fire-source correspondence truth
+C,within_recording_instability,B1-B4,recording groups,sift_homography_spatial,mixed_pass_recordings,9,background inlier proxy,out_of=31
+D,active_source_observation,B3,manually reviewed clips,V,point_fraction,0.75,manual active-fire source points,15/20; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B3,manually reviewed clips,T,point_fraction,1.0,manual active-fire source points,20/20; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B3,manually reviewed clips,union_oracle,point_fraction,1.0,manual active-fire source points,20/20; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B3,manually reviewed clips,T_rescue,point_fraction,0.25,manual active-fire source points,5/20; V/T correspondence by reviewer order; oracle pairing
+D,active_source_moment_coverage,B3,manually reviewed clips,V_moments,moment_fraction,0.9,manual active-fire same-source moment,9/10; avoids point-order assumption
+D,active_source_moment_coverage,B3,manually reviewed clips,T_moments,moment_fraction,1.0,manual active-fire same-source moment,10/10; avoids point-order assumption
+D,active_source_moment_coverage,B3,manually reviewed clips,union_moments,moment_fraction,1.0,manual active-fire same-source moment,10/10; avoids point-order assumption
+D,active_source_moment_coverage,B3,manually reviewed clips,T_rescue_moments,moment_fraction,0.1,manual active-fire same-source moment,1/10; avoids point-order assumption
+D,active_source_observation,B4,manually reviewed clips,V,point_fraction,0.5625,manual active-fire source points,18/32; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B4,manually reviewed clips,T,point_fraction,0.75,manual active-fire source points,24/32; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B4,manually reviewed clips,union_oracle,point_fraction,0.8125,manual active-fire source points,26/32; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,B4,manually reviewed clips,T_rescue,point_fraction,0.25,manual active-fire source points,8/32; V/T correspondence by reviewer order; oracle pairing
+D,active_source_moment_coverage,B4,manually reviewed clips,V_moments,moment_fraction,0.5909090909090909,manual active-fire same-source moment,13/22; avoids point-order assumption
+D,active_source_moment_coverage,B4,manually reviewed clips,T_moments,moment_fraction,0.9545454545454546,manual active-fire same-source moment,21/22; avoids point-order assumption
+D,active_source_moment_coverage,B4,manually reviewed clips,union_moments,moment_fraction,0.9545454545454546,manual active-fire same-source moment,21/22; avoids point-order assumption
+D,active_source_moment_coverage,B4,manually reviewed clips,T_rescue_moments,moment_fraction,0.36363636363636365,manual active-fire same-source moment,8/22; avoids point-order assumption
+D,false_active_recovery_risk,B4,manually reviewed clips,T_detection_as_active_fire,hot_background_T_trigger_fraction,1.0,manual fire state,8/8
+D,false_active_recovery_risk,B4,manually reviewed clips,T_detection_as_active_fire,residual_T_trigger_fraction,1.0,manual fire state,10/10
+D,active_source_observation,all,manually reviewed clips,V,point_fraction,0.6346153846153846,manual active-fire source points,33/52; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,all,manually reviewed clips,T,point_fraction,0.8461538461538461,manual active-fire source points,44/52; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,all,manually reviewed clips,union_oracle,point_fraction,0.8846153846153846,manual active-fire source points,46/52; V/T correspondence by reviewer order; oracle pairing
+D,active_source_observation,all,manually reviewed clips,T_rescue,point_fraction,0.25,manual active-fire source points,13/52; V/T correspondence by reviewer order; oracle pairing
+D,active_source_moment_coverage,all,manually reviewed clips,V_moments,moment_fraction,0.6875,manual active-fire same-source moment,22/32; avoids point-order assumption
+D,active_source_moment_coverage,all,manually reviewed clips,T_moments,moment_fraction,0.96875,manual active-fire same-source moment,31/32; avoids point-order assumption
+D,active_source_moment_coverage,all,manually reviewed clips,union_moments,moment_fraction,0.96875,manual active-fire same-source moment,31/32; avoids point-order assumption
+D,active_source_moment_coverage,all,manually reviewed clips,T_rescue_moments,moment_fraction,0.28125,manual active-fire same-source moment,9/32; avoids point-order assumption
+D,false_active_recovery_risk,all,manually reviewed clips,T_detection_as_active_fire,hot_background_T_trigger_fraction,1.0,manual fire state,8/8
+D,false_active_recovery_risk,all,manually reviewed clips,T_detection_as_active_fire,residual_T_trigger_fraction,1.0,manual fire state,10/10
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,active_fire,independent_clip_count,4,manual state,"moments=32; clips=['B3_10m07_D02_pts_v2', 'multiple_boxes_0_DJI_202609081039_006_pts_v2', 'paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,active_fire_trigger_fraction,0.71875,manual state,23/32
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,active_fire_trigger_fraction,1.0,manual state,32/32
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,hot_background,independent_clip_count,2,manual state,"moments=8; clips=['paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,hot_background_trigger_fraction,0.0,manual state,0/8
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,hot_background_trigger_fraction,1.0,manual state,8/8
+E,state_label_support,B3+B4 reviewed clips,clip-disjoint feasibility,residual_heat,independent_clip_count,1,manual state,moments=10; clips=['visible_smoke_only_0_DJI_202609081039_006_pts_v2']
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,V_any,residual_heat_trigger_fraction,0.0,manual state,0/10
+E,detection_trigger_by_state,B3+B4 reviewed clips,descriptive only,T_any,residual_heat_trigger_fraction,1.0,manual state,10/10
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,raw,active_T_point_recall,0.8461538461538461,manual active-fire points,44/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,raw,hot_background_T_trigger_count,8,manual hot-background state,out_of=8; clip-confounded
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable,active_T_point_recall,0.6346153846153846,manual active-fire points,33/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable,hot_background_T_trigger_count,3,manual hot-background state,out_of=8; clip-confounded
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable_plus_hold,active_T_point_recall,0.6538461538461539,manual active-fire points,34/52
+E,temporal_state_tradeoff,B3+B4 reviewed clips,descriptive only,stable_plus_hold,hot_background_T_trigger_count,4,manual hot-background state,out_of=8; clip-confounded
+E,grouped_three_state_test,B3+B4 reviewed clips,leave-one-clip-out,minimum_state_support,feasible,False,manual state,Each class must appear in at least two independent clips
+F,site_level_geolocation,B1_F1,same manual point and association,nominal,horizontal_error_m,1.073176711273159,post-fire LRF,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B1_F1,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,1.871807086787371,post-fire LRF,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B1_F1,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,0.7986303755142121,post-fire LRF,negative means improved
+F,site_level_geolocation,B2_F1,same manual point and association,nominal,horizontal_error_m,10.940094542433089,"pre-fire woodpile, not burning source",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B2_F1,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,0.9830514919905083,"pre-fire woodpile, not burning source",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B2_F1,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,-9.95704305044258,"pre-fire woodpile, not burning source",negative means improved
+F,site_level_geolocation,B3_S,same manual point and association,nominal,horizontal_error_m,3.5872836778577644,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_S,same manual point and association,SfM center + nominal gimbal + visual K,horizontal_error_m,0.7106005097813595,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_S,same manual point and association,SfM center + nominal gimbal + visual K,delta_error_m,-2.876683168076405,"LRF fire point, correspondence confirmed",negative means improved
+F,site_level_geolocation,B3_N,same manual point and association,nominal,horizontal_error_m,13.283081198416877,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_N,same manual point and association,orientation-anchored SfM,horizontal_error_m,12.327883013653524,"LRF fire point, correspondence confirmed",B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B3_N,same manual point and association,orientation-anchored SfM,delta_error_m,-0.9551981847633524,"LRF fire point, correspondence confirmed",negative means improved
+F,site_level_geolocation,B4_F1,same manual point and association,nominal,horizontal_error_m,0.10865975734565182,post-fire LRF; 9 repeated views of one target,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B4_F1,same manual point and association,orientation-anchored SfM,horizontal_error_m,4.438794899290307,post-fire LRF; 9 repeated views of one target,B2 is excluded from fire-truth aggregate
+F,site_level_geolocation,B4_F1,same manual point and association,orientation-anchored SfM,delta_error_m,4.3301351419446545,post-fire LRF; 9 repeated views of one target,negative means improved
+F,cross_site_sign,B1+B3+B4,independent fire sites,visual_geometry,sites_improved,2,LRF horizontal reference,out_of=4; heterogeneous candidate variants
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,1.871807086787371,LRF horizontal reference,coverage=1/4; retained=['B1_F1']
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,1.871807086787371,LRF horizontal reference,coverage=1/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,3.155300993038839,LRF horizontal reference,"coverage=2/4; retained=['B1_F1', 'B4_F1']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,4.438794899290307,LRF horizontal reference,coverage=2/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,4.438794899290307,LRF horizontal reference,"coverage=3/4; retained=['B1_F1', 'B4_F1', 'B3_N']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,12.327883013653524,LRF horizontal reference,coverage=3/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,3.155300993038839,LRF horizontal reference,"coverage=4/4; retained=['B1_F1', 'B4_F1', 'B3_N', 'B3_S']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,12.327883013653524,LRF horizontal reference,coverage=4/4
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,max_true,1.0895866448363787,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,min_false,8.989836024126982,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,legacy,separation_ratio,8.250684850746284,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,max_true,0.5960141049559915,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,min_false,7.996240433997203,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B3_two_source_assignments,B3_N/S,one three-UAV snapshot,corrected,separation_ratio,13.416193287216968,manually confirmed N/S source identity,"8 assignments; only 2 pure; one event, not 8 independent tests"
+H,B4_component_ray_probe,B4,one fire-time instant,SfM_relative_ray_residual,max_same_label_sfm_units,0.11321375280079012,heuristically grouped color components,No validated B4 F2 point identity
+H,B4_component_ray_probe,B4,one fire-time instant,SfM_relative_ray_residual,min_mixed_label_sfm_units,1.0928442327263939,heuristically grouped color components,No validated B4 F2 point identity
+I,LRF_angular_residual,ZoomCamera,accepted independent observation IDs,uncorrected_gimbal,median_angular_residual_deg,0.05063445864376587,LRF target bearing,n=11; 3 sessions; not camera optical-axis truth
+I,LRF_angular_residual,ZoomCamera,leave-session-out,mode_median_offset,median_angular_residual_deg,0.0676472130738254,LRF target bearing,n=11; no training/test observation reuse
+I,LRF_angular_residual,WideCamera,accepted independent observation IDs,uncorrected_gimbal,median_angular_residual_deg,5.4364896444714,LRF target bearing,n=6; 2 sessions; not camera optical-axis truth
+I,LRF_angular_residual,WideCamera,leave-session-out,mode_median_offset,median_angular_residual_deg,4.9300016259196235,LRF target bearing,n=6; no training/test observation reuse
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,registered_images,32,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B1,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.65499,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,registered_images,35,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B2,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.807036,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,registered_cameras,7,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,registered_images,46,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B3,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.701271,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,registered_cameras,5,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,registered_images,31,internal SfM geometry,"Original reconstruction, not re-run"
+J,cross_UAV_background_graph,B4,multi-time static background,COLMAP_unconstrained,reprojection_error_px,0.766855,internal SfM geometry,"Original reconstruction, not re-run"
+J,absolute_geolocation_check,B4_F1,independent LRF,free_SfM_Sim3,horizontal_error_m,14.186414544481417,LRF horizontal reference,One target; same manual point
+J,absolute_geolocation_check,B4_F1,independent LRF,nominal,horizontal_error_m,0.10865975734565182,LRF horizontal reference,One target; same manual point
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,1.073176711273159,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B1_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,1.871807086787371,post-fire LRF,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,10.940094542433089,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B2_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.9830514919905083,pre-fire site only,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,3.5872836778577644,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_S,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,0.7106005097813595,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,13.283081198416877,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B3_N,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,12.327883013653524,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_nominal,horizontal_error_m,0.10865975734565182,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,oracle_same_case_geometry,B4_F1,same source point and association,manual_point_manual_assoc_visual_geometry,horizontal_error_m,4.438794899290307,LRF fire point,B2 pre-fire; geometry variants differ by site; LRF validation only
+K,B3_five_level_oracle,B3_N,one three-UAV instant,manual_point_manual_assoc_calibrated,horizontal_error_m,12.676274071657543,LRF horizontal reference,Same geometry variant for both B3 sources
+K,B3_five_level_oracle,B3_S,one three-UAV instant,manual_point_manual_assoc_calibrated,horizontal_error_m,0.7106005097813681,LRF horizontal reference,Same geometry variant for both B3 sources
+K,B3_five_level_oracle,B3_N,one three-UAV instant,automatic_point_manual_assoc_calibrated,horizontal_error_m,12.284376019281225,LRF horizontal reference,Official frozen detector; nearest manual point selects detection
+K,B3_five_level_oracle,B3_N,one three-UAV instant,automatic_point_manual_assoc_calibrated,available_three_view,True,manual physical source ID,Frozen V flame threshold 0.37
+K,B3_five_level_oracle,B3_S,one three-UAV instant,automatic_point_manual_assoc_calibrated,available_three_view,False,manual physical source ID,Frozen V flame threshold 0.37
+K,B3_five_level_oracle,B3_N/S,one three-UAV instant,manual_point_automatic_assoc_calibrated,correct_source_count,2,manual N/S identity,out_of=2; one instant
+K,B3_five_level_oracle,B3_N,one three-UAV instant,manual_point_automatic_assoc_calibrated,horizontal_error_m,12.676274071657543,LRF horizontal reference,Automatic association selected NNN/SSS
+K,B3_five_level_oracle,B3_S,one three-UAV instant,manual_point_automatic_assoc_calibrated,horizontal_error_m,0.7106005097813681,LRF horizontal reference,Automatic association selected NNN/SSS
+K,B3_five_level_oracle,B3_N/S,one three-UAV instant,all_automatic,source_availability_fraction,0.5,manual source ID,1/2; auto ray residual selection
+K,B3_five_level_oracle,B3_N,one three-UAV instant,all_automatic,horizontal_error_m,12.284376019281225,LRF horizontal reference,Physical ID assigned after automatic hypothesis selection for scoring only
+L,protocol_inventory,target_train,original directory,file_count,images,5340,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/train
+L,protocol_inventory,target_val,original directory,file_count,images,45,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/val
+L,protocol_inventory,target_test,original directory,file_count,images,45,filesystem,@project/datasets/smoke/cross_domain_dataset/target/images/test
+L,protocol_inventory,detection_train,original directory,file_count,images,3150,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/train/images
+L,protocol_inventory,detection_valid,original directory,file_count,images,900,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/valid/images
+L,protocol_inventory,detection_test,original directory,file_count,images,450,filesystem,@project/datasets/smoke/cross_domain_dataset/Detection/test/images
+L,basename_overlap,target_train vs target_val,original directory,basename,overlap_count,12,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_train vs target_test,original directory,basename,overlap_count,12,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_val vs target_test,original directory,basename,overlap_count,45,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,detection_train vs detection_valid,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,detection_train vs detection_test,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_train vs detection_train,original directory,basename,overlap_count,3150,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_val vs detection_valid,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,basename_overlap,target_test vs detection_test,original directory,basename,overlap_count,0,filesystem basename,Filename alone does not prove identical content
+L,exact_content_overlap,target_val vs target_train,original directory,SHA256,duplicate_test_images,10,byte-identical image,test_images=45
+L,exact_content_overlap,target_test vs target_train,original directory,SHA256,duplicate_test_images,10,byte-identical image,test_images=45
+L,exact_content_overlap,detection_valid vs detection_train,original directory,SHA256,duplicate_test_images,0,byte-identical image,test_images=900
+L,exact_content_overlap,detection_test vs detection_train,original directory,SHA256,duplicate_test_images,0,byte-identical image,test_images=450
+L,source_target_content_overlap,target_train vs detection_train,original directory,SHA256,identical_named_images,3150,byte-identical image,out_of=3150; full same-name scan
+L,target_val_test_overlap,target_val vs target_test,original directory,SHA256,duplicate_images,45,byte-identical image,Same-name test only
+L,prior_YOLO_exact_audit,datasets_yolo,train vs val0,SHA256,removed_exact_duplicate_val_images,44,byte-identical image,Prior script removed exact overlaps only; event overlap not addressed
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,tiny<.0025_recall,0.9772727272727273,historical bounding boxes,43/44; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,small .0025-.01_recall,0.9858156028368794,historical bounding boxes,139/141; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.01,large>=.01_recall,0.9669811320754716,historical bounding boxes,205/212; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,tiny<.0025_recall,0.8181818181818182,historical bounding boxes,36/44; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,small .0025-.01_recall,0.9148936170212766,historical bounding boxes,129/141; no event holdout
+M,smoke_size_strata,historical YOLO val0 after exact dedup,image-level exact dedup only,recall_conf_0.25,large>=.01_recall,0.8820754716981132,historical bounding boxes,187/212; no event holdout
+M,tiny_vs_small_gap,historical YOLO val0 after exact dedup,image-level exact dedup only,exp69,tiny_minus_small_recall,-0.09671179883945835,historical bounding boxes,Negative value means tiny group is harder
+M,overall_baseline,historical YOLO val0 after exact dedup,image-level exact dedup only,exp69,mAP50,0.8953502201350689,historical bounding boxes,Not an event-independent result
+N,candidate_inventory,B1-B3,event_train B1/B2; event_dev B3,unreviewed_VT_pairs,candidate_count,2401,unreviewed candidates,Candidate does not mean same-source truth
+N,candidate_inventory,B1-B3,event grouping,unreviewed_VT_pairs,group_count,42,manifest grouping,"sessions=26; batches={'B1': 709, 'B2': 966, 'B3': 726}"
+N,truth_intersection,B3+B4,manual review,source_review,reviewed_clip_count,5,manual image points,Not simultaneous multi-UAV source graphs
+N,truth_intersection,B3,one three-UAV snapshot,confirmed_same_source,confirmed_assignment_instant_count,1,manual source identity,Eight assignments share this instant

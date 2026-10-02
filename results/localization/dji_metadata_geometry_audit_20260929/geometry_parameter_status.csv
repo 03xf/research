@@ -1,0 +1,20 @@
+parameter,status,evidence,limitation
+actual still focal length (mm),已有,EXIF FocalLength in all 52 JPG,Separate physical lens/zoom records
+35mm-equivalent still focal length,已有,EXIF FocalLengthIn35mmFormat in all 52 JPG,Not intrinsic fx
+still DigitalZoomRatio,已有,EXIF DigitalZoomRatio in all 52 JPG,Per-image mode value
+still LRF target distance and position,已有,XMP LRFTargetDistance/Lat/Lon/Alt/AbsAlt and LRFStatus=Normal in all 52 JPG,Target record; confirm target identity and vertical datum before scoring localization
+video focal_len and dzoom_ratio by channel/PTS,已有,Embedded subtitle in 208 MP4; sampled + B3 exact offsets,"Use V track for visible frame, T for thermal; S channel differs in some clips"
+direct calibrated fx/fy,没有,"No CalibratedFocalLength, focal matrix or per-pixel calibration in enumerated EXIF/XMP",Cannot use nominal 35mm equivalent as calibrated fx/fy
+nominal still fx/fy,可计算,width convention fx=width_px*eq_mm/36; diagonal convention fx=image_diagonal_px*eq_mm/43.2666; fy assumes square pixels,Wide 2688 vs 2795.689 px; medium tele 7840 vs 8154.093 px; thermal 1848.889 vs 1970.073 px; equivalence convention unverified
+principal point cx/cy,只能近似,"Image center width/2,height/2 available; no calibrated optical center fields",Wide 2016/1512; thermal 640/512 as center proxies only
+radial/tangential distortion parameters,没有,"No DewarpData/K6, distortion keys or camera matrix in all EXIF/XMP keys",Need independent lens-mode calibration
+zoom to effective nominal 35mm focal mapping,可计算,"Full V subtitles: 983088 frames; focal_len/zoom within 2% of 24 mm in 982195 frames, 70 mm in 848, 168 mm in 45",Channel-specific nominal mapping; lens switches and video pixel intrinsics not calibrated
+zoom to calibrated intrinsic mapping,没有,Focal/zoom state observed but no calibrated fx/fy at each state,Keep each physical lens and zoom state separate
+camera to gimbal fixed rotation/translation,没有,Gimbal and flight Euler telemetry exists; no fixed mount transform,Need dedicated extrinsic calibration
+MRK antenna phase center to still-camera CMOS correction,已有,"MRK N/E/V columns in mm; 29 events, 12 with valid week/TOW; DJI documents these columns as antenna-to-CMOS compensation",Per-event NED correction; M4T and each physical lens should be checked against installation data
+GPS/RTK reference point to video optical center lever arm,没有,No video camera-center lever arm or per-lens fixed vector in originals,MRK still photo compensation does not establish video or all-lens fixed transform
+JPG GPS/RTK position and uncertainty,已有,EXIF GPS 52/52; XMP RTK std 35/52; valid MRK position agrees with matching XMP within about 1 cm horizontally,MRK documented as CMOS center for photo; datum and thermal inter-camera center differences need verification
+JPG gimbal/body orientation,已有,DJI XMP yaw/pitch/roll on 52 JPG,Axis order/sign and fixed rotations need validation
+JPG exposure time,已有,UTCAtExposure 35/52; MRK valid TOW for subset; filename/EXIF all 52,EXIF filename vs UTC differs; sentinel MRK invalid
+ZoomCamera visible JPG exposure time via paired thermal JPG,只能近似,12 of 17 lack own UTC but have same-event thermal UTCAtExposure; valid V/T pairs show thermal lags 0.032-0.107 s,5 ZoomCamera JPG have no thermal pair and no exact UTC; do not use filename as subsecond exposure
+PPK solved trajectory,没有,4 RTK/OBS/NAV sets are raw PPK inputs; no computed trajectory in these files,PPK processing and reference station required

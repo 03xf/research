@@ -1,0 +1,5 @@
+site,batch,physical_reference_id,reference_type,reference_lat,reference_lon,independent_uav_count,raw_view_count,independent_event_id,notes
+B1_F1,B1,B1_F1,accepted_LRF_fire,31.2891377,120.47274985,3,3,B1_F1,existing manual ground-contact marks
+B2_F1,B2,B2_F1,prefire_pile_not_fire_truth,31.2894735,120.4728031,3,3,B2_F1,existing manual ground-contact marks
+B3_N,B3,B3_N,accepted_LRF_fire,31.2897849,120.4727221,3,3,B3_two_sources_one_event,existing B3 manual marks; physical identity from scope v5
+B3_S,B3,B3_S,accepted_LRF_fire,31.2896853,120.47275315,3,3,B3_two_sources_one_event,existing B3 manual marks; physical identity from scope v5

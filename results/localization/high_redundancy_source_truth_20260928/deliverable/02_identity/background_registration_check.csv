@@ -1,0 +1,3 @@
+moment_id,source_uav,target_uav,physical_source_id,method,good_matches,inliers,projected_x_px,projected_y_px,distance_to_same_ID_px,distance_to_other_ID_px,same_ID_preferred,caveat
+B3_M02,uav-02,uav-05,B3_N,SIFT_background_homography_RANSAC; source-ray residual unused,76,73,1615.5506411269366,771.6985665968804,20.30640592567041,1266.3597254990832,True,"background planar homography diagnostic, not ground truth or a general camera model"
+B3_M02,uav-02,uav-05,B3_S,SIFT_background_homography_RANSAC; source-ray residual unused,76,73,271.80170600525264,838.1807869371654,82.15406693430718,1344.9913451991151,True,"background planar homography diagnostic, not ground truth or a general camera model"

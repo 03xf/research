@@ -1,0 +1,138 @@
+{
+  "direction": "E_fire_state",
+  "generated_utc": "2026-09-28T07:01:29.448350+00:00",
+  "metrics": [
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "active_fire",
+      "metric": "independent_clip_count",
+      "value": 4,
+      "ground_truth_type": "manual state",
+      "notes": "moments=32; clips=['B3_10m07_D02_pts_v2', 'multiple_boxes_0_DJI_202609081039_006_pts_v2', 'paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "active_fire_trigger_fraction",
+      "value": 0.71875,
+      "ground_truth_type": "manual state",
+      "notes": "23/32"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "active_fire_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "32/32"
+    },
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "hot_background",
+      "metric": "independent_clip_count",
+      "value": 2,
+      "ground_truth_type": "manual state",
+      "notes": "moments=8; clips=['paired_negative_0_DJI_202609081039_006_pts_v2', 'visible_flame_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "hot_background_trigger_fraction",
+      "value": 0.0,
+      "ground_truth_type": "manual state",
+      "notes": "0/8"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "hot_background_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "8/8"
+    },
+    {
+      "direction": "E",
+      "experiment": "state_label_support",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "clip-disjoint feasibility",
+      "method": "residual_heat",
+      "metric": "independent_clip_count",
+      "value": 1,
+      "ground_truth_type": "manual state",
+      "notes": "moments=10; clips=['visible_smoke_only_0_DJI_202609081039_006_pts_v2']"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "V_any",
+      "metric": "residual_heat_trigger_fraction",
+      "value": 0.0,
+      "ground_truth_type": "manual state",
+      "notes": "0/10"
+    },
+    {
+      "direction": "E",
+      "experiment": "detection_trigger_by_state",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "descriptive only",
+      "method": "T_any",
+      "metric": "residual_heat_trigger_fraction",
+      "value": 1.0,
+      "ground_truth_type": "manual state",
+      "notes": "10/10"
+    },
+    {
+      "direction": "E",
+      "experiment": "grouped_three_state_test",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "leave-one-clip-out",
+      "method": "minimum_state_support",
+      "metric": "feasible",
+      "value": false,
+      "ground_truth_type": "manual state",
+      "notes": "Each class must appear in at least two independent clips"
+    }
+  ],
+  "details": {
+    "state_counts": {
+      "active_fire": 32,
+      "hot_background": 8,
+      "residual_heat": 10
+    },
+    "state_clips": {
+      "active_fire": [
+        "B3_10m07_D02_pts_v2",
+        "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+        "paired_negative_0_DJI_202609081039_006_pts_v2",
+        "visible_flame_0_DJI_202609081039_006_pts_v2"
+      ],
+      "hot_background": [
+        "paired_negative_0_DJI_202609081039_006_pts_v2",
+        "visible_flame_0_DJI_202609081039_006_pts_v2"
+      ],
+      "residual_heat": [
+        "visible_smoke_only_0_DJI_202609081039_006_pts_v2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "dji_round35_geometry_candidates_v1",
+  "created_utc": "2026-09-24T04:58:16Z",
+  "status": "candidate_needs_visual_overlay_qc",
+  "source_dataset": "@trial/datasets_round27_labels_fixed_v1",
+  "scope": "Four high-priority training pairs. Boxes are human estimates from full-resolution kept frames, not validated labels and not V/T same-target assignments.",
+  "class_names": {
+    "V": {
+      "0": "smoke",
+      "1": "flame"
+    }
+  },
+  "entries": [
+    {
+      "observation_id": "obs_v7_train_0027",
+      "sensor": "V",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "boxes_xyxy": [
+        {
+          "class_id": 0,
+          "bbox": [
+            305,
+            315,
+            475,
+            510
+          ],
+          "quality": "clear",
+          "note": "left smoke source"
+        },
+        {
+          "class_id": 0,
+          "bbox": [
+            1450,
+            560,
+            1920,
+            1020
+          ],
+          "quality": "clear",
+          "note": "right smoke source, truncated by image boundary"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_v7_train_0024",
+      "sensor": "V",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "boxes_xyxy": [
+        {
+          "class_id": 1,
+          "bbox": [
+            925,
+            247,
+            987,
+            303
+          ],
+          "quality": "clear",
+          "note": "small upper flame; no confirmed smoke"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_v7_train_0025",
+      "sensor": "V",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "boxes_xyxy": [
+        {
+          "class_id": 0,
+          "bbox": [
+            1120,
+            325,
+            1530,
+            965
+          ],
+          "quality": "clear",
+          "note": "smoke from lower-right burn pile"
+        }
+      ]
+    }
+  ],
+  "unmodified_entries": [
+    {
+      "observation_id": "obs_v7_train_0009",
+      "sensor": "V",
+      "status": "existing_smoke_box_requires_geometry_review; no candidate replacement yet"
+    }
+  ],
+  "prohibitions": [
+    "not_for_training_yet",
+    "do_not_overwrite_source_labels",
+    "do_not_assume_cross_sensor_same_target"
+  ]
+}

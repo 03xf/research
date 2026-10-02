@@ -1,0 +1,5 @@
+method,background_alignment_images,fire_frame_in_18_frame_alignment,uavs,horizontal_difference_to_B3S_candidate_m,median_ray_residual_m,condition_number,estimated_east_m,estimated_north_m,estimated_up_relative_m,fit_inputs
+M0_nominal,18,no,uav-02|uav-04|uav-09,3.5872836778577644,1.0895866448363787,3.7848214111958627,16.79941712162706,-8.709148960601418,-52.368715701523385,none
+C1_visual_K,18,no,uav-02|uav-04|uav-09,1.4148403450041338,1.3796079055621229,3.6812101893295317,15.626925217905962,-6.797612897769817,-51.91067082695549,full B3 SfM includes manual images; alignment uses 18 background images; no fire LRF
+C2_visual_center,18,no,uav-02|uav-04|uav-09,0.7106005097813681,0.33263928898888356,3.6812101893295317,13.952451602237074,-6.460746811881563,-53.18322128617612,full B3 SfM includes manual images; alignment uses 18 background images; no fire LRF
+C4_free_SfM,18,no,uav-02|uav-04|uav-09,1.132532221947784,0.2356731681895707,3.6831034922260764,13.80299094785888,-6.890374139837874,-52.96765305366328,full B3 SfM includes manual images; alignment uses 18 background images; no fire LRF

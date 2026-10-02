@@ -1,0 +1,2 @@
+case,reason,evidence,impact
+gauge_and_anchor,Connected graph with low reprojection error gave large B4 absolute error,colmap7_all.log + lrf_B4_nominal_vs_sfm.json,Background-only self-calibration is insufficient for global fire position

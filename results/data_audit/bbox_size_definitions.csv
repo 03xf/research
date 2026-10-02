@@ -1,0 +1,15 @@
+class_name,definition,boxes,total_boxes,basis
+flame,COCO_small_area_lt_1024,47,957,native image pixels; distinct image+label+class-map versions
+flame,COCO_medium_area_1024_to_9216,213,957,native image pixels; distinct image+label+class-map versions
+flame,COCO_large_area_ge_9216,697,957,native image pixels; distinct image+label+class-map versions
+flame,both_width_height_lt_16,1,957,native image pixels; distinct image+label+class-map versions
+flame,both_width_height_lt_24,10,957,native image pixels; distinct image+label+class-map versions
+flame,both_width_height_lt_32,33,957,native image pixels; distinct image+label+class-map versions
+flame,both_width_height_lt_48,95,957,native image pixels; distinct image+label+class-map versions
+smoke,COCO_small_area_lt_1024,0,397,native image pixels; distinct image+label+class-map versions
+smoke,COCO_medium_area_1024_to_9216,15,397,native image pixels; distinct image+label+class-map versions
+smoke,COCO_large_area_ge_9216,382,397,native image pixels; distinct image+label+class-map versions
+smoke,both_width_height_lt_16,0,397,native image pixels; distinct image+label+class-map versions
+smoke,both_width_height_lt_24,0,397,native image pixels; distinct image+label+class-map versions
+smoke,both_width_height_lt_32,0,397,native image pixels; distinct image+label+class-map versions
+smoke,both_width_height_lt_48,1,397,native image pixels; distinct image+label+class-map versions

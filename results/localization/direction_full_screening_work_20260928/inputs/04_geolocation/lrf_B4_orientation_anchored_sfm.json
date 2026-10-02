@@ -1,0 +1,11 @@
+{
+  "scale": 3.1962340700445613,
+  "camera_h_mean_m": 6.178002499207929,
+  "camera_h_median_m": 5.528803839476016,
+  "axis_angle_mean_deg": 6.683447287884127,
+  "axis_angle_median_deg": 6.085721368008611,
+  "target_h_error_m": 4.438794899290307,
+  "ray_residual_median_m": 0.1752940077290771,
+  "ray_residual_max_m": 0.2474894975971253,
+  "condition": 3.6808295712842325
+}

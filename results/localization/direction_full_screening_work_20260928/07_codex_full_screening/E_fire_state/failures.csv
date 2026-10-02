@@ -1,0 +1,2 @@
+case,reason,evidence,impact
+class_clip_confounding,At least one class occurs in only one clip,source_truth_review_v1/summary.json clip_counts,A three-state clip-independent model test cannot be interpreted

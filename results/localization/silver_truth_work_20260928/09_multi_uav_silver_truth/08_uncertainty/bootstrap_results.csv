@@ -1,0 +1,13 @@
+site,batch,subset_size,subset_uavs,east_m,north_m,shift_from_full_m,method,sampling
+B1_F1,B1,2,无人机08|无人机09,5.813565792532719,-62.41372468750484,0.5178992069293799,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B1_F1,B1,2,无人机02|无人机09,6.984224757146243,-62.96765668164929,0.843619638695842,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B1_F1,B1,2,无人机02|无人机08,5.534948755780447,-63.01355800168559,0.6574763732479062,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B2_F1,B2,2,无人机06|无人机07,5.5494720000361895,-15.088972807603415,8.747151166150521,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B2_F1,B2,2,无人机01|无人机07,9.814920026563952,-24.25660916155247,1.3794600480982775,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B2_F1,B2,2,无人机01|无人机06,8.726631335090921,-23.5579229147217,0.5715326802489882,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_N,B3,2,无人机04|无人机09,-3.1493891849205564,20.82288342343332,0.7687770943617318,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_N,B3,2,无人机02|无人机09,-3.48895334399263,22.13418853266237,0.5902591363901671,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_N,B3,2,无人机02|无人机04,-3.4718621381465997,21.56967103054521,0.1833733028803331,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_S,B3,2,无人机04|无人机09,7.761800489186163,-4.657410170037522,0.7626646328803043,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_S,B3,2,无人机02|无人机09,7.276300108386881,-3.4845162426534984,0.6107518138621224,C0_nominal,all unique 2-of-3 UAV subsets; no replacement
+B3_S,B3,2,无人机02|无人机04,6.866693908757961,-4.1132112243391745,0.38090740449644883,C0_nominal,all unique 2-of-3 UAV subsets; no replacement

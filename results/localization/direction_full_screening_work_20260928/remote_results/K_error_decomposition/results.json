@@ -1,0 +1,159 @@
+{
+  "direction": "K_error_decomposition",
+  "generated_utc": "2026-09-28T07:01:30.229419+00:00",
+  "metrics": [
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B1_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 1.073176711273159,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B1_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 1.871807086787371,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B2_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 10.940094542433089,
+      "ground_truth_type": "pre-fire site only",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B2_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 0.9830514919905083,
+      "ground_truth_type": "pre-fire site only",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_S",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 3.5872836778577644,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_S",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 0.7106005097813595,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_N",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 13.283081198416877,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_N",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 12.327883013653524,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B4_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 0.10865975734565182,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B4_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 4.438794899290307,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    }
+  ],
+  "details": {
+    "site_errors": [
+      [
+        "B1_F1",
+        1.073176711273159,
+        1.871807086787371,
+        "post-fire LRF"
+      ],
+      [
+        "B2_F1",
+        10.940094542433089,
+        0.9830514919905083,
+        "pre-fire site only"
+      ],
+      [
+        "B3_S",
+        3.5872836778577644,
+        0.7106005097813595,
+        "LRF fire point"
+      ],
+      [
+        "B3_N",
+        13.283081198416877,
+        12.327883013653524,
+        "LRF fire point"
+      ],
+      [
+        "B4_F1",
+        0.10865975734565182,
+        4.438794899290307,
+        "LRF fire point"
+      ]
+    ],
+    "stage_availability": {
+      "manual_point_manual_assoc_nominal": "measured",
+      "manual_point_manual_assoc_visual_geometry": "measured with heterogeneous geometry variants",
+      "automatic_point_manual_assoc_calibrated": "missing same-case auto points",
+      "manual_point_automatic_assoc_calibrated": "missing multi-site automatic identity predictions",
+      "all_automatic": "missing complete output and independent LRF matching"
+    },
+    "measured_stage_count": 2,
+    "required_stage_count": 5
+  }
+}

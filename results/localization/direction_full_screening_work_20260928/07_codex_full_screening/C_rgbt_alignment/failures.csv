@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+source_alignment_truth,No cross-session V/T source-point transform held-out evaluation,"vt_registration_with_telemetry.csv contains quality summaries, not transform matrices or matched source points",Cannot claim a reusable RGB-T mapping
+inlier_proxy,Low reprojection error may come from a small background patch,"src_hull,dst_hull fields",Image registration score is not source mapping accuracy

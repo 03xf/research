@@ -1,0 +1,112 @@
+uav,channel,video_path,requested_pts_s,frame_count,subtitle_local_time,focal_len,dzoom_ratio,latitude,longitude,abs_alt,gb_yaw,gb_pitch,gb_roll,raw_subtitle
+uav-02,S,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_S.MP4,53.0,1560,2026-09-08 10:06:59.187,53.00,2.21,31.289903,120.472780,116.417,-145.1,-76.8,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 1560 2026-09-08 10:06:59.187
+[focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] 
+
+2
+00:00:00,033 --> 00:00:00,066
+FrameCnt: 1561 2026-09-08 10:06:59.221
+[focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 1562 2026-09-08 10:06:59.254
+[focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] 
+
+4
+00:00:00,100 --> 00:00:00,133
+FrameCnt: 1563 2026-09-08 10:06:59.288
+[focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] 
+
+5
+00:00:00,133 --> 00:00:00,166
+FrameCnt"
+uav-02,V,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4,53.0,1560,2026-09-08 10:06:59.285,53.00,2.21,31.289903,120.472780,116.417,-145.1,-76.8,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 1560 2026-09-08 10:06:59.285
+[iso: 230] [shutter: 1/4000.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+2
+00:00:00,033 --> 00:00:00,066
+FrameCnt: 1561 2026-09-08 10:06:59.319
+[iso: 230] [shutter: 1/4000.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116.417] [gb_yaw: -145.1 gb_pitch: -76.8 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 1562 2026-09-08 10:06:59.351
+[iso: 230] [shutter: 1/4000.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.00] [dzoom_ratio: 2.21], [latitude: 31.289903] [longitude: 120.472780] [rel_alt: 62.657 abs_alt: 116"
+uav-04,S,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080957_035/DJI_20260908100549_0001_S.MP4,71.0,2100,2026-09-08 10:06:59.486,52.70,1.00,31.289661,120.472252,75.137,74.2,-19.4,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 2100 2026-09-08 10:06:59.486
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.143 abs_alt: 75.137] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] 
+
+2
+00:00:00,034 --> 00:00:00,067
+FrameCnt: 2101 2026-09-08 10:06:59.522
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.143 abs_alt: 75.137] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 2102 2026-09-08 10:06:59.555
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.143 abs_alt: 75.138] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] 
+
+4
+00:00:00,100 --> 00:00:00,133
+FrameCnt: 2103 2026-09-08 10:06:59.590
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.144 abs_alt: 75.138] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] 
+
+5
+00:00:00,134 --> 00:00:00,167
+FrameCnt: 2104 2026-"
+uav-04,V,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机04_1581F7K33258900AP021/DJI_202609080957_035/DJI_20260908100549_0001_V.MP4,71.0,2100,2026-09-08 10:06:59.596,53.80,2.24,31.289661,120.472252,75.138,74.2,-19.4,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 2100 2026-09-08 10:06:59.596
+[iso: 210] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.80] [dzoom_ratio: 2.24], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.144 abs_alt: 75.138] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+2
+00:00:00,033 --> 00:00:00,066
+FrameCnt: 2101 2026-09-08 10:06:59.629
+[iso: 210] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.80] [dzoom_ratio: 2.24], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.144 abs_alt: 75.138] [gb_yaw: 74.2 gb_pitch: -19.4 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 2102 2026-09-08 10:06:59.662
+[iso: 210] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 53.80] [dzoom_ratio: 2.24], [latitude: 31.289661] [longitude: 120.472252] [rel_alt: 21.144 abs_alt: 75.138] ["
+uav-09,S,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080957_004/DJI_20260908100604_0001_S.MP4,55.0,1620,2026-09-08 10:06:59.041,52.70,1.00,31.289518,120.472340,100.155,52.0,-44.9,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 1620 2026-09-08 10:06:59.041
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.712 abs_alt: 100.155] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] 
+
+2
+00:00:00,033 --> 00:00:00,066
+FrameCnt: 1621 2026-09-08 10:06:59.075
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.712 abs_alt: 100.155] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 1622 2026-09-08 10:06:59.105
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.712 abs_alt: 100.155] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] 
+
+4
+00:00:00,100 --> 00:00:00,133
+FrameCnt: 1623 2026-09-08 10:06:59.142
+[focal_len: 52.70] [dzoom_ratio: 1.00], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.713 abs_alt: 100.157] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] 
+
+5
+00:00:00,133 --> 00:00:00,166
+FrameCnt: 1624 2"
+uav-09,V,@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609080957_004/DJI_20260908100604_0001_V.MP4,55.0,1620,2026-09-08 10:06:59.062,54.70,2.28,31.289518,120.472340,100.155,52.0,-44.9,0.0,"1
+00:00:00,000 --> 00:00:00,033
+FrameCnt: 1620 2026-09-08 10:06:59.062
+[iso: 190] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 54.70] [dzoom_ratio: 2.28], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.712 abs_alt: 100.155] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+2
+00:00:00,033 --> 00:00:00,066
+FrameCnt: 1621 2026-09-08 10:06:59.096
+[iso: 190] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 54.70] [dzoom_ratio: 2.28], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.712 abs_alt: 100.155] [gb_yaw: 52.0 gb_pitch: -44.9 gb_roll: 0.0] [dehaze_level: 0] [dehaze_mode: 0] 
+
+3
+00:00:00,067 --> 00:00:00,100
+FrameCnt: 1622 2026-09-08 10:06:59.130
+[iso: 190] [shutter: 1/3200.0] [fnum: 1.7] [ev: 0] [color_md: default] [ae_meter_md: 1] [focal_len: 54.70] [dzoom_ratio: 2.28], [latitude: 31.289518] [longitude: 120.472340] [rel_alt: 46.713 abs_alt: 100.157"

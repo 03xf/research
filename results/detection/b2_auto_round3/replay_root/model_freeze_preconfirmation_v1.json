@@ -1,0 +1,25 @@
+{
+  "schema_version": "dji_recovery_confirmation_freeze_v1",
+  "created_utc": "2026-09-24T21:47:29.157522+00:00",
+  "selection_source": "@recovery/comparison_seed0_seed1_seed2_v1.json",
+  "selection_source_sha256": "ddad9b5b9afe4ab8235b7c5d1242493476b6aed29259efc3919fc07611751ffc",
+  "selection_rule": "seed 0 selected on development only; seeds 1 and 2 reported as replication",
+  "development_split_historically_exposed": true,
+  "confirmation_test_performed": false,
+  "models": {
+    "V": {
+      "model_id": "B2R3_V_E2_curated_1280",
+      "weights": "@recovery/b2_auto_round3/runs/B2R3_V_E2_curated_1280/weights/best.pt",
+      "weights_sha256": "09f29af6ca02ddfaa37c72a2c0b37894a6b0d4067d807c12c485b7737826539a",
+      "imgsz": 1280,
+      "thresholds": {
+        "smoke": 0.41,
+        "flame": 0.37
+      },
+      "development_evaluation_sha256": "61e03ebdc42df4f8558f720b617de19a0ac79e83880a76b32dc0571e4f37198f",
+      "development_passed": false,
+      "class_index": 0,
+      "note": "Curated flame labels; fixed-video holdout only inspected after training."
+    }
+  }
+}

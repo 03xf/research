@@ -1,0 +1,54 @@
+{
+  "direction": "B_temporal",
+  "generated_utc": "2026-09-28T07:01:29.328876+00:00",
+  "metrics": [
+    {
+      "direction": "B",
+      "experiment": "point_accuracy_after_smoothing",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "within clips; no held-out event",
+      "method": "raw",
+      "metric": "V_median_normalized_error",
+      "value": 0.0322486455707926,
+      "ground_truth_type": "manual source point",
+      "notes": "n=22; image motion not compensated"
+    },
+    {
+      "direction": "B",
+      "experiment": "point_accuracy_after_smoothing",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "within clips; no held-out event",
+      "method": "trailing_median_3",
+      "metric": "V_median_normalized_error",
+      "value": 0.028476068532119224,
+      "ground_truth_type": "manual source point",
+      "notes": "n=22; image motion not compensated"
+    },
+    {
+      "direction": "B",
+      "experiment": "point_accuracy_after_smoothing",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "within clips; no held-out event",
+      "method": "raw",
+      "metric": "T_median_normalized_error",
+      "value": 0.019157635759831204,
+      "ground_truth_type": "manual source point",
+      "notes": "n=31; image motion not compensated"
+    },
+    {
+      "direction": "B",
+      "experiment": "point_accuracy_after_smoothing",
+      "dataset": "B3+B4 reviewed clips",
+      "split": "within clips; no held-out event",
+      "method": "trailing_median_3",
+      "metric": "T_median_normalized_error",
+      "value": 0.015448463309998753,
+      "ground_truth_type": "manual source point",
+      "notes": "n=31; image motion not compensated"
+    }
+  ],
+  "details": {
+    "tracks": 24,
+    "paired_samples": 53
+  }
+}

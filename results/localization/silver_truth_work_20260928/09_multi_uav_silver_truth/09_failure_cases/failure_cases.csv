@@ -1,0 +1,8 @@
+site,type,detail,value,truth
+B2_F1,leave_one_uav_out_shift,max shift from LOUO median >5m,9.045300291155858,independent UAV subset
+B3_N,gold_disagreement,full nominal consensus >5m from LRF,13.283081198416877,accepted LRF
+B3_N,stable_but_biased,"C1 LOUO max shift under 0.5m, yet full estimate 11.535m from LRF",11.535,accepted LRF
+B2_F1,subset_dependency,one 2-of-3 subset differs 10.959m from prefire pile,10.959,independent prefire pile
+B4,identity_ambiguity,two-source cross-UAV identities have no independent physical confirmation,,unavailable
+all,scale_gap,no verified >=4-UAV source instant despite many video overlaps,0,manual observation inventory
+B3_N,low_residual_not_accuracy,C4 median ray residual 0.187m but LRF error 12.328m,12.328,accepted LRF

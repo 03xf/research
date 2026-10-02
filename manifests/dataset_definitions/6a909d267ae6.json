@@ -1,0 +1,12 @@
+{
+  "dataset": "recovery_v1/b2_auto_round2/dataset/V",
+  "experiments": [],
+  "configuration": {
+    "path": "@recovery/b2_auto_round2/dataset/V",
+    "train": "images/train",
+    "val": "images/validation",
+    "names": {
+      "0": "flame"
+    }
+  }
+}

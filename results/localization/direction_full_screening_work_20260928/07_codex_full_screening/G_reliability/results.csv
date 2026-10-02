@@ -1,0 +1,9 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,1.871807086787371,LRF horizontal reference,coverage=1/4; retained=['B1_F1']
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,1.871807086787371,LRF horizontal reference,coverage=1/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,3.155300993038839,LRF horizontal reference,"coverage=2/4; retained=['B1_F1', 'B4_F1']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,4.438794899290307,LRF horizontal reference,coverage=2/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,4.438794899290307,LRF horizontal reference,"coverage=3/4; retained=['B1_F1', 'B4_F1', 'B3_N']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,12.327883013653524,LRF horizontal reference,coverage=3/4
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,median_horizontal_error_m,3.155300993038839,LRF horizontal reference,"coverage=4/4; retained=['B1_F1', 'B4_F1', 'B3_N', 'B3_S']"
+G,selective_risk,B1+B3+B4,site-level retrospective,smallest_ray_residual,worst_horizontal_error_m,12.327883013653524,LRF horizontal reference,coverage=4/4

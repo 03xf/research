@@ -1,0 +1,49 @@
+{
+  "schema_version": "dji_dual_gpu_realtime_v3",
+  "mode": "clip",
+  "source": "@recovery/b2_candidate_v1/replay_B2_20_60_v2/decoded_input",
+  "source_manifest_sha256": "6f61c7ff5df909e2245cc64a349651994bbf4727cfcb8ecd50ee38f72de059e6",
+  "model_freeze": "@recovery/b2_candidate_v1/replay_root/model_freeze_preconfirmation_v1.json",
+  "model_freeze_sha256": "c53fbf436494af2d0ad8c92d77b4142a5487d38dd94418c89cfe9242b5652a89",
+  "tracker": "@project/code/tools/bytetrack_recovery_v1.yaml",
+  "tracker_sha256": "5df09bdfe4d428a01c367366f27c7a9b7e5fc576a3d679a688ef4607828717c6",
+  "gpu": {
+    "V": "0"
+  },
+  "frames": {
+    "V": 200
+  },
+  "paired_count": 151,
+  "unpaired": {
+    "V": 49
+  },
+  "latency_p95_ms": 56.57944013364613,
+  "latency_max_ms": 488.8571361079812,
+  "pair_delta_p95_ms": 48.40000000000089,
+  "elapsed_wall_s": 52.097293060971424,
+  "startup_wall_s": 7.458776083774865,
+  "sustained_fps": {
+    "V": 4.998930979759224
+  },
+  "effective_fps": {
+    "V": 3.8389710529860444
+  },
+  "browser_videos": {
+    "V": "@recovery/b2_candidate_v1/replay_B2_20_60_v2/V/tracked_browser.mp4"
+  },
+  "web_preview": {
+    "max_width_px": 640,
+    "jpeg_quality": 40,
+    "scope": "web live preview only"
+  },
+  "positions_csv": "@recovery/b2_candidate_v1/replay_B2_20_60_v2/positions.csv",
+  "association_counts": {
+    "unavailable": 150
+  },
+  "scene_map": "@project/code/tools/b2_fixed_fire_scene_v1.json",
+  "scene_map_sha256": "0d12157ee0ab9c9988de525efdad70cf39abc55f6697d3f817d8bce946c389d0",
+  "errors": [],
+  "coordinate_policy": "fixed-scene lookup of existing LRF reference for matched stable flame; no independent visual WGS84",
+  "same_target_policy": "time pairing is not physical identity",
+  "absolute_visual_localization": "unavailable"
+}

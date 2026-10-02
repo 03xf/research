@@ -1,0 +1,7 @@
+batch,physical_source,available_independent_moments,temporal_spread_m,status,reason
+B1,F1,1,,unavailable,No second independently synchronized and manually matched source instant
+B2,prefire_pile,1,,unavailable,No second independently synchronized and manually matched source instant
+B3,N,1,,unavailable,No second independently synchronized and manually matched source instant
+B3,S,1,,unavailable,No second independently synchronized and manually matched source instant
+B4,near_road_provisional,0,,unavailable,No second independently synchronized and manually matched source instant
+B4,near_tree_provisional,0,,unavailable,No second independently synchronized and manually matched source instant

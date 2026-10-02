@@ -1,0 +1,227 @@
+{
+  "direction": "F_geometry",
+  "generated_utc": "2026-09-28T07:01:29.477073+00:00",
+  "metrics": [
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B1_F1",
+      "split": "same manual point and association",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 1.073176711273159,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B1_F1",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "horizontal_error_m",
+      "value": 1.871807086787371,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B1_F1",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "delta_error_m",
+      "value": 0.7986303755142121,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "negative means improved"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B2_F1",
+      "split": "same manual point and association",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 10.940094542433089,
+      "ground_truth_type": "pre-fire woodpile, not burning source",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B2_F1",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "horizontal_error_m",
+      "value": 0.9830514919905083,
+      "ground_truth_type": "pre-fire woodpile, not burning source",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B2_F1",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "delta_error_m",
+      "value": -9.95704305044258,
+      "ground_truth_type": "pre-fire woodpile, not burning source",
+      "notes": "negative means improved"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_S",
+      "split": "same manual point and association",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 3.5872836778577644,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_S",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "horizontal_error_m",
+      "value": 0.7106005097813595,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_S",
+      "split": "same manual point and association",
+      "method": "SfM center + nominal gimbal + visual K",
+      "metric": "delta_error_m",
+      "value": -2.876683168076405,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "negative means improved"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_N",
+      "split": "same manual point and association",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 13.283081198416877,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_N",
+      "split": "same manual point and association",
+      "method": "orientation-anchored SfM",
+      "metric": "horizontal_error_m",
+      "value": 12.327883013653524,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B3_N",
+      "split": "same manual point and association",
+      "method": "orientation-anchored SfM",
+      "metric": "delta_error_m",
+      "value": -0.9551981847633524,
+      "ground_truth_type": "LRF fire point, correspondence confirmed",
+      "notes": "negative means improved"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B4_F1",
+      "split": "same manual point and association",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 0.10865975734565182,
+      "ground_truth_type": "post-fire LRF; 9 repeated views of one target",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B4_F1",
+      "split": "same manual point and association",
+      "method": "orientation-anchored SfM",
+      "metric": "horizontal_error_m",
+      "value": 4.438794899290307,
+      "ground_truth_type": "post-fire LRF; 9 repeated views of one target",
+      "notes": "B2 is excluded from fire-truth aggregate"
+    },
+    {
+      "direction": "F",
+      "experiment": "site_level_geolocation",
+      "dataset": "B4_F1",
+      "split": "same manual point and association",
+      "method": "orientation-anchored SfM",
+      "metric": "delta_error_m",
+      "value": 4.3301351419446545,
+      "ground_truth_type": "post-fire LRF; 9 repeated views of one target",
+      "notes": "negative means improved"
+    },
+    {
+      "direction": "F",
+      "experiment": "cross_site_sign",
+      "dataset": "B1+B3+B4",
+      "split": "independent fire sites",
+      "method": "visual_geometry",
+      "metric": "sites_improved",
+      "value": 2,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "out_of=4; heterogeneous candidate variants"
+    }
+  ],
+  "details": {
+    "sites": [
+      {
+        "site": "B1_F1",
+        "reference": "post-fire LRF",
+        "nominal": 1.073176711273159,
+        "candidate": 1.871807086787371,
+        "ray": 0.020277638230876565,
+        "method": "SfM center + nominal gimbal + visual K"
+      },
+      {
+        "site": "B2_F1",
+        "reference": "pre-fire woodpile, not burning source",
+        "nominal": 10.940094542433089,
+        "candidate": 0.9830514919905083,
+        "ray": 0.48961594314528073,
+        "method": "SfM center + nominal gimbal + visual K"
+      },
+      {
+        "site": "B3_S",
+        "reference": "LRF fire point, correspondence confirmed",
+        "nominal": 3.5872836778577644,
+        "candidate": 0.7106005097813595,
+        "ray": 0.33263928898888967,
+        "method": "SfM center + nominal gimbal + visual K"
+      },
+      {
+        "site": "B3_N",
+        "reference": "LRF fire point, correspondence confirmed",
+        "nominal": 13.283081198416877,
+        "candidate": 12.327883013653524,
+        "ray": 0.18695509715905623,
+        "method": "orientation-anchored SfM"
+      },
+      {
+        "site": "B4_F1",
+        "reference": "post-fire LRF; 9 repeated views of one target",
+        "nominal": 0.10865975734565182,
+        "candidate": 4.438794899290307,
+        "ray": 0.1752940077290771,
+        "method": "orientation-anchored SfM"
+      }
+    ],
+    "fire_sites": 4
+  }
+}

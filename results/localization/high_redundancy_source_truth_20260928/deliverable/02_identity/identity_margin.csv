@@ -1,0 +1,5 @@
+support_uav_count,independent_heldout_source_frames,event_count,association_margin_median_px,association_margin_p10_px,association_margin_minimum_px,association_accuracy,wrong_merge_rate,reject_rate,observation_unit
+2,22,2,1114.3481090898727,529.3353320154498,243.16473325644284,1.0,0.0,0.0,held-out source frame after median of correlated support subsets
+3,22,2,1113.557494252033,511.2922864502536,191.31323456659504,1.0,0.0,0.0,held-out source frame after median of correlated support subsets
+4,22,2,1141.025399263996,517.2835499412355,198.51402665831776,1.0,0.0,0.0,held-out source frame after median of correlated support subsets
+5,12,1,1128.1774687554541,524.0894807540343,205.6990351078841,1.0,0.0,0.0,held-out source frame after median of correlated support subsets

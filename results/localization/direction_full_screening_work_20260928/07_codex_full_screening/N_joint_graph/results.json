@@ -1,0 +1,67 @@
+{
+  "direction": "N_joint_graph",
+  "generated_utc": "2026-09-28T07:01:35.548541+00:00",
+  "metrics": [
+    {
+      "direction": "N",
+      "experiment": "candidate_inventory",
+      "dataset": "B1-B3",
+      "split": "event_train B1/B2; event_dev B3",
+      "method": "unreviewed_VT_pairs",
+      "metric": "candidate_count",
+      "value": 2401,
+      "ground_truth_type": "unreviewed candidates",
+      "notes": "Candidate does not mean same-source truth"
+    },
+    {
+      "direction": "N",
+      "experiment": "candidate_inventory",
+      "dataset": "B1-B3",
+      "split": "event grouping",
+      "method": "unreviewed_VT_pairs",
+      "metric": "group_count",
+      "value": 42,
+      "ground_truth_type": "manifest grouping",
+      "notes": "sessions=26; batches={'B1': 709, 'B2': 966, 'B3': 726}"
+    },
+    {
+      "direction": "N",
+      "experiment": "truth_intersection",
+      "dataset": "B3+B4",
+      "split": "manual review",
+      "method": "source_review",
+      "metric": "reviewed_clip_count",
+      "value": 5,
+      "ground_truth_type": "manual image points",
+      "notes": "Not simultaneous multi-UAV source graphs"
+    },
+    {
+      "direction": "N",
+      "experiment": "truth_intersection",
+      "dataset": "B3",
+      "split": "one three-UAV snapshot",
+      "method": "confirmed_same_source",
+      "metric": "confirmed_assignment_instant_count",
+      "value": 1,
+      "ground_truth_type": "manual source identity",
+      "notes": "Eight assignments share this instant"
+    }
+  ],
+  "details": {
+    "candidate_by_batch": {
+      "B1": 709,
+      "B2": 966,
+      "B3": 726
+    },
+    "groups": 42,
+    "sessions": 26,
+    "manual_clips": [
+      "B3_10m07_D02_pts_v2",
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "visible_smoke_only_0_DJI_202609081039_006_pts_v2"
+    ],
+    "B3_assignment_separation_ratio": 13.416193287216968
+  }
+}

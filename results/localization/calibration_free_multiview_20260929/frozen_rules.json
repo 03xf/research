@@ -1,0 +1,31 @@
+{
+  "development_batches": [
+    "B1",
+    "B2"
+  ],
+  "holdout_batches": [
+    "B3",
+    "B4"
+  ],
+  "pair_min_angle_deg": 5.0,
+  "pair_max_gap_m": 5.0,
+  "pair_cluster_radius_m": 3.0,
+  "huber_transition_m": 2.5,
+  "min_cluster_distinct_views": 3,
+  "max_loo_gate_m": 5.0,
+  "ray_rms_gate_m": 3.0,
+  "bearing_cone_p95_gate_m": 5.0,
+  "max_cross_view_wall_span_s": 1.0,
+  "min_mc_cluster_success_fraction": 0.8,
+  "thresholds_use_fire_or_LRF_reference": false,
+  "perturbations": {
+    "shared_yaw_pitch_uniform_deg": 2,
+    "shared_focal_scale_uniform": 0.1,
+    "per_view_yaw_pitch_sigma_deg": 0.5,
+    "per_view_focal_scale_sigma": 0.025,
+    "GPS_sigma_each_axis_m": 1,
+    "pixel_sigma_px": 3
+  },
+  "mc_draws": 400,
+  "seed": 20260929
+}

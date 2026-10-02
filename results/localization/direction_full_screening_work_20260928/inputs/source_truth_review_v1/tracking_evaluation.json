@@ -1,0 +1,2581 @@
+{
+  "summary": {
+    "schema_version": "dji_source_truth_tracking_eval_v1",
+    "created_utc": "2026-09-25T07:28:36.034940+00:00",
+    "truth_summary": "@recovery/source_truth_review_v1/summary.json",
+    "rows": 50,
+    "sensor_summary": {
+      "V_matched": 33,
+      "V_frames_with_truth": 42,
+      "V_frames_with_detection": 23,
+      "T_matched": 54,
+      "T_frames_with_truth": 41,
+      "T_frames_with_detection": 50,
+      "V_missed": 41,
+      "T_missed": 18,
+      "T_false_positive_no_truth": 9
+    },
+    "relation_summary": {
+      "same_source": 42,
+      "unknown": 8
+    },
+    "same_source_pair_summary": {
+      "total": 42,
+      "V_detected": 22,
+      "T_detected": 40,
+      "both_detected": 22
+    },
+    "candidate_point_distance_norm": {
+      "V": {
+        "count": 42,
+        "mean": 0.17603728879820332,
+        "median": 0.06615695982832023,
+        "p95": 0.7679634059528913
+      }
+    },
+    "clip_summary": {
+      "B3_10m07_D02_pts_v2": {
+        "V_truth_points": 20,
+        "V_matched_points": 15,
+        "V_frames_with_detection": 10,
+        "T_truth_points": 20,
+        "T_matched_points": 20,
+        "T_frames_with_detection": 10
+      },
+      "multiple_boxes_0_DJI_202609081039_006_pts_v2": {
+        "V_truth_points": 20,
+        "V_matched_points": 14,
+        "V_frames_with_detection": 9,
+        "T_truth_points": 20,
+        "T_matched_points": 13,
+        "T_frames_with_detection": 10
+      },
+      "paired_negative_0_DJI_202609081039_006_pts_v2": {
+        "V_truth_points": 4,
+        "V_matched_points": 1,
+        "V_frames_with_detection": 1,
+        "T_truth_points": 4,
+        "T_matched_points": 3,
+        "T_frames_with_detection": 10
+      },
+      "visible_flame_0_DJI_202609081039_006_pts_v2": {
+        "V_truth_points": 8,
+        "V_matched_points": 3,
+        "V_frames_with_detection": 3,
+        "T_truth_points": 8,
+        "T_matched_points": 8,
+        "T_frames_with_detection": 10
+      },
+      "visible_smoke_only_0_DJI_202609081039_006_pts_v2": {
+        "V_truth_points": 22,
+        "V_matched_points": 0,
+        "V_frames_with_detection": 0,
+        "T_truth_points": 20,
+        "T_matched_points": 10,
+        "T_frames_with_detection": 10
+      }
+    },
+    "interpretation": "inside_bbox is the primary diagnostic match; unknown relations are excluded from same-source accuracy; this is not a detector re-evaluation or geographic localization accuracy.",
+    "tracking_truth_ready": true
+  },
+  "rows": [
+    {
+      "task_id": "B3_10m07_D02_pts_v2:00",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000001.jpg",
+          "truth_points": [
+            [
+              0.1996299355391444,
+              0.222222200533723,
+              "F1"
+            ],
+            [
+              0.7341694159309414,
+              0.8143274504828325,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.7359512448310852,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1288.65283203125,
+                735.3426513671875,
+                1498.696044921875,
+                948.5638427734375
+              ],
+              "source_point_image_normalized": [
+                0.7258721033732096,
+                0.8782998544198496
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.5047169923782349,
+              "track_id": "V_flame_2",
+              "bbox_xyxy_px": [
+                274.870361328125,
+                87.07681274414062,
+                452.04010009765625,
+                317.93304443359375
+              ],
+              "source_point_image_normalized": [
+                0.18929959932963053,
+                0.29438244854962387
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.3990834355354309,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                300.58203125,
+                133.303466796875,
+                428.19189453125,
+                300.8844909667969
+              ],
+              "source_point_image_normalized": [
+                0.18978487650553386,
+                0.27859675089518227
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_2",
+              "nearest_distance_norm": 0.07289593431679109,
+              "detection_count": 3
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.06450824645858523,
+              "detection_count": 3
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:01",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000018.jpg",
+          "truth_points": [
+            [
+              0.19551809338228443,
+              0.19956139347987942,
+              "F1"
+            ],
+            [
+              0.7290296132348665,
+              0.80994149682248,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.3813331723213196,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                305.42340087890625,
+                127.72267150878906,
+                427.7001037597656,
+                282.2568359375
+              ],
+              "source_point_image_normalized": [
+                0.19091757933298747,
+                0.26134892216435185
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.061958562204527334,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7684519334350398,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:02",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000034.jpg",
+          "truth_points": [
+            [
+              0.19757401446071443,
+              0.19590642280118123,
+              "F1"
+            ],
+            [
+              0.7310855343132965,
+              0.80994149682248,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6474719643592834,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1337.8424072265625,
+                743.9400634765625,
+                1508.184814453125,
+                937.0778198242188
+              ],
+              "source_point_image_normalized": [
+                0.7411529223124186,
+                0.8676646479853878
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6396773457527161,
+              "track_id": "V_flame_2",
+              "bbox_xyxy_px": [
+                286.0061340332031,
+                61.04800033569336,
+                465.99261474609375,
+                301.0474548339844
+              ],
+              "source_point_image_normalized": [
+                0.19583300749460855,
+                0.27874764336480035
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_2",
+              "nearest_distance_norm": 0.0828595132119796,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.05859449190240304,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:03",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000051.jpg",
+          "truth_points": [
+            [
+              0.19449013284306943,
+              0.19298243510413732,
+              "F1"
+            ],
+            [
+              0.7362253370093714,
+              0.8015350531073887,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6842843890190125,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1342.4842529296875,
+                739.6207275390625,
+                1496.7388916015625,
+                928.2099609375
+              ],
+              "source_point_image_normalized": [
+                0.7393810272216796,
+                0.8594536675347222
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.8158960938453674,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                257.0918884277344,
+                58.669254302978516,
+                459.95086669921875,
+                293.9559631347656
+              ],
+              "source_point_image_normalized": [
+                0.18672988414764405,
+                0.2721814473470052
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.0795782947798003,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.05800451946097114,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:04",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000067.jpg",
+          "truth_points": [
+            [
+              0.19140625122542446,
+              0.19663740578283553,
+              "F1"
+            ],
+            [
+              0.7290296132348665,
+              0.8179824211615306,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.47911369800567627,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1333.06591796875,
+                739.4600219726562,
+                1497.0540771484375,
+                926.9369506835938
+              ],
+              "source_point_image_normalized": [
+                0.7370104153951009,
+                0.8582749543366609
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.8347499966621399,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                257.53692626953125,
+                64.51998138427734,
+                449.03765869140625,
+                287.46588134765625
+              ],
+              "source_point_image_normalized": [
+                0.18400379816691081,
+                0.26617211235894095
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.06992761779088842,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.041075314153269434,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:05",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000084.jpg",
+          "truth_points": [
+            [
+              0.19243421176463946,
+              0.1856724937467409,
+              "F1"
+            ],
+            [
+              0.7351973764701564,
+              0.8033625384467379,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.525368332862854,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                261.3507385253906,
+                78.28429412841797,
+                446.64111328125,
+                291.66143798828125
+              ],
+              "source_point_image_normalized": [
+                0.184372878074646,
+                0.27005688702618635
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6492520570755005,
+              "track_id": "V_flame_5",
+              "bbox_xyxy_px": [
+                1364.10205078125,
+                831.0800170898438,
+                1454.0963134765625,
+                906.535888671875
+              ],
+              "source_point_image_normalized": [
+                0.733905824025472,
+                0.839385082103588
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.0847685727731778,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_5",
+              "nearest_distance_norm": 0.03604568988418783,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:06",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000100.jpg",
+          "truth_points": [
+            [
+              0.19243421176463946,
+              0.18749997908609,
+              "F1"
+            ],
+            [
+              0.7290296132348665,
+              0.807017509125436,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6184807419776917,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                262.0647888183594,
+                57.1879997253418,
+                457.6852111816406,
+                277.28912353515625
+              ],
+              "source_point_image_normalized": [
+                0.18743489583333334,
+                0.256749188458478
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.5408940315246582,
+              "track_id": "V_flame_5",
+              "bbox_xyxy_px": [
+                1361.76025390625,
+                833.0386352539062,
+                1451.55908203125,
+                913.305419921875
+              ],
+              "source_point_image_normalized": [
+                0.7326352437337239,
+                0.8456531665943287
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.06942943294080572,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_5",
+              "nearest_distance_norm": 0.03880353849003838,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:07",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000117.jpg",
+          "truth_points": [
+            [
+              0.19654605392149943,
+              0.19480992044348644,
+              "F1"
+            ],
+            [
+              0.7310855343132965,
+              0.8015350531073887,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6182215213775635,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                289.50787353515625,
+                113.16902923583984,
+                451.58258056640625,
+                273.897216796875
+              ],
+              "source_point_image_normalized": [
+                0.19299230575561524,
+                0.25360853407118056
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_3",
+              "nearest_distance_norm": 0.058905908791609195,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7679634059528913,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:08",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000133.jpg",
+          "truth_points": [
+            [
+              0.19346217230385446,
+              0.19298243510413732,
+              "F1"
+            ],
+            [
+              0.7310855343132965,
+              0.8143274504828325,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6584168672561646,
+              "track_id": "V_flame_6",
+              "bbox_xyxy_px": [
+                1325.7921142578125,
+                734.3381958007812,
+                1453.9718017578125,
+                829.5648803710938
+              ],
+              "source_point_image_normalized": [
+                0.723896853129069,
+                0.7681156299732349
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7823932147344344,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.046767611570185316,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:09",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000150.jpg",
+          "truth_points": [
+            [
+              0.1986019749999294,
+              0.20029237646153375,
+              "F1"
+            ],
+            [
+              0.7269736921564365,
+              0.8143274504828325,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6695753931999207,
+              "track_id": "V_flame_6",
+              "bbox_xyxy_px": [
+                1319.796875,
+                728.8402709960938,
+                1449.4969482421875,
+                827.5379638671875
+              ],
+              "source_point_image_normalized": [
+                0.7211702664693197,
+                0.766238855432581
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6978528499603271,
+              "track_id": "V_flame_8",
+              "bbox_xyxy_px": [
+                263.26007080078125,
+                80.28146362304688,
+                433.3403015136719,
+                285.4973449707031
+              ],
+              "source_point_image_normalized": [
+                0.18140634695688884,
+                0.2643493934913918
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.519428014755249,
+              "track_id": "V_flame_3",
+              "bbox_xyxy_px": [
+                295.9180908203125,
+                120.78472137451172,
+                421.0965270996094,
+                262.6253356933594
+              ],
+              "source_point_image_normalized": [
+                0.18672255674997965,
+                0.2431716071234809
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_8",
+              "nearest_distance_norm": 0.0663248901586586,
+              "detection_count": 3
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.048437513598583525,
+              "detection_count": 3
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000001.jpg",
+          "truth_points": [
+            [
+              0.2356085544116692,
+              0.7631578609810575,
+              "F1"
+            ],
+            [
+              0.8554687595583108,
+              0.3391812622520656,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.8484026789665222,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1557.64990234375,
+                196.651611328125,
+                1815.37841796875,
+                388.06573486328125
+              ],
+              "source_point_image_normalized": [
+                0.8783927917480469,
+                0.3593201248734086
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7591155991498659,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.03051368610177048,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000017.jpg",
+          "truth_points": [
+            [
+              0.8585526411759558,
+              0.3410087475914147,
+              "F1"
+            ],
+            [
+              0.2366365149508842,
+              0.7722952876778031,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6636121273040771,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1567.1064453125,
+                228.3544464111328,
+                1856.634765625,
+                415.383056640625
+              ],
+              "source_point_image_normalized": [
+                0.8915992736816406,
+                0.384613941333912
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.054712821543825674,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7610998893885185,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000033.jpg",
+          "truth_points": [
+            [
+              0.23458059387245422,
+              0.7686403169991048,
+              "F1"
+            ],
+            [
+              0.8513569174014508,
+              0.3263888648766219,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.4494001865386963,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1518.8363037109375,
+                221.8572540283203,
+                1836.397216796875,
+                435.4096374511719
+              ],
+              "source_point_image_normalized": [
+                0.8737587292989095,
+                0.403157071714048
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7362925311255961,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.07996998660324361,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000048.jpg",
+          "truth_points": [
+            [
+              0.22738487009794925,
+              0.7814327143745486,
+              "F1"
+            ],
+            [
+              0.8564967200975258,
+              0.3355262915733674,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000064.jpg",
+          "truth_points": [
+            [
+              0.22430098848030428,
+              0.7814327143745486,
+              "F1"
+            ],
+            [
+              0.8606085622543858,
+              0.3318713208946692,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.8122772574424744,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1517.5921630859375,
+                187.4930877685547,
+                1768.5325927734375,
+                419.0345764160156
+              ],
+              "source_point_image_normalized": [
+                0.8557616551717122,
+                0.38799497816297746
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.3908447325229645,
+              "track_id": "V_flame_9",
+              "bbox_xyxy_px": [
+                397.02093505859375,
+                810.0714721679688,
+                472.202392578125,
+                879.327880859375
+              ],
+              "source_point_image_normalized": [
+                0.22636024157206217,
+                0.8141924822771991
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_9",
+              "nearest_distance_norm": 0.032824425605506656,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.056332560863488194,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000080.jpg",
+          "truth_points": [
+            [
+              0.2201891463234443,
+              0.7850876850532468,
+              "F1"
+            ],
+            [
+              0.8534128384798808,
+              0.3391812622520656,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6533472537994385,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1553.31884765625,
+                210.1318817138672,
+                1824.8902587890625,
+                431.9639892578125
+              ],
+              "source_point_image_normalized": [
+                0.8797419548034668,
+                0.39996665672019677
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.4047764837741852,
+              "track_id": "V_flame_9",
+              "bbox_xyxy_px": [
+                357.3639831542969,
+                786.1641235351562,
+                496.7538757324219,
+                907.5975952148438
+              ],
+              "source_point_image_normalized": [
+                0.22242652575174968,
+                0.840368143717448
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_9",
+              "nearest_distance_norm": 0.05532571713796992,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.06624263390768244,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000096.jpg",
+          "truth_points": [
+            [
+              0.2191611857842293,
+              0.7923976264106433,
+              "F1"
+            ],
+            [
+              0.8688322465681056,
+              0.3263888648766219,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.7760819792747498,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1523.2027587890625,
+                131.76617431640625,
+                1787.125732421875,
+                396.5198974609375
+              ],
+              "source_point_image_normalized": [
+                0.8620647112528483,
+                0.3671480532045718
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.4772641062736511,
+              "track_id": "V_flame_9",
+              "bbox_xyxy_px": [
+                355.6618347167969,
+                766.6671752929688,
+                499.9888916015625,
+                919.1560668945312
+              ],
+              "source_point_image_normalized": [
+                0.22282570997873943,
+                0.8510704323097512
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_9",
+              "nearest_distance_norm": 0.05878713200732407,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.0413171994137616,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000111.jpg",
+          "truth_points": [
+            [
+              0.20682565931364938,
+              0.7923976264106433,
+              "F1"
+            ],
+            [
+              0.8647204044112458,
+              0.3300438355553201,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.5757694840431213,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1545.9278564453125,
+                83.83883666992188,
+                1812.873046875,
+                402.7749938964844
+              ],
+              "source_point_image_normalized": [
+                0.8746877352396647,
+                0.37293980916341146
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.7289019227027893,
+              "track_id": "V_flame_9",
+              "bbox_xyxy_px": [
+                303.8380432128906,
+                767.9844970703125,
+                480.42010498046875,
+                933.2579345703125
+              ],
+              "source_point_image_normalized": [
+                0.20423389275868734,
+                0.8641277171947338
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_9",
+              "nearest_distance_norm": 0.07177689863576783,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.044038758334326626,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000127.jpg",
+          "truth_points": [
+            [
+              0.22224506740187427,
+              0.7777777436958504,
+              "F1"
+            ],
+            [
+              0.8626644833328158,
+              0.32456137953727277,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.44555366039276123,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1528.3765869140625,
+                31.90683937072754,
+                1807.280517578125,
+                402.7483825683594
+              ],
+              "source_point_image_normalized": [
+                0.8686607042948405,
+                0.3729151690447772
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": 0.7627364420118099,
+              "detection_count": 1
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.04872415854133828,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000143.jpg",
+          "truth_points": [
+            [
+              0.21093750147050935,
+              0.7923976264106433,
+              "F1"
+            ],
+            [
+              0.8616365227936007,
+              0.3318713208946692,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.5992408990859985,
+              "track_id": "V_flame_7",
+              "bbox_xyxy_px": [
+                1557.2056884765625,
+                42.42002487182617,
+                1789.0560302734375,
+                389.0940246582031
+              ],
+              "source_point_image_normalized": [
+                0.8714223225911458,
+                0.36027224505389177
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            },
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.4513879418373108,
+              "track_id": "V_flame_9",
+              "bbox_xyxy_px": [
+                321.67327880859375,
+                761.1156616210938,
+                489.42059326171875,
+                933.6232299804688
+              ],
+              "source_point_image_normalized": [
+                0.21122236251831056,
+                0.8644659536856192
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_9",
+              "nearest_distance_norm": 0.0720688902511312,
+              "detection_count": 2
+            },
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_7",
+              "nearest_distance_norm": 0.030039546780461696,
+              "detection_count": 2
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000001.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000018.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000034.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000051.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000067.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000084.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000100.jpg",
+          "truth_points": [
+            [
+              0.8544407990190958,
+              0.37755845437839675,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000117.jpg",
+          "truth_points": [
+            [
+              0.8534128384798808,
+              0.35928360098490575,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000133.jpg",
+          "truth_points": [
+            [
+              0.8585526411759558,
+              0.3391812622520656,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000150.jpg",
+          "truth_points": [
+            [
+              0.8534128384798808,
+              0.33369880623401826,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.49170422554016113,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1563.95263671875,
+                242.8846435546875,
+                1734.4298095703125,
+                442.1589050292969
+              ],
+              "source_point_image_normalized": [
+                0.8589537620544434,
+                0.40940639354564523
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.07591008240416265,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000001.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "hot_background",
+      "tv_relation": "unknown",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000018.jpg",
+          "truth_points": [],
+          "detections": [],
+          "matches": [],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000034.jpg",
+          "truth_points": [
+            [
+              0.8523848779406658,
+              0.35380114496685844,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000051.jpg",
+          "truth_points": [
+            [
+              0.8595806017151707,
+              0.3501461742881602,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000067.jpg",
+          "truth_points": [
+            [
+              0.8575246806367407,
+              0.346491203609462,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000084.jpg",
+          "truth_points": [
+            [
+              0.8564967200975258,
+              0.346491203609462,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.5832422971725464,
+              "track_id": "V_flame_1",
+              "bbox_xyxy_px": [
+                1561.0999755859375,
+                246.4429931640625,
+                1730.60986328125,
+                445.6557922363281
+              ],
+              "source_point_image_normalized": [
+                0.8572161038716634,
+                0.4126442520706742
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_1",
+              "nearest_distance_norm": 0.06615695982832023,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000100.jpg",
+          "truth_points": [
+            [
+              0.8513569174014508,
+              0.35380114496685844,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.6535142064094543,
+              "track_id": "V_flame_4",
+              "bbox_xyxy_px": [
+                1552.564697265625,
+                235.00453186035156,
+                1745.411865234375,
+                450.8043518066406
+              ],
+              "source_point_image_normalized": [
+                0.8588480631510417,
+                0.4174114368580006
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_4",
+              "nearest_distance_norm": 0.06404987509057232,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000117.jpg",
+          "truth_points": [
+            [
+              0.8564967200975258,
+              0.35380114496685844,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000133.jpg",
+          "truth_points": [
+            [
+              0.8472450752445908,
+              0.3665935423423021,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "source_state": "active_fire",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000150.jpg",
+          "truth_points": [
+            [
+              0.8462171147053758,
+              0.3611110863242548,
+              "F1"
+            ]
+          ],
+          "detections": [
+            {
+              "class_id": 1,
+              "class_name": "flame",
+              "confidence": 0.7493086457252502,
+              "track_id": "V_flame_4",
+              "bbox_xyxy_px": [
+                1574.8004150390625,
+                255.0482177734375,
+                1820.009033203125,
+                450.800048828125
+              ],
+              "source_point_image_normalized": [
+                0.8840649604797364,
+                0.41740745261863427
+              ],
+              "source_point_method": "flame_bbox_bottom_midpoint_candidate",
+              "absolute_coordinate": null,
+              "absolute_coordinate_unavailable_reason": "Matrice 4T calibration and verified ground correspondence missing"
+            }
+          ],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": true,
+              "track_id": "V_flame_4",
+              "nearest_distance_norm": 0.06783612818926747,
+              "detection_count": 1
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000001.jpg",
+          "truth_points": [
+            [
+              0.2201891463234443,
+              0.7796052290351995,
+              "F1"
+            ],
+            [
+              0.8636924438720307,
+              0.3373537769127165,
+              "F1"
+            ],
+            [
+              0.7865954034309062,
+              0.1856724937467409,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000018.jpg",
+          "truth_points": [
+            [
+              0.22327302794108927,
+              0.7741227730171522,
+              "F1"
+            ],
+            [
+              0.8688322465681056,
+              0.36842102768165125,
+              "F1"
+            ],
+            [
+              0.7865954034309062,
+              0.1783625523893445,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000034.jpg",
+          "truth_points": [
+            [
+              0.2201891463234443,
+              0.7777777436958504,
+              "F1"
+            ],
+            [
+              0.8636924438720307,
+              0.3373537769127165,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000051.jpg",
+          "truth_points": [
+            [
+              0.2212171068626593,
+              0.7814327143745486,
+              "F1"
+            ],
+            [
+              0.8575246806367407,
+              0.346491203609462,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000067.jpg",
+          "truth_points": [
+            [
+              0.2171052647057993,
+              0.786915170392596,
+              "F1"
+            ],
+            [
+              0.8606085622543858,
+              0.34831868894881113,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000084.jpg",
+          "truth_points": [
+            [
+              0.2191611857842293,
+              0.7832601997138977,
+              "F1"
+            ],
+            [
+              0.8575246806367407,
+              0.3391812622520656,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000100.jpg",
+          "truth_points": [
+            [
+              0.2191611857842293,
+              0.788742655731945,
+              "F1"
+            ],
+            [
+              0.8688322465681056,
+              0.3519736596275093,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000117.jpg",
+          "truth_points": [
+            [
+              0.2191611857842293,
+              0.786915170392596,
+              "F1"
+            ],
+            [
+              0.8606085622543858,
+              0.3355262915733674,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000133.jpg",
+          "truth_points": [
+            [
+              0.2212171068626593,
+              0.7923976264106433,
+              "F1"
+            ],
+            [
+              0.8564967200975258,
+              0.3373537769127165,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "source_state": "residual_heat",
+      "tv_relation": "same_source",
+      "frame_status": "usable",
+      "sensors": {
+        "V": {
+          "frame_file": "000150.jpg",
+          "truth_points": [
+            [
+              0.22738487009794925,
+              0.7832601997138977,
+              "F1"
+            ],
+            [
+              0.8359375093132259,
+              0.31359646750117814,
+              "F1"
+            ]
+          ],
+          "detections": [],
+          "matches": [
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            },
+            {
+              "fire_id": "F1",
+              "matched": false,
+              "track_id": null,
+              "nearest_distance_norm": null,
+              "detection_count": 0
+            }
+          ],
+          "false_positive_no_truth": false
+        }
+      }
+    }
+  ]
+}

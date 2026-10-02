@@ -1,0 +1,13 @@
+site,batch,held_out_uav,camera_mode,zoom,support_uav_count,pixel_error,normalized_diagonal_error,in_image,silver_anchor_grade,reason
+B1_F1,B1,无人机02,V_zoom,2.25,2,498.47896186163877,0.22628232756762787,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B1_F1,B1,无人机08,V_zoom,2.23,2,165.37683354741498,0.07507208464950281,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B1_F1,B1,无人机09,V_zoom,2.27,2,158.26175122306574,0.07184222438985173,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B2_F1,B2,无人机01,V_zoom,2.23,2,2544.15245504359,1.1549067929850823,False,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B2_F1,B2,无人机06,V_zoom,2.2,2,869.6854044091127,0.3947898559777361,False,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B2_F1,B2,无人机07,V_zoom,2.25,2,759.5292671852436,0.34478496302541356,False,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_N,B3,无人机02,V_zoom,2.21,2,92.61138587864706,0.04204053041199516,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_N,B3,无人机04,V_zoom,2.24,2,107.53247153910385,0.048813891479179555,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_N,B3,无人机09,V_zoom,2.28,2,23.969029797018976,0.01088063542692247,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_S,B3,无人机02,V_zoom,2.21,2,91.49685515347434,0.04153459410187317,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_S,B3,无人机04,V_zoom,2.24,2,95.63102096080175,0.0434112804477499,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade
+B3_S,B3,无人机09,V_zoom,2.28,2,59.4899541686642,0.027005202478160583,True,unverified_reject,Gold bias and cross-batch projection error preclude a calibrated silver grade

@@ -1,0 +1,15 @@
+{
+  "frames_reviewed": 298,
+  "V_frames": 149,
+  "T_frames": 149,
+  "physical_site_rows": 448,
+  "manual_flame_base_points": 42,
+  "manual_ground_contact_points": 0,
+  "point_moments": [
+    "B1_M03",
+    "B2_M03",
+    "B3_M02",
+    "B4_M02"
+  ],
+  "single_reviewer_first_pass": true
+}

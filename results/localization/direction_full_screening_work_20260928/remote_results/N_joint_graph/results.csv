@@ -1,0 +1,5 @@
+direction,experiment,dataset,split,method,metric,value,ground_truth_type,notes
+N,candidate_inventory,B1-B3,event_train B1/B2; event_dev B3,unreviewed_VT_pairs,candidate_count,2401,unreviewed candidates,Candidate does not mean same-source truth
+N,candidate_inventory,B1-B3,event grouping,unreviewed_VT_pairs,group_count,42,manifest grouping,"sessions=26; batches={'B1': 709, 'B2': 966, 'B3': 726}"
+N,truth_intersection,B3+B4,manual review,source_review,reviewed_clip_count,5,manual image points,Not simultaneous multi-UAV source graphs
+N,truth_intersection,B3,one three-UAV snapshot,confirmed_same_source,confirmed_assignment_instant_count,1,manual source identity,Eight assignments share this instant

@@ -1,0 +1,9 @@
+{
+  "direction": "M_small_smoke",
+  "title": "Small-smoke headroom",
+  "description": "Recomputes historical area-stratified recall while retaining the event-split limitation.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

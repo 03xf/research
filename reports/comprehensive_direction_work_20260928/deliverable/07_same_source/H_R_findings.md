@@ -1,0 +1,3 @@
+# H/R — same-source identity and relative geometry
+
+B3 provides one three-UAV, two-source instant with manually supplied source IDs. Held-out two-UAV support classifies 6/6 manual marks correctly in that instant; the correct/incorrect ray residual separation is useful but post hoc and not an event-generalization result. B4 old and new views show more than one burn location, but no independent cross-UAV physical identity or coordinate mapping. Its conditional classifications remain provisional. Relative source topology may be less sensitive to global GPS bias than absolute geolocation, but currently has one confirmed event and no independent multi-event layout test. The 20 contact sheets can support annotation, but no source identities have been silently assigned.

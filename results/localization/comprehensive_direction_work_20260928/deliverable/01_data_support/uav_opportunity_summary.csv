@@ -1,0 +1,5 @@
+batch,video_30s_windows,windows_ge2_distinct_VT_UAV,windows_ge3_distinct_VT_UAV,windows_ge4_distinct_VT_UAV,windows_ge5_distinct_VT_UAV,windows_ge6_distinct_VT_UAV,windows_ge7_distinct_VT_UAV,windows_ge8_distinct_VT_UAV,windows_ge9_distinct_VT_UAV,verified_manual_source_instants,verified_source_uav_count_max,exact_LRF_linked_video_moments,truth_level,note
+B1,37,33,30,30,30,30,30,0,0,1,3,1,Candidate opportunity counts; Manual/Gold only at separately audited seed instants,Opportunity does not imply source is visible or same physical source.
+B2,37,34,33,33,33,33,33,33,32,1,3,0,Candidate opportunity counts; Manual/Gold only at separately audited seed instants,Opportunity does not imply source is visible or same physical source.
+B3,32,29,29,29,28,28,25,12,0,1,3,2,Candidate opportunity counts; Manual/Gold only at separately audited seed instants,Opportunity does not imply source is visible or same physical source.
+B4,37,33,32,30,29,28,28,28,28,0,0,0,Candidate opportunity counts; Manual/Gold only at separately audited seed instants,Opportunity does not imply source is visible or same physical source.

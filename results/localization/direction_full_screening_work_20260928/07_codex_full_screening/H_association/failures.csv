@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+B3_sample_size,All eight combinations reuse one B3 instant and three UAVs,b3_association_legacy_vs_corrected.json,Association generalization remains untested
+B4_truth,B4 color components are not independently verified physical-source labels,B4_fireseg_components.json,"B4 separation is feasibility only, not accuracy"

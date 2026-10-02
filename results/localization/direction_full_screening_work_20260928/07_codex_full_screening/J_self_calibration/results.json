@@ -1,0 +1,220 @@
+{
+  "direction": "J_self_calibration",
+  "generated_utc": "2026-09-28T07:01:30.181720+00:00",
+  "metrics": [
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B1",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_cameras",
+      "value": 5,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B1",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_images",
+      "value": 32,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B1",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "reprojection_error_px",
+      "value": 0.65499,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B2",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_cameras",
+      "value": 5,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B2",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_images",
+      "value": 35,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B2",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "reprojection_error_px",
+      "value": 0.807036,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B3",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_cameras",
+      "value": 7,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B3",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_images",
+      "value": 46,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B3",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "reprojection_error_px",
+      "value": 0.701271,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B4",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_cameras",
+      "value": 5,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B4",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "registered_images",
+      "value": 31,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "cross_UAV_background_graph",
+      "dataset": "B4",
+      "split": "multi-time static background",
+      "method": "COLMAP_unconstrained",
+      "metric": "reprojection_error_px",
+      "value": 0.766855,
+      "ground_truth_type": "internal SfM geometry",
+      "notes": "Original reconstruction, not re-run"
+    },
+    {
+      "direction": "J",
+      "experiment": "absolute_geolocation_check",
+      "dataset": "B4_F1",
+      "split": "independent LRF",
+      "method": "free_SfM_Sim3",
+      "metric": "horizontal_error_m",
+      "value": 14.186414544481417,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "One target; same manual point"
+    },
+    {
+      "direction": "J",
+      "experiment": "absolute_geolocation_check",
+      "dataset": "B4_F1",
+      "split": "independent LRF",
+      "method": "nominal",
+      "metric": "horizontal_error_m",
+      "value": 0.10865975734565182,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "One target; same manual point"
+    }
+  ],
+  "details": {
+    "graphs": {
+      "B1": {
+        "cameras": 5,
+        "images": 32,
+        "reproj_px": 0.65499
+      },
+      "B2": {
+        "cameras": 5,
+        "images": 35,
+        "reproj_px": 0.807036
+      },
+      "B3": {
+        "cameras": 7,
+        "images": 46,
+        "reproj_px": 0.701271
+      },
+      "B4": {
+        "cameras": 5,
+        "images": 31,
+        "reproj_px": 0.766855
+      }
+    },
+    "B4": {
+      "camera_alignment_h_errors_m": [
+        9.39533065252044,
+        2.887336666466333,
+        5.565428057458144,
+        12.53456365261226,
+        6.651662160602741,
+        5.091379443228847,
+        3.0918602069392596,
+        1.8355526043104113,
+        2.9486991214033953
+      ],
+      "lrf_spread_m": [
+        0.32978960788466277,
+        0.2839991608695822,
+        0.6936460760892704,
+        0.45525975062864743,
+        0.19484861167968645,
+        0.6113486902186593,
+        0.3943644662536196,
+        0.30450018142951585,
+        0.3403450793569445
+      ],
+      "nominal": {
+        "horizontal_error_m": 0.10865975734565182,
+        "median_ray_residual_m": 0.41681306211954583,
+        "max_ray_residual_m": 0.531090907969459,
+        "condition": 4.349112845616214
+      },
+      "sfm_gps": {
+        "horizontal_error_m": 14.186414544481417,
+        "median_ray_residual_m": 0.19894309190667445,
+        "max_ray_residual_m": 0.2808785451610907,
+        "condition": 3.6808295712842334
+      }
+    }
+  }
+}

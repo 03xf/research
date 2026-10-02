@@ -1,0 +1,3 @@
+# Failure cases
+
+The decisive failure is B3 north: C0 LOUO subsets agree within 0.813 m of their median while all lie 12.537-13.872 m from accepted LRF. C1 background visual calibration still has 11.535 m full error with LOUO shifts below 0.5 m. Thus multi-UAV agreement can preserve a shared systematic bias. B2 prefire pile has a 10.959 m LOUO subset error. C4 B3 north yields 0.187 m median ray residual but 12.328 m Gold error. B1/B2 nominal held-out projection errors range from 158 to 2544 px; B2 predictions all leave the image. B4 source identities and temporal tracks remain unverified. See failure_cases.csv for machine-readable cases.

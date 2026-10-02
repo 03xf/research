@@ -1,0 +1,1240 @@
+{
+  "schema_version": "dji_source_truth_review_queue_v1",
+  "created_utc": "2026-09-25T06:40:09.302384+00:00",
+  "sampling": {
+    "per_clip": 10,
+    "rule": "evenly spaced decoded PTS pairs from existing 5 Hz clips"
+  },
+  "clips": [
+    {
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "manifest": "@recovery/video_clips/B3_10m07_D02_pts_v2/manifest.json",
+      "manifest_sha256": "6b852c79bdfc783c00db8c5f9f7aa8a5ea2e2103a90be0dc39c5061e0c61de89",
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      },
+      "pair_count": 150,
+      "selected_count": 10
+    },
+    {
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "manifest": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/manifest.json",
+      "manifest_sha256": "61fdd5bb3b45c9aefcd72426a1e998ee23aa18f1a7f54f13fea063f43e1c9e27",
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      },
+      "pair_count": 143,
+      "selected_count": 10
+    },
+    {
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "manifest": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/manifest.json",
+      "manifest_sha256": "c38ac93d33bdc43f139d37b04cd35ea19bdf39926dbe9ac702a33050ed32335b",
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      },
+      "pair_count": 150,
+      "selected_count": 10
+    },
+    {
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "manifest": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/manifest.json",
+      "manifest_sha256": "f842ebeb941d0250e0a6b3ba29fba49b79eec8e4ebfdffc4a13857cea092bd71",
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      },
+      "pair_count": 150,
+      "selected_count": 10
+    },
+    {
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "manifest": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/manifest.json",
+      "manifest_sha256": "fe8698acd7cf35240349b80af0ca888dba6b5ffee0a003fdd76fbca899ee70bb",
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      },
+      "pair_count": 150,
+      "selected_count": 10
+    }
+  ],
+  "task_count": 50,
+  "tasks": [
+    {
+      "task_id": "B3_10m07_D02_pts_v2:00",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 0,
+      "pair_index": 0,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000001.jpg",
+      "visible_pts_s": 53.0196,
+      "delta_s": 0.019599999999996953,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:01",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 1,
+      "pair_index": 17,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000018.jpg",
+      "visible_pts_s": 56.423,
+      "delta_s": 0.02300000000000324,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:02",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 2,
+      "pair_index": 33,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000034.jpg",
+      "visible_pts_s": 59.6262,
+      "delta_s": 0.026199999999995782,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:03",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 3,
+      "pair_index": 50,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000051.jpg",
+      "visible_pts_s": 63.0296,
+      "delta_s": 0.02960000000000207,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:04",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 4,
+      "pair_index": 66,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000067.jpg",
+      "visible_pts_s": 66.2328,
+      "delta_s": 0.03279999999999461,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:05",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 5,
+      "pair_index": 83,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000084.jpg",
+      "visible_pts_s": 69.6362,
+      "delta_s": 0.036200000000008004,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:06",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 6,
+      "pair_index": 99,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000100.jpg",
+      "visible_pts_s": 72.8394,
+      "delta_s": 0.039400000000000546,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:07",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 7,
+      "pair_index": 116,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000117.jpg",
+      "visible_pts_s": 76.2428,
+      "delta_s": 0.04279999999999973,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:08",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 8,
+      "pair_index": 132,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000133.jpg",
+      "visible_pts_s": 79.446,
+      "delta_s": 0.04599999999999227,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "B3_10m07_D02_pts_v2:09",
+      "clip_id": "B3_10m07_D02_pts_v2",
+      "ordinal": 9,
+      "pair_index": 149,
+      "visible_frame": "@recovery/video_clips/B3_10m07_D02_pts_v2/V/000150.jpg",
+      "visible_pts_s": 82.8494,
+      "delta_s": 0.04940000000000566,
+      "source": {
+        "batch_id": "B3",
+        "session_id": "DJI_202609080957_005",
+        "video_group": "DJI_20260908100606_0001",
+        "visible_video": "@raw/03_第三批_20260908_1006_多火点/01_正式视频/无人机02_1581F7K3C267500D2DQD/DJI_202609080957_005/DJI_20260908100606_0001_V.MP4",
+        "start_s": 53.0,
+        "duration_s": 30.0
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 0,
+      "pair_index": 0,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000001.jpg",
+      "visible_pts_s": 55.0216,
+      "delta_s": 0.021599999999999397,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 1,
+      "pair_index": 16,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000017.jpg",
+      "visible_pts_s": 58.2248,
+      "delta_s": 0.024799999999999045,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 2,
+      "pair_index": 32,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000033.jpg",
+      "visible_pts_s": 61.428,
+      "delta_s": 0.027999999999998693,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 3,
+      "pair_index": 47,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000048.jpg",
+      "visible_pts_s": 64.431,
+      "delta_s": 0.0309999999999917,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 4,
+      "pair_index": 63,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000064.jpg",
+      "visible_pts_s": 67.6342,
+      "delta_s": 0.034200000000012665,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 5,
+      "pair_index": 79,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000080.jpg",
+      "visible_pts_s": 70.8374,
+      "delta_s": 0.03740000000000521,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 6,
+      "pair_index": 95,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000096.jpg",
+      "visible_pts_s": 74.0406,
+      "delta_s": 0.04059999999999775,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 7,
+      "pair_index": 110,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000111.jpg",
+      "visible_pts_s": 77.0436,
+      "delta_s": 0.04359999999999786,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 8,
+      "pair_index": 126,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000127.jpg",
+      "visible_pts_s": 80.2468,
+      "delta_s": 0.046799999999990405,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "multiple_boxes_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 9,
+      "pair_index": 142,
+      "visible_frame": "@recovery/video_clips/multiple_boxes_0_DJI_202609081039_006_pts_v2/V/000143.jpg",
+      "visible_pts_s": 83.45,
+      "delta_s": 0.04999999999999716,
+      "source": {
+        "phase_candidate": "multiple_boxes",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 70.0,
+        "start_s": 55.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 2,
+            "smoke": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 0,
+      "pair_index": 0,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000001.jpg",
+      "visible_pts_s": 0.0,
+      "delta_s": 0.0,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 1,
+      "pair_index": 17,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000018.jpg",
+      "visible_pts_s": 3.4034,
+      "delta_s": 0.0034000000000000696,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 2,
+      "pair_index": 33,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000034.jpg",
+      "visible_pts_s": 6.6066,
+      "delta_s": 0.006600000000000605,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 3,
+      "pair_index": 50,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000051.jpg",
+      "visible_pts_s": 10.01,
+      "delta_s": 0.009999999999999787,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 4,
+      "pair_index": 66,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000067.jpg",
+      "visible_pts_s": 13.2132,
+      "delta_s": 0.01320000000000121,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 5,
+      "pair_index": 83,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000084.jpg",
+      "visible_pts_s": 16.6166,
+      "delta_s": 0.01659999999999684,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 6,
+      "pair_index": 99,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000100.jpg",
+      "visible_pts_s": 19.8198,
+      "delta_s": 0.01980000000000004,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 7,
+      "pair_index": 116,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000117.jpg",
+      "visible_pts_s": 23.2232,
+      "delta_s": 0.02319999999999922,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 8,
+      "pair_index": 132,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000133.jpg",
+      "visible_pts_s": 26.4264,
+      "delta_s": 0.02640000000000242,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "paired_negative_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "paired_negative_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 9,
+      "pair_index": 149,
+      "visible_frame": "@recovery/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2/V/000150.jpg",
+      "visible_pts_s": 29.8298,
+      "delta_s": 0.02979999999999805,
+      "source": {
+        "phase_candidate": "paired_negative",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 0.0,
+        "start_s": 0.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {}
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 0,
+      "pair_index": 0,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000001.jpg",
+      "visible_pts_s": 15.015,
+      "delta_s": 0.015000000000000568,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 1,
+      "pair_index": 17,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000018.jpg",
+      "visible_pts_s": 18.4184,
+      "delta_s": 0.01839999999999975,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 2,
+      "pair_index": 33,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000034.jpg",
+      "visible_pts_s": 21.6216,
+      "delta_s": 0.021599999999999397,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 3,
+      "pair_index": 50,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000051.jpg",
+      "visible_pts_s": 25.025,
+      "delta_s": 0.02499999999999858,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 4,
+      "pair_index": 66,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000067.jpg",
+      "visible_pts_s": 28.2282,
+      "delta_s": 0.02820000000000178,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 5,
+      "pair_index": 83,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000084.jpg",
+      "visible_pts_s": 31.6316,
+      "delta_s": 0.03159999999999741,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 6,
+      "pair_index": 99,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000100.jpg",
+      "visible_pts_s": 34.8348,
+      "delta_s": 0.03480000000000416,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 7,
+      "pair_index": 116,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000117.jpg",
+      "visible_pts_s": 38.2382,
+      "delta_s": 0.03819999999999624,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 8,
+      "pair_index": 132,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000133.jpg",
+      "visible_pts_s": 41.4414,
+      "delta_s": 0.04140000000000299,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_flame_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_flame_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 9,
+      "pair_index": 149,
+      "visible_frame": "@recovery/video_clips/visible_flame_0_DJI_202609081039_006_pts_v2/V/000150.jpg",
+      "visible_pts_s": 44.8448,
+      "delta_s": 0.04480000000000217,
+      "source": {
+        "phase_candidate": "visible_flame",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 30.0,
+        "start_s": 15.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "flame": 1
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:00",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 0,
+      "pair_index": 0,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000001.jpg",
+      "visible_pts_s": 535.001,
+      "delta_s": 0.0009999999999763531,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:01",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 1,
+      "pair_index": 17,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000018.jpg",
+      "visible_pts_s": 538.405,
+      "delta_s": 0.0049999999999954525,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:02",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 2,
+      "pair_index": 33,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000034.jpg",
+      "visible_pts_s": 541.608,
+      "delta_s": 0.007999999999924512,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:03",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 3,
+      "pair_index": 50,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000051.jpg",
+      "visible_pts_s": 545.011,
+      "delta_s": 0.010999999999967258,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:04",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 4,
+      "pair_index": 66,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000067.jpg",
+      "visible_pts_s": 548.214,
+      "delta_s": 0.014000000000010004,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:05",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 5,
+      "pair_index": 83,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000084.jpg",
+      "visible_pts_s": 551.618,
+      "delta_s": 0.018000000000029104,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:06",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 6,
+      "pair_index": 99,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000100.jpg",
+      "visible_pts_s": 554.821,
+      "delta_s": 0.02100000000007185,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:07",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 7,
+      "pair_index": 116,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000117.jpg",
+      "visible_pts_s": 558.224,
+      "delta_s": 0.02400000000000091,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:08",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 8,
+      "pair_index": 132,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000133.jpg",
+      "visible_pts_s": 561.428,
+      "delta_s": 0.02800000000002001,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    },
+    {
+      "task_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2:09",
+      "clip_id": "visible_smoke_only_0_DJI_202609081039_006_pts_v2",
+      "ordinal": 9,
+      "pair_index": 149,
+      "visible_frame": "@recovery/video_clips/visible_smoke_only_0_DJI_202609081039_006_pts_v2/V/000150.jpg",
+      "visible_pts_s": 564.831,
+      "delta_s": 0.031000000000062755,
+      "source": {
+        "phase_candidate": "visible_smoke_only",
+        "batch_id": "B4",
+        "session_id": "DJI_202609081039_006",
+        "video_group": "DJI_20260908105258_0002",
+        "anchor_timestamp_s": 550.0,
+        "start_s": 535.0,
+        "duration_s": 30.0,
+        "visible_video": "@raw/04_第四批_20260908_1053_多火点与余热点/01_正式视频/无人机09_1581F7K3C24CS00AX535/DJI_202609081039_006/DJI_20260908105258_0002_V.MP4",
+        "evidence": {
+          "V": {
+            "smoke": 2
+          }
+        }
+      }
+    }
+  ],
+  "annotation_schema": {
+    "V": "zero or more [x_norm,y_norm,fire_id] source contact points",
+    "tv_relation": "same_source | different_source | unknown",
+    "frame_status": "usable | unknown"
+  }
+}

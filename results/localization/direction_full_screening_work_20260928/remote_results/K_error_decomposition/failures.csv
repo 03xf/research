@@ -1,0 +1,4 @@
+case,reason,evidence,impact
+automatic_point_manual_assoc_calibrated,missing same-case auto points,existing snapshot inventory,Cannot assign this pipeline error contribution
+manual_point_automatic_assoc_calibrated,missing multi-site automatic identity predictions,existing snapshot inventory,Cannot assign this pipeline error contribution
+all_automatic,missing complete output and independent LRF matching,existing snapshot inventory,Cannot assign this pipeline error contribution

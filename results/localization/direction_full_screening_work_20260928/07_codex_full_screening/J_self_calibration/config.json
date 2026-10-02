@@ -1,0 +1,9 @@
+{
+  "direction": "J_self_calibration",
+  "title": "Background self-calibration",
+  "description": "Checks SfM graph connectivity/reprojection against the B4 absolute-reference counterexample.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "dji_recovery_provisional_tracking_v1",
+  "created_utc": "2026-09-24T19:59:07.814229+00:00",
+  "source_clip": "results/dji_adaptation/b4_trial_v7/recovery_v1/video_clips/paired_negative_0_DJI_202609081039_006_pts_v2",
+  "source_clip_manifest_sha256": "c38ac93d33bdc43f139d37b04cd35ea19bdf39926dbe9ac702a33050ed32335b",
+  "method": "per-sensor per-class Ultralytics ByteTrack; persistent state across decoded frames",
+  "time_pairing": "source clip PTS pairs; same physical target unverified",
+  "weights": {
+    "V": {
+      "path": "results/dji_adaptation/b4_trial_v7/recovery_v1/runs/E2_V_960_s0/weights/best.pt",
+      "sha256": "16d161e21eb7d4dd0b12624d2bf8f6adcb8f115725ff5a3273f1181ca3006ff6"
+    }
+  },
+  "development_evaluations": {
+    "V": "results/dji_adaptation/b4_trial_v7/recovery_v1/evaluations/E2_V_960_s0/result.json"
+  },
+  "summaries": {
+    "V": {
+      "sensor": "V",
+      "frames": 150,
+      "tracks": 0,
+      "tracked_detections": 0,
+      "untracked_detections": {
+        "flame": 12
+      },
+      "tracks_with_multiple_frames": 0,
+      "classes": {
+        "flame": 12
+      },
+      "identity_switches": null,
+      "identity_switches_unavailable_reason": "no human track identity ground truth",
+      "source_point_pixel_error": null,
+      "source_point_pixel_error_unavailable_reason": "no human ground burning source point ground truth"
+    }
+  },
+  "environment": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.29",
+    "torch": "2.4.1+cu121",
+    "ultralytics": "8.2.50"
+  },
+  "absolute_visual_localization": "unavailable"
+}

@@ -1,0 +1,9 @@
+{
+  "direction": "E_fire_state",
+  "title": "Fire-state label feasibility",
+  "description": "Measures label support across clips and detection triggers for active fire, residual heat, and hot background.",
+  "input_snapshot": "../input_snapshot",
+  "source_data_policy": "read_only",
+  "unit_of_generalization": "event/session, never adjacent frames",
+  "independent_reference_policy": "LRF used for evaluation only; validity and target matching respected"
+}

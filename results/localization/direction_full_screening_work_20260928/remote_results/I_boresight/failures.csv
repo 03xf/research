@@ -1,0 +1,3 @@
+case,reason,evidence,impact
+optical_axis_truth,"LRF target bearing tests gimbal/laser pointing, not image boresight",lrf_boresight_probe.json,Cannot claim calibrated RGB/T optical axes
+independent_site,Wide and Zoom modes occur at different fire sites,lrf_boresight_probe.json batch/channel,Mode effect is confounded with site and drone

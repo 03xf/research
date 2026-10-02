@@ -1,0 +1,3 @@
+# L/M — smoke detection and early smoke
+
+The old target validation and test folders contain the same 45/45 images; each has 10/45 overlap with target train, and all 3,150 Detection/train images reappear in target train. Those reported scores are invalid for domain-generalization claims. After rebuilding event/scene splits, the old tiny-vs-small recall gap (0.818 vs 0.915; 44 vs 141 boxes at confidence .25) is still only a descriptive size result. No independent ignition/onset timestamp supports “early smoke”. Both local theses already cover smoke detection/domain adaptation and smoke-source/SLAM directions. Do not prioritize L/M absent a genuinely new independent dataset/story.

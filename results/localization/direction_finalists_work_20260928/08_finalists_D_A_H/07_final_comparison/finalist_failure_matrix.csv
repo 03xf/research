@@ -1,0 +1,4 @@
+candidate,blocking_failure,status,next_existing_data_test
+D,No second independent hot-background; no validated state gate; no same-case T localization,stop_as_paper_claim,find B1/B2 nonfire thermal event and synchronize multi-UAV T source points
+A,Only B3/B4 matched source points; N downstream A3 worse than center; S unavailable,defer,ground-contact point labels on B1/B2 plus 2-view LRF-linked same-case
+H,B4 cross-UAV physical IDs unverified; only one B3 instant,defer,independent landmark-based B4 cross-UAV identity review

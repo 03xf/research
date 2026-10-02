@@ -1,0 +1,332 @@
+[
+  {
+    "relative_path": "04_geolocation/B1_pair_ablation.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/B1_pair_ablation.json",
+    "bytes": 909,
+    "sha256": "9e494328840b5e167a3baba7448c7a72ceb4349fa429c78d7f342c51c1fe0d16"
+  },
+  {
+    "relative_path": "04_geolocation/B2_pair_ablation.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/B2_pair_ablation.json",
+    "bytes": 917,
+    "sha256": "44e912f460ceb636e4693604b6397dfe7f91099675019a90aa0ac2bc67c0daf5"
+  },
+  {
+    "relative_path": "04_geolocation/b3_association_legacy_vs_corrected.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_association_legacy_vs_corrected.json",
+    "bytes": 3015,
+    "sha256": "daf7cef227ed3a8191ce5c629984974ac52f2f1045290b521241eaa0c8f18b11"
+  },
+  {
+    "relative_path": "04_geolocation/b3_association_noise_mc.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_association_noise_mc.json",
+    "bytes": 1890,
+    "sha256": "456a08b724a79408a55d238efce1ae14f0646324093add7b03b67f513e233065"
+  },
+  {
+    "relative_path": "04_geolocation/b3_geometry_ablation.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_geometry_ablation.json",
+    "bytes": 957,
+    "sha256": "876d7de31a4a287f4947c231acbb63998cf34ae7554c1b8723906720eba3d638"
+  },
+  {
+    "relative_path": "04_geolocation/b3_nominal_vs_sfm_geolocation.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_nominal_vs_sfm_geolocation.json",
+    "bytes": 2357,
+    "sha256": "97f01285a54cfad67eab6a30579f164974e144b3fd2445ed0ec9a2cab254331a"
+  },
+  {
+    "relative_path": "04_geolocation/b3_orientation_anchored_sfm.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_orientation_anchored_sfm.json",
+    "bytes": 601,
+    "sha256": "01206e1c4d81cb0afe720719945e0f52d9a0a1c5d9734cc7ba8924a5b0bae3f2"
+  },
+  {
+    "relative_path": "04_geolocation/b3_source_association_geometry.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/b3_source_association_geometry.json",
+    "bytes": 1786,
+    "sha256": "f81138c30b8001c1a52d4b495d245040349ac37c5bf5666e99b972b9fe5a306e"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_nominal_vs_sfm.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_nominal_vs_sfm.json",
+    "bytes": 889,
+    "sha256": "45a4daf3b504392febccf995030012bcf33b210d7e26aa4b1779e6fed0fc23bd"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_orientation_anchored_sfm.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_orientation_anchored_sfm.json",
+    "bytes": 372,
+    "sha256": "72d91b15fc6d641ca8635ceae3b78498b78c8217923d1fa69e72cc6ff428a44b"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/database.db",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/database.db",
+    "bytes": 16244736,
+    "sha256": "13aa9616879ba631f551f324aafed35bfeaa6af4ba10697df32c2f8a8af92800"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/feature.log",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/feature.log",
+    "bytes": 2558,
+    "sha256": "6acb7dedb81a9d368f2cfafb30040bd847ea3ad49a933f154debc70aeec6d0f7"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/00_1_DJI_202609081117_006_0001.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/00_1_DJI_202609081117_006_0001.jpg",
+    "bytes": 3612672,
+    "sha256": "d21a44f74a03337a29d1b0529872e3f356fbbfe665b2a86339021135a5bfdc65"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/01_1_DJI_202609081117_006_0002.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/01_1_DJI_202609081117_006_0002.jpg",
+    "bytes": 3620864,
+    "sha256": "84e737e49fa36343669208d7fd06d66ad57d81e00dec9629c075dddf916a610b"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/02_1_DJI_202609081117_006_0003.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/02_1_DJI_202609081117_006_0003.jpg",
+    "bytes": 3657728,
+    "sha256": "56ab0f6f941f1dad81bd790156421d756a6f545e6b33ca0783b2908a5cf7fc52"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/03_1_DJI_202609081117_006_0004.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/03_1_DJI_202609081117_006_0004.jpg",
+    "bytes": 3497984,
+    "sha256": "0ad8e41f9d0a8f1e0b81a5f0744eb408b57e2518b625c5f4968bed0fcf941a50"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/04_1_DJI_202609081117_006_0005.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/04_1_DJI_202609081117_006_0005.jpg",
+    "bytes": 4661248,
+    "sha256": "44a6d663451f341c1f9e4ce48e6b38e0babace76383c00c7a49efe261ad7ffff"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/05_1_DJI_202609081117_006_0006.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/05_1_DJI_202609081117_006_0006.jpg",
+    "bytes": 6328320,
+    "sha256": "ffde9abbbf8623a4c4f4e73a02cf28209135fe6c214cef0e22e4a8e8af9059b1"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/06_1_DJI_202609081117_006_0007.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/06_1_DJI_202609081117_006_0007.jpg",
+    "bytes": 6451200,
+    "sha256": "c2847a09665c8581307dc3c33fbc69eb0b6d890311fb2a85f918044bd51a786a"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/07_1_DJI_202609081117_006_0008.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/07_1_DJI_202609081117_006_0008.jpg",
+    "bytes": 6455296,
+    "sha256": "f674bca913385a5578e5c3647f368c8596c930a90d9a895cd150dafe36da609f"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/images/08_1_DJI_202609081117_006_0009.jpg",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/images/08_1_DJI_202609081117_006_0009.jpg",
+    "bytes": 6389760,
+    "sha256": "4133361cf3824986d57f0196f5d959fb5a451d364c6360803372432beda64610"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/mapper.log",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/mapper.log",
+    "bytes": 197395,
+    "sha256": "5b8046b072336d74f1d94b67333dbb6e309ec2ad0de28042d5eb2c6f4baa2b71"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/match.log",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/match.log",
+    "bytes": 254,
+    "sha256": "7151dbe47d7aa6ab37231b7766eb789858a0ec35ecdf979974446b07ce254b56"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/meta.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/meta.json",
+    "bytes": 3749,
+    "sha256": "bde63be32cfc257d5b6d00dd5b82dd0e27fbc872e03e97eec3da4580ba169d04"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/sparse/0/cameras.bin",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/sparse/0/cameras.bin",
+    "bytes": 64,
+    "sha256": "b8b54466586a0ccb782ab435abe7a61bb5f321aa7182a557e46e3bbb852a3dd6"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/sparse/0/images.bin",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/sparse/0/images.bin",
+    "bytes": 2518883,
+    "sha256": "ce3b7352ae5e5a393c4aba59a4dc6bc511b483105a751772d528ab7e5e5e87d6"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/sparse/0/points3D.bin",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/sparse/0/points3D.bin",
+    "bytes": 50891,
+    "sha256": "fa9b9439744dae648e711033c95b57472a7e4d41bd0724486db533b662a62f3c"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_B4_sfm/sparse/0/project.ini",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_B4_sfm/sparse/0/project.ini",
+    "bytes": 1807,
+    "sha256": "1445130c6c9f8c42f495a55df59642f6988c08ba48b1f873c9da4986339c832a"
+  },
+  {
+    "relative_path": "04_geolocation/lrf_boresight_probe.json",
+    "source": "@project/results/direction_research_20260928/04_geolocation/lrf_boresight_probe.json",
+    "bytes": 8577,
+    "sha256": "823f6d2bf15d18c38a13a5b7f164d3e26f0de473119638028eb339aa02cab4ff"
+  },
+  {
+    "relative_path": "B4_fireseg_components.json",
+    "source": "@project/results/direction_research_20260928/03_multiview/B4_fireseg_components.json",
+    "bytes": 10426,
+    "sha256": "03e908a8a5e2006f8997d2840dddae61096a225ba05139696dd018e0ab95cd27"
+  },
+  {
+    "relative_path": "candidate_event_split_v2.csv",
+    "source": "@trial/localization_v2/execution_v2_20260927/定位可行性执行_v1/candidate_event_split_v2.csv",
+    "bytes": 411386,
+    "sha256": "bb43d7c68d7546c4f4efe1090a5fe8b7a88abcc338ec4ee040b81fac0f26ccd4"
+  },
+  {
+    "relative_path": "colmap7_all.log",
+    "source": "@project/results/direction_research_20260928/logs/colmap7_all.log",
+    "bytes": 1237,
+    "sha256": "e4e97e0e6546deb9841fe48e304e7bbe514de33901036107aaeb12e4254e6dad"
+  },
+  {
+    "relative_path": "dataset_manifest.csv",
+    "source": "@raw/00_数据说明与清单/dataset_manifest.csv",
+    "bytes": 118648,
+    "sha256": "1e2dca14d4ac87a177cf0162e8e3ff4d5aac783f78ae1bead8c0c0d88b9cafc9"
+  },
+  {
+    "relative_path": "exp69_clean_metrics.json",
+    "source": "@project/results/direction_screen_20260928/exp69_clean_metrics.json",
+    "bytes": 209,
+    "sha256": "e0192ed7dba765e7ebbf1c8c9743207a102857bfef766a84fb7c0edc91bc791d"
+  },
+  {
+    "relative_path": "fixed_fire_observations.csv",
+    "source": "@trial/localization_v2/execution_v2_20260927/定位可行性执行_v1/input_snapshot/fixed_fire_observations.csv",
+    "bytes": 40794,
+    "sha256": "4eb6d2d2fea2e6c7e796e68c0fee0ea4b0e6bd3ce6a6eb10661494a5891119cc"
+  },
+  {
+    "relative_path": "localization_results.json",
+    "source": "@trial/localization_v2/execution_v2_20260927/定位可行性执行_v1/localization_results.json",
+    "bytes": 30196,
+    "sha256": "05e17dcd3b08305679a8061d0a4fd2ddd514e0517b4e7587f06fee6d223bf953"
+  },
+  {
+    "relative_path": "multiview_overlap_probe.csv",
+    "source": "@project/results/direction_research_20260928/03_multiview/multiview_overlap_probe.csv",
+    "bytes": 37129,
+    "sha256": "3741db05c466c844655e6e43f416bcf98d4fdbc7146b31735cf7f0debdcd81a6"
+  },
+  {
+    "relative_path": "pairwise_results.csv",
+    "source": "@trial/localization_v2/execution_v2_20260927/定位可行性执行_v1/pairwise_results.csv",
+    "bytes": 1630,
+    "sha256": "4651b2291b666bbfcb0ea69edf2de19dbde2e79e94f4de52d7ddeae1f37bed4a"
+  },
+  {
+    "relative_path": "site_results.csv",
+    "source": "@trial/localization_v2/execution_v2_20260927/定位可行性执行_v1/site_results.csv",
+    "bytes": 1370,
+    "sha256": "fe4c025008a9ae137120e3de59dce42baa52853adf4192570d9142599bc03a11"
+  },
+  {
+    "relative_path": "smoke_size_recall.json",
+    "source": "@project/results/direction_screen_20260928/smoke_size_recall.json",
+    "bytes": 688,
+    "sha256": "4891ac54b6ff9b6e40b3b32a47a8cc4bf25818aa5760d91998c5a8a29eea7361"
+  },
+  {
+    "relative_path": "source_truth_review_v1/decisions.json",
+    "source": "@recovery/source_truth_review_v1/decisions.json",
+    "bytes": 36575,
+    "sha256": "faefc8366daad690075fb232265eb9fefc5657bc87e3ee777801842acc67a5b5"
+  },
+  {
+    "relative_path": "source_truth_review_v1/evaluation_v2.json",
+    "source": "@recovery/source_truth_review_v1/evaluation_v2.json",
+    "bytes": 44319,
+    "sha256": "d242c6f75d5251f9683c40a33bd6faedb0084d32781bf62c13f32b259ddef931"
+  },
+  {
+    "relative_path": "source_truth_review_v1/queue.json",
+    "source": "@recovery/source_truth_review_v1/queue.json",
+    "bytes": 77597,
+    "sha256": "5ec5ade339132d5def2e2bc3e6a1e31b0b0fbbafae882dfa1f226a314389af67"
+  },
+  {
+    "relative_path": "source_truth_review_v1/review_history.jsonl",
+    "source": "@recovery/source_truth_review_v1/review_history.jsonl",
+    "bytes": 49939,
+    "sha256": "0308927a837b32eef6c703e8b54541875836d1517caba7cd726963559349a668"
+  },
+  {
+    "relative_path": "source_truth_review_v1/server.log",
+    "source": "@recovery/source_truth_review_v1/server.log",
+    "bytes": 16288,
+    "sha256": "df928df46be8403dca21167a7133c65d2761ab5cdddebb2c564955b4b948c170"
+  },
+  {
+    "relative_path": "source_truth_review_v1/summary.json",
+    "source": "@recovery/source_truth_review_v1/summary.json",
+    "bytes": 2466,
+    "sha256": "f25348b34e90ab931aaf123fdedbafcc8556ab147b0066aaa47e3feaf839fd70"
+  },
+  {
+    "relative_path": "source_truth_review_v1/SUMMARY.md",
+    "source": "@recovery/source_truth_review_v1/SUMMARY.md",
+    "bytes": 770,
+    "sha256": "097907199d8536949f741c078b205f967f8e0c6d6ccb2d7fdeef1d1acbf5690e"
+  },
+  {
+    "relative_path": "source_truth_review_v1/temporal_comparison_v1.json",
+    "source": "@recovery/source_truth_review_v1/temporal_comparison_v1.json",
+    "bytes": 80718,
+    "sha256": "d1195d3b9fbcdcc85853c524d4e487da757abff50cd77fb4fb4a46064a3c92c1"
+  },
+  {
+    "relative_path": "source_truth_review_v1/temporal_comparison_v2.json",
+    "source": "@recovery/source_truth_review_v1/temporal_comparison_v2.json",
+    "bytes": 80718,
+    "sha256": "220bd05f7146b7f750b4016c264cda3ce48cbc7a830e4754035a0b556b001ae7"
+  },
+  {
+    "relative_path": "source_truth_review_v1/tracking_evaluation.json",
+    "source": "@recovery/source_truth_review_v1/tracking_evaluation.json",
+    "bytes": 158172,
+    "sha256": "49605f3a0ee453fec4de619c6d9ec5520083c3e2fc7a15df85026da919ddb653"
+  },
+  {
+    "relative_path": "source_truth_review_v1/TRACKING_EVALUATION.md",
+    "source": "@recovery/source_truth_review_v1/TRACKING_EVALUATION.md",
+    "bytes": 745,
+    "sha256": "077a154582eb5e9df54385559061dbf5bcc58a84fe2a352218c0a43dc2d28c96"
+  },
+  {
+    "relative_path": "vt_registration_probe.csv",
+    "source": "@project/results/direction_research_20260928/03_multiview/vt_registration_probe.csv",
+    "bytes": 11981,
+    "sha256": "21e984111faf14e785ad3097d187558f64c6d851e9d1db2ecac541e9f56e967a"
+  },
+  {
+    "relative_path": "vt_registration_with_telemetry.csv",
+    "source": "@project/results/direction_research_20260928/03_multiview/vt_registration_with_telemetry.csv",
+    "bytes": 17945,
+    "sha256": "6222ce801d4989d065394acbed0295f6b9c5f7c89adb106fccc915b7ae8bcbd0"
+  },
+  {
+    "relative_path": "徐瑞擎毕业论文终版论文(1).txt",
+    "source": "@workspace/reference_papers/徐瑞擎毕业论文终版论文(1).pdf (text extraction)",
+    "bytes": 255616,
+    "sha256": "99302f6a68dfa6d6e18f90409f2090cdbdc442cfe86ec3b012c61ca3eb37e477"
+  },
+  {
+    "relative_path": "赵迪的毕业论文第四版.txt",
+    "source": "@workspace/reference_papers/赵迪的毕业论文第四版.pdf (text extraction)",
+    "bytes": 261668,
+    "sha256": "c011687cbf1333591692bb2c3a3c1088ffe00aa6e92176b6e0e488d6fb937192"
+  }
+]

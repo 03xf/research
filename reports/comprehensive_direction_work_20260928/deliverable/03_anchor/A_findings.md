@@ -1,0 +1,3 @@
+# A — physical fire-source anchor
+
+Manual cross-batch matched-point experiments show a conditional V-only offset advantage: A2 median pixel errors are 17.88 px (B3) and 33.06 px (B4), versus bbox-center 35.40 and 52.56 px. This is only for detected/matched examples. In the same B3 downstream case, North A2 is 12.454 m from LRF versus 12.284 m for bbox center; South automatic V has one valid view and cannot triangulate. Therefore pixel gains have not transferred to physical position. No learned keypoint head is justified with 33 matched V points/two source events. Next test only after manually marking B1/B2 contact points and evaluating held-event LRF or independent cross-view projection.

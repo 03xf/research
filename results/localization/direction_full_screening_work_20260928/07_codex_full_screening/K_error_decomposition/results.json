@@ -1,0 +1,457 @@
+{
+  "direction": "K_error_decomposition",
+  "generated_utc": "2026-09-28T07:27:17.293121+00:00",
+  "metrics": [
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B1_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 1.073176711273159,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B1_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 1.871807086787371,
+      "ground_truth_type": "post-fire LRF",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B2_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 10.940094542433089,
+      "ground_truth_type": "pre-fire site only",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B2_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 0.9830514919905083,
+      "ground_truth_type": "pre-fire site only",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_S",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 3.5872836778577644,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_S",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 0.7106005097813595,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_N",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 13.283081198416877,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B3_N",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 12.327883013653524,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B4_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_nominal",
+      "metric": "horizontal_error_m",
+      "value": 0.10865975734565182,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "oracle_same_case_geometry",
+      "dataset": "B4_F1",
+      "split": "same source point and association",
+      "method": "manual_point_manual_assoc_visual_geometry",
+      "metric": "horizontal_error_m",
+      "value": 4.438794899290307,
+      "ground_truth_type": "LRF fire point",
+      "notes": "B2 pre-fire; geometry variants differ by site; LRF validation only"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N",
+      "split": "one three-UAV instant",
+      "method": "manual_point_manual_assoc_calibrated",
+      "metric": "horizontal_error_m",
+      "value": 12.676274071657543,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Same geometry variant for both B3 sources"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_S",
+      "split": "one three-UAV instant",
+      "method": "manual_point_manual_assoc_calibrated",
+      "metric": "horizontal_error_m",
+      "value": 0.7106005097813681,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Same geometry variant for both B3 sources"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N",
+      "split": "one three-UAV instant",
+      "method": "automatic_point_manual_assoc_calibrated",
+      "metric": "horizontal_error_m",
+      "value": 12.284376019281225,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Official frozen detector; nearest manual point selects detection"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N",
+      "split": "one three-UAV instant",
+      "method": "automatic_point_manual_assoc_calibrated",
+      "metric": "available_three_view",
+      "value": true,
+      "ground_truth_type": "manual physical source ID",
+      "notes": "Frozen V flame threshold 0.37"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_S",
+      "split": "one three-UAV instant",
+      "method": "automatic_point_manual_assoc_calibrated",
+      "metric": "available_three_view",
+      "value": false,
+      "ground_truth_type": "manual physical source ID",
+      "notes": "Frozen V flame threshold 0.37"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV instant",
+      "method": "manual_point_automatic_assoc_calibrated",
+      "metric": "correct_source_count",
+      "value": 2,
+      "ground_truth_type": "manual N/S identity",
+      "notes": "out_of=2; one instant"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N",
+      "split": "one three-UAV instant",
+      "method": "manual_point_automatic_assoc_calibrated",
+      "metric": "horizontal_error_m",
+      "value": 12.676274071657543,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Automatic association selected NNN/SSS"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_S",
+      "split": "one three-UAV instant",
+      "method": "manual_point_automatic_assoc_calibrated",
+      "metric": "horizontal_error_m",
+      "value": 0.7106005097813681,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Automatic association selected NNN/SSS"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N/S",
+      "split": "one three-UAV instant",
+      "method": "all_automatic",
+      "metric": "source_availability_fraction",
+      "value": 0.5,
+      "ground_truth_type": "manual source ID",
+      "notes": "1/2; auto ray residual selection"
+    },
+    {
+      "direction": "K",
+      "experiment": "B3_five_level_oracle",
+      "dataset": "B3_N",
+      "split": "one three-UAV instant",
+      "method": "all_automatic",
+      "metric": "horizontal_error_m",
+      "value": 12.284376019281225,
+      "ground_truth_type": "LRF horizontal reference",
+      "notes": "Physical ID assigned after automatic hypothesis selection for scoring only"
+    }
+  ],
+  "details": {
+    "site_errors": [
+      [
+        "B1_F1",
+        1.073176711273159,
+        1.871807086787371,
+        "post-fire LRF"
+      ],
+      [
+        "B2_F1",
+        10.940094542433089,
+        0.9830514919905083,
+        "pre-fire site only"
+      ],
+      [
+        "B3_S",
+        3.5872836778577644,
+        0.7106005097813595,
+        "LRF fire point"
+      ],
+      [
+        "B3_N",
+        13.283081198416877,
+        12.327883013653524,
+        "LRF fire point"
+      ],
+      [
+        "B4_F1",
+        0.10865975734565182,
+        4.438794899290307,
+        "LRF fire point"
+      ]
+    ],
+    "stage_availability": {
+      "manual_point_manual_assoc_nominal": "measured",
+      "manual_point_manual_assoc_visual_geometry": "measured with heterogeneous geometry variants",
+      "automatic_point_manual_assoc_calibrated": "measured on B3 one instant; other sites missing",
+      "manual_point_automatic_assoc_calibrated": "measured on B3 one instant; other sites missing",
+      "all_automatic": "measured on B3 one instant with partial source availability; other sites missing"
+    },
+    "B3_five_level_grid": {
+      "protocol": "B3 two physical sources, one three-UAV instant; manual frames held out of background alignment",
+      "detector": "E2_V_960_s0",
+      "detector_threshold": 0.37,
+      "geometry": "SfM camera centers + COLMAP intrinsics + nominal gimbal direction, background-anchored scale/rotation",
+      "background_fit_images": 18,
+      "manual_geometry": {
+        "N": {
+          "label": "N",
+          "horizontal_error_m": 12.676274071657543,
+          "ray_residual_m": 0.5960141049559813,
+          "condition": 3.6450235592001468,
+          "position_enu": [
+            4.506352284908098,
+            15.668740138101434,
+            -53.071978774908544
+          ],
+          "points": {
+            "uav-02": [
+              1395,
+              895
+            ],
+            "uav-04": [
+              205,
+              855
+            ],
+            "uav-09": [
+              375,
+              420
+            ]
+          }
+        },
+        "S": {
+          "label": "S",
+          "horizontal_error_m": 0.7106005097813681,
+          "ray_residual_m": 0.33263928898888473,
+          "condition": 3.6812101893295317,
+          "position_enu": [
+            13.952451602237074,
+            -6.460746811881563,
+            -53.18322128617612
+          ],
+          "points": {
+            "uav-02": [
+              370,
+              265
+            ],
+            "uav-04": [
+              1750,
+              780
+            ],
+            "uav-09": [
+              1575,
+              640
+            ]
+          }
+        }
+      },
+      "auto_point_manual_association": {
+        "N": {
+          "label": "N",
+          "horizontal_error_m": 12.284376019281225,
+          "ray_residual_m": 0.5060436515922314,
+          "condition": 3.470951350617035,
+          "position_enu": [
+            4.224166016969699,
+            14.992691594940247,
+            -51.296884747233044
+          ],
+          "points": {
+            "uav-02": [
+              1392.277587890625,
+              840.71240234375
+            ],
+            "uav-04": [
+              222.71009826660156,
+              764.1510620117188
+            ],
+            "uav-09": [
+              376.6304626464844,
+              370.4366760253906
+            ]
+          }
+        }
+      },
+      "oracle_nearest_detection_points": {
+        "N": {
+          "uav-02": [
+            1392.277587890625,
+            840.71240234375
+          ],
+          "uav-04": [
+            222.71009826660156,
+            764.1510620117188
+          ],
+          "uav-09": [
+            376.6304626464844,
+            370.4366760253906
+          ]
+        },
+        "S": {
+          "uav-02": [
+            363.9801940917969,
+            217.89175415039062
+          ]
+        }
+      },
+      "manual_point_auto_association": {
+        "assignments": [
+          "NNN",
+          "SSS"
+        ],
+        "correct_source_count": 2,
+        "candidate_residuals": [
+          {
+            "assignment": "NNN",
+            "residual_m": 0.5960141049559813
+          },
+          {
+            "assignment": "NNS",
+            "residual_m": 8.221375146173756
+          },
+          {
+            "assignment": "NSN",
+            "residual_m": 10.049696274466118
+          },
+          {
+            "assignment": "NSS",
+            "residual_m": 8.304761384527199
+          },
+          {
+            "assignment": "SNN",
+            "residual_m": 8.084784740236953
+          },
+          {
+            "assignment": "SNS",
+            "residual_m": 7.99624043399721
+          },
+          {
+            "assignment": "SSN",
+            "residual_m": 9.40362080602709
+          },
+          {
+            "assignment": "SSS",
+            "residual_m": 0.33263928898888473
+          }
+        ]
+      },
+      "all_auto": {
+        "official_detections": {
+          "uav-02": 3,
+          "uav-04": 1,
+          "uav-09": 1
+        },
+        "candidate_triad_count": 3,
+        "selected_identity_for_evaluation": "N",
+        "selected": {
+          "label": "N",
+          "horizontal_error_m": 12.284376019281225,
+          "ray_residual_m": 0.5060436515922314,
+          "condition": 3.470951350617035,
+          "position_enu": [
+            4.224166016969699,
+            14.992691594940247,
+            -51.296884747233044
+          ],
+          "points": {
+            "uav-02": [
+              1392.277587890625,
+              840.71240234375
+            ],
+            "uav-04": [
+              222.71009826660156,
+              764.1510620117188
+            ],
+            "uav-09": [
+              376.6304626464844,
+              370.4366760253906
+            ]
+          }
+        },
+        "source_availability": 1,
+        "source_total": 2,
+        "note": "S has no official-threshold detections in UAV04/UAV09"
+      },
+      "limitation": "One B3 instant only; detector freeze metadata says development historically exposed; no event generalization claim"
+    },
+    "B3_measured_stage_count": 5,
+    "global_measured_stage_count": 2,
+    "required_stage_count": 5
+  }
+}

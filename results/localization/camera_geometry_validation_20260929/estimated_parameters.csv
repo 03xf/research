@@ -1,0 +1,13 @@
+model,parameter,scope,estimate,units,source,accepted
+M0,fx_fy,per_frame_nominal,1280*focal_len/24,px,legacy,baseline_only
+M1,yaw_bias,global_B3,-1.684552621969812,deg,B3_t3_t5_static_tracks,no
+M1,pitch_bias,global_B3,-0.8015169040187732,deg,B3_t3_t5_static_tracks,no
+M2,yaw_bias,global_B3,-1.1590175443328878,deg,B3_t3_t5_static_tracks,no
+M2,pitch_bias,global_B3,-4.99999999655617,deg,B3_t3_t5_static_tracks,no
+M2,focal_scale,global_B3,0.6480405615363014,ratio,B3_t3_t5_static_tracks,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-02,1.240761183851228,ratio,B3 full-scene SfM; camera and poses jointly free,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-04,1.1215630472125508,ratio,B3 full-scene SfM; camera and poses jointly free,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-05,1.1832647227361668,ratio,B3 full-scene SfM; camera and poses jointly free,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-06,1.256828344050941,ratio,B3 full-scene SfM; camera and poses jointly free,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-07,1.053768819180382,ratio,B3 full-scene SfM; camera and poses jointly free,no
+COLMAP_free_diagnostic,focal_scale_vs_nominal,uav-09,1.0805923325682973,ratio,B3 full-scene SfM; camera and poses jointly free,no
